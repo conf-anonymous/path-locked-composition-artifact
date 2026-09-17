@@ -1,0 +1,59 @@
+{
+  "fingerprint": {
+    "implementation_sha256": "08bd0819b18284e74ec4d43b68ba4b528d06823795d1fd3055c17f1fc412d488",
+    "manifest_sha256": "bc10bee25b3b94c29b4f3d673503ce4b2a9b223ef452362066994e752240cacf"
+  },
+  "original_gate": {
+    "split": "dev",
+    "passes": false,
+    "checks": {
+      "ga_useful_accuracy": true,
+      "ga_exactness": true,
+      "learned_competence": false,
+      "learned_path_locking": false,
+      "mixed_intervention": false,
+      "complete_reporting": true
+    },
+    "raw_trajectory_equal_mean_m": 102.3110221506935,
+    "ga_left_m_by_seed": [
+      4.310942336875542,
+      8.333256044775503,
+      4.90778858816533,
+      4.705533994298839,
+      4.421312182755737
+    ],
+    "ga_mean_relative_change": -0.947847587511,
+    "ga_interval_upper_m_by_seed": [
+      -89.15971573796728,
+      -86.00882867457814,
+      -89.06631448183431,
+      -89.156514146604,
+      -89.48247718297465
+    ],
+    "learned_left_m_by_seed": [
+      62.54694886803127,
+      59.52327764246611,
+      64.9823348641427,
+      63.31120425629451,
+      64.73854636361585
+    ],
+    "learned_right_gap_m": 6.009867376122027,
+    "learned_right_interval_lower_m_by_seed": [
+      6.1052050594352725,
+      7.927560213697127,
+      2.7919170064937964,
+      4.4102001531300505,
+      4.063717439688302
+    ],
+    "mixed_left_m_by_seed": [
+      58.14056106638408,
+      56.182206837208845,
+      58.95423668475268,
+      52.30747791174592,
+      49.92242878703924
+    ],
+    "mixed_right_gap_m": 0.015014204766181649
+  },
+  "extension_technical_completeness": true,
+  "release_allowed": false
+}

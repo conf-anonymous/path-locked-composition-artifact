@@ -1,0 +1,32 @@
+{
+  "provenance": {
+    "diagnostic_only": true,
+    "physical_frame_validated": false,
+    "confirmation_accessed": false,
+    "source_sha256": "2190e462ba4a51b82cde4fee50b0781f5e3741f4fab2e516b5f56fe8e5319adf",
+    "data_integrity": {
+      "sha256": "49e38ea899379555868d433121236017510985f3064975bcb3a907409b012291",
+      "source_sha256": "2b77f71928536533c1c496509263a9e4ccea0212cc8d24beca5662283655ec55",
+      "plan_sha256": "e6cbc1f15dc09b47d839e7cc4d9888bba61ccf84eb48a1550574690822deb943",
+      "original_fingerprint": {
+        "implementation_sha256": "08bd0819b18284e74ec4d43b68ba4b528d06823795d1fd3055c17f1fc412d488",
+        "manifest_sha256": "bc10bee25b3b94c29b4f3d673503ce4b2a9b223ef452362066994e752240cacf"
+      },
+      "confirmation_accessed": false
+    },
+    "config": {
+      "steps": 5000,
+      "batch_size": 256,
+      "learning_rate": 0.002,
+      "weight_decay": 0.0001,
+      "penalty_weight": 0.1,
+      "evaluation_batch_size": 1024,
+      "sample_period_seconds": 0.5,
+      "maximum_alignment_seconds": 0.1,
+      "moving_threshold_m": 5.0,
+      "bootstrap_resamples": 10000
+    }
+  },
+  "checkpoints": 25,
+  "evaluations": 25
+}

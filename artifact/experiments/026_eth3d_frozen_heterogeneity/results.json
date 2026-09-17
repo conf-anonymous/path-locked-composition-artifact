@@ -1,0 +1,233 @@
+{
+  "study": "ETH3D immutable-result heterogeneity v1",
+  "status": "post hoc; no model or endpoint selection",
+  "source_sha256": {
+    "experiment_023": "f25987c0687078d4fb42021a25ee11a031c4b29d741ada91ca017cf3442458e1",
+    "experiment_024": "cebd8ab9363fb481b85f46aede19377c3dd4d63cec104528b72851f350f24d5c"
+  },
+  "n_families": 16,
+  "contextual_minus_direct_mean_m": -0.06315599032167882,
+  "contextual_minus_direct_median_m": -0.06692368070523474,
+  "contextual_translation_wins": 11,
+  "contextual_rotation_wins": 10,
+  "contextual_minus_direct_rotation_mean_deg": 1.5648347220690535,
+  "spearman_raw_error_vs_contextual_advantage_over_direct": -0.6911764705882353,
+  "spearman_raw_error_vs_contextual_advantage_over_raw": 0.9352941176470588,
+  "exact_sign_flip": {
+    "alternative": "contextual minus direct mean < 0",
+    "one_sided_p": 0.01739501953125,
+    "two_sided_p": 0.0347900390625,
+    "enumerated_assignments": 65536
+  },
+  "leave_one_family_out": {
+    "all_means_below_zero": true,
+    "least_favorable_mean_m": -0.04676970879033983,
+    "least_favorable_removed_family": "vicon_light",
+    "means_m": {
+      "cables": -0.0661558333905334,
+      "camera_shake": -0.07002820007904258,
+      "ceiling": -0.055631083698043454,
+      "desk": -0.06156929216897018,
+      "einstein": -0.06254582885295869,
+      "kidnap": -0.06494378763442103,
+      "large_loop": -0.06779891737584756,
+      "mannequin": -0.07883482902705786,
+      "motion": -0.06898714630675323,
+      "planar": -0.05502763751438299,
+      "plant": -0.068403373038522,
+      "reflective": -0.06326379307259147,
+      "repetitive": -0.06060196928527804,
+      "sofa": -0.0604438480914207,
+      "table": -0.059490596820697995,
+      "vicon_light": -0.04676970879033983
+    }
+  },
+  "remove_highest_raw_error": {
+    "1": {
+      "removed": [
+        "camera_shake"
+      ],
+      "contextual_minus_direct_mean_m": -0.07002820007904258,
+      "contextual_minus_raw_mean_m": -2.42918722509268
+    },
+    "2": {
+      "removed": [
+        "camera_shake",
+        "mannequin"
+      ],
+      "contextual_minus_direct_mean_m": -0.08731782796033181,
+      "contextual_minus_raw_mean_m": -1.4868204763214752
+    },
+    "3": {
+      "removed": [
+        "camera_shake",
+        "mannequin",
+        "cables"
+      ],
+      "contextual_minus_direct_mean_m": -0.09263778824275273,
+      "contextual_minus_raw_mean_m": -0.8836435431463214
+    }
+  },
+  "families": {
+    "cables": {
+      "raw_translation_m": 10.259934813904188,
+      "contextual_translation_m": 0.9318142063057199,
+      "calibrated_direct_translation_m": 0.9499725505945799,
+      "contextual_minus_raw_m": -9.328120607598468,
+      "contextual_minus_direct_m": -0.018158344288859984,
+      "contextual_rotation_deg": 43.647392629724514,
+      "calibrated_direct_rotation_deg": 44.53426381327107,
+      "contextual_minus_direct_rotation_deg": -0.8868711835465533
+    },
+    "camera_shake": {
+      "raw_translation_m": 23.67142282040111,
+      "contextual_translation_m": 0.6568379456013868,
+      "calibrated_direct_translation_m": 0.6169107895626091,
+      "contextual_minus_raw_m": -23.014584874799723,
+      "contextual_minus_direct_m": 0.03992715603877761,
+      "contextual_rotation_deg": 119.4279376397722,
+      "calibrated_direct_rotation_deg": 53.711258444999146,
+      "contextual_minus_direct_rotation_deg": 65.71667919477305
+    },
+    "ceiling": {
+      "raw_translation_m": 3.118652101815886,
+      "contextual_translation_m": 0.7040997632142186,
+      "calibrated_direct_translation_m": 0.8801293528904278,
+      "contextual_minus_raw_m": -2.414552338601667,
+      "contextual_minus_direct_m": -0.17602958967620919,
+      "contextual_rotation_deg": 31.375675830928742,
+      "calibrated_direct_rotation_deg": 39.54137248400392,
+      "contextual_minus_direct_rotation_deg": -8.16569665307518
+    },
+    "desk": {
+      "raw_translation_m": 0.22722914106232933,
+      "contextual_translation_m": 0.20624931730219537,
+      "calibrated_direct_translation_m": 0.2932057799145037,
+      "contextual_minus_raw_m": -0.020979823760133964,
+      "contextual_minus_direct_m": -0.08695646261230833,
+      "contextual_rotation_deg": 19.960257748068194,
+      "calibrated_direct_rotation_deg": 22.127311375964428,
+      "contextual_minus_direct_rotation_deg": -2.167053627896234
+    },
+    "einstein": {
+      "raw_translation_m": 3.020641639103725,
+      "contextual_translation_m": 0.39096315639946094,
+      "calibrated_direct_translation_m": 0.4632715687519416,
+      "contextual_minus_raw_m": -2.629678482704264,
+      "contextual_minus_direct_m": -0.07230841235248064,
+      "contextual_rotation_deg": 17.902461933122467,
+      "calibrated_direct_rotation_deg": 17.81776698730054,
+      "contextual_minus_direct_rotation_deg": 0.08469494582192638
+    },
+    "kidnap": {
+      "raw_translation_m": 1.2212447292744821,
+      "contextual_translation_m": 0.379888782107033,
+      "calibrated_direct_translation_m": 0.4162278127375786,
+      "contextual_minus_raw_m": -0.8413559471674492,
+      "contextual_minus_direct_m": -0.03633903063054561,
+      "contextual_rotation_deg": 15.951590688267306,
+      "calibrated_direct_rotation_deg": 18.257880673229323,
+      "contextual_minus_direct_rotation_deg": -2.3062899849620173
+    },
+    "large_loop": {
+      "raw_translation_m": 3.524449633533763,
+      "contextual_translation_m": 0.537653441451554,
+      "calibrated_direct_translation_m": 0.5311655259607015,
+      "contextual_minus_raw_m": -2.986796192082209,
+      "contextual_minus_direct_m": 0.0064879154908524805,
+      "contextual_rotation_deg": 27.48607739638222,
+      "calibrated_direct_rotation_deg": 21.897545725027392,
+      "contextual_minus_direct_rotation_deg": 5.588531671354829
+    },
+    "mannequin": {
+      "raw_translation_m": 16.419060108131834,
+      "contextual_translation_m": 0.7967384002422901,
+      "calibrated_direct_translation_m": 0.6247118099832832,
+      "contextual_minus_raw_m": -15.622321707889544,
+      "contextual_minus_direct_m": 0.1720265902590069,
+      "contextual_rotation_deg": 41.86167794571173,
+      "calibrated_direct_rotation_deg": 31.496498034083896,
+      "contextual_minus_direct_rotation_deg": 10.365179911627838
+    },
+    "motion": {
+      "raw_translation_m": 0.9122295982226383,
+      "contextual_translation_m": 0.7241642460625546,
+      "calibrated_direct_translation_m": 0.6998528966081172,
+      "contextual_minus_raw_m": -0.1880653521600837,
+      "contextual_minus_direct_m": 0.02431134945443736,
+      "contextual_rotation_deg": 25.6838237926412,
+      "calibrated_direct_rotation_deg": 19.064463949417956,
+      "contextual_minus_direct_rotation_deg": 6.6193598432232434
+    },
+    "planar": {
+      "raw_translation_m": 0.04098889477380571,
+      "contextual_translation_m": 0.0503633406514344,
+      "calibrated_direct_translation_m": 0.23544462308255049,
+      "contextual_minus_raw_m": 0.009374445877628687,
+      "contextual_minus_direct_m": -0.1850812824311161,
+      "contextual_rotation_deg": 2.383037979261509,
+      "calibrated_direct_rotation_deg": 11.922380480842534,
+      "contextual_minus_direct_rotation_deg": -9.539342501581025
+    },
+    "plant": {
+      "raw_translation_m": 1.156783227614188,
+      "contextual_translation_m": 0.4508287019306908,
+      "calibrated_direct_translation_m": 0.435273951499722,
+      "contextual_minus_raw_m": -0.7059545256834973,
+      "contextual_minus_direct_m": 0.015554750430968822,
+      "contextual_rotation_deg": 20.560154273088333,
+      "calibrated_direct_rotation_deg": 19.482173621875408,
+      "contextual_minus_direct_rotation_deg": 1.0779806512129255
+    },
+    "reflective": {
+      "raw_translation_m": 2.0833271349366034,
+      "contextual_translation_m": 0.26046990179456314,
+      "calibrated_direct_translation_m": 0.322008850852552,
+      "contextual_minus_raw_m": -1.8228572331420403,
+      "contextual_minus_direct_m": -0.061538949057988845,
+      "contextual_rotation_deg": 28.354689370071128,
+      "calibrated_direct_rotation_deg": 29.564907266209765,
+      "contextual_minus_direct_rotation_deg": -1.2102178961386372
+    },
+    "repetitive": {
+      "raw_translation_m": 0.05905728416158315,
+      "contextual_translation_m": 0.06563527182194487,
+      "calibrated_direct_translation_m": 0.1671015776896352,
+      "contextual_minus_raw_m": 0.006577987660361717,
+      "contextual_minus_direct_m": -0.10146630586769034,
+      "contextual_rotation_deg": 6.229571579599364,
+      "calibrated_direct_rotation_deg": 13.786621913200928,
+      "contextual_minus_direct_rotation_deg": -7.557050333601564
+    },
+    "sofa": {
+      "raw_translation_m": 0.555193447202596,
+      "contextual_translation_m": 0.5974932551881623,
+      "calibrated_direct_translation_m": 0.7013313789637128,
+      "contextual_minus_raw_m": 0.04229980798556632,
+      "contextual_minus_direct_m": -0.10383812377555046,
+      "contextual_rotation_deg": 29.64321550732701,
+      "calibrated_direct_rotation_deg": 31.28622588590651,
+      "contextual_minus_direct_rotation_deg": -1.6430103785795005
+    },
+    "table": {
+      "raw_translation_m": 0.09194920217557236,
+      "contextual_translation_m": 0.06701252975380018,
+      "calibrated_direct_translation_m": 0.1851494225901913,
+      "contextual_minus_raw_m": -0.02493667242177218,
+      "contextual_minus_direct_m": -0.11813689283639112,
+      "contextual_rotation_deg": 4.657212821000728,
+      "calibrated_direct_rotation_deg": 10.10721651084069,
+      "contextual_minus_direct_rotation_deg": -5.450003689839962
+    },
+    "vicon_light": {
+      "raw_translation_m": 0.12920588298278848,
+      "contextual_translation_m": 0.21876414828016685,
+      "calibrated_direct_translation_m": 0.5277143615719304,
+      "contextual_minus_raw_m": 0.08955826529737837,
+      "contextual_minus_direct_m": -0.30895021329176353,
+      "contextual_rotation_deg": 14.378985079637001,
+      "calibrated_direct_rotation_deg": 39.86851949532529,
+      "contextual_minus_direct_rotation_deg": -25.489534415688286
+    }
+  }
+}

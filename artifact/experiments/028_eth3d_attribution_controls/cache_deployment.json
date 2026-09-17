@@ -1,0 +1,13 @@
+{
+  "scope": "exact product states only, not GRU context; fold 0 seed 0",
+  "checkpoint_sha256": "c205acf872306534b1807d15d6d19867180e19a5e0dd11c1cb6efffa5db87355",
+  "n_recorded_windows": 2028,
+  "updates_per_window": 32,
+  "initial_product_calls": 31,
+  "cached_product_calls_all_updates": 160,
+  "full_recompute_product_calls_all_updates": 992,
+  "max_coordinate_difference": 0.0,
+  "max_translation_difference_m": 0.0,
+  "max_rotation_difference_rad": 1.5700924586837752e-16,
+  "operation_count_note": "batched product calls, same count per window; not measured wall-clock speedup"
+}

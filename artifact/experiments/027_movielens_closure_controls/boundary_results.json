@@ -1,0 +1,1586 @@
+{
+  "selection": [
+    {
+      "kind": "primitive_mse",
+      "selected": 100.0,
+      "candidates": [
+        {
+          "kind": "primitive_mse",
+          "weight": 0.1,
+          "seed": 0,
+          "training_seconds": 12.734631834027823,
+          "dev": {
+            "n": 87210,
+            "users": 596,
+            "accuracy": {
+              "left": 0.4403623437679165,
+              "right": 0.3688797156289416,
+              "balanced": 0.3962274968466919,
+              "history_right": 0.419963306960211,
+              "history_balanced": 0.43199174406604746
+            },
+            "primitive_mse": 0.008219452503245897,
+            "multilevel_mse": 0.0505407290466334
+          },
+          "checkpoint_sha256": "488ebbd8eb689928c8037a832f0e5c9aa9c55d42be09b9c6af0aeb4b1f352bb2"
+        },
+        {
+          "kind": "primitive_mse",
+          "weight": 1.0,
+          "seed": 0,
+          "training_seconds": 12.734371834027115,
+          "dev": {
+            "n": 87210,
+            "users": 596,
+            "accuracy": {
+              "left": 0.4410388716890265,
+              "right": 0.386171310629515,
+              "balanced": 0.4150670794633643,
+              "history_right": 0.4217062263501892,
+              "history_balanced": 0.4336314642816191
+            },
+            "primitive_mse": 0.001850328932081318,
+            "multilevel_mse": 0.03288677333965308
+          },
+          "checkpoint_sha256": "51134e19f274e68418984bd2b280f31ef10594a32db2a90aca3df1f0882769fb"
+        },
+        {
+          "kind": "primitive_mse",
+          "weight": 10.0,
+          "seed": 0,
+          "training_seconds": 13.181556291994639,
+          "dev": {
+            "n": 87210,
+            "users": 596,
+            "accuracy": {
+              "left": 0.43916981997477356,
+              "right": 0.39732828804036235,
+              "balanced": 0.42214195619768374,
+              "history_right": 0.42368994381378283,
+              "history_balanced": 0.43485838779956426
+            },
+            "primitive_mse": 0.0003280930469242578,
+            "multilevel_mse": 0.019694937195420852
+          },
+          "checkpoint_sha256": "cb72866309b91fe212818fb6aec13d5e805011c9ef5baef29b2449abc1953ce4"
+        },
+        {
+          "kind": "primitive_mse",
+          "weight": 100.0,
+          "seed": 0,
+          "training_seconds": 13.12622650002595,
+          "dev": {
+            "n": 87210,
+            "users": 596,
+            "accuracy": {
+              "left": 0.4326912051370256,
+              "right": 0.41203990368077054,
+              "balanced": 0.421499828001376,
+              "history_right": 0.42640752207315674,
+              "history_balanced": 0.42812750831326685
+            },
+            "primitive_mse": 6.122832759396014e-05,
+            "multilevel_mse": 0.0012453439502876772
+          },
+          "checkpoint_sha256": "c8c6659802a327834b1050bea52cc201b9281ad9a7da06b584a6f21d14932e7d"
+        },
+        {
+          "kind": "primitive_mse",
+          "weight": 1000.0,
+          "seed": 0,
+          "training_seconds": 13.843416124989744,
+          "dev": {
+            "n": 87210,
+            "users": 596,
+            "accuracy": {
+              "left": 0.4242059396858158,
+              "right": 0.40756793945648434,
+              "balanced": 0.4184611856438482,
+              "history_right": 0.41744066047471623,
+              "history_balanced": 0.42593739250086
+            },
+            "primitive_mse": 1.77192418491183e-05,
+            "multilevel_mse": 0.0003714556981774036
+          },
+          "checkpoint_sha256": "e4a799d4af9eb05756e9d2bedc336a25361dfbcc424e7136112053eb4b1393f0"
+        }
+      ]
+    },
+    {
+      "kind": "intermediate_mse",
+      "selected": 10.0,
+      "candidates": [
+        {
+          "kind": "intermediate_mse",
+          "weight": 10.0,
+          "seed": 0,
+          "training_seconds": 20.653168624965474,
+          "dev": {
+            "n": 87210,
+            "users": 596,
+            "accuracy": {
+              "left": 0.4359935787180369,
+              "right": 0.43374613003095974,
+              "balanced": 0.43444559110193787,
+              "history_right": 0.43602797844283914,
+              "history_balanced": 0.4356151817452127
+            },
+            "primitive_mse": 0.0002970282669013509,
+            "multilevel_mse": 0.0002848142457792842
+          },
+          "checkpoint_sha256": "fe7015c2ab829b61c7eac390ff5c49f4b5f36ce879f0c57832f811cc0a7e950f"
+        },
+        {
+          "kind": "intermediate_mse",
+          "weight": 1.0,
+          "seed": 0,
+          "training_seconds": 20.699292000033893,
+          "dev": {
+            "n": 87210,
+            "users": 596,
+            "accuracy": {
+              "left": 0.4402591445935099,
+              "right": 0.42477926843251923,
+              "balanced": 0.43480105492489396,
+              "history_right": 0.4370599701869052,
+              "history_balanced": 0.4369567710124986
+            },
+            "primitive_mse": 0.0014817562590199091,
+            "multilevel_mse": 0.002079899361611896
+          },
+          "checkpoint_sha256": "25c2615e5e912f3bfb8839c4e426248bb149962fc12b016748d876d32115c0c6"
+        },
+        {
+          "kind": "intermediate_mse",
+          "weight": 0.1,
+          "seed": 0,
+          "training_seconds": 20.236487416026648,
+          "dev": {
+            "n": 87210,
+            "users": 596,
+            "accuracy": {
+              "left": 0.44102740511409244,
+              "right": 0.40494209379658297,
+              "balanced": 0.41781905744754044,
+              "history_right": 0.42417153996101364,
+              "history_balanced": 0.43199174406604746
+            },
+            "primitive_mse": 0.007132055369348766,
+            "multilevel_mse": 0.01616798068761224
+          },
+          "checkpoint_sha256": "ea9cf77d5229ceed74a08d6623bdb4a51aec4155583153ede0a7f9f177e31e45"
+        },
+        {
+          "kind": "intermediate_mse",
+          "weight": 100.0,
+          "seed": 0,
+          "training_seconds": 20.03582141705556,
+          "dev": {
+            "n": 87210,
+            "users": 596,
+            "accuracy": {
+              "left": 0.35494782708405,
+              "right": 0.35494782708405,
+              "balanced": 0.35494782708405,
+              "history_right": 0.35494782708405,
+              "history_balanced": 0.35494782708405
+            },
+            "primitive_mse": 3.0030583923160796e-06,
+            "multilevel_mse": 1.500035756266229e-06
+          },
+          "checkpoint_sha256": "05cfd87455555b1fc53b222f2fafde9a94ada04b9e46d0e7643790502557f5ef"
+        }
+      ]
+    },
+    {
+      "kind": "intermediate_cosine",
+      "selected": 1000.0,
+      "candidates": [
+        {
+          "kind": "intermediate_cosine",
+          "weight": 0.1,
+          "seed": 0,
+          "training_seconds": 21.372189583955333,
+          "dev": {
+            "n": 87210,
+            "users": 596,
+            "accuracy": {
+              "left": 0.44011007911936706,
+              "right": 0.34768948515078546,
+              "balanced": 0.3740052746244697,
+              "history_right": 0.41361082444673775,
+              "history_balanced": 0.42899896800825593
+            },
+            "primitive_mse": 0.03254746100073451,
+            "multilevel_mse": 0.08182732255264592
+          },
+          "checkpoint_sha256": "ec274cc0cc3ccdcf77a3522140e3fd2dd27899164e0cf7ffa507816d29bc5712"
+        },
+        {
+          "kind": "intermediate_cosine",
+          "weight": 1.0,
+          "seed": 0,
+          "training_seconds": 21.400228416954633,
+          "dev": {
+            "n": 87210,
+            "users": 596,
+            "accuracy": {
+              "left": 0.4405572755417957,
+              "right": 0.369281045751634,
+              "balanced": 0.3924091273936475,
+              "history_right": 0.41815158812062836,
+              "history_balanced": 0.4298130948285747
+            },
+            "primitive_mse": 0.019308218929014024,
+            "multilevel_mse": 0.04780437602513004
+          },
+          "checkpoint_sha256": "7389f1f5af9d2914c9f3cf9b096d1372b83a167e6560e23f0f9bb0fa67ec8202"
+        },
+        {
+          "kind": "intermediate_cosine",
+          "weight": 10.0,
+          "seed": 0,
+          "training_seconds": 20.919007541961037,
+          "dev": {
+            "n": 87210,
+            "users": 596,
+            "accuracy": {
+              "left": 0.44158926728586173,
+              "right": 0.39033367733058133,
+              "balanced": 0.41058364866414404,
+              "history_right": 0.42214195619768374,
+              "history_balanced": 0.4317968122921683
+            },
+            "primitive_mse": 0.012584551376992341,
+            "multilevel_mse": 0.024161178642547933
+          },
+          "checkpoint_sha256": "c6aac0cb574bea11fa02868e3e7b5ef44973979284b2b6db1a3366c151fc401f"
+        },
+        {
+          "kind": "intermediate_cosine",
+          "weight": 100.0,
+          "seed": 0,
+          "training_seconds": 21.37389337498462,
+          "dev": {
+            "n": 87210,
+            "users": 596,
+            "accuracy": {
+              "left": 0.44100447196422426,
+              "right": 0.42272675151932115,
+              "balanced": 0.42569659442724456,
+              "history_right": 0.43395252837977294,
+              "history_balanced": 0.43435385850246533
+            },
+            "primitive_mse": 0.006434692902781609,
+            "multilevel_mse": 0.0085393673716513
+          },
+          "checkpoint_sha256": "475b5f9803ebd5b4d0b3b2592ac418f370c15360e69570fb93c17b374578d442"
+        },
+        {
+          "kind": "intermediate_cosine",
+          "weight": 1000.0,
+          "seed": 0,
+          "training_seconds": 20.38744791696081,
+          "dev": {
+            "n": 87210,
+            "users": 596,
+            "accuracy": {
+              "left": 0.44092420593968584,
+              "right": 0.427129916294003,
+              "balanced": 0.4347437220502236,
+              "history_right": 0.436177043916982,
+              "history_balanced": 0.4371058364866414
+            },
+            "primitive_mse": 0.0024875267096158135,
+            "multilevel_mse": 0.0027566103069475863
+          },
+          "checkpoint_sha256": "b781393e8febe78ccc438d53ebd66d69499462f50956697bc43d99dec5f0ab32"
+        },
+        {
+          "kind": "intermediate_cosine",
+          "weight": 10000.0,
+          "seed": 0,
+          "training_seconds": 19.40282604197273,
+          "dev": {
+            "n": 87210,
+            "users": 596,
+            "accuracy": {
+              "left": 0.4371517027863777,
+              "right": 0.42881550280931086,
+              "balanced": 0.4330352023850476,
+              "history_right": 0.4345602568512785,
+              "history_balanced": 0.4348469212246302
+            },
+            "primitive_mse": 0.000908329499951757,
+            "multilevel_mse": 0.0009577625453546463
+          },
+          "checkpoint_sha256": "97cc034a838d74e85f71f93f9a09c17ec8970fc18b428bc99e4876edfa16c9e7"
+        }
+      ]
+    }
+  ],
+  "records": [
+    {
+      "kind": "primitive_mse",
+      "weight": 100.0,
+      "seed": 0,
+      "training_seconds": 13.12622650002595,
+      "dev": {
+        "n": 87210,
+        "users": 596,
+        "accuracy": {
+          "left": 0.4326912051370256,
+          "right": 0.41203990368077054,
+          "balanced": 0.421499828001376,
+          "history_right": 0.42640752207315674,
+          "history_balanced": 0.42812750831326685
+        },
+        "primitive_mse": 6.122832759396014e-05,
+        "multilevel_mse": 0.0012453439502876772
+      },
+      "checkpoint_sha256": "c8c6659802a327834b1050bea52cc201b9281ad9a7da06b584a6f21d14932e7d",
+      "test": {
+        "8": {
+          "n": 93992,
+          "users": 587,
+          "accuracy": {
+            "left": 0.4252276789514001,
+            "right": 0.40888586262660653,
+            "balanced": 0.41641841858881606,
+            "history_right": 0.42111030726019233,
+            "history_balanced": 0.42144012256362245
+          },
+          "primitive_mse": 6.132143617056086e-05,
+          "multilevel_mse": 0.001258487983849158,
+          "delta_ci95_conditional_user_bootstrap": {
+            "right": [
+              -0.019584879497676753,
+              -0.013189783633708294
+            ],
+            "balanced": [
+              -0.011443100281745501,
+              -0.006114799622172595
+            ],
+            "history_right": [
+              -0.006677339764724664,
+              -0.0014917425787196559
+            ],
+            "history_balanced": [
+              -0.006151641976076746,
+              -0.001465478919835174
+            ]
+          }
+        },
+        "16": {
+          "n": 89296,
+          "users": 587,
+          "accuracy": {
+            "left": 0.4240055545601147,
+            "right": 0.3853476079555635,
+            "balanced": 0.33247849847697547,
+            "history_right": 0.4036686973660634,
+            "history_balanced": 0.35085558143701845
+          },
+          "primitive_mse": 5.667926650385869e-05,
+          "multilevel_mse": 0.0013439206599129895,
+          "delta_ci95_conditional_user_bootstrap": {
+            "right": [
+              -0.04395579438447334,
+              -0.033374406935082215
+            ],
+            "balanced": [
+              -0.10021190797623195,
+              -0.08240844106265478
+            ],
+            "history_right": [
+              -0.02479029303665557,
+              -0.0159823008649279
+            ],
+            "history_balanced": [
+              -0.08140231843887828,
+              -0.06486720119006041
+            ]
+          }
+        }
+      }
+    },
+    {
+      "kind": "primitive_mse",
+      "weight": 100.0,
+      "seed": 1,
+      "training_seconds": 12.585232292010915,
+      "dev": {
+        "n": 87210,
+        "users": 596,
+        "accuracy": {
+          "left": 0.35494782708405,
+          "right": 0.35494782708405,
+          "balanced": 0.35494782708405,
+          "history_right": 0.35494782708405,
+          "history_balanced": 0.35494782708405
+        },
+        "primitive_mse": 1.03231609335983e-05,
+        "multilevel_mse": 0.00011229585952638032
+      },
+      "checkpoint_sha256": "f37c6fb99f8fa0fc99202ee8e2686fb150b886681f0126a278f017009fc2b4ff",
+      "test": {
+        "8": {
+          "n": 93992,
+          "users": 587,
+          "accuracy": {
+            "left": 0.34412503191761,
+            "right": 0.34412503191761,
+            "balanced": 0.34412503191761,
+            "history_right": 0.34412503191761,
+            "history_balanced": 0.34412503191761
+          },
+          "primitive_mse": 1.0685448224131984e-05,
+          "multilevel_mse": 0.00011305147257546768,
+          "delta_ci95_conditional_user_bootstrap": {
+            "right": [
+              0.0,
+              0.0
+            ],
+            "balanced": [
+              0.0,
+              0.0
+            ],
+            "history_right": [
+              0.0,
+              0.0
+            ],
+            "history_balanced": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "16": {
+          "n": 89296,
+          "users": 587,
+          "accuracy": {
+            "left": 0.3447970793764558,
+            "right": 0.3447970793764558,
+            "balanced": 0.3447970793764558,
+            "history_right": 0.3447970793764558,
+            "history_balanced": 0.3447970793764558
+          },
+          "primitive_mse": 1.0092171872256935e-05,
+          "multilevel_mse": 9.819824114651757e-05,
+          "delta_ci95_conditional_user_bootstrap": {
+            "right": [
+              0.0,
+              0.0
+            ],
+            "balanced": [
+              0.0,
+              0.0
+            ],
+            "history_right": [
+              0.0,
+              0.0
+            ],
+            "history_balanced": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "kind": "primitive_mse",
+      "weight": 100.0,
+      "seed": 2,
+      "training_seconds": 12.583771666977555,
+      "dev": {
+        "n": 87210,
+        "users": 596,
+        "accuracy": {
+          "left": 0.435661048044949,
+          "right": 0.416213736956771,
+          "balanced": 0.4241486068111455,
+          "history_right": 0.4279211099644536,
+          "history_balanced": 0.43084508657264076
+        },
+        "primitive_mse": 6.074881630975453e-05,
+        "multilevel_mse": 0.0011358940762298633
+      },
+      "checkpoint_sha256": "a98956fea28571b7328b7683212cdef8de2625262237e6f4a70f8920ef773470",
+      "test": {
+        "8": {
+          "n": 93992,
+          "users": 587,
+          "accuracy": {
+            "left": 0.42601497999829774,
+            "right": 0.4115137458507107,
+            "balanced": 0.41753553493914375,
+            "history_right": 0.4207698527534258,
+            "history_balanced": 0.42246148608392203
+          },
+          "primitive_mse": 6.0305139841455364e-05,
+          "multilevel_mse": 0.0011243986991123227,
+          "delta_ci95_conditional_user_bootstrap": {
+            "right": [
+              -0.017554055710219913,
+              -0.011397232039212462
+            ],
+            "balanced": [
+              -0.011558002354443958,
+              -0.005369473215530501
+            ],
+            "history_right": [
+              -0.007588471916603039,
+              -0.0029981050466332294
+            ],
+            "history_balanced": [
+              -0.0057810892894528815,
+              -0.0013633094427620916
+            ]
+          }
+        },
+        "16": {
+          "n": 89296,
+          "users": 587,
+          "accuracy": {
+            "left": 0.4258869378247626,
+            "right": 0.38844965060025083,
+            "balanced": 0.3989428417846264,
+            "history_right": 0.40786821358179537,
+            "history_balanced": 0.40694991936928865
+          },
+          "primitive_mse": 5.7628996830142496e-05,
+          "multilevel_mse": 0.0016645317927404739,
+          "delta_ci95_conditional_user_bootstrap": {
+            "right": [
+              -0.04264429828563726,
+              -0.031898786157167916
+            ],
+            "balanced": [
+              -0.033161135279394356,
+              -0.0210568658825105
+            ],
+            "history_right": [
+              -0.021766328962192723,
+              -0.014190865808934687
+            ],
+            "history_balanced": [
+              -0.024643631676047453,
+              -0.013778972875212252
+            ]
+          }
+        }
+      }
+    },
+    {
+      "kind": "primitive_mse",
+      "weight": 100.0,
+      "seed": 3,
+      "training_seconds": 13.239533666986972,
+      "dev": {
+        "n": 87210,
+        "users": 596,
+        "accuracy": {
+          "left": 0.431567480793487,
+          "right": 0.4063524825134732,
+          "balanced": 0.40826740052746247,
+          "history_right": 0.41992890723540877,
+          "history_balanced": 0.4256507281275083
+        },
+        "primitive_mse": 3.740612723476871e-05,
+        "multilevel_mse": 0.0008102637783730168
+      },
+      "checkpoint_sha256": "3aea5dcfa8c488b0411a21364978dfcf82a95bbc4449a72a5eb80674e2fdfe9a",
+      "test": {
+        "8": {
+          "n": 93992,
+          "users": 587,
+          "accuracy": {
+            "left": 0.4240467273810537,
+            "right": 0.40105540897097625,
+            "balanced": 0.4012575538343689,
+            "history_right": 0.4147055068516469,
+            "history_balanced": 0.41902502340624737
+          },
+          "primitive_mse": 3.797297888344889e-05,
+          "multilevel_mse": 0.0008082518460069631,
+          "delta_ci95_conditional_user_bootstrap": {
+            "right": [
+              -0.026435363664519984,
+              -0.019718547013214963
+            ],
+            "balanced": [
+              -0.02654779553357663,
+              -0.01892560678065927
+            ],
+            "history_right": [
+              -0.011889136205828855,
+              -0.006802778760159356
+            ],
+            "history_balanced": [
+              -0.007249334057405951,
+              -0.002680928367287712
+            ]
+          }
+        },
+        "16": {
+          "n": 89296,
+          "users": 587,
+          "accuracy": {
+            "left": 0.4283730514244759,
+            "right": 0.3774189213402616,
+            "balanced": 0.3446179000179179,
+            "history_right": 0.3980693424117542,
+            "history_balanced": 0.3933994803798602
+          },
+          "primitive_mse": 3.611846703069402e-05,
+          "multilevel_mse": 0.0010533593290483272,
+          "delta_ci95_conditional_user_bootstrap": {
+            "right": [
+              -0.05627886909142734,
+              -0.04566399395763969
+            ],
+            "balanced": [
+              -0.09190209828872725,
+              -0.07550968569239953
+            ],
+            "history_right": [
+              -0.03449614521048152,
+              -0.026461165665216536
+            ],
+            "history_balanced": [
+              -0.04010881666060486,
+              -0.02974834913009599
+            ]
+          }
+        }
+      }
+    },
+    {
+      "kind": "primitive_mse",
+      "weight": 100.0,
+      "seed": 4,
+      "training_seconds": 13.303411417000461,
+      "dev": {
+        "n": 87210,
+        "users": 596,
+        "accuracy": {
+          "left": 0.35494782708405,
+          "right": 0.35494782708405,
+          "balanced": 0.35494782708405,
+          "history_right": 0.35494782708405,
+          "history_balanced": 0.35494782708405
+        },
+        "primitive_mse": 1.4761448108464746e-05,
+        "multilevel_mse": 3.38112497462262e-05
+      },
+      "checkpoint_sha256": "a384f9b5dbfec68e1189c7a77db2cae22b2d5dd4fc606bbbb034e11e9fa54d8c",
+      "test": {
+        "8": {
+          "n": 93992,
+          "users": 587,
+          "accuracy": {
+            "left": 0.34412503191761,
+            "right": 0.34412503191761,
+            "balanced": 0.34412503191761,
+            "history_right": 0.34412503191761,
+            "history_balanced": 0.34412503191761
+          },
+          "primitive_mse": 1.4704900838660823e-05,
+          "multilevel_mse": 3.3888346979983955e-05,
+          "delta_ci95_conditional_user_bootstrap": {
+            "right": [
+              0.0,
+              0.0
+            ],
+            "balanced": [
+              0.0,
+              0.0
+            ],
+            "history_right": [
+              0.0,
+              0.0
+            ],
+            "history_balanced": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "16": {
+          "n": 89296,
+          "users": 587,
+          "accuracy": {
+            "left": 0.3447970793764558,
+            "right": 0.3447970793764558,
+            "balanced": 0.3447970793764558,
+            "history_right": 0.3447970793764558,
+            "history_balanced": 0.3447970793764558
+          },
+          "primitive_mse": 1.3939954746083753e-05,
+          "multilevel_mse": 2.8029870890026007e-05,
+          "delta_ci95_conditional_user_bootstrap": {
+            "right": [
+              0.0,
+              0.0
+            ],
+            "balanced": [
+              0.0,
+              0.0
+            ],
+            "history_right": [
+              0.0,
+              0.0
+            ],
+            "history_balanced": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "kind": "intermediate_mse",
+      "weight": 10.0,
+      "seed": 0,
+      "training_seconds": 20.653168624965474,
+      "dev": {
+        "n": 87210,
+        "users": 596,
+        "accuracy": {
+          "left": 0.4359935787180369,
+          "right": 0.43374613003095974,
+          "balanced": 0.43444559110193787,
+          "history_right": 0.43602797844283914,
+          "history_balanced": 0.4356151817452127
+        },
+        "primitive_mse": 0.0002970282669013509,
+        "multilevel_mse": 0.0002848142457792842
+      },
+      "checkpoint_sha256": "fe7015c2ab829b61c7eac390ff5c49f4b5f36ce879f0c57832f811cc0a7e950f",
+      "test": {
+        "8": {
+          "n": 93992,
+          "users": 587,
+          "accuracy": {
+            "left": 0.4277810877521491,
+            "right": 0.4257383607115499,
+            "balanced": 0.4269937867052515,
+            "history_right": 0.4273874372287003,
+            "history_balanced": 0.42740871563537325
+          },
+          "primitive_mse": 0.00030300275319425444,
+          "multilevel_mse": 0.0002898065703572636,
+          "delta_ci95_conditional_user_bootstrap": {
+            "right": [
+              -0.003532360802619661,
+              -0.0006114130300359037
+            ],
+            "balanced": [
+              -0.0022055487660697314,
+              0.0006253522487138229
+            ],
+            "history_right": [
+              -0.0015934908778356379,
+              0.0007969704557138561
+            ],
+            "history_balanced": [
+              -0.0015620407373795205,
+              0.0007999398861631372
+            ]
+          }
+        },
+        "16": {
+          "n": 89296,
+          "users": 587,
+          "accuracy": {
+            "left": 0.42917935853789646,
+            "right": 0.4184621931553485,
+            "balanced": 0.4189997312309622,
+            "history_right": 0.4224601325927253,
+            "history_balanced": 0.4206459415875291
+          },
+          "primitive_mse": 0.00028269305388691645,
+          "multilevel_mse": 0.00037902547491886575,
+          "delta_ci95_conditional_user_bootstrap": {
+            "right": [
+              -0.013783649471380612,
+              -0.007756344853704125
+            ],
+            "balanced": [
+              -0.01326392814459533,
+              -0.0073061340289276265
+            ],
+            "history_right": [
+              -0.009008414807501565,
+              -0.004515856503441189
+            ],
+            "history_balanced": [
+              -0.01137409836989327,
+              -0.00589029309694529
+            ]
+          }
+        }
+      }
+    },
+    {
+      "kind": "intermediate_mse",
+      "weight": 10.0,
+      "seed": 1,
+      "training_seconds": 20.438178375014104,
+      "dev": {
+        "n": 87210,
+        "users": 596,
+        "accuracy": {
+          "left": 0.42780644421511294,
+          "right": 0.4137484233459466,
+          "balanced": 0.4184153193441119,
+          "history_right": 0.4214195619768375,
+          "history_balanced": 0.42147689485150786
+        },
+        "primitive_mse": 0.00035425582819749316,
+        "multilevel_mse": 0.00036586798727939525
+      },
+      "checkpoint_sha256": "f863f3ec517785c3e0392abb8133ff19f9970d5963d3d900036da87bb88b4bc7",
+      "test": {
+        "8": {
+          "n": 93992,
+          "users": 587,
+          "accuracy": {
+            "left": 0.4179079070559196,
+            "right": 0.40476849093539874,
+            "balanced": 0.4087049961698868,
+            "history_right": 0.4128968422844497,
+            "history_balanced": 0.4111200953272619
+          },
+          "primitive_mse": 0.0003519220920502762,
+          "multilevel_mse": 0.0003621671474797158,
+          "delta_ci95_conditional_user_bootstrap": {
+            "right": [
+              -0.017661934995845247,
+              -0.008375644652247534
+            ],
+            "balanced": [
+              -0.013372849082195212,
+              -0.005119448171737644
+            ],
+            "history_right": [
+              -0.008138869249575185,
+              -0.0020996423906974103
+            ],
+            "history_balanced": [
+              -0.010790759872079286,
+              -0.0028777807471946732
+            ]
+          }
+        },
+        "16": {
+          "n": 89296,
+          "users": 587,
+          "accuracy": {
+            "left": 0.40373588962551515,
+            "right": 0.2857910768679448,
+            "balanced": 0.41182135817953774,
+            "history_right": 0.3611583945529475,
+            "history_balanced": 0.4164688227916144
+          },
+          "primitive_mse": 0.0003205409571875532,
+          "multilevel_mse": 0.0008087353565598491,
+          "delta_ci95_conditional_user_bootstrap": {
+            "right": [
+              -0.12700784345774802,
+              -0.1090896834094232
+            ],
+            "balanced": [
+              0.0043144468129621165,
+              0.011666254383493913
+            ],
+            "history_right": [
+              -0.0499907335584092,
+              -0.03572811343820074
+            ],
+            "history_balanced": [
+              0.00915900988216538,
+              0.01628026954194729
+            ]
+          }
+        }
+      }
+    },
+    {
+      "kind": "intermediate_mse",
+      "weight": 10.0,
+      "seed": 2,
+      "training_seconds": 20.43812266603345,
+      "dev": {
+        "n": 87210,
+        "users": 596,
+        "accuracy": {
+          "left": 0.43519091847265223,
+          "right": 0.42919389978213507,
+          "balanced": 0.4317050796926958,
+          "history_right": 0.4371058364866414,
+          "history_balanced": 0.4335855979818828
+        },
+        "primitive_mse": 0.00044970670292616787,
+        "multilevel_mse": 0.0004925715758156018
+      },
+      "checkpoint_sha256": "7e33b2eebd0a80a559e31e881129aea251870e7bee87c9ff352215ce713826bd",
+      "test": {
+        "8": {
+          "n": 93992,
+          "users": 587,
+          "accuracy": {
+            "left": 0.4251212869180356,
+            "right": 0.4229189718273896,
+            "balanced": 0.42373819048429656,
+            "history_right": 0.42947272108264534,
+            "history_balanced": 0.4234828496042216
+          },
+          "primitive_mse": 0.00045102341445489477,
+          "multilevel_mse": 0.0004986021274548407,
+          "delta_ci95_conditional_user_bootstrap": {
+            "right": [
+              -0.007124651931497278,
+              0.003175844101255984
+            ],
+            "balanced": [
+              -0.0034340587812126907,
+              0.0007331079111801866
+            ],
+            "history_right": [
+              0.002435727601241599,
+              0.006435242863509919
+            ],
+            "history_balanced": [
+              -0.0029924630081631224,
+              -0.0003173290758387529
+            ]
+          }
+        },
+        "16": {
+          "n": 89296,
+          "users": 587,
+          "accuracy": {
+            "left": 0.43036642178821,
+            "right": 0.27227423400824224,
+            "balanced": 0.42176581257839096,
+            "history_right": 0.3761870632503136,
+            "history_balanced": 0.42454309263572837
+          },
+          "primitive_mse": 0.0004299343182466129,
+          "multilevel_mse": 0.0012357376821536376,
+          "delta_ci95_conditional_user_bootstrap": {
+            "right": [
+              -0.17358514478809656,
+              -0.1422456538236394
+            ],
+            "balanced": [
+              -0.013096671927645426,
+              -0.003951667093280226
+            ],
+            "history_right": [
+              -0.06204992438731231,
+              -0.04649074592490619
+            ],
+            "history_balanced": [
+              -0.009479107319965855,
+              -0.002318579037622118
+            ]
+          }
+        }
+      }
+    },
+    {
+      "kind": "intermediate_mse",
+      "weight": 10.0,
+      "seed": 3,
+      "training_seconds": 20.185132374987006,
+      "dev": {
+        "n": 87210,
+        "users": 596,
+        "accuracy": {
+          "left": 0.4337231968810916,
+          "right": 0.4234147460153652,
+          "balanced": 0.4274051140924206,
+          "history_right": 0.4262469900240798,
+          "history_balanced": 0.42879256965944273
+        },
+        "primitive_mse": 0.0004179990403109083,
+        "multilevel_mse": 0.0004044270919435499
+      },
+      "checkpoint_sha256": "474baca7309e7b57a912c08506dcbf5e0d9e7c91e8b3cba53a7ba3018ce80eb2",
+      "test": {
+        "8": {
+          "n": 93992,
+          "users": 587,
+          "accuracy": {
+            "left": 0.42779172695548556,
+            "right": 0.41645033619882543,
+            "balanced": 0.41990807728317303,
+            "history_right": 0.42000383011320114,
+            "history_balanced": 0.4220252787471274
+          },
+          "primitive_mse": 0.00042564888429367517,
+          "multilevel_mse": 0.00040441828042820304,
+          "delta_ci95_conditional_user_bootstrap": {
+            "right": [
+              -0.01385405295873318,
+              -0.008671742346947703
+            ],
+            "balanced": [
+              -0.009606795219192043,
+              -0.006002513879451214
+            ],
+            "history_right": [
+              -0.009862430024971983,
+              -0.0055787638015566115
+            ],
+            "history_balanced": [
+              -0.007419910941323378,
+              -0.004118131936018976
+            ]
+          }
+        },
+        "16": {
+          "n": 89296,
+          "users": 587,
+          "accuracy": {
+            "left": 0.31275757032789825,
+            "right": 0.2810204264468733,
+            "balanced": 0.28449202651854505,
+            "history_right": 0.2849399749148898,
+            "history_balanced": 0.2867093710804515
+          },
+          "primitive_mse": 0.0003985594287547227,
+          "multilevel_mse": 0.0007001156344450109,
+          "delta_ci95_conditional_user_bootstrap": {
+            "right": [
+              -0.03601063133159205,
+              -0.02776029504701324
+            ],
+            "balanced": [
+              -0.03203127533903942,
+              -0.02438329924789919
+            ],
+            "history_right": [
+              -0.03175508355477578,
+              -0.024189002796082687
+            ],
+            "history_balanced": [
+              -0.02955633667452881,
+              -0.02254849905191648
+            ]
+          }
+        }
+      }
+    },
+    {
+      "kind": "intermediate_mse",
+      "weight": 10.0,
+      "seed": 4,
+      "training_seconds": 20.18291616695933,
+      "dev": {
+        "n": 87210,
+        "users": 596,
+        "accuracy": {
+          "left": 0.43668157321408096,
+          "right": 0.430030959752322,
+          "balanced": 0.4323357413140695,
+          "history_right": 0.4386538241027405,
+          "history_balanced": 0.4343194587776631
+        },
+        "primitive_mse": 0.0003378888419456609,
+        "multilevel_mse": 0.0003847823088461703
+      },
+      "checkpoint_sha256": "770a0bf569a903f2c1be3fa5465e9b0c9bee7779f6a18db322653a5882002fec",
+      "test": {
+        "8": {
+          "n": 93992,
+          "users": 587,
+          "accuracy": {
+            "left": 0.42342965358753937,
+            "right": 0.4210145544301643,
+            "balanced": 0.4197804068431356,
+            "history_right": 0.4256745254915312,
+            "history_balanced": 0.4217061026470338
+          },
+          "primitive_mse": 0.00033837204649447155,
+          "multilevel_mse": 0.00037989284388622853,
+          "delta_ci95_conditional_user_bootstrap": {
+            "right": [
+              -0.007772788689885044,
+              0.002912481132508333
+            ],
+            "balanced": [
+              -0.005545891410341929,
+              -0.001739985509149636
+            ],
+            "history_right": [
+              -0.00030865025747178217,
+              0.004886490583608723
+            ],
+            "history_balanced": [
+              -0.003259937645911638,
+              -0.0001641401966909386
+            ]
+          }
+        },
+        "16": {
+          "n": 89296,
+          "users": 587,
+          "accuracy": {
+            "left": 0.4231768500268769,
+            "right": 0.29403332736068805,
+            "balanced": 0.39878605984590576,
+            "history_right": 0.35756360867228093,
+            "history_balanced": 0.40616600967568534
+          },
+          "primitive_mse": 0.00030890177129716106,
+          "multilevel_mse": 0.0004935527926953695,
+          "delta_ci95_conditional_user_bootstrap": {
+            "right": [
+              -0.1437296562191964,
+              -0.11441380952771854
+            ],
+            "balanced": [
+              -0.029158463312886452,
+              -0.019974420784145575
+            ],
+            "history_right": [
+              -0.07466305745544895,
+              -0.05672923541454107
+            ],
+            "history_balanced": [
+              -0.02115344072267187,
+              -0.013272052052014035
+            ]
+          }
+        }
+      }
+    },
+    {
+      "kind": "intermediate_cosine",
+      "weight": 1000.0,
+      "seed": 0,
+      "training_seconds": 20.38744791696081,
+      "dev": {
+        "n": 87210,
+        "users": 596,
+        "accuracy": {
+          "left": 0.44092420593968584,
+          "right": 0.427129916294003,
+          "balanced": 0.4347437220502236,
+          "history_right": 0.436177043916982,
+          "history_balanced": 0.4371058364866414
+        },
+        "primitive_mse": 0.0024875267096158135,
+        "multilevel_mse": 0.0027566103069475863
+      },
+      "checkpoint_sha256": "b781393e8febe78ccc438d53ebd66d69499462f50956697bc43d99dec5f0ab32",
+      "test": {
+        "8": {
+          "n": 93992,
+          "users": 587,
+          "accuracy": {
+            "left": 0.43236658439016085,
+            "right": 0.420961358413482,
+            "balanced": 0.4279725934122053,
+            "history_right": 0.42872797684909353,
+            "history_balanced": 0.4293344114392714
+          },
+          "primitive_mse": 0.0025156962971484985,
+          "multilevel_mse": 0.0027823477514563448,
+          "delta_ci95_conditional_user_bootstrap": {
+            "right": [
+              -0.014493342325105976,
+              -0.008464009180266494
+            ],
+            "balanced": [
+              -0.006840335539652718,
+              -0.0019066889567769133
+            ],
+            "history_right": [
+              -0.005749992712753696,
+              -0.0016593390106766472
+            ],
+            "history_balanced": [
+              -0.005534473807602762,
+              -0.0005455491986273404
+            ]
+          }
+        },
+        "16": {
+          "n": 89296,
+          "users": 587,
+          "accuracy": {
+            "left": 0.43325568894463357,
+            "right": 0.4096264110374485,
+            "balanced": 0.38133846980827807,
+            "history_right": 0.4189437376814191,
+            "history_balanced": 0.3897598996595592
+          },
+          "primitive_mse": 0.0024395192431559986,
+          "multilevel_mse": 0.003922589481276753,
+          "delta_ci95_conditional_user_bootstrap": {
+            "right": [
+              -0.02872341259474393,
+              -0.018891759008398637
+            ],
+            "balanced": [
+              -0.05758576258415703,
+              -0.04594313528046106
+            ],
+            "history_right": [
+              -0.017671692235389176,
+              -0.01116444681840004
+            ],
+            "history_balanced": [
+              -0.04950492806666936,
+              -0.03733558365995111
+            ]
+          }
+        }
+      }
+    },
+    {
+      "kind": "intermediate_cosine",
+      "weight": 1000.0,
+      "seed": 1,
+      "training_seconds": 21.028884582978208,
+      "dev": {
+        "n": 87210,
+        "users": 596,
+        "accuracy": {
+          "left": 0.44070634101593853,
+          "right": 0.42161449375071663,
+          "balanced": 0.4342621259029928,
+          "history_right": 0.43422772617819055,
+          "history_balanced": 0.4386882238275427
+        },
+        "primitive_mse": 0.00268077689813331,
+        "multilevel_mse": 0.0031144812172595932
+      },
+      "checkpoint_sha256": "3782218d095c8a242552a4a68ff73b26db4bad5d8438811caffe37e272355c4a",
+      "test": {
+        "8": {
+          "n": 93992,
+          "users": 587,
+          "accuracy": {
+            "left": 0.4357179334411439,
+            "right": 0.4160034896586944,
+            "balanced": 0.4289939569325049,
+            "history_right": 0.42848327517235507,
+            "history_balanced": 0.43229210996680567
+          },
+          "primitive_mse": 0.0027005830368864005,
+          "multilevel_mse": 0.0031286812281504455,
+          "delta_ci95_conditional_user_bootstrap": {
+            "right": [
+              -0.02361279128061616,
+              -0.015861982897376548
+            ],
+            "balanced": [
+              -0.008733636432851487,
+              -0.0047901580795545315
+            ],
+            "history_right": [
+              -0.009970763904760264,
+              -0.004504323816540739
+            ],
+            "history_balanced": [
+              -0.005220346193614434,
+              -0.0015412029134178177
+            ]
+          }
+        },
+        "16": {
+          "n": 89296,
+          "users": 587,
+          "accuracy": {
+            "left": 0.42029878158036194,
+            "right": 0.354831123454578,
+            "balanced": 0.3681911843755599,
+            "history_right": 0.40706190646837487,
+            "history_balanced": 0.384070955025981
+          },
+          "primitive_mse": 0.0026431257134065488,
+          "multilevel_mse": 0.004957182837332786,
+          "delta_ci95_conditional_user_bootstrap": {
+            "right": [
+              -0.07182791421476038,
+              -0.05888959210184458
+            ],
+            "balanced": [
+              -0.059246880352821565,
+              -0.04518590794529414
+            ],
+            "history_right": [
+              -0.017045649147436972,
+              -0.00953819394654115
+            ],
+            "history_balanced": [
+              -0.041286645543583765,
+              -0.03109887808031242
+            ]
+          }
+        }
+      }
+    },
+    {
+      "kind": "intermediate_cosine",
+      "weight": 1000.0,
+      "seed": 2,
+      "training_seconds": 21.031163209001534,
+      "dev": {
+        "n": 87210,
+        "users": 596,
+        "accuracy": {
+          "left": 0.43625730994152045,
+          "right": 0.4226350189198486,
+          "balanced": 0.4300653594771242,
+          "history_right": 0.43797729618163056,
+          "history_balanced": 0.4329205366357069
+        },
+        "primitive_mse": 0.0027272093653725456,
+        "multilevel_mse": 0.0033560780782432814
+      },
+      "checkpoint_sha256": "37f99212cc343c94acb329150b7d8c357c9e6a91283bc5541de018ccb772319e",
+      "test": {
+        "8": {
+          "n": 93992,
+          "users": 587,
+          "accuracy": {
+            "left": 0.425834113541578,
+            "right": 0.41780151502255514,
+            "balanced": 0.41926972508298577,
+            "history_right": 0.42847263596901863,
+            "history_balanced": 0.4209400800068091
+          },
+          "primitive_mse": 0.002729556947784524,
+          "multilevel_mse": 0.003359110590251376,
+          "delta_ci95_conditional_user_bootstrap": {
+            "right": [
+              -0.01401701989890003,
+              -0.0011695889654103231
+            ],
+            "balanced": [
+              -0.008266105352755933,
+              -0.0048841071445346095
+            ],
+            "history_right": [
+              0.00013368621160355138,
+              0.00528457579054745
+            ],
+            "history_balanced": [
+              -0.006483527216339302,
+              -0.0033466443228787773
+            ]
+          }
+        },
+        "16": {
+          "n": 89296,
+          "users": 587,
+          "accuracy": {
+            "left": 0.4198508331840172,
+            "right": 0.3536104640745386,
+            "balanced": 0.39804694499193694,
+            "history_right": 0.40108179537717253,
+            "history_balanced": 0.3993123992116108
+          },
+          "primitive_mse": 0.0026464976595697667,
+          "multilevel_mse": 0.00825967965522423,
+          "delta_ci95_conditional_user_bootstrap": {
+            "right": [
+              -0.07484736091730301,
+              -0.05742558074981074
+            ],
+            "balanced": [
+              -0.027437865504005825,
+              -0.015577281023654311
+            ],
+            "history_right": [
+              -0.024232669608955995,
+              -0.013411598613363501
+            ],
+            "history_balanced": [
+              -0.024972913417657228,
+              -0.01616739681851483
+            ]
+          }
+        }
+      }
+    },
+    {
+      "kind": "intermediate_cosine",
+      "weight": 1000.0,
+      "seed": 3,
+      "training_seconds": 20.98643358401023,
+      "dev": {
+        "n": 87210,
+        "users": 596,
+        "accuracy": {
+          "left": 0.4345602568512785,
+          "right": 0.41886251576654054,
+          "balanced": 0.42497420020639837,
+          "history_right": 0.43063868822382756,
+          "history_balanced": 0.43077628712303634
+        },
+        "primitive_mse": 0.002928074586911392,
+        "multilevel_mse": 0.003183476926730906
+      },
+      "checkpoint_sha256": "b1472897248f6f96a54e9593a4b074b506b33280012afc5ef6157740a0a0b32d",
+      "test": {
+        "8": {
+          "n": 93992,
+          "users": 587,
+          "accuracy": {
+            "left": 0.42744063324538256,
+            "right": 0.4133224104179079,
+            "balanced": 0.41926972508298577,
+            "history_right": 0.4238339433143246,
+            "history_balanced": 0.4237913865009788
+          },
+          "primitive_mse": 0.0029488306152545937,
+          "multilevel_mse": 0.0031977235299551505,
+          "delta_ci95_conditional_user_bootstrap": {
+            "right": [
+              -0.0169799658745966,
+              -0.011245146143873544
+            ],
+            "balanced": [
+              -0.010293022351559192,
+              -0.006060023007490865
+            ],
+            "history_right": [
+              -0.005805063121576635,
+              -0.0013609408441669153
+            ],
+            "history_balanced": [
+              -0.005600247875226107,
+              -0.0016709689113168914
+            ]
+          }
+        },
+        "16": {
+          "n": 89296,
+          "users": 587,
+          "accuracy": {
+            "left": 0.4215418383802186,
+            "right": 0.3840373588962552,
+            "balanced": 0.39202203906110017,
+            "history_right": 0.3982709191901093,
+            "history_balanced": 0.3987076688765454
+          },
+          "primitive_mse": 0.0028976415829822123,
+          "multilevel_mse": 0.004636588329347503,
+          "delta_ci95_conditional_user_bootstrap": {
+            "right": [
+              -0.04200219807165449,
+              -0.03320672749797972
+            ],
+            "balanced": [
+              -0.033314932745638966,
+              -0.02573074186234553
+            ],
+            "history_right": [
+              -0.027117492174437447,
+              -0.019534293721708725
+            ],
+            "history_balanced": [
+              -0.026625630097213714,
+              -0.019153069271981453
+            ]
+          }
+        }
+      }
+    },
+    {
+      "kind": "intermediate_cosine",
+      "weight": 1000.0,
+      "seed": 4,
+      "training_seconds": 20.987055084027816,
+      "dev": {
+        "n": 87210,
+        "users": 596,
+        "accuracy": {
+          "left": 0.4376676986584107,
+          "right": 0.4238046095631235,
+          "balanced": 0.43021442495126705,
+          "history_right": 0.4325421396628827,
+          "history_balanced": 0.43548904942093797
+        },
+        "primitive_mse": 0.002694156649829507,
+        "multilevel_mse": 0.003013344514057153
+      },
+      "checkpoint_sha256": "ec3cd0097cc99f0e08503b85542a3e3e100e930d5be6e43d721df31ae5bad664",
+      "test": {
+        "8": {
+          "n": 93992,
+          "users": 587,
+          "accuracy": {
+            "left": 0.4266852498084943,
+            "right": 0.41416290748148776,
+            "balanced": 0.4209400800068091,
+            "history_right": 0.42173802025704316,
+            "history_balanced": 0.4241637586177547
+          },
+          "primitive_mse": 0.002694861852039241,
+          "multilevel_mse": 0.002996733750384157,
+          "delta_ci95_conditional_user_bootstrap": {
+            "right": [
+              -0.01513679967694498,
+              -0.009932230866302804
+            ],
+            "balanced": [
+              -0.0077677527744964715,
+              -0.003856108132029158
+            ],
+            "history_right": [
+              -0.007081307962201584,
+              -0.0029723681233143717
+            ],
+            "history_balanced": [
+              -0.0039983615645385025,
+              -0.0009883723214183958
+            ]
+          }
+        },
+        "16": {
+          "n": 89296,
+          "users": 587,
+          "accuracy": {
+            "left": 0.4292241533775309,
+            "right": 0.3462977065042107,
+            "balanced": 0.41317640207848055,
+            "history_right": 0.40241444185629816,
+            "history_balanced": 0.41745430926357285
+          },
+          "primitive_mse": 0.002592367183040281,
+          "multilevel_mse": 0.004104721548225643,
+          "delta_ci95_conditional_user_bootstrap": {
+            "right": [
+              -0.09217157648218907,
+              -0.07322395978843342
+            ],
+            "balanced": [
+              -0.019537133579084005,
+              -0.012794072604793113
+            ],
+            "history_right": [
+              -0.03152926138951732,
+              -0.02238369575621188
+            ],
+            "history_balanced": [
+              -0.015149947855897312,
+              -0.008749189126809487
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "original_result_sha256": "51220968ccd53ab5bbc8693a501e72ff058e78aa23ff206fe138ac5bdcf79cd2",
+  "status": "development-boundary post-hoc extension; original outcomes known"
+}

@@ -1,0 +1,18 @@
+{
+  "sha256": "bd52388a33b608ecafb21c2822ea6445e0b21c74a1e84b31f9ed6fc9ace5bf6a",
+  "meta": {
+    "arm": "mergeable",
+    "seed": 3,
+    "config": {
+      "steps": 5000,
+      "batch_size": 256,
+      "learning_rate": 0.001,
+      "weight_decay": 0.0001,
+      "gradient_clip": 1.0,
+      "train_length": 8
+    },
+    "calibrator_sha256": "c40505d482c9cdee1e40036abe05da2161940dc239aabf03fff7246f0da1fdc5",
+    "implementation_sha256": "08bd0819b18284e74ec4d43b68ba4b528d06823795d1fd3055c17f1fc412d488",
+    "manifest_sha256": "bc10bee25b3b94c29b4f3d673503ce4b2a9b223ef452362066994e752240cacf"
+  }
+}

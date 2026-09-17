@@ -1,0 +1,21 @@
+{
+  "sha256": "65141e2397381fde407caf5b355ef8b3314ba2d174dd89d570b767e7c8a3c69c",
+  "meta": {
+    "arm": "mixed",
+    "seed": 1,
+    "config": {
+      "steps": 5000,
+      "batch_size": 256,
+      "learning_rate": 0.002,
+      "weight_decay": 0.0001,
+      "penalty_weight": 0.1,
+      "evaluation_batch_size": 1024,
+      "sample_period_seconds": 0.5,
+      "maximum_alignment_seconds": 0.1,
+      "moving_threshold_m": 5.0,
+      "bootstrap_resamples": 10000
+    },
+    "implementation_sha256": "08bd0819b18284e74ec4d43b68ba4b528d06823795d1fd3055c17f1fc412d488",
+    "manifest_sha256": "bc10bee25b3b94c29b4f3d673503ce4b2a9b223ef452362066994e752240cacf"
+  }
+}

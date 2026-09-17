@@ -1,0 +1,241 @@
+{
+  "data_integrity": {
+    "sha256": "49e38ea899379555868d433121236017510985f3064975bcb3a907409b012291",
+    "source_sha256": "2b77f71928536533c1c496509263a9e4ccea0212cc8d24beca5662283655ec55",
+    "plan_sha256": "e6cbc1f15dc09b47d839e7cc4d9888bba61ccf84eb48a1550574690822deb943",
+    "original_fingerprint": {
+      "implementation_sha256": "08bd0819b18284e74ec4d43b68ba4b528d06823795d1fd3055c17f1fc412d488",
+      "manifest_sha256": "bc10bee25b3b94c29b4f3d673503ce4b2a9b223ef452362066994e752240cacf"
+    },
+    "confirmation_accessed": false
+  },
+  "records": {
+    "train_L8": {
+      "n": 95152,
+      "target_displacement_quantiles_m": [
+        2.64765852101426e-06,
+        18.464110846725177,
+        32.870791615230225,
+        42.18256469559616,
+        297.6827738972719,
+        7739.615020964952
+      ],
+      "raw_translation_error_quantiles_m": [
+        1.783886521095087e-05,
+        1.039832477839303,
+        2.55412440476855,
+        9.974387512390749,
+        299.30690171130436,
+        7752.515308757864
+      ],
+      "quantile_levels": [
+        0,
+        0.5,
+        0.9,
+        0.99,
+        0.999,
+        1
+      ],
+      "top_one_percent_count": 951,
+      "top_one_percent_squared_translation_loss_fraction": 0.9994653016658536,
+      "largest_targets": [
+        {
+          "window_index": 16641,
+          "traversal": "2015-02-06-13-57-16",
+          "displacement_m": 7739.615020964952
+        },
+        {
+          "window_index": 16642,
+          "traversal": "2015-02-06-13-57-16",
+          "displacement_m": 7699.206979558762
+        },
+        {
+          "window_index": 16640,
+          "traversal": "2015-02-06-13-57-16",
+          "displacement_m": 7685.243224430718
+        },
+        {
+          "window_index": 16643,
+          "traversal": "2015-02-06-13-57-16",
+          "displacement_m": 7533.096190568469
+        },
+        {
+          "window_index": 16638,
+          "traversal": "2015-02-06-13-57-16",
+          "displacement_m": 6400.412567072692
+        }
+      ]
+    },
+    "train_L32": {
+      "n": 74320,
+      "target_displacement_quantiles_m": [
+        9.271118058366017e-06,
+        71.86462246249812,
+        125.87998562245649,
+        162.3442916689642,
+        932.9755662434692,
+        7516.042199123236
+      ],
+      "raw_translation_error_quantiles_m": [
+        5.708684116354593e-05,
+        3.998856468421576,
+        9.140004334882082,
+        43.591935493333736,
+        944.0269323686624,
+        7541.929540253893
+      ],
+      "quantile_levels": [
+        0,
+        0.5,
+        0.9,
+        0.99,
+        0.999,
+        1
+      ],
+      "top_one_percent_count": 743,
+      "top_one_percent_squared_translation_loss_fraction": 0.9981032138196012,
+      "largest_targets": [
+        {
+          "window_index": 12907,
+          "traversal": "2015-02-06-13-57-16",
+          "displacement_m": 7516.042199123236
+        },
+        {
+          "window_index": 12906,
+          "traversal": "2015-02-06-13-57-16",
+          "displacement_m": 7454.307157160694
+        },
+        {
+          "window_index": 12908,
+          "traversal": "2015-02-06-13-57-16",
+          "displacement_m": 7339.7656178094585
+        },
+        {
+          "window_index": 12905,
+          "traversal": "2015-02-06-13-57-16",
+          "displacement_m": 7316.044386209552
+        },
+        {
+          "window_index": 12909,
+          "traversal": "2015-02-06-13-57-16",
+          "displacement_m": 7288.485793135112
+        }
+      ]
+    },
+    "dev_L8": {
+      "n": 43032,
+      "target_displacement_quantiles_m": [
+        3.630743318724991e-06,
+        19.078201648682143,
+        32.88998112775895,
+        41.28330508574141,
+        45.19929448768905,
+        118.26190784814328
+      ],
+      "raw_translation_error_quantiles_m": [
+        2.9857526773044065e-05,
+        1.1124144698970428,
+        2.6634114352419407,
+        5.080643230067626,
+        20.688384666433628,
+        108.6940261917491
+      ],
+      "quantile_levels": [
+        0,
+        0.5,
+        0.9,
+        0.99,
+        0.999,
+        1
+      ],
+      "top_one_percent_count": 430,
+      "top_one_percent_squared_translation_loss_fraction": 0.4513504254923558,
+      "largest_targets": [
+        {
+          "window_index": 33601,
+          "traversal": "2015-07-24-14-36-47",
+          "displacement_m": 118.26190784814328
+        },
+        {
+          "window_index": 3037,
+          "traversal": "2014-11-28-12-07-13",
+          "displacement_m": 61.999563033744664
+        },
+        {
+          "window_index": 3036,
+          "traversal": "2014-11-28-12-07-13",
+          "displacement_m": 59.30599949642645
+        },
+        {
+          "window_index": 3035,
+          "traversal": "2014-11-28-12-07-13",
+          "displacement_m": 57.01902840174649
+        },
+        {
+          "window_index": 3034,
+          "traversal": "2014-11-28-12-07-13",
+          "displacement_m": 54.210216916417956
+        }
+      ]
+    },
+    "dev_L32": {
+      "n": 36120,
+      "target_displacement_quantiles_m": [
+        1.9399450253111987e-05,
+        70.84787982726911,
+        124.0543273914825,
+        157.74998823920768,
+        175.13532183651117,
+        177.28456239903022
+      ],
+      "raw_translation_error_quantiles_m": [
+        7.209567535234269e-05,
+        4.016851395620535,
+        9.106880355958038,
+        18.36142892528528,
+        91.9291435526701,
+        296.28221402777723
+      ],
+      "quantile_levels": [
+        0,
+        0.5,
+        0.9,
+        0.99,
+        0.999,
+        1
+      ],
+      "top_one_percent_count": 361,
+      "top_one_percent_squared_translation_loss_fraction": 0.599048252302327,
+      "largest_targets": [
+        {
+          "window_index": 4183,
+          "traversal": "2014-12-02-15-30-08",
+          "displacement_m": 177.28456239903022
+        },
+        {
+          "window_index": 4182,
+          "traversal": "2014-12-02-15-30-08",
+          "displacement_m": 177.22394074565153
+        },
+        {
+          "window_index": 4184,
+          "traversal": "2014-12-02-15-30-08",
+          "displacement_m": 177.20070720067045
+        },
+        {
+          "window_index": 4181,
+          "traversal": "2014-12-02-15-30-08",
+          "displacement_m": 177.08273246425
+        },
+        {
+          "window_index": 4185,
+          "traversal": "2014-12-02-15-30-08",
+          "displacement_m": 176.98576446954016
+        }
+      ]
+    }
+  },
+  "diagnostic_frame": true,
+  "confirmation_accessed": false,
+  "source_sha256": "a2f3bc6607b206f26e33cdf135e4aa0be37ad9effcd96adb42963cd31c5d8646"
+}

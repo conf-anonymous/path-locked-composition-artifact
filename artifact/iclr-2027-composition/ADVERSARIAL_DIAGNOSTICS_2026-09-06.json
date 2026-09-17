@@ -1,0 +1,641 @@
+{
+  "status": "post-hoc adversarial audit; not confirmatory evidence",
+  "torch_version": "2.12.0",
+  "numpy_version": "2.4.6",
+  "source_sha256": {
+    "iclr-2027-composition/paper/main.tex": "4094f8f8b69e6f0a7599da4fe8420622793b20037355bbce25db06f5b667f5f0",
+    "iclr-2027-composition/paper/main.pdf": "5d2f589420394373b0dc84951989481afa5cfd42779c2ae0ddb0caf6f8f7a8b2",
+    "experiments/016_movielens_composition/run.py": "de28236ab40fdd8f433436192377a9058ac5cf1f8c1f9e78f7cc39f023f535ef",
+    "experiments/023_eth3d_family_heldout/run.py": "3a1308a6ee61e11a1ef7e070de1259f860c665925539a11e52763f87dd1b2072",
+    "experiments/023_eth3d_family_heldout/results.json": "f25987c0687078d4fb42021a25ee11a031c4b29d741ada91ca017cf3442458e1",
+    "experiments/024_eth3d_calibrated_direct_control/results.json": "cebd8ab9363fb481b85f46aede19377c3dd4d63cec104528b72851f350f24d5c"
+  },
+  "movielens": {
+    "n_endpoints": 93992,
+    "n_users": 587,
+    "history_length": 8,
+    "arms": {
+      "exact": {
+        "mean_accuracy": {
+          "left": 0.4175355349391438,
+          "right": 0.4175355349391438,
+          "history_right_query_last": 0.4175355349391438,
+          "history_balanced_query_last": 0.4175355349391438
+        },
+        "seeds": [
+          {
+            "seed": 0,
+            "accuracy": {
+              "left": 0.41862073367946206,
+              "right": 0.41862073367946206,
+              "history_right_query_last": 0.41862073367946206,
+              "history_balanced_query_last": 0.41862073367946206
+            },
+            "history_only_delta_ci95": {
+              "history_right_query_last": [
+                0,
+                0
+              ],
+              "history_balanced_query_last": [
+                0,
+                0
+              ]
+            }
+          },
+          {
+            "seed": 1,
+            "accuracy": {
+              "left": 0.4175461741424802,
+              "right": 0.4175461741424802,
+              "history_right_query_last": 0.4175461741424802,
+              "history_balanced_query_last": 0.4175461741424802
+            },
+            "history_only_delta_ci95": {
+              "history_right_query_last": [
+                0,
+                0
+              ],
+              "history_balanced_query_last": [
+                0,
+                0
+              ]
+            }
+          },
+          {
+            "seed": 2,
+            "accuracy": {
+              "left": 0.4164822538088348,
+              "right": 0.4164822538088348,
+              "history_right_query_last": 0.4164822538088348,
+              "history_balanced_query_last": 0.4164822538088348
+            },
+            "history_only_delta_ci95": {
+              "history_right_query_last": [
+                0,
+                0
+              ],
+              "history_balanced_query_last": [
+                0,
+                0
+              ]
+            }
+          },
+          {
+            "seed": 3,
+            "accuracy": {
+              "left": 0.419110137032939,
+              "right": 0.419110137032939,
+              "history_right_query_last": 0.419110137032939,
+              "history_balanced_query_last": 0.419110137032939
+            },
+            "history_only_delta_ci95": {
+              "history_right_query_last": [
+                0,
+                0
+              ],
+              "history_balanced_query_last": [
+                0,
+                0
+              ]
+            }
+          },
+          {
+            "seed": 4,
+            "accuracy": {
+              "left": 0.4159183760320027,
+              "right": 0.4159183760320027,
+              "history_right_query_last": 0.4159183760320027,
+              "history_balanced_query_last": 0.4159183760320027
+            },
+            "history_only_delta_ci95": {
+              "history_right_query_last": [
+                0,
+                0
+              ],
+              "history_balanced_query_last": [
+                0,
+                0
+              ]
+            }
+          }
+        ]
+      },
+      "bilinear": {
+        "mean_accuracy": {
+          "left": 0.43194952761937183,
+          "right": 0.34827006553749257,
+          "history_right_query_last": 0.4032470848582858,
+          "history_balanced_query_last": 0.4197548727551282
+        },
+        "seeds": [
+          {
+            "seed": 0,
+            "accuracy": {
+              "left": 0.4323346667801515,
+              "right": 0.33545408119839987,
+              "history_right_query_last": 0.40478976934207167,
+              "history_balanced_query_last": 0.4218444122904077
+            },
+            "history_only_delta_ci95": {
+              "history_right_query_last": [
+                -0.031123226160349106,
+                -0.024160634731529622
+              ],
+              "history_balanced_query_last": [
+                -0.013033861305975966,
+                -0.007977346251969736
+              ]
+            }
+          },
+          {
+            "seed": 1,
+            "accuracy": {
+              "left": 0.4348455187675547,
+              "right": 0.36953144948506256,
+              "history_right_query_last": 0.40736445654949355,
+              "history_balanced_query_last": 0.42313175589411867
+            },
+            "history_only_delta_ci95": {
+              "history_right_query_last": [
+                -0.030624696667351386,
+                -0.02412669043085577
+              ],
+              "history_balanced_query_last": [
+                -0.014351711451294628,
+                -0.009226028778251492
+              ]
+            }
+          },
+          {
+            "seed": 2,
+            "accuracy": {
+              "left": 0.4316112009532726,
+              "right": 0.33132607030385564,
+              "history_right_query_last": 0.402502340624734,
+              "history_balanced_query_last": 0.42203591795046386
+            },
+            "history_only_delta_ci95": {
+              "history_right_query_last": [
+                -0.03219990748812513,
+                -0.02612657436672065
+              ],
+              "history_balanced_query_last": [
+                -0.011928651342245295,
+                -0.007247828992225328
+              ]
+            }
+          },
+          {
+            "seed": 3,
+            "accuracy": {
+              "left": 0.43254745084688057,
+              "right": 0.3293152608732658,
+              "history_right_query_last": 0.40031066473742444,
+              "history_balanced_query_last": 0.4187377649161631
+            },
+            "history_only_delta_ci95": {
+              "history_right_query_last": [
+                -0.03567144811753891,
+                -0.0287473783661057
+              ],
+              "history_balanced_query_last": [
+                -0.01657181030222471,
+                -0.010887853985933062
+              ]
+            }
+          },
+          {
+            "seed": 4,
+            "accuracy": {
+              "left": 0.4284088007489999,
+              "right": 0.3757234658268789,
+              "history_right_query_last": 0.40126819303770533,
+              "history_balanced_query_last": 0.4130245127244872
+            },
+            "history_only_delta_ci95": {
+              "history_right_query_last": [
+                -0.03042498991488237,
+                -0.0238483831216228
+              ],
+              "history_balanced_query_last": [
+                -0.018030413130517776,
+                -0.012802257511389872
+              ]
+            }
+          }
+        ]
+      },
+      "mlp": {
+        "mean_accuracy": {
+          "left": 0.43245382585751974,
+          "right": 0.2854179079070559,
+          "history_right_query_last": 0.363652225721338,
+          "history_balanced_query_last": 0.39697846625244704
+        },
+        "seeds": [
+          {
+            "seed": 0,
+            "accuracy": {
+              "left": 0.43440931143076006,
+              "right": 0.304323772235935,
+              "history_right_query_last": 0.3913950123414759,
+              "history_balanced_query_last": 0.41191803557749596
+            },
+            "history_only_delta_ci95": {
+              "history_right_query_last": [
+                -0.04669634843098753,
+                -0.03922704996466805
+              ],
+              "history_balanced_query_last": [
+                -0.025844932718161785,
+                -0.019084791339525155
+              ]
+            }
+          },
+          {
+            "seed": 1,
+            "accuracy": {
+              "left": 0.43509022044429313,
+              "right": 0.28394969784662527,
+              "history_right_query_last": 0.3364222487020172,
+              "history_balanced_query_last": 0.39461869095242147
+            },
+            "history_only_delta_ci95": {
+              "history_right_query_last": [
+                -0.10965083008729014,
+                -0.08802947424883249
+              ],
+              "history_balanced_query_last": [
+                -0.04677683918682256,
+                -0.03469861826335659
+              ]
+            }
+          },
+          {
+            "seed": 2,
+            "accuracy": {
+              "left": 0.4295259170993276,
+              "right": 0.31498425397906205,
+              "history_right_query_last": 0.36550983062388287,
+              "history_balanced_query_last": 0.39793812239339516
+            },
+            "history_only_delta_ci95": {
+              "history_right_query_last": [
+                -0.06939489868894251,
+                -0.058334789228441396
+              ],
+              "history_balanced_query_last": [
+                -0.03592518106537173,
+                -0.027280950906013467
+              ]
+            }
+          },
+          {
+            "seed": 3,
+            "accuracy": {
+              "left": 0.43190909864669336,
+              "right": 0.26550131926121373,
+              "history_right_query_last": 0.37626606519703804,
+              "history_balanced_query_last": 0.40071495446420974
+            },
+            "history_only_delta_ci95": {
+              "history_right_query_last": [
+                -0.061914597505968984,
+                -0.049379583570248346
+              ],
+              "history_balanced_query_last": [
+                -0.03602073640425845,
+                -0.02655126897727338
+              ]
+            }
+          },
+          {
+            "seed": 4,
+            "accuracy": {
+              "left": 0.43133458166652483,
+              "right": 0.25833049621244364,
+              "history_right_query_last": 0.34866797174227593,
+              "history_balanced_query_last": 0.37970252787471276
+            },
+            "history_only_delta_ci95": {
+              "history_right_query_last": [
+                -0.08934727613216872,
+                -0.07608836244129943
+              ],
+              "history_balanced_query_last": [
+                -0.0562272218600217,
+                -0.04704559863973266
+              ]
+            }
+          }
+        ]
+      },
+      "mixed": {
+        "mean_accuracy": {
+          "left": 0.42723210485998814,
+          "right": 0.4250893693080262,
+          "history_right_query_last": 0.42390416205634524,
+          "history_balanced_query_last": 0.42718529236530767
+        },
+        "seeds": [
+          {
+            "seed": 0,
+            "accuracy": {
+              "left": 0.42877053366243933,
+              "right": 0.426653332198485,
+              "history_right_query_last": 0.4264405481317559,
+              "history_balanced_query_last": 0.42869605923908416
+            },
+            "history_only_delta_ci95": {
+              "history_right_query_last": [
+                -0.00446284488378325,
+                -0.0004127120399492967
+              ],
+              "history_balanced_query_last": [
+                -0.0015326289632073612,
+                0.0013146565309761602
+              ]
+            }
+          },
+          {
+            "seed": 1,
+            "accuracy": {
+              "left": 0.4291961017958975,
+              "right": 0.4295897523193463,
+              "history_right_query_last": 0.4270363435185973,
+              "history_balanced_query_last": 0.42882372967912163
+            },
+            "history_only_delta_ci95": {
+              "history_right_query_last": [
+                -0.0043239404353929145,
+                -0.00003958878809042758
+              ],
+              "history_balanced_query_last": [
+                -0.0021805423184258124,
+                0.0014187665492967716
+              ]
+            }
+          },
+          {
+            "seed": 2,
+            "accuracy": {
+              "left": 0.42675972423184955,
+              "right": 0.4261107328283258,
+              "history_right_query_last": 0.4220252787471274,
+              "history_balanced_query_last": 0.42688739467188697
+            },
+            "history_only_delta_ci95": {
+              "history_right_query_last": [
+                -0.007049158338161038,
+                -0.002598332677879098
+              ],
+              "history_balanced_query_last": [
+                -0.0014753255639895042,
+                0.001613395491293775
+              ]
+            }
+          },
+          {
+            "seed": 3,
+            "accuracy": {
+              "left": 0.428972678525832,
+              "right": 0.4274831900587284,
+              "history_right_query_last": 0.4257915567282322,
+              "history_balanced_query_last": 0.4283343263256447
+            },
+            "history_only_delta_ci95": {
+              "history_right_query_last": [
+                -0.005354598127978634,
+                -0.0011135812687595435
+              ],
+              "history_balanced_query_last": [
+                -0.002315411456457051,
+                0.0010133692120187195
+              ]
+            }
+          },
+          {
+            "seed": 4,
+            "accuracy": {
+              "left": 0.42246148608392203,
+              "right": 0.4156098391352456,
+              "history_right_query_last": 0.41822708315601326,
+              "history_balanced_query_last": 0.4231849519108009
+            },
+            "history_only_delta_ci95": {
+              "history_right_query_last": [
+                -0.006612676283409532,
+                -0.0018608885642916887
+              ],
+              "history_balanced_query_last": [
+                -0.0008656310246678473,
+                0.0022700213673136176
+              ]
+            }
+          }
+        ]
+      },
+      "penalty": {
+        "mean_accuracy": {
+          "left": 0.4322367861094561,
+          "right": 0.3722040173631799,
+          "history_right_query_last": 0.4095923057281471,
+          "history_balanced_query_last": 0.42284024172269985
+        },
+        "seeds": [
+          {
+            "seed": 0,
+            "accuracy": {
+              "left": 0.43215380032343176,
+              "right": 0.36173291343944164,
+              "history_right_query_last": 0.41226912928759896,
+              "history_balanced_query_last": 0.4246957187845774
+            },
+            "history_only_delta_ci95": {
+              "history_right_query_last": [
+                -0.02296530909805103,
+                -0.01703119148157405
+              ],
+              "history_balanced_query_last": [
+                -0.009672881858510746,
+                -0.005082476810290816
+              ]
+            }
+          },
+          {
+            "seed": 1,
+            "accuracy": {
+              "left": 0.43527108690101285,
+              "right": 0.3912992595114478,
+              "history_right_query_last": 0.4138437313813942,
+              "history_balanced_query_last": 0.4249616988679888
+            },
+            "history_only_delta_ci95": {
+              "history_right_query_last": [
+                -0.024963382479958184,
+                -0.018010392711452806
+              ],
+              "history_balanced_query_last": [
+                -0.012899483834456799,
+                -0.007900890835565826
+              ]
+            }
+          },
+          {
+            "seed": 2,
+            "accuracy": {
+              "left": 0.4327495957102732,
+              "right": 0.36693548387096775,
+              "history_right_query_last": 0.41010937101029876,
+              "history_balanced_query_last": 0.4248659460379607
+            },
+            "history_only_delta_ci95": {
+              "history_right_query_last": [
+                -0.025719644381819902,
+                -0.019660145494873247
+              ],
+              "history_balanced_query_last": [
+                -0.010136628572501107,
+                -0.0055011746106596844
+              ]
+            }
+          },
+          {
+            "seed": 3,
+            "accuracy": {
+              "left": 0.43354753596050727,
+              "right": 0.35646650778789685,
+              "history_right_query_last": 0.407492126989531,
+              "history_balanced_query_last": 0.42287641501404377
+            },
+            "history_only_delta_ci95": {
+              "history_right_query_last": [
+                -0.029110596805968284,
+                -0.02296488513531192
+              ],
+              "history_balanced_query_last": [
+                -0.01313710851227673,
+                -0.00828323062598495
+              ]
+            }
+          },
+          {
+            "seed": 4,
+            "accuracy": {
+              "left": 0.4274619116520555,
+              "right": 0.3845859222061452,
+              "history_right_query_last": 0.4042471699719125,
+              "history_balanced_query_last": 0.41680142990892843
+            },
+            "history_only_delta_ci95": {
+              "history_right_query_last": [
+                -0.026278104183920944,
+                -0.01989757746490195
+              ],
+              "history_balanced_query_last": [
+                -0.013108981713860586,
+                -0.008174783833178571
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "checkpoint_sha256": {
+      "exact_seed0.pt": "79607605e1e3955120e631ea719f729ef618c338e97e14fc6c3a858fda1fded6",
+      "exact_seed1.pt": "f1b811d46e6722ede1fb5e7819658436f0fffe37b72a8de0ff008358cf7a8a2a",
+      "exact_seed2.pt": "31f7539cd8710cd37f067a4b427945a2e304a3013a45a17ec39144760b3ca804",
+      "exact_seed3.pt": "ccb979f90a7e1cd7d064131273494ddb75f249f431667c27ff7b3521b0160a9f",
+      "exact_seed4.pt": "6d879ad3cbd49084a065b7c57a8a516e358d8c21148ba68d25f4bfff977c912d",
+      "bilinear_seed0.pt": "590d69b582c63726c44c6b7fb84bb5635a1f7783396974e0ba434655160b7dc1",
+      "bilinear_seed1.pt": "56d08b8253dba8f436f7fe13f92e21051801255aff2790e31c76ccd821d1b1a3",
+      "bilinear_seed2.pt": "e308689e41c60f4898395d9c1b0985863ed73bb0c3f3ecafce5c676227e3dbd4",
+      "bilinear_seed3.pt": "b0dfc18fdcaeab10d23ba8acda881cd2182ba8953c83263262438632bc1df9cf",
+      "bilinear_seed4.pt": "7bce831b60c2ba4b54b10b8e9e614c98378536c4b4a9fd1292ba06d4d02b58c2",
+      "mlp_seed0.pt": "895c31cc6891735e1295f98198d551c9de79d6b9b2fe5e1e1e54511b9a8bb56f",
+      "mlp_seed1.pt": "0177a443c6a86db4117d46db96d6cb3e0ed14cdd3c3b95bc0713c37754b52263",
+      "mlp_seed2.pt": "c5c92ec99ad2313a0790ee00b58b7161d3583ae38892b43f434f1cf1c6a18d26",
+      "mlp_seed3.pt": "61e2616c081391774afa315f8f8660194f8742e72a2f0c5e56c31533574aa50d",
+      "mlp_seed4.pt": "2cefa67f9a4acd459cdf0b6cdbfbb2b07c612ae0dcaee26a9647530ad9a57f62",
+      "mixed_seed0.pt": "b6f376a59d3e4a3aae69f50812b9e28bd869e38f692c1ad1e1b2f80b27439946",
+      "mixed_seed1.pt": "e7d5e77890cde9dc9a47b02ff9cf881eff9533132a308acfa2ab2356e34a6104",
+      "mixed_seed2.pt": "29afd7e9d9d4a19ef49403a4d67215529225cc16599e42d65c6309e9dda27705",
+      "mixed_seed3.pt": "c2ff242a29d97611cff6badbaf9f5f891c026b26ede86a2163eed9d8c99c00b5",
+      "mixed_seed4.pt": "0fc8f122da5cdce156b5774cb257c3a4e9591f05df0cb5d844f12ffa23f6f83f",
+      "penalty_seed0.pt": "997a2959e612f3133f9a0d654ece86378b2a2e564adeba180473505c649b6dbc",
+      "penalty_seed1.pt": "4c7f00adcb20d08f91e361507d288e041a46947ae05452fb62d92efeead7d684",
+      "penalty_seed2.pt": "ee5c40aee4cee8ea2501d0564ff23ad9a902085f3d4a09b3c35c84c93436f05a",
+      "penalty_seed3.pt": "1d89a4661001c244384bd32e3af409dc1414cd407b51118c6d2fba231e74d906",
+      "penalty_seed4.pt": "ba7e0c973c4c38f6f46e36a352be98c337aa5954f6ebf4468e6d92389fae2f8d"
+    }
+  },
+  "eth3d": {
+    "n_windows": 11219,
+    "identity_prediction_family_equal_translation_m": 0.9150570433593836,
+    "identity_prediction_per_family_translation_m": {
+      "cables": 1.376985459876756,
+      "camera_shake": 0.1741662523882119,
+      "ceiling": 1.3413620525175156,
+      "desk": 0.6873671649672856,
+      "einstein": 1.03459103422121,
+      "kidnap": 0.9808357804159822,
+      "large_loop": 1.2533500492138894,
+      "mannequin": 0.9873352640014955,
+      "motion": 0.9624460705622236,
+      "planar": 0.6637875136342913,
+      "plant": 1.0964596821050032,
+      "reflective": 0.3498306515258603,
+      "repetitive": 0.5585301248609562,
+      "sofa": 1.2597502565128398,
+      "table": 0.8564243088698712,
+      "vicon_light": 1.0576910280767453
+    },
+    "fraction_windows_displacement_at_most_0_15m": 0.05945271414564578,
+    "folds": {
+      "0": {
+        "families": [
+          "mannequin",
+          "kidnap",
+          "repetitive"
+        ],
+        "mean_delta_m": 0.011407084586923633
+      },
+      "1": {
+        "families": [
+          "plant",
+          "planar"
+        ],
+        "mean_delta_m": -0.0847632660000736
+      },
+      "2": {
+        "families": [
+          "sofa",
+          "desk",
+          "motion"
+        ],
+        "mean_delta_m": -0.05549441231114045
+      },
+      "3": {
+        "families": [
+          "einstein",
+          "ceiling",
+          "vicon_light"
+        ],
+        "mean_delta_m": -0.1857627384401511
+      },
+      "4": {
+        "families": [
+          "cables",
+          "camera_shake",
+          "table",
+          "large_loop",
+          "reflective"
+        ],
+        "mean_delta_m": -0.030283822930721994
+      }
+    },
+    "fold_block_sign_flip_two_sided_p": 0.125,
+    "fold_block_assignments": 32,
+    "statistical_caution": "Sensitivity only: five folds are few and their training sets overlap. Neither this nor family-wise enumeration provides unconditional exact inference."
+  }
+}

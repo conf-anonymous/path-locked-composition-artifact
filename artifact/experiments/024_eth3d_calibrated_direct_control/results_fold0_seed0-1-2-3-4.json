@@ -1,0 +1,1762 @@
+{
+  "study": "ETH3D calibrated direct control v1, frozen 2026-09-05",
+  "source_results_sha256": "f25987c0687078d4fb42021a25ee11a031c4b29d741ada91ca017cf3442458e1",
+  "config": {
+    "calibrator_steps": 5000,
+    "contextual_steps": 5000,
+    "batch_size": 256,
+    "calibrator_learning_rate": 0.002,
+    "contextual_learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "hidden_size": 32,
+    "evaluation_batch_size": 1024,
+    "bootstrap_resamples": 10000,
+    "moving_threshold_m": 0.15
+  },
+  "folds_requested": [
+    0
+  ],
+  "seeds_requested": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "folds": {
+    "0": {
+      "families": [
+        "mannequin",
+        "kidnap",
+        "repetitive"
+      ],
+      "seeds": {
+        "0": {
+          "calibrator_training": {
+            "seconds": 16.748602083011065,
+            "final_loss": 0.5578252911567688
+          },
+          "primary_training": {
+            "seconds": 79.23418062500423,
+            "final_loss": 1.1087001264095306
+          },
+          "calibrator_reproduction_max": 0.0,
+          "parameter_counts": {
+            "leaf_calibrator": 280,
+            "primary_trainable": 10846
+          },
+          "lengths": {
+            "4": {
+              "n_windows": 2728,
+              "n_sequences": 12,
+              "translation_mean_m": 1.1926880534029232,
+              "translation_median_m": 1.1342447436573713,
+              "rotation_mean_deg": 49.54117442380209,
+              "rotation_median_deg": 47.36390187300149,
+              "clusters": {
+                "kidnap_1": {
+                  "family": "kidnap",
+                  "translation_mean_m": 1.133621984001583,
+                  "rotation_mean_deg": 46.23887603583235,
+                  "n": 194
+                },
+                "kidnap_dark": {
+                  "family": "kidnap",
+                  "translation_mean_m": 0.8350341628206781,
+                  "rotation_mean_deg": 38.756474024676386,
+                  "n": 30
+                },
+                "mannequin_1": {
+                  "family": "mannequin",
+                  "translation_mean_m": 1.2525575357123315,
+                  "rotation_mean_deg": 54.39631890043039,
+                  "n": 204
+                },
+                "mannequin_3": {
+                  "family": "mannequin",
+                  "translation_mean_m": 1.2640644306529483,
+                  "rotation_mean_deg": 55.60050585273698,
+                  "n": 193
+                },
+                "mannequin_4": {
+                  "family": "mannequin",
+                  "translation_mean_m": 1.6403824565155498,
+                  "rotation_mean_deg": 51.89091248172642,
+                  "n": 174
+                },
+                "mannequin_5": {
+                  "family": "mannequin",
+                  "translation_mean_m": 1.3532373076131203,
+                  "rotation_mean_deg": 51.75859944735877,
+                  "n": 316
+                },
+                "mannequin_7": {
+                  "family": "mannequin",
+                  "translation_mean_m": 1.2972471784889323,
+                  "rotation_mean_deg": 52.72341198400442,
+                  "n": 171
+                },
+                "mannequin_face_1": {
+                  "family": "mannequin",
+                  "translation_mean_m": 1.0432306560602564,
+                  "rotation_mean_deg": 46.96534848818616,
+                  "n": 156
+                },
+                "mannequin_face_2": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.9694695203598297,
+                  "rotation_mean_deg": 42.10601984425943,
+                  "n": 152
+                },
+                "mannequin_face_3": {
+                  "family": "mannequin",
+                  "translation_mean_m": 1.269249711180528,
+                  "rotation_mean_deg": 51.79434081465265,
+                  "n": 226
+                },
+                "mannequin_head": {
+                  "family": "mannequin",
+                  "translation_mean_m": 1.208687815705978,
+                  "rotation_mean_deg": 56.07465818227325,
+                  "n": 241
+                },
+                "repetitive": {
+                  "family": "repetitive",
+                  "translation_mean_m": 1.0224542408164217,
+                  "rotation_mean_deg": 44.472247836363536,
+                  "n": 671
+                }
+              }
+            },
+            "8": {
+              "n_windows": 2628,
+              "n_sequences": 12,
+              "translation_mean_m": 0.9333921227165553,
+              "translation_median_m": 0.8612394075063246,
+              "rotation_mean_deg": 39.462305329426194,
+              "rotation_median_deg": 36.80088957247932,
+              "clusters": {
+                "kidnap_1": {
+                  "family": "kidnap",
+                  "translation_mean_m": 0.8649804903285938,
+                  "rotation_mean_deg": 34.903136901187985,
+                  "n": 182
+                },
+                "kidnap_dark": {
+                  "family": "kidnap",
+                  "translation_mean_m": 0.6478230157058547,
+                  "rotation_mean_deg": 25.795715335895103,
+                  "n": 26
+                },
+                "mannequin_1": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.9664765060764898,
+                  "rotation_mean_deg": 47.30367477098511,
+                  "n": 196
+                },
+                "mannequin_3": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.9773903816185694,
+                  "rotation_mean_deg": 46.76033394697976,
+                  "n": 185
+                },
+                "mannequin_4": {
+                  "family": "mannequin",
+                  "translation_mean_m": 1.528022333016879,
+                  "rotation_mean_deg": 42.3900140621851,
+                  "n": 162
+                },
+                "mannequin_5": {
+                  "family": "mannequin",
+                  "translation_mean_m": 1.1664632917737636,
+                  "rotation_mean_deg": 43.507542080306656,
+                  "n": 308
+                },
+                "mannequin_7": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.9972907603529307,
+                  "rotation_mean_deg": 46.19589306759055,
+                  "n": 159
+                },
+                "mannequin_face_1": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.7703495968468808,
+                  "rotation_mean_deg": 35.15165747762504,
+                  "n": 152
+                },
+                "mannequin_face_2": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.6716314687581959,
+                  "rotation_mean_deg": 28.926295487860997,
+                  "n": 144
+                },
+                "mannequin_face_3": {
+                  "family": "mannequin",
+                  "translation_mean_m": 1.0589905685636194,
+                  "rotation_mean_deg": 43.49812977513477,
+                  "n": 218
+                },
+                "mannequin_head": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.9031010704586678,
+                  "rotation_mean_deg": 45.18916643084719,
+                  "n": 237
+                },
+                "repetitive": {
+                  "family": "repetitive",
+                  "translation_mean_m": 0.7349856213685496,
+                  "rotation_mean_deg": 32.546557507104275,
+                  "n": 659
+                }
+              }
+            },
+            "16": {
+              "n_windows": 2428,
+              "n_sequences": 12,
+              "translation_mean_m": 0.6648848260340832,
+              "translation_median_m": 0.5667521298315514,
+              "rotation_mean_deg": 30.108437395992944,
+              "rotation_median_deg": 24.67676630717559,
+              "clusters": {
+                "kidnap_1": {
+                  "family": "kidnap",
+                  "translation_mean_m": 0.545453033526693,
+                  "rotation_mean_deg": 22.060219450269663,
+                  "n": 158
+                },
+                "kidnap_dark": {
+                  "family": "kidnap",
+                  "translation_mean_m": 0.5858763240447962,
+                  "rotation_mean_deg": 16.207798496731844,
+                  "n": 18
+                },
+                "mannequin_1": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.709643179957886,
+                  "rotation_mean_deg": 46.325122322143486,
+                  "n": 180
+                },
+                "mannequin_3": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.742023730258681,
+                  "rotation_mean_deg": 39.97603244975647,
+                  "n": 169
+                },
+                "mannequin_4": {
+                  "family": "mannequin",
+                  "translation_mean_m": 1.2844870501091576,
+                  "rotation_mean_deg": 30.496118851953476,
+                  "n": 138
+                },
+                "mannequin_5": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.9635011632881424,
+                  "rotation_mean_deg": 38.7647330357121,
+                  "n": 292
+                },
+                "mannequin_7": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.7524793534041795,
+                  "rotation_mean_deg": 49.25764235517249,
+                  "n": 135
+                },
+                "mannequin_face_1": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.46659611602908957,
+                  "rotation_mean_deg": 20.8179463025127,
+                  "n": 144
+                },
+                "mannequin_face_2": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.382217748736008,
+                  "rotation_mean_deg": 14.72365544374604,
+                  "n": 128
+                },
+                "mannequin_face_3": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.7988711060197197,
+                  "rotation_mean_deg": 34.86489448595134,
+                  "n": 202
+                },
+                "mannequin_head": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.6270481549089643,
+                  "rotation_mean_deg": 35.2768160817871,
+                  "n": 229
+                },
+                "repetitive": {
+                  "family": "repetitive",
+                  "translation_mean_m": 0.4459988235169981,
+                  "rotation_mean_deg": 18.97716464597463,
+                  "n": 635
+                }
+              }
+            },
+            "32": {
+              "n_windows": 2028,
+              "n_sequences": 12,
+              "translation_mean_m": 0.5055340898936754,
+              "translation_median_m": 0.33014644748532485,
+              "rotation_mean_deg": 26.740868423958574,
+              "rotation_median_deg": 21.076416514365107,
+              "clusters": {
+                "kidnap_1": {
+                  "family": "kidnap",
+                  "translation_mean_m": 0.19661904698687735,
+                  "rotation_mean_deg": 12.195897802808515,
+                  "n": 110
+                },
+                "kidnap_dark": {
+                  "family": "kidnap",
+                  "translation_mean_m": 0.647333548205434,
+                  "rotation_mean_deg": 24.165104857106762,
+                  "n": 2
+                },
+                "mannequin_1": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.374369270951698,
+                  "rotation_mean_deg": 36.04443260173511,
+                  "n": 148
+                },
+                "mannequin_3": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.7307178677352029,
+                  "rotation_mean_deg": 40.27249502155102,
+                  "n": 137
+                },
+                "mannequin_4": {
+                  "family": "mannequin",
+                  "translation_mean_m": 1.063370503201606,
+                  "rotation_mean_deg": 28.953648635141068,
+                  "n": 90
+                },
+                "mannequin_5": {
+                  "family": "mannequin",
+                  "translation_mean_m": 1.052283505114858,
+                  "rotation_mean_deg": 37.79404725393373,
+                  "n": 260
+                },
+                "mannequin_7": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.754687873613009,
+                  "rotation_mean_deg": 49.24290292130139,
+                  "n": 87
+                },
+                "mannequin_face_1": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.35692977511941604,
+                  "rotation_mean_deg": 19.06153720636399,
+                  "n": 128
+                },
+                "mannequin_face_2": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.1808733612229579,
+                  "rotation_mean_deg": 7.396431071470384,
+                  "n": 96
+                },
+                "mannequin_face_3": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.6123770113585152,
+                  "rotation_mean_deg": 31.733905935372967,
+                  "n": 170
+                },
+                "mannequin_head": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.6631906587260986,
+                  "rotation_mean_deg": 41.49064214885229,
+                  "n": 213
+                },
+                "repetitive": {
+                  "family": "repetitive",
+                  "translation_mean_m": 0.17617702607188607,
+                  "rotation_mean_deg": 13.441356394245641,
+                  "n": 587
+                }
+              }
+            }
+          }
+        },
+        "1": {
+          "calibrator_training": {
+            "seconds": 17.653233082965016,
+            "final_loss": 0.5529401648044586
+          },
+          "primary_training": {
+            "seconds": 83.14749108400429,
+            "final_loss": 1.1043054461479187
+          },
+          "calibrator_reproduction_max": 0.0,
+          "parameter_counts": {
+            "leaf_calibrator": 280,
+            "primary_trainable": 10846
+          },
+          "lengths": {
+            "4": {
+              "n_windows": 2728,
+              "n_sequences": 12,
+              "translation_mean_m": 0.8770321661375035,
+              "translation_median_m": 0.7732426407531825,
+              "rotation_mean_deg": 39.57871696963826,
+              "rotation_median_deg": 36.04006800867407,
+              "clusters": {
+                "kidnap_1": {
+                  "family": "kidnap",
+                  "translation_mean_m": 0.8986435502174939,
+                  "rotation_mean_deg": 31.678123292942093,
+                  "n": 194
+                },
+                "kidnap_dark": {
+                  "family": "kidnap",
+                  "translation_mean_m": 0.5297070212210034,
+                  "rotation_mean_deg": 22.098145610750517,
+                  "n": 30
+                },
+                "mannequin_1": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.9367255458287664,
+                  "rotation_mean_deg": 46.86270211555789,
+                  "n": 204
+                },
+                "mannequin_3": {
+                  "family": "mannequin",
+                  "translation_mean_m": 1.012300948343774,
+                  "rotation_mean_deg": 44.546924030221476,
+                  "n": 193
+                },
+                "mannequin_4": {
+                  "family": "mannequin",
+                  "translation_mean_m": 1.252632169325251,
+                  "rotation_mean_deg": 43.01914123859719,
+                  "n": 174
+                },
+                "mannequin_5": {
+                  "family": "mannequin",
+                  "translation_mean_m": 1.1058650730562896,
+                  "rotation_mean_deg": 43.98015847994643,
+                  "n": 316
+                },
+                "mannequin_7": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.9963563308224255,
+                  "rotation_mean_deg": 46.289114697714425,
+                  "n": 171
+                },
+                "mannequin_face_1": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.638549707780862,
+                  "rotation_mean_deg": 33.581392730933366,
+                  "n": 156
+                },
+                "mannequin_face_2": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.5535392575565217,
+                  "rotation_mean_deg": 24.640450286299817,
+                  "n": 152
+                },
+                "mannequin_face_3": {
+                  "family": "mannequin",
+                  "translation_mean_m": 1.0618476608643541,
+                  "rotation_mean_deg": 43.32087466534177,
+                  "n": 226
+                },
+                "mannequin_head": {
+                  "family": "mannequin",
+                  "translation_mean_m": 1.049456281960838,
+                  "rotation_mean_deg": 45.00080934963078,
+                  "n": 241
+                },
+                "repetitive": {
+                  "family": "repetitive",
+                  "translation_mean_m": 0.5982310662824756,
+                  "rotation_mean_deg": 35.89632538145116,
+                  "n": 671
+                }
+              }
+            },
+            "8": {
+              "n_windows": 2628,
+              "n_sequences": 12,
+              "translation_mean_m": 0.8113285412802228,
+              "translation_median_m": 0.7157024438105573,
+              "rotation_mean_deg": 37.77982686189744,
+              "rotation_median_deg": 35.30278488006534,
+              "clusters": {
+                "kidnap_1": {
+                  "family": "kidnap",
+                  "translation_mean_m": 0.8470148330912628,
+                  "rotation_mean_deg": 27.370781154582264,
+                  "n": 182
+                },
+                "kidnap_dark": {
+                  "family": "kidnap",
+                  "translation_mean_m": 0.33333848629847534,
+                  "rotation_mean_deg": 17.841352297101697,
+                  "n": 26
+                },
+                "mannequin_1": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.8083860809452329,
+                  "rotation_mean_deg": 43.12067665611801,
+                  "n": 196
+                },
+                "mannequin_3": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.9047167881391328,
+                  "rotation_mean_deg": 42.53694650579815,
+                  "n": 185
+                },
+                "mannequin_4": {
+                  "family": "mannequin",
+                  "translation_mean_m": 1.3772104527397666,
+                  "rotation_mean_deg": 44.42095497260167,
+                  "n": 162
+                },
+                "mannequin_5": {
+                  "family": "mannequin",
+                  "translation_mean_m": 1.092217875891117,
+                  "rotation_mean_deg": 43.286107336946706,
+                  "n": 308
+                },
+                "mannequin_7": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.9367079030881262,
+                  "rotation_mean_deg": 44.84463085979895,
+                  "n": 159
+                },
+                "mannequin_face_1": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.5733114741755007,
+                  "rotation_mean_deg": 29.346808834043767,
+                  "n": 152
+                },
+                "mannequin_face_2": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.504300429724593,
+                  "rotation_mean_deg": 22.164625967864424,
+                  "n": 144
+                },
+                "mannequin_face_3": {
+                  "family": "mannequin",
+                  "translation_mean_m": 1.0436225744074772,
+                  "rotation_mean_deg": 42.87441826011514,
+                  "n": 218
+                },
+                "mannequin_head": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.8824195485434047,
+                  "rotation_mean_deg": 42.4180279739871,
+                  "n": 237
+                },
+                "repetitive": {
+                  "family": "repetitive",
+                  "translation_mean_m": 0.5139273333188129,
+                  "rotation_mean_deg": 34.61048705660061,
+                  "n": 659
+                }
+              }
+            },
+            "16": {
+              "n_windows": 2428,
+              "n_sequences": 12,
+              "translation_mean_m": 0.6538806334721162,
+              "translation_median_m": 0.5598318108190257,
+              "rotation_mean_deg": 32.19999717435783,
+              "rotation_median_deg": 28.637140960814992,
+              "clusters": {
+                "kidnap_1": {
+                  "family": "kidnap",
+                  "translation_mean_m": 0.5944359342633753,
+                  "rotation_mean_deg": 20.916927005170265,
+                  "n": 158
+                },
+                "kidnap_dark": {
+                  "family": "kidnap",
+                  "translation_mean_m": 0.3141712115215047,
+                  "rotation_mean_deg": 8.99208321001131,
+                  "n": 18
+                },
+                "mannequin_1": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.6480870796833488,
+                  "rotation_mean_deg": 41.89132885652862,
+                  "n": 180
+                },
+                "mannequin_3": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.7307590525303129,
+                  "rotation_mean_deg": 39.44458311322582,
+                  "n": 169
+                },
+                "mannequin_4": {
+                  "family": "mannequin",
+                  "translation_mean_m": 1.2016686671660037,
+                  "rotation_mean_deg": 36.452906005795555,
+                  "n": 138
+                },
+                "mannequin_5": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.9813739157782209,
+                  "rotation_mean_deg": 40.95535870533445,
+                  "n": 292
+                },
+                "mannequin_7": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.8540092640005523,
+                  "rotation_mean_deg": 49.76509999570698,
+                  "n": 135
+                },
+                "mannequin_face_1": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.4213265012076483,
+                  "rotation_mean_deg": 19.835254859312872,
+                  "n": 144
+                },
+                "mannequin_face_2": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.34682067627791174,
+                  "rotation_mean_deg": 16.26610239829799,
+                  "n": 128
+                },
+                "mannequin_face_3": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.8794680571993805,
+                  "rotation_mean_deg": 37.7312581495301,
+                  "n": 202
+                },
+                "mannequin_head": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.685923862719417,
+                  "rotation_mean_deg": 38.21152383789014,
+                  "n": 229
+                },
+                "repetitive": {
+                  "family": "repetitive",
+                  "translation_mean_m": 0.3786084715873277,
+                  "rotation_mean_deg": 24.39376732669353,
+                  "n": 635
+                }
+              }
+            },
+            "32": {
+              "n_windows": 2028,
+              "n_sequences": 12,
+              "translation_mean_m": 0.5111008317385011,
+              "translation_median_m": 0.35308280670886516,
+              "rotation_mean_deg": 26.563712178788332,
+              "rotation_median_deg": 20.464207369360217,
+              "clusters": {
+                "kidnap_1": {
+                  "family": "kidnap",
+                  "translation_mean_m": 0.19655771342652564,
+                  "rotation_mean_deg": 11.137008455911033,
+                  "n": 110
+                },
+                "kidnap_dark": {
+                  "family": "kidnap",
+                  "translation_mean_m": 0.6770971558897872,
+                  "rotation_mean_deg": 26.2730560253907,
+                  "n": 2
+                },
+                "mannequin_1": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.40950709249847855,
+                  "rotation_mean_deg": 29.570422672357456,
+                  "n": 148
+                },
+                "mannequin_3": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.7193277207573049,
+                  "rotation_mean_deg": 40.43933629139982,
+                  "n": 137
+                },
+                "mannequin_4": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.8351013302151027,
+                  "rotation_mean_deg": 24.46329078632164,
+                  "n": 90
+                },
+                "mannequin_5": {
+                  "family": "mannequin",
+                  "translation_mean_m": 1.025728543808022,
+                  "rotation_mean_deg": 40.0140236976943,
+                  "n": 260
+                },
+                "mannequin_7": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.7921580793018924,
+                  "rotation_mean_deg": 43.72665961091413,
+                  "n": 87
+                },
+                "mannequin_face_1": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.33331890578934603,
+                  "rotation_mean_deg": 17.91289636188604,
+                  "n": 128
+                },
+                "mannequin_face_2": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.15037571647496165,
+                  "rotation_mean_deg": 9.399758446628503,
+                  "n": 96
+                },
+                "mannequin_face_3": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.744583597840974,
+                  "rotation_mean_deg": 35.279360361306296,
+                  "n": 170
+                },
+                "mannequin_head": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.7559093737474333,
+                  "rotation_mean_deg": 44.714038949209524,
+                  "n": 213
+                },
+                "repetitive": {
+                  "family": "repetitive",
+                  "translation_mean_m": 0.16852965173926082,
+                  "rotation_mean_deg": 12.863047372794918,
+                  "n": 587
+                }
+              }
+            }
+          }
+        },
+        "2": {
+          "calibrator_training": {
+            "seconds": 18.7884803750203,
+            "final_loss": 0.5722204476594925
+          },
+          "primary_training": {
+            "seconds": 68.5334186659893,
+            "final_loss": 1.0923639297485352
+          },
+          "calibrator_reproduction_max": 0.0,
+          "parameter_counts": {
+            "leaf_calibrator": 280,
+            "primary_trainable": 10846
+          },
+          "lengths": {
+            "4": {
+              "n_windows": 2728,
+              "n_sequences": 12,
+              "translation_mean_m": 0.5990505468282228,
+              "translation_median_m": 0.5363223479913256,
+              "rotation_mean_deg": 32.80425766903178,
+              "rotation_median_deg": 29.26993178688049,
+              "clusters": {
+                "kidnap_1": {
+                  "family": "kidnap",
+                  "translation_mean_m": 0.5447757373691098,
+                  "rotation_mean_deg": 28.942742596881637,
+                  "n": 194
+                },
+                "kidnap_dark": {
+                  "family": "kidnap",
+                  "translation_mean_m": 0.5383639508918266,
+                  "rotation_mean_deg": 24.192060651449744,
+                  "n": 30
+                },
+                "mannequin_1": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.5550147084160616,
+                  "rotation_mean_deg": 35.62770903973561,
+                  "n": 204
+                },
+                "mannequin_3": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.6243141053426804,
+                  "rotation_mean_deg": 38.93943088509393,
+                  "n": 193
+                },
+                "mannequin_4": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.832203027607889,
+                  "rotation_mean_deg": 33.473355673564754,
+                  "n": 174
+                },
+                "mannequin_5": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.8673540477396167,
+                  "rotation_mean_deg": 35.66002856179328,
+                  "n": 316
+                },
+                "mannequin_7": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.7972280846173476,
+                  "rotation_mean_deg": 38.18114832827969,
+                  "n": 171
+                },
+                "mannequin_face_1": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.4885754856928209,
+                  "rotation_mean_deg": 28.386923416714673,
+                  "n": 156
+                },
+                "mannequin_face_2": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.4934916801195198,
+                  "rotation_mean_deg": 27.719568079850642,
+                  "n": 152
+                },
+                "mannequin_face_3": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.6528355117463918,
+                  "rotation_mean_deg": 37.26862452516639,
+                  "n": 226
+                },
+                "mannequin_head": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.6336794899292523,
+                  "rotation_mean_deg": 40.92897509749247,
+                  "n": 241
+                },
+                "repetitive": {
+                  "family": "repetitive",
+                  "translation_mean_m": 0.4053018704770139,
+                  "rotation_mean_deg": 26.551061719314628,
+                  "n": 671
+                }
+              }
+            },
+            "8": {
+              "n_windows": 2628,
+              "n_sequences": 12,
+              "translation_mean_m": 0.5649554166747992,
+              "translation_median_m": 0.4969283780700736,
+              "rotation_mean_deg": 28.857997798281602,
+              "rotation_median_deg": 24.78631454435179,
+              "clusters": {
+                "kidnap_1": {
+                  "family": "kidnap",
+                  "translation_mean_m": 0.590490561248559,
+                  "rotation_mean_deg": 22.469794353147236,
+                  "n": 182
+                },
+                "kidnap_dark": {
+                  "family": "kidnap",
+                  "translation_mean_m": 0.4036382524656309,
+                  "rotation_mean_deg": 12.080816419811686,
+                  "n": 26
+                },
+                "mannequin_1": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.4713620555530135,
+                  "rotation_mean_deg": 38.14077747149147,
+                  "n": 196
+                },
+                "mannequin_3": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.6108539898886436,
+                  "rotation_mean_deg": 38.91584961576212,
+                  "n": 185
+                },
+                "mannequin_4": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.8753490662971841,
+                  "rotation_mean_deg": 27.345031766398492,
+                  "n": 162
+                },
+                "mannequin_5": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.863946302167342,
+                  "rotation_mean_deg": 33.486886307417954,
+                  "n": 308
+                },
+                "mannequin_7": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.740735014888214,
+                  "rotation_mean_deg": 48.088759676173154,
+                  "n": 159
+                },
+                "mannequin_face_1": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.4272380122970638,
+                  "rotation_mean_deg": 22.234864254222074,
+                  "n": 152
+                },
+                "mannequin_face_2": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.43374197312782015,
+                  "rotation_mean_deg": 20.385649186164976,
+                  "n": 144
+                },
+                "mannequin_face_3": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.6263535937548852,
+                  "rotation_mean_deg": 33.69228673803841,
+                  "n": 218
+                },
+                "mannequin_head": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.560883699888538,
+                  "rotation_mean_deg": 34.47522426450791,
+                  "n": 237
+                },
+                "repetitive": {
+                  "family": "repetitive",
+                  "translation_mean_m": 0.3623544579751427,
+                  "rotation_mean_deg": 19.02798395293589,
+                  "n": 659
+                }
+              }
+            },
+            "16": {
+              "n_windows": 2428,
+              "n_sequences": 12,
+              "translation_mean_m": 0.5105954606209236,
+              "translation_median_m": 0.41869064319053445,
+              "rotation_mean_deg": 27.262766422595178,
+              "rotation_median_deg": 21.47542016982259,
+              "clusters": {
+                "kidnap_1": {
+                  "family": "kidnap",
+                  "translation_mean_m": 0.47281089855095865,
+                  "rotation_mean_deg": 17.644771335769917,
+                  "n": 158
+                },
+                "kidnap_dark": {
+                  "family": "kidnap",
+                  "translation_mean_m": 0.2704959304244422,
+                  "rotation_mean_deg": 7.561580679369614,
+                  "n": 18
+                },
+                "mannequin_1": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.4295922654701665,
+                  "rotation_mean_deg": 44.39280033075849,
+                  "n": 180
+                },
+                "mannequin_3": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.5965881512610941,
+                  "rotation_mean_deg": 41.31846646405671,
+                  "n": 169
+                },
+                "mannequin_4": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.802270811729978,
+                  "rotation_mean_deg": 24.88877025240132,
+                  "n": 138
+                },
+                "mannequin_5": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.8791700644309794,
+                  "rotation_mean_deg": 35.68926136469797,
+                  "n": 292
+                },
+                "mannequin_7": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.843295175893437,
+                  "rotation_mean_deg": 59.64970007968777,
+                  "n": 135
+                },
+                "mannequin_face_1": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.3242649945442866,
+                  "rotation_mean_deg": 17.09429328311135,
+                  "n": 144
+                },
+                "mannequin_face_2": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.33155240663825697,
+                  "rotation_mean_deg": 13.81893112046691,
+                  "n": 128
+                },
+                "mannequin_face_3": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.5696737918466313,
+                  "rotation_mean_deg": 29.285797083324653,
+                  "n": 202
+                },
+                "mannequin_head": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.5509882548489693,
+                  "rotation_mean_deg": 31.506715351905104,
+                  "n": 229
+                },
+                "repetitive": {
+                  "family": "repetitive",
+                  "translation_mean_m": 0.26825757663850675,
+                  "rotation_mean_deg": 14.215268176585822,
+                  "n": 635
+                }
+              }
+            },
+            "32": {
+              "n_windows": 2028,
+              "n_sequences": 12,
+              "translation_mean_m": 0.5017161916992428,
+              "translation_median_m": 0.32354581116598313,
+              "rotation_mean_deg": 26.40037158478795,
+              "rotation_median_deg": 20.22142080005753,
+              "clusters": {
+                "kidnap_1": {
+                  "family": "kidnap",
+                  "translation_mean_m": 0.2317078204525106,
+                  "rotation_mean_deg": 12.581734870614952,
+                  "n": 110
+                },
+                "kidnap_dark": {
+                  "family": "kidnap",
+                  "translation_mean_m": 0.506002778661985,
+                  "rotation_mean_deg": 22.47854049261892,
+                  "n": 2
+                },
+                "mannequin_1": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.4181583776990726,
+                  "rotation_mean_deg": 29.683724549129003,
+                  "n": 148
+                },
+                "mannequin_3": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.7173145149184262,
+                  "rotation_mean_deg": 39.19514038681392,
+                  "n": 137
+                },
+                "mannequin_4": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.9185741745420068,
+                  "rotation_mean_deg": 31.074110620441026,
+                  "n": 90
+                },
+                "mannequin_5": {
+                  "family": "mannequin",
+                  "translation_mean_m": 1.1297862622606745,
+                  "rotation_mean_deg": 39.744921467220955,
+                  "n": 260
+                },
+                "mannequin_7": {
+                  "family": "mannequin",
+                  "translation_mean_m": 1.0284265964982864,
+                  "rotation_mean_deg": 47.389090317532506,
+                  "n": 87
+                },
+                "mannequin_face_1": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.25299310431252253,
+                  "rotation_mean_deg": 13.23787569452557,
+                  "n": 128
+                },
+                "mannequin_face_2": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.17122161872757133,
+                  "rotation_mean_deg": 9.616893328969855,
+                  "n": 96
+                },
+                "mannequin_face_3": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.5300862662045173,
+                  "rotation_mean_deg": 26.1373739837452,
+                  "n": 170
+                },
+                "mannequin_head": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.6109748657487797,
+                  "rotation_mean_deg": 43.32472219603089,
+                  "n": 213
+                },
+                "repetitive": {
+                  "family": "repetitive",
+                  "translation_mean_m": 0.1633034417626273,
+                  "rotation_mean_deg": 15.001176392705903,
+                  "n": 587
+                }
+              }
+            }
+          }
+        },
+        "3": {
+          "calibrator_training": {
+            "seconds": 17.674632832990028,
+            "final_loss": 0.5480618143081665
+          },
+          "primary_training": {
+            "seconds": 68.18518958298955,
+            "final_loss": 1.0716345810890198
+          },
+          "calibrator_reproduction_max": 0.0,
+          "parameter_counts": {
+            "leaf_calibrator": 280,
+            "primary_trainable": 10846
+          },
+          "lengths": {
+            "4": {
+              "n_windows": 2728,
+              "n_sequences": 12,
+              "translation_mean_m": 0.6021191980812898,
+              "translation_median_m": 0.5294790617609751,
+              "rotation_mean_deg": 29.519112683807403,
+              "rotation_median_deg": 25.09835876419595,
+              "clusters": {
+                "kidnap_1": {
+                  "family": "kidnap",
+                  "translation_mean_m": 0.4518506717753002,
+                  "rotation_mean_deg": 22.177159829892688,
+                  "n": 194
+                },
+                "kidnap_dark": {
+                  "family": "kidnap",
+                  "translation_mean_m": 0.570035237216126,
+                  "rotation_mean_deg": 22.388651646280927,
+                  "n": 30
+                },
+                "mannequin_1": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.5120009819324258,
+                  "rotation_mean_deg": 33.86846799603949,
+                  "n": 204
+                },
+                "mannequin_3": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.5836965910355232,
+                  "rotation_mean_deg": 32.737629572756155,
+                  "n": 193
+                },
+                "mannequin_4": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.8420656951957155,
+                  "rotation_mean_deg": 32.441521702586094,
+                  "n": 174
+                },
+                "mannequin_5": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.7958508681354585,
+                  "rotation_mean_deg": 34.954350852416965,
+                  "n": 316
+                },
+                "mannequin_7": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.7160674292611098,
+                  "rotation_mean_deg": 34.15864526016764,
+                  "n": 171
+                },
+                "mannequin_face_1": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.5554743226308246,
+                  "rotation_mean_deg": 29.999215339260726,
+                  "n": 156
+                },
+                "mannequin_face_2": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.5312268283631361,
+                  "rotation_mean_deg": 23.13964717740039,
+                  "n": 152
+                },
+                "mannequin_face_3": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.7346104744332825,
+                  "rotation_mean_deg": 40.45615801667141,
+                  "n": 226
+                },
+                "mannequin_head": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.6690334805192549,
+                  "rotation_mean_deg": 37.21951477579936,
+                  "n": 241
+                },
+                "repetitive": {
+                  "family": "repetitive",
+                  "translation_mean_m": 0.45544575048229335,
+                  "rotation_mean_deg": 20.096802003841542,
+                  "n": 671
+                }
+              }
+            },
+            "8": {
+              "n_windows": 2628,
+              "n_sequences": 12,
+              "translation_mean_m": 0.5739177015595437,
+              "translation_median_m": 0.48079571369808516,
+              "rotation_mean_deg": 28.1209808623729,
+              "rotation_median_deg": 24.076971179247597,
+              "clusters": {
+                "kidnap_1": {
+                  "family": "kidnap",
+                  "translation_mean_m": 0.4437638337412534,
+                  "rotation_mean_deg": 21.17741923961122,
+                  "n": 182
+                },
+                "kidnap_dark": {
+                  "family": "kidnap",
+                  "translation_mean_m": 0.39613545288117524,
+                  "rotation_mean_deg": 17.458569803949864,
+                  "n": 26
+                },
+                "mannequin_1": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.5253215398279415,
+                  "rotation_mean_deg": 35.8070306085971,
+                  "n": 196
+                },
+                "mannequin_3": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.6819175547563845,
+                  "rotation_mean_deg": 34.27227235218321,
+                  "n": 185
+                },
+                "mannequin_4": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.9042822817781516,
+                  "rotation_mean_deg": 28.02474221906012,
+                  "n": 162
+                },
+                "mannequin_5": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.8118157408872507,
+                  "rotation_mean_deg": 34.35212936855396,
+                  "n": 308
+                },
+                "mannequin_7": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.6971535994140453,
+                  "rotation_mean_deg": 37.77777576292255,
+                  "n": 159
+                },
+                "mannequin_face_1": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.45896164371113496,
+                  "rotation_mean_deg": 27.48258269701784,
+                  "n": 152
+                },
+                "mannequin_face_2": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.4446691230495177,
+                  "rotation_mean_deg": 18.78017050130879,
+                  "n": 144
+                },
+                "mannequin_face_3": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.7511811134291173,
+                  "rotation_mean_deg": 39.80851744341992,
+                  "n": 218
+                },
+                "mannequin_head": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.657377109185368,
+                  "rotation_mean_deg": 34.98756178168322,
+                  "n": 237
+                },
+                "repetitive": {
+                  "family": "repetitive",
+                  "translation_mean_m": 0.3449812282709932,
+                  "rotation_mean_deg": 17.080485139603066,
+                  "n": 659
+                }
+              }
+            },
+            "16": {
+              "n_windows": 2428,
+              "n_sequences": 12,
+              "translation_mean_m": 0.5317245497991264,
+              "translation_median_m": 0.41470219221036564,
+              "rotation_mean_deg": 27.019465958281558,
+              "rotation_median_deg": 21.72020785731332,
+              "clusters": {
+                "kidnap_1": {
+                  "family": "kidnap",
+                  "translation_mean_m": 0.42543705565063844,
+                  "rotation_mean_deg": 20.42274129067804,
+                  "n": 158
+                },
+                "kidnap_dark": {
+                  "family": "kidnap",
+                  "translation_mean_m": 0.24533774888520204,
+                  "rotation_mean_deg": 15.023494635429053,
+                  "n": 18
+                },
+                "mannequin_1": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.5712577517930088,
+                  "rotation_mean_deg": 42.342982591623525,
+                  "n": 180
+                },
+                "mannequin_3": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.707161704793662,
+                  "rotation_mean_deg": 37.85692597673672,
+                  "n": 169
+                },
+                "mannequin_4": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.8884034517676711,
+                  "rotation_mean_deg": 19.431556307258518,
+                  "n": 138
+                },
+                "mannequin_5": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.8014720820096743,
+                  "rotation_mean_deg": 37.00157839915858,
+                  "n": 292
+                },
+                "mannequin_7": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.7774674900301664,
+                  "rotation_mean_deg": 47.71241892014629,
+                  "n": 135
+                },
+                "mannequin_face_1": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.30428545422736364,
+                  "rotation_mean_deg": 20.840654599824656,
+                  "n": 144
+                },
+                "mannequin_face_2": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.2903803768615332,
+                  "rotation_mean_deg": 12.349429127230245,
+                  "n": 128
+                },
+                "mannequin_face_3": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.7117324358070707,
+                  "rotation_mean_deg": 35.53291620539121,
+                  "n": 202
+                },
+                "mannequin_head": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.6096809125002854,
+                  "rotation_mean_deg": 33.134563706663535,
+                  "n": 229
+                },
+                "repetitive": {
+                  "family": "repetitive",
+                  "translation_mean_m": 0.2694410064869725,
+                  "rotation_mean_deg": 13.877247862411178,
+                  "n": 635
+                }
+              }
+            },
+            "32": {
+              "n_windows": 2028,
+              "n_sequences": 12,
+              "translation_mean_m": 0.4795580766059014,
+              "translation_median_m": 0.3054904349507018,
+              "rotation_mean_deg": 26.777793638124383,
+              "rotation_median_deg": 19.665582569270615,
+              "clusters": {
+                "kidnap_1": {
+                  "family": "kidnap",
+                  "translation_mean_m": 0.23183990333502333,
+                  "rotation_mean_deg": 12.461311015382881,
+                  "n": 110
+                },
+                "kidnap_dark": {
+                  "family": "kidnap",
+                  "translation_mean_m": 0.657470697764708,
+                  "rotation_mean_deg": 26.761922932349755,
+                  "n": 2
+                },
+                "mannequin_1": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.4358253480002357,
+                  "rotation_mean_deg": 33.13416029771779,
+                  "n": 148
+                },
+                "mannequin_3": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.6954461076951157,
+                  "rotation_mean_deg": 40.293024491617764,
+                  "n": 137
+                },
+                "mannequin_4": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.7041595969193403,
+                  "rotation_mean_deg": 15.153340450478348,
+                  "n": 90
+                },
+                "mannequin_5": {
+                  "family": "mannequin",
+                  "translation_mean_m": 1.0164337359308608,
+                  "rotation_mean_deg": 41.06399228508292,
+                  "n": 260
+                },
+                "mannequin_7": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.808202378097748,
+                  "rotation_mean_deg": 45.71434617200998,
+                  "n": 87
+                },
+                "mannequin_face_1": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.27161237377476843,
+                  "rotation_mean_deg": 16.286517881339854,
+                  "n": 128
+                },
+                "mannequin_face_2": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.18156478401110387,
+                  "rotation_mean_deg": 7.827944741836933,
+                  "n": 96
+                },
+                "mannequin_face_3": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.5734265791181896,
+                  "rotation_mean_deg": 29.127996888092838,
+                  "n": 170
+                },
+                "mannequin_head": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.6150992245946993,
+                  "rotation_mean_deg": 47.64124430744667,
+                  "n": 213
+                },
+                "repetitive": {
+                  "family": "repetitive",
+                  "translation_mean_m": 0.18278054851763595,
+                  "rotation_mean_deg": 14.487238700215181,
+                  "n": 587
+                }
+              }
+            }
+          }
+        },
+        "4": {
+          "calibrator_training": {
+            "seconds": 17.55914720799774,
+            "final_loss": 0.5717502775788307
+          },
+          "primary_training": {
+            "seconds": 79.31731300003594,
+            "final_loss": 1.0137750440835953
+          },
+          "calibrator_reproduction_max": 0.0,
+          "parameter_counts": {
+            "leaf_calibrator": 280,
+            "primary_trainable": 10846
+          },
+          "lengths": {
+            "4": {
+              "n_windows": 2728,
+              "n_sequences": 12,
+              "translation_mean_m": 1.0335494273336951,
+              "translation_median_m": 1.0192418715552853,
+              "rotation_mean_deg": 36.69695135683504,
+              "rotation_median_deg": 34.80866994854374,
+              "clusters": {
+                "kidnap_1": {
+                  "family": "kidnap",
+                  "translation_mean_m": 1.0935965733362671,
+                  "rotation_mean_deg": 34.82928317793523,
+                  "n": 194
+                },
+                "kidnap_dark": {
+                  "family": "kidnap",
+                  "translation_mean_m": 0.782183120346948,
+                  "rotation_mean_deg": 24.560018405259502,
+                  "n": 30
+                },
+                "mannequin_1": {
+                  "family": "mannequin",
+                  "translation_mean_m": 1.1672530063038449,
+                  "rotation_mean_deg": 42.34609540399075,
+                  "n": 204
+                },
+                "mannequin_3": {
+                  "family": "mannequin",
+                  "translation_mean_m": 1.259407061697599,
+                  "rotation_mean_deg": 40.11091187816697,
+                  "n": 193
+                },
+                "mannequin_4": {
+                  "family": "mannequin",
+                  "translation_mean_m": 1.1330086855619812,
+                  "rotation_mean_deg": 37.5379437456539,
+                  "n": 174
+                },
+                "mannequin_5": {
+                  "family": "mannequin",
+                  "translation_mean_m": 1.0778247417692148,
+                  "rotation_mean_deg": 41.26215592867787,
+                  "n": 316
+                },
+                "mannequin_7": {
+                  "family": "mannequin",
+                  "translation_mean_m": 1.1034746824854544,
+                  "rotation_mean_deg": 39.06349849903298,
+                  "n": 171
+                },
+                "mannequin_face_1": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.8758916323155265,
+                  "rotation_mean_deg": 34.18993915163058,
+                  "n": 156
+                },
+                "mannequin_face_2": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.7926779054358667,
+                  "rotation_mean_deg": 29.31682149152034,
+                  "n": 152
+                },
+                "mannequin_face_3": {
+                  "family": "mannequin",
+                  "translation_mean_m": 1.058324954616373,
+                  "rotation_mean_deg": 43.82793256055172,
+                  "n": 226
+                },
+                "mannequin_head": {
+                  "family": "mannequin",
+                  "translation_mean_m": 1.1596020565831904,
+                  "rotation_mean_deg": 42.33525466340717,
+                  "n": 241
+                },
+                "repetitive": {
+                  "family": "repetitive",
+                  "translation_mean_m": 0.8949515062531493,
+                  "rotation_mean_deg": 29.93680197078468,
+                  "n": 671
+                }
+              }
+            },
+            "8": {
+              "n_windows": 2628,
+              "n_sequences": 12,
+              "translation_mean_m": 0.7779332613135475,
+              "translation_median_m": 0.7420359172491415,
+              "rotation_mean_deg": 32.449254646056296,
+              "rotation_median_deg": 29.722000308853307,
+              "clusters": {
+                "kidnap_1": {
+                  "family": "kidnap",
+                  "translation_mean_m": 0.8538704080698172,
+                  "rotation_mean_deg": 30.732016028460368,
+                  "n": 182
+                },
+                "kidnap_dark": {
+                  "family": "kidnap",
+                  "translation_mean_m": 0.4979821064272034,
+                  "rotation_mean_deg": 18.682042018859946,
+                  "n": 26
+                },
+                "mannequin_1": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.8749357452585299,
+                  "rotation_mean_deg": 36.597607796858135,
+                  "n": 196
+                },
+                "mannequin_3": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.9773669741685747,
+                  "rotation_mean_deg": 34.852530771590615,
+                  "n": 185
+                },
+                "mannequin_4": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.9492694128049404,
+                  "rotation_mean_deg": 33.61109293889014,
+                  "n": 162
+                },
+                "mannequin_5": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.9299616743128217,
+                  "rotation_mean_deg": 39.76063840727794,
+                  "n": 308
+                },
+                "mannequin_7": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.8040629554836494,
+                  "rotation_mean_deg": 37.00550348242228,
+                  "n": 159
+                },
+                "mannequin_face_1": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.6210457046307677,
+                  "rotation_mean_deg": 29.407329428993943,
+                  "n": 152
+                },
+                "mannequin_face_2": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.4881838456689967,
+                  "rotation_mean_deg": 23.00920342348424,
+                  "n": 144
+                },
+                "mannequin_face_3": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.8749565082257674,
+                  "rotation_mean_deg": 40.22140184443657,
+                  "n": 218
+                },
+                "mannequin_head": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.8685638026636725,
+                  "rotation_mean_deg": 36.69037477766034,
+                  "n": 237
+                },
+                "repetitive": {
+                  "family": "repetitive",
+                  "translation_mean_m": 0.5985022063959952,
+                  "rotation_mean_deg": 25.424217525658438,
+                  "n": 659
+                }
+              }
+            },
+            "16": {
+              "n_windows": 2428,
+              "n_sequences": 12,
+              "translation_mean_m": 0.5781270140047878,
+              "translation_median_m": 0.4919541810718845,
+              "rotation_mean_deg": 28.047313574672504,
+              "rotation_median_deg": 24.09129657093504,
+              "clusters": {
+                "kidnap_1": {
+                  "family": "kidnap",
+                  "translation_mean_m": 0.5598829639812855,
+                  "rotation_mean_deg": 21.906108209149327,
+                  "n": 158
+                },
+                "kidnap_dark": {
+                  "family": "kidnap",
+                  "translation_mean_m": 0.3954371541356696,
+                  "rotation_mean_deg": 14.897641581943365,
+                  "n": 18
+                },
+                "mannequin_1": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.6585713373793616,
+                  "rotation_mean_deg": 36.165276900068726,
+                  "n": 180
+                },
+                "mannequin_3": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.7786772319060234,
+                  "rotation_mean_deg": 33.98716524040609,
+                  "n": 169
+                },
+                "mannequin_4": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.7899785217685814,
+                  "rotation_mean_deg": 27.862644590169232,
+                  "n": 138
+                },
+                "mannequin_5": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.8353736641098432,
+                  "rotation_mean_deg": 40.13555036809775,
+                  "n": 292
+                },
+                "mannequin_7": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.747245471206133,
+                  "rotation_mean_deg": 43.99735307252455,
+                  "n": 135
+                },
+                "mannequin_face_1": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.4260932369319992,
+                  "rotation_mean_deg": 21.523590475702843,
+                  "n": 144
+                },
+                "mannequin_face_2": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.242546659063224,
+                  "rotation_mean_deg": 14.8990279964613,
+                  "n": 128
+                },
+                "mannequin_face_3": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.7314667824554456,
+                  "rotation_mean_deg": 33.180057217292706,
+                  "n": 202
+                },
+                "mannequin_head": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.6374611692598173,
+                  "rotation_mean_deg": 33.449580761179654,
+                  "n": 229
+                },
+                "repetitive": {
+                  "family": "repetitive",
+                  "translation_mean_m": 0.34332462861097884,
+                  "rotation_mean_deg": 17.70536607271344,
+                  "n": 635
+                }
+              }
+            },
+            "32": {
+              "n_windows": 2028,
+              "n_sequences": 12,
+              "translation_mean_m": 0.4787560923040961,
+              "translation_median_m": 0.3059887181013892,
+              "rotation_mean_deg": 26.37972473186705,
+              "rotation_median_deg": 20.55441819993372,
+              "clusters": {
+                "kidnap_1": {
+                  "family": "kidnap",
+                  "translation_mean_m": 0.18941817724315876,
+                  "rotation_mean_deg": 11.953070954969235,
+                  "n": 110
+                },
+                "kidnap_dark": {
+                  "family": "kidnap",
+                  "translation_mean_m": 0.6282312854097758,
+                  "rotation_mean_deg": 22.571159325140492,
+                  "n": 2
+                },
+                "mannequin_1": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.3786353557987148,
+                  "rotation_mean_deg": 30.51828200579728,
+                  "n": 148
+                },
+                "mannequin_3": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.7364102283814046,
+                  "rotation_mean_deg": 39.18445781867943,
+                  "n": 137
+                },
+                "mannequin_4": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.7355112469014166,
+                  "rotation_mean_deg": 24.739216022858898,
+                  "n": 90
+                },
+                "mannequin_5": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.9793888309872526,
+                  "rotation_mean_deg": 39.782147924921254,
+                  "n": 260
+                },
+                "mannequin_7": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.8315935574372685,
+                  "rotation_mean_deg": 46.24756523961701,
+                  "n": 87
+                },
+                "mannequin_face_1": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.3107073699329237,
+                  "rotation_mean_deg": 20.08349755538037,
+                  "n": 128
+                },
+                "mannequin_face_2": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.1629152543625678,
+                  "rotation_mean_deg": 9.055190385001339,
+                  "n": 96
+                },
+                "mannequin_face_3": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.6430930724372349,
+                  "rotation_mean_deg": 32.05311351398622,
+                  "n": 170
+                },
+                "mannequin_head": {
+                  "family": "mannequin",
+                  "translation_mean_m": 0.6996604364781678,
+                  "rotation_mean_deg": 42.52269103406188,
+                  "n": 213
+                },
+                "repetitive": {
+                  "family": "repetitive",
+                  "translation_mean_m": 0.14471722035676596,
+                  "rotation_mean_deg": 13.140290706042999,
+                  "n": 587
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

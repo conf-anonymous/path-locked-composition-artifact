@@ -1,0 +1,20 @@
+{
+  "kind": "intermediate_cosine",
+  "weight": 1000.0,
+  "seed": 2,
+  "training_seconds": 21.031163209001534,
+  "dev": {
+    "n": 87210,
+    "users": 596,
+    "accuracy": {
+      "left": 0.43625730994152045,
+      "right": 0.4226350189198486,
+      "balanced": 0.4300653594771242,
+      "history_right": 0.43797729618163056,
+      "history_balanced": 0.4329205366357069
+    },
+    "primitive_mse": 0.0027272093653725456,
+    "multilevel_mse": 0.0033560780782432814
+  },
+  "checkpoint_sha256": "37f99212cc343c94acb329150b7d8c357c9e6a91283bc5541de018ccb772319e"
+}

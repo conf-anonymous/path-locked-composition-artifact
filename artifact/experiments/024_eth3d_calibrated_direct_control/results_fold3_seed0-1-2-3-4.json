@@ -1,0 +1,1642 @@
+{
+  "study": "ETH3D calibrated direct control v1, frozen 2026-09-05",
+  "source_results_sha256": "f25987c0687078d4fb42021a25ee11a031c4b29d741ada91ca017cf3442458e1",
+  "config": {
+    "calibrator_steps": 5000,
+    "contextual_steps": 5000,
+    "batch_size": 256,
+    "calibrator_learning_rate": 0.002,
+    "contextual_learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "hidden_size": 32,
+    "evaluation_batch_size": 1024,
+    "bootstrap_resamples": 10000,
+    "moving_threshold_m": 0.15
+  },
+  "folds_requested": [
+    3
+  ],
+  "seeds_requested": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "folds": {
+    "3": {
+      "families": [
+        "einstein",
+        "ceiling",
+        "vicon_light"
+      ],
+      "seeds": {
+        "0": {
+          "calibrator_training": {
+            "seconds": 16.74845016701147,
+            "final_loss": 0.6850141143798828
+          },
+          "primary_training": {
+            "seconds": 66.43187695799861,
+            "final_loss": 1.2086536538600923
+          },
+          "calibrator_reproduction_max": 0.0,
+          "parameter_counts": {
+            "leaf_calibrator": 280,
+            "primary_trainable": 10846
+          },
+          "lengths": {
+            "4": {
+              "n_windows": 3452,
+              "n_sequences": 11,
+              "translation_mean_m": 0.6848781270973442,
+              "translation_median_m": 0.6492775904877941,
+              "rotation_mean_deg": 39.52969893921619,
+              "rotation_median_deg": 36.55894717792707,
+              "clusters": {
+                "ceiling_1": {
+                  "family": "ceiling",
+                  "translation_mean_m": 0.7480948269603283,
+                  "rotation_mean_deg": 33.48664776026387,
+                  "n": 357
+                },
+                "ceiling_2": {
+                  "family": "ceiling",
+                  "translation_mean_m": 0.6820962053727389,
+                  "rotation_mean_deg": 41.29469513781664,
+                  "n": 557
+                },
+                "einstein_1": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.32721918612212114,
+                  "rotation_mean_deg": 25.83386412112261,
+                  "n": 62
+                },
+                "einstein_2": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.5691831724408659,
+                  "rotation_mean_deg": 35.79968073669025,
+                  "n": 327
+                },
+                "einstein_dark": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.6222164191644991,
+                  "rotation_mean_deg": 36.00279454663974,
+                  "n": 376
+                },
+                "einstein_flashlight": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.6737125137103274,
+                  "rotation_mean_deg": 44.881080683775075,
+                  "n": 572
+                },
+                "einstein_global_light_changes_1": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.7235408507297745,
+                  "rotation_mean_deg": 39.208745853420595,
+                  "n": 128
+                },
+                "einstein_global_light_changes_2": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.8761548761206768,
+                  "rotation_mean_deg": 45.579795112165485,
+                  "n": 100
+                },
+                "einstein_global_light_changes_3": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.6999901154258434,
+                  "rotation_mean_deg": 39.61877400326594,
+                  "n": 801
+                },
+                "vicon_light_1": {
+                  "family": "vicon_light",
+                  "translation_mean_m": 0.9809173370367128,
+                  "rotation_mean_deg": 45.22628322930818,
+                  "n": 140
+                },
+                "vicon_light_2": {
+                  "family": "vicon_light",
+                  "translation_mean_m": 0.41328783124895985,
+                  "rotation_mean_deg": 41.88755030498391,
+                  "n": 32
+                }
+              }
+            },
+            "8": {
+              "n_windows": 3296,
+              "n_sequences": 11,
+              "translation_mean_m": 0.5820665569493912,
+              "translation_median_m": 0.5507283783565499,
+              "rotation_mean_deg": 30.847391847140642,
+              "rotation_median_deg": 27.938030208237883,
+              "clusters": {
+                "ceiling_1": {
+                  "family": "ceiling",
+                  "translation_mean_m": 0.6912617439914707,
+                  "rotation_mean_deg": 25.3705542939858,
+                  "n": 337
+                },
+                "ceiling_2": {
+                  "family": "ceiling",
+                  "translation_mean_m": 0.5748875480950789,
+                  "rotation_mean_deg": 29.863697661875054,
+                  "n": 549
+                },
+                "einstein_1": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.5364190657613159,
+                  "rotation_mean_deg": 27.032883288004506,
+                  "n": 58
+                },
+                "einstein_2": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.5450499218209394,
+                  "rotation_mean_deg": 30.683859440472926,
+                  "n": 307
+                },
+                "einstein_dark": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.5026472660487598,
+                  "rotation_mean_deg": 26.292969412129967,
+                  "n": 348
+                },
+                "einstein_flashlight": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.5637489179014514,
+                  "rotation_mean_deg": 37.16936411884429,
+                  "n": 556
+                },
+                "einstein_global_light_changes_1": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.518011245032129,
+                  "rotation_mean_deg": 28.038915555886675,
+                  "n": 116
+                },
+                "einstein_global_light_changes_2": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.7283491567979018,
+                  "rotation_mean_deg": 37.90971055168844,
+                  "n": 96
+                },
+                "einstein_global_light_changes_3": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.5895525895911643,
+                  "rotation_mean_deg": 31.235864681293336,
+                  "n": 777
+                },
+                "vicon_light_1": {
+                  "family": "vicon_light",
+                  "translation_mean_m": 0.6980151693750688,
+                  "rotation_mean_deg": 32.21413799651218,
+                  "n": 124
+                },
+                "vicon_light_2": {
+                  "family": "vicon_light",
+                  "translation_mean_m": 0.30241266904788155,
+                  "rotation_mean_deg": 27.404230140266147,
+                  "n": 28
+                }
+              }
+            },
+            "16": {
+              "n_windows": 2984,
+              "n_sequences": 11,
+              "translation_mean_m": 0.533735515806296,
+              "translation_median_m": 0.49380613749551594,
+              "rotation_mean_deg": 22.255419317097648,
+              "rotation_median_deg": 20.32733125364608,
+              "clusters": {
+                "ceiling_1": {
+                  "family": "ceiling",
+                  "translation_mean_m": 0.7853321784775857,
+                  "rotation_mean_deg": 19.667676850685442,
+                  "n": 297
+                },
+                "ceiling_2": {
+                  "family": "ceiling",
+                  "translation_mean_m": 0.5270994197508697,
+                  "rotation_mean_deg": 20.42198696768014,
+                  "n": 533
+                },
+                "einstein_1": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.656724166720834,
+                  "rotation_mean_deg": 23.402078464672616,
+                  "n": 50
+                },
+                "einstein_2": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.5480390593915239,
+                  "rotation_mean_deg": 22.75135864591319,
+                  "n": 267
+                },
+                "einstein_dark": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.5440135100725376,
+                  "rotation_mean_deg": 19.726922452624148,
+                  "n": 292
+                },
+                "einstein_flashlight": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.5165421752798625,
+                  "rotation_mean_deg": 29.449738768658307,
+                  "n": 524
+                },
+                "einstein_global_light_changes_1": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.3799272262004306,
+                  "rotation_mean_deg": 18.04834631737535,
+                  "n": 92
+                },
+                "einstein_global_light_changes_2": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.4786618080079068,
+                  "rotation_mean_deg": 24.496433022125892,
+                  "n": 88
+                },
+                "einstein_global_light_changes_3": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.4785431942836118,
+                  "rotation_mean_deg": 21.371561405551574,
+                  "n": 729
+                },
+                "vicon_light_1": {
+                  "family": "vicon_light",
+                  "translation_mean_m": 0.41265642729953766,
+                  "rotation_mean_deg": 17.268356053789013,
+                  "n": 92
+                },
+                "vicon_light_2": {
+                  "family": "vicon_light",
+                  "translation_mean_m": 0.2949262795038639,
+                  "rotation_mean_deg": 13.131001120766552,
+                  "n": 20
+                }
+              }
+            },
+            "32": {
+              "n_windows": 2360,
+              "n_sequences": 11,
+              "translation_mean_m": 0.5677741383813159,
+              "translation_median_m": 0.4768581713019199,
+              "rotation_mean_deg": 23.13877356276259,
+              "rotation_median_deg": 19.645877969498486,
+              "clusters": {
+                "ceiling_1": {
+                  "family": "ceiling",
+                  "translation_mean_m": 1.1528613171580993,
+                  "rotation_mean_deg": 37.28148829438208,
+                  "n": 217
+                },
+                "ceiling_2": {
+                  "family": "ceiling",
+                  "translation_mean_m": 0.6711654231073191,
+                  "rotation_mean_deg": 29.328418600936473,
+                  "n": 501
+                },
+                "einstein_1": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.31230799816492094,
+                  "rotation_mean_deg": 7.596515568516988,
+                  "n": 34
+                },
+                "einstein_2": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.4329135396440951,
+                  "rotation_mean_deg": 18.067105426491842,
+                  "n": 187
+                },
+                "einstein_dark": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.7638054907893755,
+                  "rotation_mean_deg": 22.950479412514092,
+                  "n": 180
+                },
+                "einstein_flashlight": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.5058576222809943,
+                  "rotation_mean_deg": 22.71694697561358,
+                  "n": 460
+                },
+                "einstein_global_light_changes_1": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.6105280967810519,
+                  "rotation_mean_deg": 18.777117779548156,
+                  "n": 44
+                },
+                "einstein_global_light_changes_2": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.12451812919771671,
+                  "rotation_mean_deg": 6.75120532632549,
+                  "n": 72
+                },
+                "einstein_global_light_changes_3": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.3620520763663757,
+                  "rotation_mean_deg": 17.2217672668925,
+                  "n": 633
+                },
+                "vicon_light_1": {
+                  "family": "vicon_light",
+                  "translation_mean_m": 0.9215119366828098,
+                  "rotation_mean_deg": 46.22553096967247,
+                  "n": 28
+                },
+                "vicon_light_2": {
+                  "family": "vicon_light",
+                  "translation_mean_m": 0.23988630244915268,
+                  "rotation_mean_deg": 24.549817290490864,
+                  "n": 4
+                }
+              }
+            }
+          }
+        },
+        "1": {
+          "calibrator_training": {
+            "seconds": 17.766756124969106,
+            "final_loss": 0.6665463310480118
+          },
+          "primary_training": {
+            "seconds": 81.03303912497358,
+            "final_loss": 1.1402964353561402
+          },
+          "calibrator_reproduction_max": 0.0,
+          "parameter_counts": {
+            "leaf_calibrator": 280,
+            "primary_trainable": 10846
+          },
+          "lengths": {
+            "4": {
+              "n_windows": 3452,
+              "n_sequences": 11,
+              "translation_mean_m": 0.5874777352537534,
+              "translation_median_m": 0.5427333271418557,
+              "rotation_mean_deg": 33.56180031408572,
+              "rotation_median_deg": 31.893012891221737,
+              "clusters": {
+                "ceiling_1": {
+                  "family": "ceiling",
+                  "translation_mean_m": 0.5549720201695904,
+                  "rotation_mean_deg": 37.98632282993189,
+                  "n": 357
+                },
+                "ceiling_2": {
+                  "family": "ceiling",
+                  "translation_mean_m": 0.6285560421579659,
+                  "rotation_mean_deg": 32.92595091668225,
+                  "n": 557
+                },
+                "einstein_1": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.7459267229806396,
+                  "rotation_mean_deg": 30.599629253628184,
+                  "n": 62
+                },
+                "einstein_2": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.5852798510264242,
+                  "rotation_mean_deg": 34.978211252466615,
+                  "n": 327
+                },
+                "einstein_dark": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.47776171389929717,
+                  "rotation_mean_deg": 28.031536267922217,
+                  "n": 376
+                },
+                "einstein_flashlight": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.6140305942046603,
+                  "rotation_mean_deg": 37.43816604309322,
+                  "n": 572
+                },
+                "einstein_global_light_changes_1": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.4749711831474155,
+                  "rotation_mean_deg": 29.738512660974628,
+                  "n": 128
+                },
+                "einstein_global_light_changes_2": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.653378334462747,
+                  "rotation_mean_deg": 36.25231017886414,
+                  "n": 100
+                },
+                "einstein_global_light_changes_3": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.5745111438496153,
+                  "rotation_mean_deg": 33.0892679122049,
+                  "n": 801
+                },
+                "vicon_light_1": {
+                  "family": "vicon_light",
+                  "translation_mean_m": 0.7734682039465087,
+                  "rotation_mean_deg": 26.40702111751915,
+                  "n": 140
+                },
+                "vicon_light_2": {
+                  "family": "vicon_light",
+                  "translation_mean_m": 0.5200444789558494,
+                  "rotation_mean_deg": 32.23983981427033,
+                  "n": 32
+                }
+              }
+            },
+            "8": {
+              "n_windows": 3296,
+              "n_sequences": 11,
+              "translation_mean_m": 0.61956785265457,
+              "translation_median_m": 0.5860216641486029,
+              "rotation_mean_deg": 30.261172644423045,
+              "rotation_median_deg": 28.48435152167161,
+              "clusters": {
+                "ceiling_1": {
+                  "family": "ceiling",
+                  "translation_mean_m": 0.7054602647795786,
+                  "rotation_mean_deg": 32.75379907483667,
+                  "n": 337
+                },
+                "ceiling_2": {
+                  "family": "ceiling",
+                  "translation_mean_m": 0.6195671878618285,
+                  "rotation_mean_deg": 27.186009439657752,
+                  "n": 549
+                },
+                "einstein_1": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.7639850224365605,
+                  "rotation_mean_deg": 31.819683212863513,
+                  "n": 58
+                },
+                "einstein_2": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.6472650438496865,
+                  "rotation_mean_deg": 34.54237902969246,
+                  "n": 307
+                },
+                "einstein_dark": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.5064823682504886,
+                  "rotation_mean_deg": 22.086626245517948,
+                  "n": 348
+                },
+                "einstein_flashlight": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.587054041437062,
+                  "rotation_mean_deg": 37.043763875281996,
+                  "n": 556
+                },
+                "einstein_global_light_changes_1": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.4785570408384715,
+                  "rotation_mean_deg": 21.949811145357817,
+                  "n": 116
+                },
+                "einstein_global_light_changes_2": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.7144604089561954,
+                  "rotation_mean_deg": 34.04711264026607,
+                  "n": 96
+                },
+                "einstein_global_light_changes_3": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.6137546526502947,
+                  "rotation_mean_deg": 29.759877418388523,
+                  "n": 777
+                },
+                "vicon_light_1": {
+                  "family": "vicon_light",
+                  "translation_mean_m": 0.8433186976679631,
+                  "rotation_mean_deg": 27.63421709168054,
+                  "n": 124
+                },
+                "vicon_light_2": {
+                  "family": "vicon_light",
+                  "translation_mean_m": 0.46335844328879955,
+                  "rotation_mean_deg": 24.299155324437944,
+                  "n": 28
+                }
+              }
+            },
+            "16": {
+              "n_windows": 2984,
+              "n_sequences": 11,
+              "translation_mean_m": 0.5847080662194404,
+              "translation_median_m": 0.5462280764676506,
+              "rotation_mean_deg": 27.319877078208783,
+              "rotation_median_deg": 25.148651469325248,
+              "clusters": {
+                "ceiling_1": {
+                  "family": "ceiling",
+                  "translation_mean_m": 0.8391054166815414,
+                  "rotation_mean_deg": 34.808074166442225,
+                  "n": 297
+                },
+                "ceiling_2": {
+                  "family": "ceiling",
+                  "translation_mean_m": 0.5818029843218913,
+                  "rotation_mean_deg": 26.342406512591957,
+                  "n": 533
+                },
+                "einstein_1": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.682230958991719,
+                  "rotation_mean_deg": 28.379563765773675,
+                  "n": 50
+                },
+                "einstein_2": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.6095322384344819,
+                  "rotation_mean_deg": 27.203763142378186,
+                  "n": 267
+                },
+                "einstein_dark": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.5575320738815732,
+                  "rotation_mean_deg": 20.32710633176467,
+                  "n": 292
+                },
+                "einstein_flashlight": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.529800075894867,
+                  "rotation_mean_deg": 33.16616558490999,
+                  "n": 524
+                },
+                "einstein_global_light_changes_1": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.40273480807165124,
+                  "rotation_mean_deg": 18.56120490809817,
+                  "n": 92
+                },
+                "einstein_global_light_changes_2": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.5752770601582715,
+                  "rotation_mean_deg": 25.979306215489718,
+                  "n": 88
+                },
+                "einstein_global_light_changes_3": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.5331720725719742,
+                  "rotation_mean_deg": 23.87610771622605,
+                  "n": 729
+                },
+                "vicon_light_1": {
+                  "family": "vicon_light",
+                  "translation_mean_m": 0.7048347197567102,
+                  "rotation_mean_deg": 37.9305844495353,
+                  "n": 92
+                },
+                "vicon_light_2": {
+                  "family": "vicon_light",
+                  "translation_mean_m": 0.34895452438978014,
+                  "rotation_mean_deg": 12.89688235321064,
+                  "n": 20
+                }
+              }
+            },
+            "32": {
+              "n_windows": 2360,
+              "n_sequences": 11,
+              "translation_mean_m": 0.6096082964660811,
+              "translation_median_m": 0.5174313468212985,
+              "rotation_mean_deg": 29.518318313683427,
+              "rotation_median_deg": 25.290865885960933,
+              "clusters": {
+                "ceiling_1": {
+                  "family": "ceiling",
+                  "translation_mean_m": 1.194568542022141,
+                  "rotation_mean_deg": 54.163727772794466,
+                  "n": 217
+                },
+                "ceiling_2": {
+                  "family": "ceiling",
+                  "translation_mean_m": 0.7036390815315345,
+                  "rotation_mean_deg": 38.45651799006433,
+                  "n": 501
+                },
+                "einstein_1": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.4197993591651852,
+                  "rotation_mean_deg": 7.825939797102171,
+                  "n": 34
+                },
+                "einstein_2": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.47907654543732686,
+                  "rotation_mean_deg": 26.497549197601682,
+                  "n": 187
+                },
+                "einstein_dark": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.7946135140383667,
+                  "rotation_mean_deg": 26.8128015321457,
+                  "n": 180
+                },
+                "einstein_flashlight": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.538061756029969,
+                  "rotation_mean_deg": 24.836975398983917,
+                  "n": 460
+                },
+                "einstein_global_light_changes_1": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.4535990001481394,
+                  "rotation_mean_deg": 23.850254463665248,
+                  "n": 44
+                },
+                "einstein_global_light_changes_2": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.2274754559597243,
+                  "rotation_mean_deg": 10.979253788974761,
+                  "n": 72
+                },
+                "einstein_global_light_changes_3": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.4248023303316805,
+                  "rotation_mean_deg": 21.12909730137134,
+                  "n": 633
+                },
+                "vicon_light_1": {
+                  "family": "vicon_light",
+                  "translation_mean_m": 0.9440139292211737,
+                  "rotation_mean_deg": 64.31249232064748,
+                  "n": 28
+                },
+                "vicon_light_2": {
+                  "family": "vicon_light",
+                  "translation_mean_m": 0.21570993274868763,
+                  "rotation_mean_deg": 38.791080562201216,
+                  "n": 4
+                }
+              }
+            }
+          }
+        },
+        "2": {
+          "calibrator_training": {
+            "seconds": 17.843258000037167,
+            "final_loss": 0.6793349421024323
+          },
+          "primary_training": {
+            "seconds": 69.83932612498756,
+            "final_loss": 1.1731427216529846
+          },
+          "calibrator_reproduction_max": 0.0,
+          "parameter_counts": {
+            "leaf_calibrator": 280,
+            "primary_trainable": 10846
+          },
+          "lengths": {
+            "4": {
+              "n_windows": 3452,
+              "n_sequences": 11,
+              "translation_mean_m": 0.7041862111563533,
+              "translation_median_m": 0.6208649056877282,
+              "rotation_mean_deg": 30.172584993178205,
+              "rotation_median_deg": 27.912779181131015,
+              "clusters": {
+                "ceiling_1": {
+                  "family": "ceiling",
+                  "translation_mean_m": 0.7843275412683022,
+                  "rotation_mean_deg": 26.560801884462794,
+                  "n": 357
+                },
+                "ceiling_2": {
+                  "family": "ceiling",
+                  "translation_mean_m": 0.7091930241643488,
+                  "rotation_mean_deg": 31.76142473758151,
+                  "n": 557
+                },
+                "einstein_1": {
+                  "family": "einstein",
+                  "translation_mean_m": 1.0761296665595916,
+                  "rotation_mean_deg": 24.236950240518436,
+                  "n": 62
+                },
+                "einstein_2": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.7522689877641515,
+                  "rotation_mean_deg": 29.057193163149222,
+                  "n": 327
+                },
+                "einstein_dark": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.6365384922481903,
+                  "rotation_mean_deg": 26.15384381156347,
+                  "n": 376
+                },
+                "einstein_flashlight": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.7959287209067699,
+                  "rotation_mean_deg": 32.79496071430754,
+                  "n": 572
+                },
+                "einstein_global_light_changes_1": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.5651419706819202,
+                  "rotation_mean_deg": 29.54356841858469,
+                  "n": 128
+                },
+                "einstein_global_light_changes_2": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.6163395779691615,
+                  "rotation_mean_deg": 33.552285276425735,
+                  "n": 100
+                },
+                "einstein_global_light_changes_3": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.6514258588503314,
+                  "rotation_mean_deg": 29.80595695754494,
+                  "n": 801
+                },
+                "vicon_light_1": {
+                  "family": "vicon_light",
+                  "translation_mean_m": 0.5137386240464182,
+                  "rotation_mean_deg": 38.99189651170632,
+                  "n": 140
+                },
+                "vicon_light_2": {
+                  "family": "vicon_light",
+                  "translation_mean_m": 0.6505001281257852,
+                  "rotation_mean_deg": 28.601417000547492,
+                  "n": 32
+                }
+              }
+            },
+            "8": {
+              "n_windows": 3296,
+              "n_sequences": 11,
+              "translation_mean_m": 0.7068404081397169,
+              "translation_median_m": 0.6156211742467879,
+              "rotation_mean_deg": 25.506615439525472,
+              "rotation_median_deg": 24.227940682729354,
+              "clusters": {
+                "ceiling_1": {
+                  "family": "ceiling",
+                  "translation_mean_m": 0.8865301146892183,
+                  "rotation_mean_deg": 22.373173044093733,
+                  "n": 337
+                },
+                "ceiling_2": {
+                  "family": "ceiling",
+                  "translation_mean_m": 0.6911676633315483,
+                  "rotation_mean_deg": 27.146398681545726,
+                  "n": 549
+                },
+                "einstein_1": {
+                  "family": "einstein",
+                  "translation_mean_m": 1.1337094543930202,
+                  "rotation_mean_deg": 21.66738091103413,
+                  "n": 58
+                },
+                "einstein_2": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.7931867359937154,
+                  "rotation_mean_deg": 25.632889405644413,
+                  "n": 307
+                },
+                "einstein_dark": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.6041333513680517,
+                  "rotation_mean_deg": 20.081764105884773,
+                  "n": 348
+                },
+                "einstein_flashlight": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.7516290465057951,
+                  "rotation_mean_deg": 27.470098653159035,
+                  "n": 556
+                },
+                "einstein_global_light_changes_1": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.4911333811971323,
+                  "rotation_mean_deg": 22.26551746252738,
+                  "n": 116
+                },
+                "einstein_global_light_changes_2": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.6646898408129677,
+                  "rotation_mean_deg": 30.912160617032026,
+                  "n": 96
+                },
+                "einstein_global_light_changes_3": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.6644814113593174,
+                  "rotation_mean_deg": 25.694632136064392,
+                  "n": 777
+                },
+                "vicon_light_1": {
+                  "family": "vicon_light",
+                  "translation_mean_m": 0.4947435229699456,
+                  "rotation_mean_deg": 32.28842447254526,
+                  "n": 124
+                },
+                "vicon_light_2": {
+                  "family": "vicon_light",
+                  "translation_mean_m": 0.5605252342741188,
+                  "rotation_mean_deg": 25.71346953802618,
+                  "n": 28
+                }
+              }
+            },
+            "16": {
+              "n_windows": 2984,
+              "n_sequences": 11,
+              "translation_mean_m": 0.6542539904178803,
+              "translation_median_m": 0.5621840092514596,
+              "rotation_mean_deg": 25.179665498762965,
+              "rotation_median_deg": 24.139353724424918,
+              "clusters": {
+                "ceiling_1": {
+                  "family": "ceiling",
+                  "translation_mean_m": 0.9123383739827109,
+                  "rotation_mean_deg": 32.50192879508574,
+                  "n": 297
+                },
+                "ceiling_2": {
+                  "family": "ceiling",
+                  "translation_mean_m": 0.6280891951029746,
+                  "rotation_mean_deg": 27.75725921863201,
+                  "n": 533
+                },
+                "einstein_1": {
+                  "family": "einstein",
+                  "translation_mean_m": 1.0348799013842258,
+                  "rotation_mean_deg": 20.256139550391026,
+                  "n": 50
+                },
+                "einstein_2": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.7572830887479907,
+                  "rotation_mean_deg": 23.721514608941668,
+                  "n": 267
+                },
+                "einstein_dark": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.6028968390917512,
+                  "rotation_mean_deg": 20.615367116115596,
+                  "n": 292
+                },
+                "einstein_flashlight": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.6698986765714685,
+                  "rotation_mean_deg": 24.494387623206347,
+                  "n": 524
+                },
+                "einstein_global_light_changes_1": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.3692587598086056,
+                  "rotation_mean_deg": 18.27390115810542,
+                  "n": 92
+                },
+                "einstein_global_light_changes_2": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.5379198966343576,
+                  "rotation_mean_deg": 26.44564664715821,
+                  "n": 88
+                },
+                "einstein_global_light_changes_3": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.5965089119548889,
+                  "rotation_mean_deg": 23.324375358028657,
+                  "n": 729
+                },
+                "vicon_light_1": {
+                  "family": "vicon_light",
+                  "translation_mean_m": 0.4338137899253369,
+                  "rotation_mean_deg": 32.9066928880036,
+                  "n": 92
+                },
+                "vicon_light_2": {
+                  "family": "vicon_light",
+                  "translation_mean_m": 0.47359418732893294,
+                  "rotation_mean_deg": 22.39654744348315,
+                  "n": 20
+                }
+              }
+            },
+            "32": {
+              "n_windows": 2360,
+              "n_sequences": 11,
+              "translation_mean_m": 0.5876787710144566,
+              "translation_median_m": 0.5156068693139644,
+              "rotation_mean_deg": 28.371805078834573,
+              "rotation_median_deg": 23.071912405047122,
+              "clusters": {
+                "ceiling_1": {
+                  "family": "ceiling",
+                  "translation_mean_m": 0.9481562506680807,
+                  "rotation_mean_deg": 57.0086161406417,
+                  "n": 217
+                },
+                "ceiling_2": {
+                  "family": "ceiling",
+                  "translation_mean_m": 0.6667162846416355,
+                  "rotation_mean_deg": 37.06507242419798,
+                  "n": 501
+                },
+                "einstein_1": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.440354977855252,
+                  "rotation_mean_deg": 10.259664712329798,
+                  "n": 34
+                },
+                "einstein_2": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.4077070551619221,
+                  "rotation_mean_deg": 20.186622634891304,
+                  "n": 187
+                },
+                "einstein_dark": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.7986647903468268,
+                  "rotation_mean_deg": 27.635456592338976,
+                  "n": 180
+                },
+                "einstein_flashlight": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.6061002289740814,
+                  "rotation_mean_deg": 22.08748317941566,
+                  "n": 460
+                },
+                "einstein_global_light_changes_1": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.4417794274388767,
+                  "rotation_mean_deg": 21.78970777263014,
+                  "n": 44
+                },
+                "einstein_global_light_changes_2": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.2065418800393705,
+                  "rotation_mean_deg": 13.715353922577927,
+                  "n": 72
+                },
+                "einstein_global_light_changes_3": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.43158780241494005,
+                  "rotation_mean_deg": 20.582639644324463,
+                  "n": 633
+                },
+                "vicon_light_1": {
+                  "family": "vicon_light",
+                  "translation_mean_m": 0.9052776453271221,
+                  "rotation_mean_deg": 59.22227268732902,
+                  "n": 28
+                },
+                "vicon_light_2": {
+                  "family": "vicon_light",
+                  "translation_mean_m": 0.1289788182146611,
+                  "rotation_mean_deg": 31.337590596779414,
+                  "n": 4
+                }
+              }
+            }
+          }
+        },
+        "3": {
+          "calibrator_training": {
+            "seconds": 17.812806292029563,
+            "final_loss": 0.6899431374669075
+          },
+          "primary_training": {
+            "seconds": 81.87516066699754,
+            "final_loss": 1.2812776696681976
+          },
+          "calibrator_reproduction_max": 0.0,
+          "parameter_counts": {
+            "leaf_calibrator": 280,
+            "primary_trainable": 10846
+          },
+          "lengths": {
+            "4": {
+              "n_windows": 3452,
+              "n_sequences": 11,
+              "translation_mean_m": 0.5338312165308954,
+              "translation_median_m": 0.4783090681059996,
+              "rotation_mean_deg": 34.86084182423466,
+              "rotation_median_deg": 32.18429200822516,
+              "clusters": {
+                "ceiling_1": {
+                  "family": "ceiling",
+                  "translation_mean_m": 0.7131840600123892,
+                  "rotation_mean_deg": 44.94020981216311,
+                  "n": 357
+                },
+                "ceiling_2": {
+                  "family": "ceiling",
+                  "translation_mean_m": 0.4998370447923732,
+                  "rotation_mean_deg": 35.451900086032275,
+                  "n": 557
+                },
+                "einstein_1": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.7700682675144388,
+                  "rotation_mean_deg": 20.857400342566248,
+                  "n": 62
+                },
+                "einstein_2": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.6093693057675528,
+                  "rotation_mean_deg": 33.596898491639735,
+                  "n": 327
+                },
+                "einstein_dark": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.4766053703491682,
+                  "rotation_mean_deg": 30.794513988812565,
+                  "n": 376
+                },
+                "einstein_flashlight": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.6217963379477323,
+                  "rotation_mean_deg": 36.686509048549595,
+                  "n": 572
+                },
+                "einstein_global_light_changes_1": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.40934767071410494,
+                  "rotation_mean_deg": 30.72405641553894,
+                  "n": 128
+                },
+                "einstein_global_light_changes_2": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.383202442674653,
+                  "rotation_mean_deg": 37.586475959777374,
+                  "n": 100
+                },
+                "einstein_global_light_changes_3": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.472047281379114,
+                  "rotation_mean_deg": 33.08028625560385,
+                  "n": 801
+                },
+                "vicon_light_1": {
+                  "family": "vicon_light",
+                  "translation_mean_m": 0.326267853894475,
+                  "rotation_mean_deg": 29.122175930581502,
+                  "n": 140
+                },
+                "vicon_light_2": {
+                  "family": "vicon_light",
+                  "translation_mean_m": 0.41831805977604797,
+                  "rotation_mean_deg": 45.02365389499472,
+                  "n": 32
+                }
+              }
+            },
+            "8": {
+              "n_windows": 3296,
+              "n_sequences": 11,
+              "translation_mean_m": 0.5451745156117659,
+              "translation_median_m": 0.47776761360256936,
+              "rotation_mean_deg": 27.62753844233,
+              "rotation_median_deg": 24.359659458040575,
+              "clusters": {
+                "ceiling_1": {
+                  "family": "ceiling",
+                  "translation_mean_m": 0.7436583167866544,
+                  "rotation_mean_deg": 34.34073719963501,
+                  "n": 337
+                },
+                "ceiling_2": {
+                  "family": "ceiling",
+                  "translation_mean_m": 0.5058237743942774,
+                  "rotation_mean_deg": 26.56973459863514,
+                  "n": 549
+                },
+                "einstein_1": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.7154373925600148,
+                  "rotation_mean_deg": 13.11513854734036,
+                  "n": 58
+                },
+                "einstein_2": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.6125924038703771,
+                  "rotation_mean_deg": 28.387374376241453,
+                  "n": 307
+                },
+                "einstein_dark": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.47611754522161936,
+                  "rotation_mean_deg": 21.82383917037864,
+                  "n": 348
+                },
+                "einstein_flashlight": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.6032111717269947,
+                  "rotation_mean_deg": 32.33824941663207,
+                  "n": 556
+                },
+                "einstein_global_light_changes_1": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.3853469168170608,
+                  "rotation_mean_deg": 19.759336026017813,
+                  "n": 116
+                },
+                "einstein_global_light_changes_2": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.49351270421756727,
+                  "rotation_mean_deg": 32.46462812813427,
+                  "n": 96
+                },
+                "einstein_global_light_changes_3": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.5119975035196452,
+                  "rotation_mean_deg": 26.48291963093422,
+                  "n": 777
+                },
+                "vicon_light_1": {
+                  "family": "vicon_light",
+                  "translation_mean_m": 0.30541407984571134,
+                  "rotation_mean_deg": 23.945801570475258,
+                  "n": 124
+                },
+                "vicon_light_2": {
+                  "family": "vicon_light",
+                  "translation_mean_m": 0.36352416041079566,
+                  "rotation_mean_deg": 31.971216839541196,
+                  "n": 28
+                }
+              }
+            },
+            "16": {
+              "n_windows": 2984,
+              "n_sequences": 11,
+              "translation_mean_m": 0.5131219110809387,
+              "translation_median_m": 0.4525105101221232,
+              "rotation_mean_deg": 22.532602463116174,
+              "rotation_median_deg": 21.306552064279536,
+              "clusters": {
+                "ceiling_1": {
+                  "family": "ceiling",
+                  "translation_mean_m": 0.7011549315600701,
+                  "rotation_mean_deg": 25.341715396265727,
+                  "n": 297
+                },
+                "ceiling_2": {
+                  "family": "ceiling",
+                  "translation_mean_m": 0.5098341315442435,
+                  "rotation_mean_deg": 20.495348354002566,
+                  "n": 533
+                },
+                "einstein_1": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.5530490321960437,
+                  "rotation_mean_deg": 16.07486395424146,
+                  "n": 50
+                },
+                "einstein_2": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.5083094025400536,
+                  "rotation_mean_deg": 23.583995790137667,
+                  "n": 267
+                },
+                "einstein_dark": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.5354157746644136,
+                  "rotation_mean_deg": 19.16333210028515,
+                  "n": 292
+                },
+                "einstein_flashlight": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.5406292049067,
+                  "rotation_mean_deg": 28.577678119311972,
+                  "n": 524
+                },
+                "einstein_global_light_changes_1": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.35916785083644753,
+                  "rotation_mean_deg": 13.084298276027885,
+                  "n": 92
+                },
+                "einstein_global_light_changes_2": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.43623587289180416,
+                  "rotation_mean_deg": 24.11609107198185,
+                  "n": 88
+                },
+                "einstein_global_light_changes_3": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.4707293173504067,
+                  "rotation_mean_deg": 21.579410814490895,
+                  "n": 729
+                },
+                "vicon_light_1": {
+                  "family": "vicon_light",
+                  "translation_mean_m": 0.3051135001148754,
+                  "rotation_mean_deg": 19.128953351566437,
+                  "n": 92
+                },
+                "vicon_light_2": {
+                  "family": "vicon_light",
+                  "translation_mean_m": 0.27523453837678113,
+                  "rotation_mean_deg": 14.924178762293348,
+                  "n": 20
+                }
+              }
+            },
+            "32": {
+              "n_windows": 2360,
+              "n_sequences": 11,
+              "translation_mean_m": 0.5743480632061785,
+              "translation_median_m": 0.506091816646972,
+              "rotation_mean_deg": 23.871946454797094,
+              "rotation_median_deg": 19.779621438569364,
+              "clusters": {
+                "ceiling_1": {
+                  "family": "ceiling",
+                  "translation_mean_m": 1.0455067062979133,
+                  "rotation_mean_deg": 41.17315018059083,
+                  "n": 217
+                },
+                "ceiling_2": {
+                  "family": "ceiling",
+                  "translation_mean_m": 0.6756003308279699,
+                  "rotation_mean_deg": 29.45095397795641,
+                  "n": 501
+                },
+                "einstein_1": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.3353177606207647,
+                  "rotation_mean_deg": 4.525437040132505,
+                  "n": 34
+                },
+                "einstein_2": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.42893724791178633,
+                  "rotation_mean_deg": 20.033991460368195,
+                  "n": 187
+                },
+                "einstein_dark": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.7540466141951144,
+                  "rotation_mean_deg": 24.048040380409233,
+                  "n": 180
+                },
+                "einstein_flashlight": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.5563513164572557,
+                  "rotation_mean_deg": 23.144271926089893,
+                  "n": 460
+                },
+                "einstein_global_light_changes_1": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.5548136506738919,
+                  "rotation_mean_deg": 20.059149194399552,
+                  "n": 44
+                },
+                "einstein_global_light_changes_2": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.1473220129738861,
+                  "rotation_mean_deg": 7.732702092555734,
+                  "n": 72
+                },
+                "einstein_global_light_changes_3": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.3920868182118483,
+                  "rotation_mean_deg": 17.255351743366354,
+                  "n": 633
+                },
+                "vicon_light_1": {
+                  "family": "vicon_light",
+                  "translation_mean_m": 0.8109639844257206,
+                  "rotation_mean_deg": 47.73043802808949,
+                  "n": 28
+                },
+                "vicon_light_2": {
+                  "family": "vicon_light",
+                  "translation_mean_m": 0.23292743831536128,
+                  "rotation_mean_deg": 18.65286267335032,
+                  "n": 4
+                }
+              }
+            }
+          }
+        },
+        "4": {
+          "calibrator_training": {
+            "seconds": 17.62861133296974,
+            "final_loss": 0.6730938962101937
+          },
+          "primary_training": {
+            "seconds": 78.6413342920132,
+            "final_loss": 1.1880139482021332
+          },
+          "calibrator_reproduction_max": 0.0,
+          "parameter_counts": {
+            "leaf_calibrator": 280,
+            "primary_trainable": 10846
+          },
+          "lengths": {
+            "4": {
+              "n_windows": 3452,
+              "n_sequences": 11,
+              "translation_mean_m": 0.8567470153817414,
+              "translation_median_m": 0.7674041875161262,
+              "rotation_mean_deg": 41.43676272058073,
+              "rotation_median_deg": 38.39402443060774,
+              "clusters": {
+                "ceiling_1": {
+                  "family": "ceiling",
+                  "translation_mean_m": 0.8458472588339642,
+                  "rotation_mean_deg": 49.91296094837373,
+                  "n": 357
+                },
+                "ceiling_2": {
+                  "family": "ceiling",
+                  "translation_mean_m": 0.8191469466903665,
+                  "rotation_mean_deg": 47.62874870381869,
+                  "n": 557
+                },
+                "einstein_1": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.5307182677999052,
+                  "rotation_mean_deg": 28.910246439200996,
+                  "n": 62
+                },
+                "einstein_2": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.8030110081752336,
+                  "rotation_mean_deg": 41.962117431725716,
+                  "n": 327
+                },
+                "einstein_dark": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.7660129749949539,
+                  "rotation_mean_deg": 33.38369961070938,
+                  "n": 376
+                },
+                "einstein_flashlight": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.8916508781800403,
+                  "rotation_mean_deg": 40.08403400975944,
+                  "n": 572
+                },
+                "einstein_global_light_changes_1": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.9000699450565317,
+                  "rotation_mean_deg": 35.12007223186453,
+                  "n": 128
+                },
+                "einstein_global_light_changes_2": {
+                  "family": "einstein",
+                  "translation_mean_m": 1.1586897174783786,
+                  "rotation_mean_deg": 39.00816169430245,
+                  "n": 100
+                },
+                "einstein_global_light_changes_3": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.9010895713161199,
+                  "rotation_mean_deg": 39.43605563790998,
+                  "n": 801
+                },
+                "vicon_light_1": {
+                  "family": "vicon_light",
+                  "translation_mean_m": 0.9537911682269816,
+                  "rotation_mean_deg": 41.23261526971194,
+                  "n": 140
+                },
+                "vicon_light_2": {
+                  "family": "vicon_light",
+                  "translation_mean_m": 0.6044571344520993,
+                  "rotation_mean_deg": 60.62957873124687,
+                  "n": 32
+                }
+              }
+            },
+            "8": {
+              "n_windows": 3296,
+              "n_sequences": 11,
+              "translation_mean_m": 0.735896116020873,
+              "translation_median_m": 0.6839006316353403,
+              "rotation_mean_deg": 33.844630610720245,
+              "rotation_median_deg": 32.059381717405685,
+              "clusters": {
+                "ceiling_1": {
+                  "family": "ceiling",
+                  "translation_mean_m": 0.8971141956620132,
+                  "rotation_mean_deg": 44.13753980391595,
+                  "n": 337
+                },
+                "ceiling_2": {
+                  "family": "ceiling",
+                  "translation_mean_m": 0.6750879612871937,
+                  "rotation_mean_deg": 38.22323335311452,
+                  "n": 549
+                },
+                "einstein_1": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.8588775336804244,
+                  "rotation_mean_deg": 18.555300062208037,
+                  "n": 58
+                },
+                "einstein_2": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.8457217121841095,
+                  "rotation_mean_deg": 34.20437452016214,
+                  "n": 307
+                },
+                "einstein_dark": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.5722831321392257,
+                  "rotation_mean_deg": 26.86477588348814,
+                  "n": 348
+                },
+                "einstein_flashlight": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.7367227108197614,
+                  "rotation_mean_deg": 31.726992142145104,
+                  "n": 556
+                },
+                "einstein_global_light_changes_1": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.5878482368956547,
+                  "rotation_mean_deg": 26.971556735369592,
+                  "n": 116
+                },
+                "einstein_global_light_changes_2": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.8949217254755272,
+                  "rotation_mean_deg": 31.096836094851255,
+                  "n": 96
+                },
+                "einstein_global_light_changes_3": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.7574757980412558,
+                  "rotation_mean_deg": 31.79847915864053,
+                  "n": 777
+                },
+                "vicon_light_1": {
+                  "family": "vicon_light",
+                  "translation_mean_m": 0.6369895982959076,
+                  "rotation_mean_deg": 39.68762266593857,
+                  "n": 124
+                },
+                "vicon_light_2": {
+                  "family": "vicon_light",
+                  "translation_mean_m": 0.4532399119110959,
+                  "rotation_mean_deg": 49.43628875433256,
+                  "n": 28
+                }
+              }
+            },
+            "16": {
+              "n_windows": 2984,
+              "n_sequences": 11,
+              "translation_mean_m": 0.6167955212839273,
+              "translation_median_m": 0.5382232836393552,
+              "rotation_mean_deg": 24.543146803602443,
+              "rotation_median_deg": 23.542146099294953,
+              "clusters": {
+                "ceiling_1": {
+                  "family": "ceiling",
+                  "translation_mean_m": 0.9149398497521779,
+                  "rotation_mean_deg": 33.42515311136447,
+                  "n": 297
+                },
+                "ceiling_2": {
+                  "family": "ceiling",
+                  "translation_mean_m": 0.5574611335441207,
+                  "rotation_mean_deg": 27.32034537678674,
+                  "n": 533
+                },
+                "einstein_1": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.8947590719273377,
+                  "rotation_mean_deg": 7.884056784960599,
+                  "n": 50
+                },
+                "einstein_2": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.7387718085410713,
+                  "rotation_mean_deg": 23.22497747023203,
+                  "n": 267
+                },
+                "einstein_dark": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.5552636343672275,
+                  "rotation_mean_deg": 22.03348515835075,
+                  "n": 292
+                },
+                "einstein_flashlight": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.6215790484431691,
+                  "rotation_mean_deg": 23.122548323628834,
+                  "n": 524
+                },
+                "einstein_global_light_changes_1": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.345822877182349,
+                  "rotation_mean_deg": 17.088168638889762,
+                  "n": 92
+                },
+                "einstein_global_light_changes_2": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.5495272326688405,
+                  "rotation_mean_deg": 20.693757233254672,
+                  "n": 88
+                },
+                "einstein_global_light_changes_3": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.5759147717579258,
+                  "rotation_mean_deg": 22.910004674022602,
+                  "n": 729
+                },
+                "vicon_light_1": {
+                  "family": "vicon_light",
+                  "translation_mean_m": 0.36412929092796537,
+                  "rotation_mean_deg": 32.68541131036945,
+                  "n": 92
+                },
+                "vicon_light_2": {
+                  "family": "vicon_light",
+                  "translation_mean_m": 0.4151811153503574,
+                  "rotation_mean_deg": 25.04286456032285,
+                  "n": 20
+                }
+              }
+            },
+            "32": {
+              "n_windows": 2360,
+              "n_sequences": 11,
+              "translation_mean_m": 0.5661846739964277,
+              "translation_median_m": 0.48092881871726256,
+              "rotation_mean_deg": 23.648236957842347,
+              "rotation_median_deg": 19.725279996373324,
+              "clusters": {
+                "ceiling_1": {
+                  "family": "ceiling",
+                  "translation_mean_m": 1.1144622157543687,
+                  "rotation_mean_deg": 39.997631781564024,
+                  "n": 217
+                },
+                "ceiling_2": {
+                  "family": "ceiling",
+                  "translation_mean_m": 0.6286173768952148,
+                  "rotation_mean_deg": 31.48814767691093,
+                  "n": 501
+                },
+                "einstein_1": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.43622000095320046,
+                  "rotation_mean_deg": 4.218775740941719,
+                  "n": 34
+                },
+                "einstein_2": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.409086024326046,
+                  "rotation_mean_deg": 18.743347016455736,
+                  "n": 187
+                },
+                "einstein_dark": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.7747113867737709,
+                  "rotation_mean_deg": 25.1112640909095,
+                  "n": 180
+                },
+                "einstein_flashlight": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.5354036614895185,
+                  "rotation_mean_deg": 18.51684943366315,
+                  "n": 460
+                },
+                "einstein_global_light_changes_1": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.5704247449794504,
+                  "rotation_mean_deg": 21.27198511928914,
+                  "n": 44
+                },
+                "einstein_global_light_changes_2": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.15097534838234583,
+                  "rotation_mean_deg": 8.00525415965488,
+                  "n": 72
+                },
+                "einstein_global_light_changes_3": {
+                  "family": "einstein",
+                  "translation_mean_m": 0.38666124180288325,
+                  "rotation_mean_deg": 18.685487463027716,
+                  "n": 633
+                },
+                "vicon_light_1": {
+                  "family": "vicon_light",
+                  "translation_mean_m": 0.7549562110559939,
+                  "rotation_mean_deg": 44.0357061049574,
+                  "n": 28
+                },
+                "vicon_light_2": {
+                  "family": "vicon_light",
+                  "translation_mean_m": 0.12291741727862097,
+                  "rotation_mean_deg": 23.827403719735244,
+                  "n": 4
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

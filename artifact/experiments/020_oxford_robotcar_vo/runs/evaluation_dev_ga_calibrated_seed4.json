@@ -1,0 +1,2977 @@
+{
+  "training": {
+    "training_seconds": 11.47458816692233,
+    "final_loss": 22.28462388665881
+  },
+  "lengths": {
+    "4": {
+      "paths": {
+        "left": {
+          "n_windows": 44184,
+          "n_trajectories": 14,
+          "translation_mean_m": 0.5351302024539808,
+          "translation_median_m": 0.4885425555145716,
+          "rotation_mean_deg": 0.7095727050897296,
+          "rotation_median_deg": 0.58664877785656,
+          "dispersion_mean": 0.0,
+          "dispersion_median": 0.0,
+          "clusters": {
+            "2014-11-21-16-07-03": {
+              "translation_mean_m": 0.6085537475304551,
+              "rotation_mean_deg": 0.7195730952518024,
+              "n": 2066
+            },
+            "2014-11-28-12-07-13": {
+              "translation_mean_m": 0.7563824065576784,
+              "rotation_mean_deg": 0.6976647072197374,
+              "n": 3257
+            },
+            "2014-12-02-15-30-08": {
+              "translation_mean_m": 0.5945197776067079,
+              "rotation_mean_deg": 0.717908382671734,
+              "n": 3039
+            },
+            "2015-02-10-11-58-05": {
+              "translation_mean_m": 0.4744873720303316,
+              "rotation_mean_deg": 0.6971944157430084,
+              "n": 4669
+            },
+            "2015-02-17-14-42-12": {
+              "translation_mean_m": 0.4726415153551936,
+              "rotation_mean_deg": 0.674384594477411,
+              "n": 4234
+            },
+            "2015-03-03-11-31-36": {
+              "translation_mean_m": 0.47472255267503904,
+              "rotation_mean_deg": 0.7094155720894189,
+              "n": 4188
+            },
+            "2015-03-17-11-08-44": {
+              "translation_mean_m": 0.4210639380186059,
+              "rotation_mean_deg": 0.725566153794483,
+              "n": 2789
+            },
+            "2015-05-19-14-06-38": {
+              "translation_mean_m": 0.42801634384256493,
+              "rotation_mean_deg": 0.6851246004530788,
+              "n": 2818
+            },
+            "2015-05-29-09-36-29": {
+              "translation_mean_m": 0.5211513809161545,
+              "rotation_mean_deg": 0.796718468973894,
+              "n": 3904
+            },
+            "2015-07-10-10-01-59": {
+              "translation_mean_m": 0.7903744610722082,
+              "rotation_mean_deg": 0.752302858661911,
+              "n": 3154
+            },
+            "2015-07-24-14-36-47": {
+              "translation_mean_m": 1.453181083488781,
+              "rotation_mean_deg": 0.8506892106944453,
+              "n": 344
+            },
+            "2015-08-14-14-54-57": {
+              "translation_mean_m": 0.4477295484800228,
+              "rotation_mean_deg": 0.7156671128996238,
+              "n": 3043
+            },
+            "2015-08-17-13-30-19": {
+              "translation_mean_m": 0.4987011550529222,
+              "rotation_mean_deg": 0.6412392884617268,
+              "n": 3005
+            },
+            "2015-11-12-11-22-05": {
+              "translation_mean_m": 0.4472259806253445,
+              "rotation_mean_deg": 0.6790293749442248,
+              "n": 3674
+            }
+          }
+        },
+        "right": {
+          "n_windows": 44184,
+          "n_trajectories": 14,
+          "translation_mean_m": 0.5351301998327616,
+          "translation_median_m": 0.48854270806644917,
+          "rotation_mean_deg": 0.7095727055992862,
+          "rotation_median_deg": 0.5866487861935261,
+          "dispersion_mean": 6.592265841053717e-08,
+          "dispersion_median": 6.298188390765351e-08,
+          "clusters": {
+            "2014-11-21-16-07-03": {
+              "translation_mean_m": 0.6085537452092004,
+              "rotation_mean_deg": 0.7195730976244092,
+              "n": 2066
+            },
+            "2014-11-28-12-07-13": {
+              "translation_mean_m": 0.7563824029959443,
+              "rotation_mean_deg": 0.6976647032496283,
+              "n": 3257
+            },
+            "2014-12-02-15-30-08": {
+              "translation_mean_m": 0.5945197674606703,
+              "rotation_mean_deg": 0.7179083748443523,
+              "n": 3039
+            },
+            "2015-02-10-11-58-05": {
+              "translation_mean_m": 0.4744873654166881,
+              "rotation_mean_deg": 0.6971944238145442,
+              "n": 4669
+            },
+            "2015-02-17-14-42-12": {
+              "translation_mean_m": 0.4726414961330573,
+              "rotation_mean_deg": 0.6743846047596092,
+              "n": 4234
+            },
+            "2015-03-03-11-31-36": {
+              "translation_mean_m": 0.4747225638137394,
+              "rotation_mean_deg": 0.709415577873984,
+              "n": 4188
+            },
+            "2015-03-17-11-08-44": {
+              "translation_mean_m": 0.4210639309397721,
+              "rotation_mean_deg": 0.7255661452787606,
+              "n": 2789
+            },
+            "2015-05-19-14-06-38": {
+              "translation_mean_m": 0.42801633806591727,
+              "rotation_mean_deg": 0.6851246149884724,
+              "n": 2818
+            },
+            "2015-05-29-09-36-29": {
+              "translation_mean_m": 0.5211513967476965,
+              "rotation_mean_deg": 0.7967184698357809,
+              "n": 3904
+            },
+            "2015-07-10-10-01-59": {
+              "translation_mean_m": 0.7903744490839469,
+              "rotation_mean_deg": 0.7523028517003552,
+              "n": 3154
+            },
+            "2015-07-24-14-36-47": {
+              "translation_mean_m": 1.4531810363705358,
+              "rotation_mean_deg": 0.8506892144313022,
+              "n": 344
+            },
+            "2015-08-14-14-54-57": {
+              "translation_mean_m": 0.4477295498522119,
+              "rotation_mean_deg": 0.7156671079573242,
+              "n": 3043
+            },
+            "2015-08-17-13-30-19": {
+              "translation_mean_m": 0.49870114359336926,
+              "rotation_mean_deg": 0.6412392860721802,
+              "n": 3005
+            },
+            "2015-11-12-11-22-05": {
+              "translation_mean_m": 0.44722599573858535,
+              "rotation_mean_deg": 0.6790293671053541,
+              "n": 3674
+            }
+          }
+        },
+        "balanced": {
+          "n_windows": 44184,
+          "n_trajectories": 14,
+          "translation_mean_m": 0.5351302067160484,
+          "translation_median_m": 0.4885423282083883,
+          "rotation_mean_deg": 0.7095727065699607,
+          "rotation_median_deg": 0.5866487736541104,
+          "dispersion_mean": 5.373690656946287e-08,
+          "dispersion_median": 5.792781861912848e-08,
+          "clusters": {
+            "2014-11-21-16-07-03": {
+              "translation_mean_m": 0.6085537491460109,
+              "rotation_mean_deg": 0.7195730976568264,
+              "n": 2066
+            },
+            "2014-11-28-12-07-13": {
+              "translation_mean_m": 0.756382402648255,
+              "rotation_mean_deg": 0.6976647002132421,
+              "n": 3257
+            },
+            "2014-12-02-15-30-08": {
+              "translation_mean_m": 0.594519764925821,
+              "rotation_mean_deg": 0.7179083838537692,
+              "n": 3039
+            },
+            "2015-02-10-11-58-05": {
+              "translation_mean_m": 0.47448736982703754,
+              "rotation_mean_deg": 0.6971944191260113,
+              "n": 4669
+            },
+            "2015-02-17-14-42-12": {
+              "translation_mean_m": 0.47264151619796324,
+              "rotation_mean_deg": 0.6743845980567332,
+              "n": 4234
+            },
+            "2015-03-03-11-31-36": {
+              "translation_mean_m": 0.474722557206089,
+              "rotation_mean_deg": 0.7094155732725058,
+              "n": 4188
+            },
+            "2015-03-17-11-08-44": {
+              "translation_mean_m": 0.42106394973760874,
+              "rotation_mean_deg": 0.7255661470049928,
+              "n": 2789
+            },
+            "2015-05-19-14-06-38": {
+              "translation_mean_m": 0.4280163552396606,
+              "rotation_mean_deg": 0.6851246045913487,
+              "n": 2818
+            },
+            "2015-05-29-09-36-29": {
+              "translation_mean_m": 0.5211513918824571,
+              "rotation_mean_deg": 0.79671846951922,
+              "n": 3904
+            },
+            "2015-07-10-10-01-59": {
+              "translation_mean_m": 0.790374463959704,
+              "rotation_mean_deg": 0.7523028626428839,
+              "n": 3154
+            },
+            "2015-07-24-14-36-47": {
+              "translation_mean_m": 1.4531810103021,
+              "rotation_mean_deg": 0.8506892011159299,
+              "n": 344
+            },
+            "2015-08-14-14-54-57": {
+              "translation_mean_m": 0.4477295542615725,
+              "rotation_mean_deg": 0.7156671107870333,
+              "n": 3043
+            },
+            "2015-08-17-13-30-19": {
+              "translation_mean_m": 0.498701157469567,
+              "rotation_mean_deg": 0.6412392926478435,
+              "n": 3005
+            },
+            "2015-11-12-11-22-05": {
+              "translation_mean_m": 0.4472260099096517,
+              "rotation_mean_deg": 0.6790293840597625,
+              "n": 3674
+            }
+          }
+        },
+        "random": {
+          "translation_mean_m": 0.5351302035423489,
+          "translation_median_m": 0.48854245483838055,
+          "rotation_mean_deg": 0.7095727062733775,
+          "rotation_median_deg": 0.5866487756000103,
+          "dispersion_mean": 4.788537165286245e-08,
+          "dispersion_median": 2.930952494765586e-08,
+          "n_windows": 44184,
+          "n_trajectories": 14,
+          "clusters": {
+            "2014-11-21-16-07-03": {
+              "translation_mean_m": 0.6085537446010608,
+              "rotation_mean_deg": 0.7195730970698985,
+              "n": 2066
+            },
+            "2014-11-28-12-07-13": {
+              "translation_mean_m": 0.7563824022623428,
+              "rotation_mean_deg": 0.6976647031786041,
+              "n": 3257
+            },
+            "2014-12-02-15-30-08": {
+              "translation_mean_m": 0.5945197687944331,
+              "rotation_mean_deg": 0.7179083802352553,
+              "n": 3039
+            },
+            "2015-02-10-11-58-05": {
+              "translation_mean_m": 0.47448737139505137,
+              "rotation_mean_deg": 0.6971944192599984,
+              "n": 4669
+            },
+            "2015-02-17-14-42-12": {
+              "translation_mean_m": 0.4726415099447187,
+              "rotation_mean_deg": 0.6743845993199513,
+              "n": 4234
+            },
+            "2015-03-03-11-31-36": {
+              "translation_mean_m": 0.4747225600243784,
+              "rotation_mean_deg": 0.7094155750750696,
+              "n": 4188
+            },
+            "2015-03-17-11-08-44": {
+              "translation_mean_m": 0.42106394143312453,
+              "rotation_mean_deg": 0.7255661511398888,
+              "n": 2789
+            },
+            "2015-05-19-14-06-38": {
+              "translation_mean_m": 0.42801634814007583,
+              "rotation_mean_deg": 0.6851246079258586,
+              "n": 2818
+            },
+            "2015-05-29-09-36-29": {
+              "translation_mean_m": 0.5211513904057196,
+              "rotation_mean_deg": 0.7967184711551474,
+              "n": 3904
+            },
+            "2015-07-10-10-01-59": {
+              "translation_mean_m": 0.7903744590356669,
+              "rotation_mean_deg": 0.7523028599991501,
+              "n": 3154
+            },
+            "2015-07-24-14-36-47": {
+              "translation_mean_m": 1.4531810266656988,
+              "rotation_mean_deg": 0.8506892092154927,
+              "n": 344
+            },
+            "2015-08-14-14-54-57": {
+              "translation_mean_m": 0.4477295486272328,
+              "rotation_mean_deg": 0.7156671115116149,
+              "n": 3043
+            },
+            "2015-08-17-13-30-19": {
+              "translation_mean_m": 0.4987011537184478,
+              "rotation_mean_deg": 0.6412392870256638,
+              "n": 3005
+            },
+            "2015-11-12-11-22-05": {
+              "translation_mean_m": 0.44722599718980427,
+              "rotation_mean_deg": 0.6790293755812535,
+              "n": 3674
+            }
+          }
+        }
+      },
+      "translation_deltas": {
+        "right": {
+          "trajectory_equal_weight_mean_m": -5.8450482152773626e-09,
+          "ci95_m": [
+            -1.429520808839719e-08,
+            1.6806552355165733e-09
+          ]
+        },
+        "balanced": {
+          "trajectory_equal_weight_mean_m": -7.527508259576519e-10,
+          "ci95_m": [
+            -1.4150524835518771e-08,
+            8.853282313905522e-09
+          ]
+        },
+        "random": {
+          "trajectory_equal_weight_mean_m": -2.9295895748975606e-09,
+          "ci95_m": [
+            -1.2667347335654222e-08,
+            3.848566034410559e-09
+          ]
+        }
+      },
+      "left_vs_raw": {
+        "trajectory_equal_weight_mean_m": -12.110878924392528,
+        "ci95_m": [
+          -12.883010972335894,
+          -11.337961393072874
+        ]
+      },
+      "moving_paths": {
+        "left": {
+          "n_windows": 29452,
+          "n_trajectories": 14,
+          "translation_mean_m": 0.5313883655545317,
+          "translation_median_m": 0.4096183963999684,
+          "rotation_mean_deg": 0.7289963388116079,
+          "rotation_median_deg": 0.5393408426319055,
+          "dispersion_mean": 0.0,
+          "dispersion_median": 0.0,
+          "clusters": {
+            "2014-11-21-16-07-03": {
+              "translation_mean_m": 0.6595959746152376,
+              "rotation_mean_deg": 0.8088136100809538,
+              "n": 993
+            },
+            "2014-11-28-12-07-13": {
+              "translation_mean_m": 0.7954832963416358,
+              "rotation_mean_deg": 0.7040958820470109,
+              "n": 2206
+            },
+            "2014-12-02-15-30-08": {
+              "translation_mean_m": 0.6299279642253757,
+              "rotation_mean_deg": 0.7604756269136227,
+              "n": 1874
+            },
+            "2015-02-10-11-58-05": {
+              "translation_mean_m": 0.43337590535020887,
+              "rotation_mean_deg": 0.7347662535230426,
+              "n": 2972
+            },
+            "2015-02-17-14-42-12": {
+              "translation_mean_m": 0.4392343070444905,
+              "rotation_mean_deg": 0.6760287899836094,
+              "n": 2763
+            },
+            "2015-03-03-11-31-36": {
+              "translation_mean_m": 0.4334519627838705,
+              "rotation_mean_deg": 0.7202737258073281,
+              "n": 2819
+            },
+            "2015-03-17-11-08-44": {
+              "translation_mean_m": 0.4005189877026415,
+              "rotation_mean_deg": 0.6976826439789948,
+              "n": 1996
+            },
+            "2015-05-19-14-06-38": {
+              "translation_mean_m": 0.4072127820752376,
+              "rotation_mean_deg": 0.6824823766451323,
+              "n": 2169
+            },
+            "2015-05-29-09-36-29": {
+              "translation_mean_m": 0.5209010031927126,
+              "rotation_mean_deg": 0.8991795564873377,
+              "n": 2330
+            },
+            "2015-07-10-10-01-59": {
+              "translation_mean_m": 0.9191021484355599,
+              "rotation_mean_deg": 0.7898257117543306,
+              "n": 2041
+            },
+            "2015-07-24-14-36-47": {
+              "translation_mean_m": 1.7878897237647493,
+              "rotation_mean_deg": 0.9495277008941665,
+              "n": 243
+            },
+            "2015-08-14-14-54-57": {
+              "translation_mean_m": 0.43533390630082097,
+              "rotation_mean_deg": 0.7368710142631892,
+              "n": 2320
+            },
+            "2015-08-17-13-30-19": {
+              "translation_mean_m": 0.4770801756611086,
+              "rotation_mean_deg": 0.6148698424321085,
+              "n": 2178
+            },
+            "2015-11-12-11-22-05": {
+              "translation_mean_m": 0.4242039970268289,
+              "rotation_mean_deg": 0.6857821633181843,
+              "n": 2548
+            }
+          }
+        },
+        "right": {
+          "n_windows": 29452,
+          "n_trajectories": 14,
+          "translation_mean_m": 0.5313883616319354,
+          "translation_median_m": 0.4096182810845339,
+          "rotation_mean_deg": 0.7289963388582251,
+          "rotation_median_deg": 0.5393408325139901,
+          "dispersion_mean": 6.979739877245368e-08,
+          "dispersion_median": 7.024900815161544e-08,
+          "clusters": {
+            "2014-11-21-16-07-03": {
+              "translation_mean_m": 0.6595959659883697,
+              "rotation_mean_deg": 0.8088136165717695,
+              "n": 993
+            },
+            "2014-11-28-12-07-13": {
+              "translation_mean_m": 0.7954832942657771,
+              "rotation_mean_deg": 0.7040958792392514,
+              "n": 2206
+            },
+            "2014-12-02-15-30-08": {
+              "translation_mean_m": 0.6299279482810172,
+              "rotation_mean_deg": 0.7604756175242425,
+              "n": 1874
+            },
+            "2015-02-10-11-58-05": {
+              "translation_mean_m": 0.4333758925700939,
+              "rotation_mean_deg": 0.7347662553026859,
+              "n": 2972
+            },
+            "2015-02-17-14-42-12": {
+              "translation_mean_m": 0.43923427776104396,
+              "rotation_mean_deg": 0.6760288040104276,
+              "n": 2763
+            },
+            "2015-03-03-11-31-36": {
+              "translation_mean_m": 0.43345198046646394,
+              "rotation_mean_deg": 0.7202737327650934,
+              "n": 2819
+            },
+            "2015-03-17-11-08-44": {
+              "translation_mean_m": 0.4005189760653913,
+              "rotation_mean_deg": 0.6976826277606043,
+              "n": 1996
+            },
+            "2015-05-19-14-06-38": {
+              "translation_mean_m": 0.40721277417045054,
+              "rotation_mean_deg": 0.6824823937685721,
+              "n": 2169
+            },
+            "2015-05-29-09-36-29": {
+              "translation_mean_m": 0.5209010324129776,
+              "rotation_mean_deg": 0.8991795634844412,
+              "n": 2330
+            },
+            "2015-07-10-10-01-59": {
+              "translation_mean_m": 0.9191021257851496,
+              "rotation_mean_deg": 0.7898257055308695,
+              "n": 2041
+            },
+            "2015-07-24-14-36-47": {
+              "translation_mean_m": 1.7878896580315085,
+              "rotation_mean_deg": 0.9495277134539466,
+              "n": 243
+            },
+            "2015-08-14-14-54-57": {
+              "translation_mean_m": 0.4353339083340066,
+              "rotation_mean_deg": 0.7368710092312574,
+              "n": 2320
+            },
+            "2015-08-17-13-30-19": {
+              "translation_mean_m": 0.47708016281582044,
+              "rotation_mean_deg": 0.614869835970695,
+              "n": 2178
+            },
+            "2015-11-12-11-22-05": {
+              "translation_mean_m": 0.4242040183359378,
+              "rotation_mean_deg": 0.685782151302126,
+              "n": 2548
+            }
+          }
+        },
+        "balanced": {
+          "n_windows": 29452,
+          "n_trajectories": 14,
+          "translation_mean_m": 0.5313883656128912,
+          "translation_median_m": 0.40961855344738124,
+          "rotation_mean_deg": 0.7289963355597812,
+          "rotation_median_deg": 0.539340786483751,
+          "dispersion_mean": 5.574838453385304e-08,
+          "dispersion_median": 6.077495235213176e-08,
+          "clusters": {
+            "2014-11-21-16-07-03": {
+              "translation_mean_m": 0.6595959577808908,
+              "rotation_mean_deg": 0.8088136222555113,
+              "n": 993
+            },
+            "2014-11-28-12-07-13": {
+              "translation_mean_m": 0.7954832858705957,
+              "rotation_mean_deg": 0.7040958703780854,
+              "n": 2206
+            },
+            "2014-12-02-15-30-08": {
+              "translation_mean_m": 0.6299279361977393,
+              "rotation_mean_deg": 0.7604756261078345,
+              "n": 1874
+            },
+            "2015-02-10-11-58-05": {
+              "translation_mean_m": 0.4333758934565546,
+              "rotation_mean_deg": 0.7347662457411638,
+              "n": 2972
+            },
+            "2015-02-17-14-42-12": {
+              "translation_mean_m": 0.4392343004559458,
+              "rotation_mean_deg": 0.6760287859094617,
+              "n": 2763
+            },
+            "2015-03-03-11-31-36": {
+              "translation_mean_m": 0.4334519647060337,
+              "rotation_mean_deg": 0.7202737266060457,
+              "n": 2819
+            },
+            "2015-03-17-11-08-44": {
+              "translation_mean_m": 0.4005190005462971,
+              "rotation_mean_deg": 0.6976826274183773,
+              "n": 1996
+            },
+            "2015-05-19-14-06-38": {
+              "translation_mean_m": 0.4072127920850005,
+              "rotation_mean_deg": 0.6824823745273201,
+              "n": 2169
+            },
+            "2015-05-29-09-36-29": {
+              "translation_mean_m": 0.5209010121224348,
+              "rotation_mean_deg": 0.8991795509141622,
+              "n": 2330
+            },
+            "2015-07-10-10-01-59": {
+              "translation_mean_m": 0.9191021454107751,
+              "rotation_mean_deg": 0.7898257099288057,
+              "n": 2041
+            },
+            "2015-07-24-14-36-47": {
+              "translation_mean_m": 1.7878896185432986,
+              "rotation_mean_deg": 0.9495276901342354,
+              "n": 243
+            },
+            "2015-08-14-14-54-57": {
+              "translation_mean_m": 0.4353339112403376,
+              "rotation_mean_deg": 0.736871017856217,
+              "n": 2320
+            },
+            "2015-08-17-13-30-19": {
+              "translation_mean_m": 0.47708017822485393,
+              "rotation_mean_deg": 0.6148698416762586,
+              "n": 2178
+            },
+            "2015-11-12-11-22-05": {
+              "translation_mean_m": 0.42420403185306327,
+              "rotation_mean_deg": 0.6857821640276012,
+              "n": 2548
+            }
+          }
+        },
+        "random": {
+          "translation_mean_m": 0.5313883648625694,
+          "translation_median_m": 0.4096185137951728,
+          "rotation_mean_deg": 0.728996338325457,
+          "rotation_median_deg": 0.5393408001217426,
+          "dispersion_mean": 5.058000395892261e-08,
+          "dispersion_median": 2.3439925763045114e-08,
+          "n_windows": 29452,
+          "n_trajectories": 14,
+          "clusters": {
+            "2014-11-21-16-07-03": {
+              "translation_mean_m": 0.6595959597553542,
+              "rotation_mean_deg": 0.808813617221789,
+              "n": 993
+            },
+            "2014-11-28-12-07-13": {
+              "translation_mean_m": 0.7954832896917025,
+              "rotation_mean_deg": 0.704095876993011,
+              "n": 2206
+            },
+            "2014-12-02-15-30-08": {
+              "translation_mean_m": 0.6299279459446493,
+              "rotation_mean_deg": 0.7604756223476078,
+              "n": 1874
+            },
+            "2015-02-10-11-58-05": {
+              "translation_mean_m": 0.4333759005350181,
+              "rotation_mean_deg": 0.7347662500008434,
+              "n": 2972
+            },
+            "2015-02-17-14-42-12": {
+              "translation_mean_m": 0.4392342964704432,
+              "rotation_mean_deg": 0.6760287938169838,
+              "n": 2763
+            },
+            "2015-03-03-11-31-36": {
+              "translation_mean_m": 0.4334519720428224,
+              "rotation_mean_deg": 0.7202737296918096,
+              "n": 2819
+            },
+            "2015-03-17-11-08-44": {
+              "translation_mean_m": 0.40051899040467,
+              "rotation_mean_deg": 0.697682634537226,
+              "n": 1996
+            },
+            "2015-05-19-14-06-38": {
+              "translation_mean_m": 0.4072127859008279,
+              "rotation_mean_deg": 0.682482382553551,
+              "n": 2169
+            },
+            "2015-05-29-09-36-29": {
+              "translation_mean_m": 0.5209010171922555,
+              "rotation_mean_deg": 0.8991795588566356,
+              "n": 2330
+            },
+            "2015-07-10-10-01-59": {
+              "translation_mean_m": 0.9191021416658712,
+              "rotation_mean_deg": 0.7898257126229575,
+              "n": 2041
+            },
+            "2015-07-24-14-36-47": {
+              "translation_mean_m": 1.7878896434343847,
+              "rotation_mean_deg": 0.9495277035310552,
+              "n": 243
+            },
+            "2015-08-14-14-54-57": {
+              "translation_mean_m": 0.4353339049308942,
+              "rotation_mean_deg": 0.7368710163982125,
+              "n": 2320
+            },
+            "2015-08-17-13-30-19": {
+              "translation_mean_m": 0.4770801747218277,
+              "rotation_mean_deg": 0.6148698377962707,
+              "n": 2178
+            },
+            "2015-11-12-11-22-05": {
+              "translation_mean_m": 0.4242040178200725,
+              "rotation_mean_deg": 0.6857821595751666,
+              "n": 2548
+            }
+          }
+        }
+      },
+      "moving_translation_deltas": {
+        "right": {
+          "trajectory_equal_weight_mean_m": -8.516890736316135e-09,
+          "ci95_m": [
+            -2.0856122527711837e-08,
+            2.763564227062752e-09
+          ]
+        },
+        "balanced": {
+          "trajectory_equal_weight_mean_m": -7.573332687162347e-09,
+          "ci95_m": [
+            -2.6402191979813764e-08,
+            6.0200304439840685e-09
+          ]
+        },
+        "random": {
+          "trajectory_equal_weight_mean_m": -6.7149775026135015e-09,
+          "ci95_m": [
+            -2.0663925925526857e-08,
+            3.2484974757781715e-09
+          ]
+        }
+      },
+      "moving_left_vs_raw": {
+        "trajectory_equal_weight_mean_m": -17.67712442964422,
+        "ci95_m": [
+          -18.34799573070142,
+          -17.173905349113447
+        ]
+      },
+      "exact_audit": {
+        "maxima": {
+          "right": {
+            "translation_m": 1.4245506936157285e-14,
+            "rotation_rad": 7.786725208595148e-16
+          },
+          "balanced": {
+            "translation_m": 1.427489518630181e-14,
+            "rotation_rad": 5.551115123125782e-16
+          },
+          "random": {
+            "translation_m": 1.7791302319389972e-14,
+            "rotation_rad": 7.786725208595148e-16
+          }
+        },
+        "tolerance": 1e-09,
+        "worst_si": 1.7791302319389972e-14,
+        "passes": true
+      }
+    },
+    "8": {
+      "paths": {
+        "left": {
+          "n_windows": 43032,
+          "n_trajectories": 14,
+          "translation_mean_m": 1.0081951820261514,
+          "translation_median_m": 0.9047551414854094,
+          "rotation_mean_deg": 1.2235796339051206,
+          "rotation_median_deg": 1.1060026055168808,
+          "dispersion_mean": 0.0,
+          "dispersion_median": 0.0,
+          "clusters": {
+            "2014-11-21-16-07-03": {
+              "translation_mean_m": 1.172010946557577,
+              "rotation_mean_deg": 1.303812393342124,
+              "n": 2022
+            },
+            "2014-11-28-12-07-13": {
+              "translation_mean_m": 1.3835460681110383,
+              "rotation_mean_deg": 1.2044447504272564,
+              "n": 3105
+            },
+            "2014-12-02-15-30-08": {
+              "translation_mean_m": 1.0761914932283547,
+              "rotation_mean_deg": 1.276961854824902,
+              "n": 2939
+            },
+            "2015-02-10-11-58-05": {
+              "translation_mean_m": 0.898082786278563,
+              "rotation_mean_deg": 1.2178173273229347,
+              "n": 4665
+            },
+            "2015-02-17-14-42-12": {
+              "translation_mean_m": 0.8932701829963174,
+              "rotation_mean_deg": 1.1581388189195239,
+              "n": 4230
+            },
+            "2015-03-03-11-31-36": {
+              "translation_mean_m": 0.889929700532477,
+              "rotation_mean_deg": 1.2309172316755774,
+              "n": 4184
+            },
+            "2015-03-17-11-08-44": {
+              "translation_mean_m": 0.7623569570640151,
+              "rotation_mean_deg": 1.2302492752708982,
+              "n": 2681
+            },
+            "2015-05-19-14-06-38": {
+              "translation_mean_m": 0.7912631591961924,
+              "rotation_mean_deg": 1.1337893528555476,
+              "n": 2670
+            },
+            "2015-05-29-09-36-29": {
+              "translation_mean_m": 1.031945842727548,
+              "rotation_mean_deg": 1.4187789107826676,
+              "n": 3780
+            },
+            "2015-07-10-10-01-59": {
+              "translation_mean_m": 1.5458186485793097,
+              "rotation_mean_deg": 1.3101083136607719,
+              "n": 2998
+            },
+            "2015-07-24-14-36-47": {
+              "translation_mean_m": 2.607058985239157,
+              "rotation_mean_deg": 1.3616983861350174,
+              "n": 328
+            },
+            "2015-08-14-14-54-57": {
+              "translation_mean_m": 0.843621409880891,
+              "rotation_mean_deg": 1.1703187122451144,
+              "n": 2891
+            },
+            "2015-08-17-13-30-19": {
+              "translation_mean_m": 0.9672741755513625,
+              "rotation_mean_deg": 1.0915363070793642,
+              "n": 3001
+            },
+            "2015-11-12-11-22-05": {
+              "translation_mean_m": 0.8411449364013887,
+              "rotation_mean_deg": 1.1508880046923464,
+              "n": 3538
+            }
+          }
+        },
+        "right": {
+          "n_windows": 43032,
+          "n_trajectories": 14,
+          "translation_mean_m": 1.008195194508192,
+          "translation_median_m": 0.9047551340710558,
+          "rotation_mean_deg": 1.2235796399090435,
+          "rotation_median_deg": 1.1060022504186007,
+          "dispersion_mean": 1.0358423490581618e-07,
+          "dispersion_median": 9.24281125620253e-08,
+          "clusters": {
+            "2014-11-21-16-07-03": {
+              "translation_mean_m": 1.172010950221621,
+              "rotation_mean_deg": 1.3038124100108226,
+              "n": 2022
+            },
+            "2014-11-28-12-07-13": {
+              "translation_mean_m": 1.3835460958901986,
+              "rotation_mean_deg": 1.2044447801164686,
+              "n": 3105
+            },
+            "2014-12-02-15-30-08": {
+              "translation_mean_m": 1.0761915198662395,
+              "rotation_mean_deg": 1.2769618810618224,
+              "n": 2939
+            },
+            "2015-02-10-11-58-05": {
+              "translation_mean_m": 0.898082779643226,
+              "rotation_mean_deg": 1.217817337619492,
+              "n": 4665
+            },
+            "2015-02-17-14-42-12": {
+              "translation_mean_m": 0.8932701819455534,
+              "rotation_mean_deg": 1.1581387867343016,
+              "n": 4230
+            },
+            "2015-03-03-11-31-36": {
+              "translation_mean_m": 0.8899297232632548,
+              "rotation_mean_deg": 1.2309172533743282,
+              "n": 4184
+            },
+            "2015-03-17-11-08-44": {
+              "translation_mean_m": 0.762356978156295,
+              "rotation_mean_deg": 1.2302492302643042,
+              "n": 2681
+            },
+            "2015-05-19-14-06-38": {
+              "translation_mean_m": 0.7912631272469886,
+              "rotation_mean_deg": 1.133789378954476,
+              "n": 2670
+            },
+            "2015-05-29-09-36-29": {
+              "translation_mean_m": 1.0319458718729395,
+              "rotation_mean_deg": 1.4187789174906875,
+              "n": 3780
+            },
+            "2015-07-10-10-01-59": {
+              "translation_mean_m": 1.5458186377709542,
+              "rotation_mean_deg": 1.3101083029605973,
+              "n": 2998
+            },
+            "2015-07-24-14-36-47": {
+              "translation_mean_m": 2.6070591472806104,
+              "rotation_mean_deg": 1.3616983413818815,
+              "n": 328
+            },
+            "2015-08-14-14-54-57": {
+              "translation_mean_m": 0.8436214483428011,
+              "rotation_mean_deg": 1.1703187130888828,
+              "n": 2891
+            },
+            "2015-08-17-13-30-19": {
+              "translation_mean_m": 0.9672741081213598,
+              "rotation_mean_deg": 1.091536309555659,
+              "n": 3001
+            },
+            "2015-11-12-11-22-05": {
+              "translation_mean_m": 0.8411450196328022,
+              "rotation_mean_deg": 1.1508880372512895,
+              "n": 3538
+            }
+          }
+        },
+        "balanced": {
+          "n_windows": 43032,
+          "n_trajectories": 14,
+          "translation_mean_m": 1.0081952153989475,
+          "translation_median_m": 0.9047555747185577,
+          "rotation_mean_deg": 1.223579633820889,
+          "rotation_median_deg": 1.1060023762346363,
+          "dispersion_mean": 8.913099692322942e-08,
+          "dispersion_median": 7.954674441976726e-08,
+          "clusters": {
+            "2014-11-21-16-07-03": {
+              "translation_mean_m": 1.17201099451744,
+              "rotation_mean_deg": 1.303812419186622,
+              "n": 2022
+            },
+            "2014-11-28-12-07-13": {
+              "translation_mean_m": 1.383546083359905,
+              "rotation_mean_deg": 1.2044447484932292,
+              "n": 3105
+            },
+            "2014-12-02-15-30-08": {
+              "translation_mean_m": 1.0761914779863238,
+              "rotation_mean_deg": 1.2769618783918997,
+              "n": 2939
+            },
+            "2015-02-10-11-58-05": {
+              "translation_mean_m": 0.8980827857579348,
+              "rotation_mean_deg": 1.2178173232723637,
+              "n": 4665
+            },
+            "2015-02-17-14-42-12": {
+              "translation_mean_m": 0.8932701776743422,
+              "rotation_mean_deg": 1.158138801138794,
+              "n": 4230
+            },
+            "2015-03-03-11-31-36": {
+              "translation_mean_m": 0.8899297197802634,
+              "rotation_mean_deg": 1.230917243776471,
+              "n": 4184
+            },
+            "2015-03-17-11-08-44": {
+              "translation_mean_m": 0.7623570353445372,
+              "rotation_mean_deg": 1.2302492678637331,
+              "n": 2681
+            },
+            "2015-05-19-14-06-38": {
+              "translation_mean_m": 0.7912632192169734,
+              "rotation_mean_deg": 1.1337893621791317,
+              "n": 2670
+            },
+            "2015-05-29-09-36-29": {
+              "translation_mean_m": 1.0319459141197904,
+              "rotation_mean_deg": 1.418778901776645,
+              "n": 3780
+            },
+            "2015-07-10-10-01-59": {
+              "translation_mean_m": 1.545818655376818,
+              "rotation_mean_deg": 1.310108303843451,
+              "n": 2998
+            },
+            "2015-07-24-14-36-47": {
+              "translation_mean_m": 2.6070590429207345,
+              "rotation_mean_deg": 1.3616983401245037,
+              "n": 328
+            },
+            "2015-08-14-14-54-57": {
+              "translation_mean_m": 0.8436215081468184,
+              "rotation_mean_deg": 1.170318701316093,
+              "n": 2891
+            },
+            "2015-08-17-13-30-19": {
+              "translation_mean_m": 0.9672741725384484,
+              "rotation_mean_deg": 1.0915363195483445,
+              "n": 3001
+            },
+            "2015-11-12-11-22-05": {
+              "translation_mean_m": 0.8411450287270236,
+              "rotation_mean_deg": 1.1508880024439998,
+              "n": 3538
+            }
+          }
+        },
+        "random": {
+          "translation_mean_m": 1.0081951988305997,
+          "translation_median_m": 0.9047549055991986,
+          "rotation_mean_deg": 1.2235796302499042,
+          "rotation_median_deg": 1.1060022739754083,
+          "dispersion_mean": 9.10319530376437e-08,
+          "dispersion_median": 8.156758461654039e-08,
+          "n_windows": 43032,
+          "n_trajectories": 14,
+          "clusters": {
+            "2014-11-21-16-07-03": {
+              "translation_mean_m": 1.172010966712836,
+              "rotation_mean_deg": 1.3038123973685687,
+              "n": 2022
+            },
+            "2014-11-28-12-07-13": {
+              "translation_mean_m": 1.3835460754300026,
+              "rotation_mean_deg": 1.204444748727811,
+              "n": 3105
+            },
+            "2014-12-02-15-30-08": {
+              "translation_mean_m": 1.0761914762337548,
+              "rotation_mean_deg": 1.276961858715646,
+              "n": 2939
+            },
+            "2015-02-10-11-58-05": {
+              "translation_mean_m": 0.8980827718002381,
+              "rotation_mean_deg": 1.217817318576128,
+              "n": 4665
+            },
+            "2015-02-17-14-42-12": {
+              "translation_mean_m": 0.8932701678467456,
+              "rotation_mean_deg": 1.1581388063543003,
+              "n": 4230
+            },
+            "2015-03-03-11-31-36": {
+              "translation_mean_m": 0.8899297107868329,
+              "rotation_mean_deg": 1.2309172494564349,
+              "n": 4184
+            },
+            "2015-03-17-11-08-44": {
+              "translation_mean_m": 0.7623570077744657,
+              "rotation_mean_deg": 1.2302492630431507,
+              "n": 2681
+            },
+            "2015-05-19-14-06-38": {
+              "translation_mean_m": 0.7912631726874737,
+              "rotation_mean_deg": 1.1337893663073952,
+              "n": 2670
+            },
+            "2015-05-29-09-36-29": {
+              "translation_mean_m": 1.0319458902611882,
+              "rotation_mean_deg": 1.4187789042166945,
+              "n": 3780
+            },
+            "2015-07-10-10-01-59": {
+              "translation_mean_m": 1.5458186497886761,
+              "rotation_mean_deg": 1.310108287732986,
+              "n": 2998
+            },
+            "2015-07-24-14-36-47": {
+              "translation_mean_m": 2.6070591196397226,
+              "rotation_mean_deg": 1.3616983546506938,
+              "n": 328
+            },
+            "2015-08-14-14-54-57": {
+              "translation_mean_m": 0.8436214786912986,
+              "rotation_mean_deg": 1.1703186995079107,
+              "n": 2891
+            },
+            "2015-08-17-13-30-19": {
+              "translation_mean_m": 0.9672741579630438,
+              "rotation_mean_deg": 1.0915363120579609,
+              "n": 3001
+            },
+            "2015-11-12-11-22-05": {
+              "translation_mean_m": 0.8411450078557877,
+              "rotation_mean_deg": 1.1508879989250111,
+              "n": 3538
+            }
+          }
+        }
+      },
+      "translation_deltas": {
+        "right": {
+          "trajectory_equal_weight_mean_m": 2.1207903742683143e-08,
+          "ci95_m": [
+            -4.008370651469623e-09,
+            4.9790583265501314e-08
+          ]
+        },
+        "balanced": {
+          "trajectory_equal_weight_mean_m": 3.736594009603625e-08,
+          "ci95_m": [
+            1.793513463616796e-08,
+            5.681688799600133e-08
+          ]
+        },
+        "random": {
+          "trajectory_equal_weight_mean_m": 2.5794848201865506e-08,
+          "ci95_m": [
+            5.444790115200731e-09,
+            4.907844639995273e-08
+          ]
+        }
+      },
+      "left_vs_raw": {
+        "trajectory_equal_weight_mean_m": -24.35544557151082,
+        "ci95_m": [
+          -25.999923674842105,
+          -22.716260489379977
+        ]
+      },
+      "moving_paths": {
+        "left": {
+          "n_windows": 31855,
+          "n_trajectories": 14,
+          "translation_mean_m": 0.9829473439337176,
+          "translation_median_m": 0.7602943341622871,
+          "rotation_mean_deg": 1.2320300661630763,
+          "rotation_median_deg": 0.9536536453691488,
+          "dispersion_mean": 0.0,
+          "dispersion_median": 0.0,
+          "clusters": {
+            "2014-11-21-16-07-03": {
+              "translation_mean_m": 1.2238057820175885,
+              "rotation_mean_deg": 1.4032402542179423,
+              "n": 1152
+            },
+            "2014-11-28-12-07-13": {
+              "translation_mean_m": 1.4572387903576218,
+              "rotation_mean_deg": 1.2083294036641583,
+              "n": 2366
+            },
+            "2014-12-02-15-30-08": {
+              "translation_mean_m": 1.0872890781878295,
+              "rotation_mean_deg": 1.309679690519004,
+              "n": 2028
+            },
+            "2015-02-10-11-58-05": {
+              "translation_mean_m": 0.8092569714106831,
+              "rotation_mean_deg": 1.2396509828209958,
+              "n": 3246
+            },
+            "2015-02-17-14-42-12": {
+              "translation_mean_m": 0.8157027345491029,
+              "rotation_mean_deg": 1.136589882945016,
+              "n": 3022
+            },
+            "2015-03-03-11-31-36": {
+              "translation_mean_m": 0.8072869499465559,
+              "rotation_mean_deg": 1.239682570378036,
+              "n": 3087
+            },
+            "2015-03-17-11-08-44": {
+              "translation_mean_m": 0.7077594886082829,
+              "rotation_mean_deg": 1.1749370064872577,
+              "n": 2181
+            },
+            "2015-05-19-14-06-38": {
+              "translation_mean_m": 0.744896732622242,
+              "rotation_mean_deg": 1.127104982569839,
+              "n": 2228
+            },
+            "2015-05-29-09-36-29": {
+              "translation_mean_m": 1.0203313558712916,
+              "rotation_mean_deg": 1.545387097777416,
+              "n": 2559
+            },
+            "2015-07-10-10-01-59": {
+              "translation_mean_m": 1.7151625164449003,
+              "rotation_mean_deg": 1.3355079447299452,
+              "n": 2180
+            },
+            "2015-07-24-14-36-47": {
+              "translation_mean_m": 3.0546265002463415,
+              "rotation_mean_deg": 1.4345341133430087,
+              "n": 250
+            },
+            "2015-08-14-14-54-57": {
+              "translation_mean_m": 0.8101791349025141,
+              "rotation_mean_deg": 1.1742475040365763,
+              "n": 2428
+            },
+            "2015-08-17-13-30-19": {
+              "translation_mean_m": 0.9381740229598798,
+              "rotation_mean_deg": 1.0543696322023715,
+              "n": 2382
+            },
+            "2015-11-12-11-22-05": {
+              "translation_mean_m": 0.7816022819828529,
+              "rotation_mean_deg": 1.1537764184229395,
+              "n": 2746
+            }
+          }
+        },
+        "right": {
+          "n_windows": 31855,
+          "n_trajectories": 14,
+          "translation_mean_m": 0.9829473578049934,
+          "translation_median_m": 0.7602930618969217,
+          "rotation_mean_deg": 1.232030077323977,
+          "rotation_median_deg": 0.9536535691524989,
+          "dispersion_mean": 1.0515419963088463e-07,
+          "dispersion_median": 9.379777841938254e-08,
+          "clusters": {
+            "2014-11-21-16-07-03": {
+              "translation_mean_m": 1.223805780828562,
+              "rotation_mean_deg": 1.4032402801178465,
+              "n": 1152
+            },
+            "2014-11-28-12-07-13": {
+              "translation_mean_m": 1.4572388250287545,
+              "rotation_mean_deg": 1.2083294345128934,
+              "n": 2366
+            },
+            "2014-12-02-15-30-08": {
+              "translation_mean_m": 1.087289115083085,
+              "rotation_mean_deg": 1.309679729746798,
+              "n": 2028
+            },
+            "2015-02-10-11-58-05": {
+              "translation_mean_m": 0.8092569555885462,
+              "rotation_mean_deg": 1.239650995615515,
+              "n": 3246
+            },
+            "2015-02-17-14-42-12": {
+              "translation_mean_m": 0.8157027307589864,
+              "rotation_mean_deg": 1.1365898490897424,
+              "n": 3022
+            },
+            "2015-03-03-11-31-36": {
+              "translation_mean_m": 0.8072869788765863,
+              "rotation_mean_deg": 1.2396826057336452,
+              "n": 3087
+            },
+            "2015-03-17-11-08-44": {
+              "translation_mean_m": 0.7077595115365211,
+              "rotation_mean_deg": 1.1749369637211236,
+              "n": 2181
+            },
+            "2015-05-19-14-06-38": {
+              "translation_mean_m": 0.7448966932556129,
+              "rotation_mean_deg": 1.127105023668263,
+              "n": 2228
+            },
+            "2015-05-29-09-36-29": {
+              "translation_mean_m": 1.0203313920891048,
+              "rotation_mean_deg": 1.5453871087030948,
+              "n": 2559
+            },
+            "2015-07-10-10-01-59": {
+              "translation_mean_m": 1.715162500022086,
+              "rotation_mean_deg": 1.3355079343611787,
+              "n": 2180
+            },
+            "2015-07-24-14-36-47": {
+              "translation_mean_m": 3.054626712147549,
+              "rotation_mean_deg": 1.4345340541970721,
+              "n": 250
+            },
+            "2015-08-14-14-54-57": {
+              "translation_mean_m": 0.8101791789732712,
+              "rotation_mean_deg": 1.1742475081297263,
+              "n": 2428
+            },
+            "2015-08-17-13-30-19": {
+              "translation_mean_m": 0.9381739359996283,
+              "rotation_mean_deg": 1.0543696415339916,
+              "n": 2382
+            },
+            "2015-11-12-11-22-05": {
+              "translation_mean_m": 0.7816023868160982,
+              "rotation_mean_deg": 1.153776456208712,
+              "n": 2746
+            }
+          }
+        },
+        "balanced": {
+          "n_windows": 31855,
+          "n_trajectories": 14,
+          "translation_mean_m": 0.9829473759629332,
+          "translation_median_m": 0.7602962464564254,
+          "rotation_mean_deg": 1.2320300619987234,
+          "rotation_median_deg": 0.9536536639400863,
+          "dispersion_mean": 9.014814137047785e-08,
+          "dispersion_median": 8.3298272894886e-08,
+          "clusters": {
+            "2014-11-21-16-07-03": {
+              "translation_mean_m": 1.2238058350878378,
+              "rotation_mean_deg": 1.403240293385845,
+              "n": 1152
+            },
+            "2014-11-28-12-07-13": {
+              "translation_mean_m": 1.4572387999722949,
+              "rotation_mean_deg": 1.2083293896811726,
+              "n": 2366
+            },
+            "2014-12-02-15-30-08": {
+              "translation_mean_m": 1.0872890336570844,
+              "rotation_mean_deg": 1.3096797186857734,
+              "n": 2028
+            },
+            "2015-02-10-11-58-05": {
+              "translation_mean_m": 0.8092569537940327,
+              "rotation_mean_deg": 1.2396509683764658,
+              "n": 3246
+            },
+            "2015-02-17-14-42-12": {
+              "translation_mean_m": 0.8157027131139328,
+              "rotation_mean_deg": 1.1365898567708703,
+              "n": 3022
+            },
+            "2015-03-03-11-31-36": {
+              "translation_mean_m": 0.8072869639352267,
+              "rotation_mean_deg": 1.2396825871125905,
+              "n": 3087
+            },
+            "2015-03-17-11-08-44": {
+              "translation_mean_m": 0.7077595800601191,
+              "rotation_mean_deg": 1.174937000077934,
+              "n": 2181
+            },
+            "2015-05-19-14-06-38": {
+              "translation_mean_m": 0.7448967949480463,
+              "rotation_mean_deg": 1.1271049837198903,
+              "n": 2228
+            },
+            "2015-05-29-09-36-29": {
+              "translation_mean_m": 1.0203314411794364,
+              "rotation_mean_deg": 1.5453870811025936,
+              "n": 2559
+            },
+            "2015-07-10-10-01-59": {
+              "translation_mean_m": 1.7151625174493759,
+              "rotation_mean_deg": 1.3355079295869172,
+              "n": 2180
+            },
+            "2015-07-24-14-36-47": {
+              "translation_mean_m": 3.0546265756455413,
+              "rotation_mean_deg": 1.4345340547661527,
+              "n": 250
+            },
+            "2015-08-14-14-54-57": {
+              "translation_mean_m": 0.8101792458485679,
+              "rotation_mean_deg": 1.1742474925818627,
+              "n": 2428
+            },
+            "2015-08-17-13-30-19": {
+              "translation_mean_m": 0.9381740102437055,
+              "rotation_mean_deg": 1.0543696465265882,
+              "n": 2382
+            },
+            "2015-11-12-11-22-05": {
+              "translation_mean_m": 0.7816023871332317,
+              "rotation_mean_deg": 1.1537764067497291,
+              "n": 2746
+            }
+          }
+        },
+        "random": {
+          "translation_mean_m": 0.9829473661905848,
+          "translation_median_m": 0.7602963755428679,
+          "rotation_mean_deg": 1.232030066181487,
+          "rotation_median_deg": 0.9536536131636586,
+          "dispersion_mean": 9.138109707472458e-08,
+          "dispersion_median": 8.42525547272906e-08,
+          "n_windows": 31855,
+          "n_trajectories": 14,
+          "clusters": {
+            "2014-11-21-16-07-03": {
+              "translation_mean_m": 1.2238058153120974,
+              "rotation_mean_deg": 1.403240271088552,
+              "n": 1152
+            },
+            "2014-11-28-12-07-13": {
+              "translation_mean_m": 1.4572387992620723,
+              "rotation_mean_deg": 1.20832940284802,
+              "n": 2366
+            },
+            "2014-12-02-15-30-08": {
+              "translation_mean_m": 1.0872890516320541,
+              "rotation_mean_deg": 1.3096797009480434,
+              "n": 2028
+            },
+            "2015-02-10-11-58-05": {
+              "translation_mean_m": 0.8092569489858286,
+              "rotation_mean_deg": 1.2396509739568005,
+              "n": 3246
+            },
+            "2015-02-17-14-42-12": {
+              "translation_mean_m": 0.8157027163992685,
+              "rotation_mean_deg": 1.1365898746793384,
+              "n": 3022
+            },
+            "2015-03-03-11-31-36": {
+              "translation_mean_m": 0.8072869642245186,
+              "rotation_mean_deg": 1.2396826000664116,
+              "n": 3087
+            },
+            "2015-03-17-11-08-44": {
+              "translation_mean_m": 0.7077595494218103,
+              "rotation_mean_deg": 1.1749369984739966,
+              "n": 2181
+            },
+            "2015-05-19-14-06-38": {
+              "translation_mean_m": 0.7448967481730361,
+              "rotation_mean_deg": 1.1271050005228884,
+              "n": 2228
+            },
+            "2015-05-29-09-36-29": {
+              "translation_mean_m": 1.0203314227385176,
+              "rotation_mean_deg": 1.545387092453297,
+              "n": 2559
+            },
+            "2015-07-10-10-01-59": {
+              "translation_mean_m": 1.7151625202465886,
+              "rotation_mean_deg": 1.3355079194034047,
+              "n": 2180
+            },
+            "2015-07-24-14-36-47": {
+              "translation_mean_m": 3.054626682232353,
+              "rotation_mean_deg": 1.4345340800854531,
+              "n": 250
+            },
+            "2015-08-14-14-54-57": {
+              "translation_mean_m": 0.8101792162929924,
+              "rotation_mean_deg": 1.1742474933425437,
+              "n": 2428
+            },
+            "2015-08-17-13-30-19": {
+              "translation_mean_m": 0.9381740007493672,
+              "rotation_mean_deg": 1.054369643567438,
+              "n": 2382
+            },
+            "2015-11-12-11-22-05": {
+              "translation_mean_m": 0.7816023730603074,
+              "rotation_mean_deg": 1.1537764102503907,
+              "n": 2746
+            }
+          }
+        }
+      },
+      "moving_translation_deltas": {
+        "right": {
+          "trajectory_equal_weight_mean_m": 2.5492621799231126e-08,
+          "ci95_m": [
+            -6.730097810991874e-09,
+            6.340435852062294e-08
+          ]
+        },
+        "balanced": {
+          "trajectory_equal_weight_mean_m": 3.6568624755301775e-08,
+          "ci95_m": [
+            9.938727739411402e-09,
+            6.326239718567366e-08
+          ]
+        },
+        "random": {
+          "trajectory_equal_weight_mean_m": 3.3473080386846125e-08,
+          "ci95_m": [
+            6.458107336206252e-09,
+            6.503500071134265e-08
+          ]
+        }
+      },
+      "moving_left_vs_raw": {
+        "trajectory_equal_weight_mean_m": -32.76174121998346,
+        "ci95_m": [
+          -34.181481139637825,
+          -31.778675653497835
+        ]
+      },
+      "exact_audit": {
+        "maxima": {
+          "right": {
+            "translation_m": 3.9898888540108504e-14,
+            "rotation_rad": 1.1141193154943385e-15
+          },
+          "balanced": {
+            "translation_m": 4.26718664283202e-14,
+            "rotation_rad": 1.0024720669331687e-15
+          },
+          "random": {
+            "translation_m": 4.269958743585309e-14,
+            "rotation_rad": 1.2236479212844912e-15
+          }
+        },
+        "tolerance": 1e-09,
+        "worst_si": 4.269958743585309e-14,
+        "passes": true
+      }
+    },
+    "16": {
+      "paths": {
+        "left": {
+          "n_windows": 40728,
+          "n_trajectories": 14,
+          "translation_mean_m": 1.938684093951663,
+          "translation_median_m": 1.70421537967527,
+          "rotation_mean_deg": 2.1104690976334752,
+          "rotation_median_deg": 1.9634764787730399,
+          "dispersion_mean": 0.0,
+          "dispersion_median": 0.0,
+          "clusters": {
+            "2014-11-21-16-07-03": {
+              "translation_mean_m": 2.2753308482436134,
+              "rotation_mean_deg": 2.388192236482399,
+              "n": 1934
+            },
+            "2014-11-28-12-07-13": {
+              "translation_mean_m": 2.4113865570990787,
+              "rotation_mean_deg": 2.0695554077038336,
+              "n": 2801
+            },
+            "2014-12-02-15-30-08": {
+              "translation_mean_m": 2.019883413395617,
+              "rotation_mean_deg": 2.2843424685543896,
+              "n": 2739
+            },
+            "2015-02-10-11-58-05": {
+              "translation_mean_m": 1.7529078251849441,
+              "rotation_mean_deg": 2.12898773030992,
+              "n": 4657
+            },
+            "2015-02-17-14-42-12": {
+              "translation_mean_m": 1.7011207200481495,
+              "rotation_mean_deg": 1.9839513861958291,
+              "n": 4222
+            },
+            "2015-03-03-11-31-36": {
+              "translation_mean_m": 1.7378855599428453,
+              "rotation_mean_deg": 2.1320053121173315,
+              "n": 4176
+            },
+            "2015-03-17-11-08-44": {
+              "translation_mean_m": 1.4767533115554528,
+              "rotation_mean_deg": 2.0631288965251966,
+              "n": 2465
+            },
+            "2015-05-19-14-06-38": {
+              "translation_mean_m": 1.5370169148299637,
+              "rotation_mean_deg": 1.8851496982114875,
+              "n": 2374
+            },
+            "2015-05-29-09-36-29": {
+              "translation_mean_m": 2.1477625369854714,
+              "rotation_mean_deg": 2.5216795300893384,
+              "n": 3532
+            },
+            "2015-07-10-10-01-59": {
+              "translation_mean_m": 3.0729562090483595,
+              "rotation_mean_deg": 2.2916445812765285,
+              "n": 2686
+            },
+            "2015-07-24-14-36-47": {
+              "translation_mean_m": 5.099881555466543,
+              "rotation_mean_deg": 2.321271369924746,
+              "n": 296
+            },
+            "2015-08-14-14-54-57": {
+              "translation_mean_m": 1.6264441701000287,
+              "rotation_mean_deg": 1.903371221450658,
+              "n": 2587
+            },
+            "2015-08-17-13-30-19": {
+              "translation_mean_m": 1.871245709951114,
+              "rotation_mean_deg": 1.8480981771247382,
+              "n": 2993
+            },
+            "2015-11-12-11-22-05": {
+              "translation_mean_m": 1.5988673719248323,
+              "rotation_mean_deg": 1.936076861646765,
+              "n": 3266
+            }
+          }
+        },
+        "right": {
+          "n_windows": 40728,
+          "n_trajectories": 14,
+          "translation_mean_m": 1.9386841271972164,
+          "translation_median_m": 1.7042145924107162,
+          "rotation_mean_deg": 2.110469101771905,
+          "rotation_median_deg": 1.9634777799783305,
+          "dispersion_mean": 1.6539269284700671e-07,
+          "dispersion_median": 1.4420235587298545e-07,
+          "clusters": {
+            "2014-11-21-16-07-03": {
+              "translation_mean_m": 2.275330909285734,
+              "rotation_mean_deg": 2.388192278638813,
+              "n": 1934
+            },
+            "2014-11-28-12-07-13": {
+              "translation_mean_m": 2.411386508639232,
+              "rotation_mean_deg": 2.0695553911047786,
+              "n": 2801
+            },
+            "2014-12-02-15-30-08": {
+              "translation_mean_m": 2.01988342302805,
+              "rotation_mean_deg": 2.284342569753327,
+              "n": 2739
+            },
+            "2015-02-10-11-58-05": {
+              "translation_mean_m": 1.7529079342317408,
+              "rotation_mean_deg": 2.1289877511021804,
+              "n": 4657
+            },
+            "2015-02-17-14-42-12": {
+              "translation_mean_m": 1.701120812299148,
+              "rotation_mean_deg": 1.9839513910619158,
+              "n": 4222
+            },
+            "2015-03-03-11-31-36": {
+              "translation_mean_m": 1.737885553759621,
+              "rotation_mean_deg": 2.1320052617639904,
+              "n": 4176
+            },
+            "2015-03-17-11-08-44": {
+              "translation_mean_m": 1.4767534030216742,
+              "rotation_mean_deg": 2.063128909080588,
+              "n": 2465
+            },
+            "2015-05-19-14-06-38": {
+              "translation_mean_m": 1.5370168039798204,
+              "rotation_mean_deg": 1.8851497179042105,
+              "n": 2374
+            },
+            "2015-05-29-09-36-29": {
+              "translation_mean_m": 2.147762551442528,
+              "rotation_mean_deg": 2.521679443784763,
+              "n": 3532
+            },
+            "2015-07-10-10-01-59": {
+              "translation_mean_m": 3.0729562690968244,
+              "rotation_mean_deg": 2.2916446264906383,
+              "n": 2686
+            },
+            "2015-07-24-14-36-47": {
+              "translation_mean_m": 5.099881611850287,
+              "rotation_mean_deg": 2.321271299978127,
+              "n": 296
+            },
+            "2015-08-14-14-54-57": {
+              "translation_mean_m": 1.6264441157864882,
+              "rotation_mean_deg": 1.9033712659849331,
+              "n": 2587
+            },
+            "2015-08-17-13-30-19": {
+              "translation_mean_m": 1.8712457826815236,
+              "rotation_mean_deg": 1.8480982082232464,
+              "n": 2993
+            },
+            "2015-11-12-11-22-05": {
+              "translation_mean_m": 1.5988674347869516,
+              "rotation_mean_deg": 1.936076821025274,
+              "n": 3266
+            }
+          }
+        },
+        "balanced": {
+          "n_windows": 40728,
+          "n_trajectories": 14,
+          "translation_mean_m": 1.9386841522709706,
+          "translation_median_m": 1.7042125374116623,
+          "rotation_mean_deg": 2.1104690812683566,
+          "rotation_median_deg": 1.963476104527069,
+          "dispersion_mean": 1.4037683919933045e-07,
+          "dispersion_median": 1.2013779694262804e-07,
+          "clusters": {
+            "2014-11-21-16-07-03": {
+              "translation_mean_m": 2.2753306570651217,
+              "rotation_mean_deg": 2.388192252434657,
+              "n": 1934
+            },
+            "2014-11-28-12-07-13": {
+              "translation_mean_m": 2.4113864781079415,
+              "rotation_mean_deg": 2.069555407241738,
+              "n": 2801
+            },
+            "2014-12-02-15-30-08": {
+              "translation_mean_m": 2.0198833290517,
+              "rotation_mean_deg": 2.284342547089301,
+              "n": 2739
+            },
+            "2015-02-10-11-58-05": {
+              "translation_mean_m": 1.752907778503504,
+              "rotation_mean_deg": 2.128987683199157,
+              "n": 4657
+            },
+            "2015-02-17-14-42-12": {
+              "translation_mean_m": 1.7011206874382885,
+              "rotation_mean_deg": 1.9839513615452151,
+              "n": 4222
+            },
+            "2015-03-03-11-31-36": {
+              "translation_mean_m": 1.7378855821049157,
+              "rotation_mean_deg": 2.132005265761658,
+              "n": 4176
+            },
+            "2015-03-17-11-08-44": {
+              "translation_mean_m": 1.476753574317936,
+              "rotation_mean_deg": 2.0631289207766987,
+              "n": 2465
+            },
+            "2015-05-19-14-06-38": {
+              "translation_mean_m": 1.5370170259366749,
+              "rotation_mean_deg": 1.8851496806683357,
+              "n": 2374
+            },
+            "2015-05-29-09-36-29": {
+              "translation_mean_m": 2.1477626930364737,
+              "rotation_mean_deg": 2.5216794573776933,
+              "n": 3532
+            },
+            "2015-07-10-10-01-59": {
+              "translation_mean_m": 3.072956315168388,
+              "rotation_mean_deg": 2.2916445575431443,
+              "n": 2686
+            },
+            "2015-07-24-14-36-47": {
+              "translation_mean_m": 5.099881466544565,
+              "rotation_mean_deg": 2.321271215028939,
+              "n": 296
+            },
+            "2015-08-14-14-54-57": {
+              "translation_mean_m": 1.626444443196809,
+              "rotation_mean_deg": 1.9033712664411662,
+              "n": 2587
+            },
+            "2015-08-17-13-30-19": {
+              "translation_mean_m": 1.8712458272845318,
+              "rotation_mean_deg": 1.8480981878570049,
+              "n": 2993
+            },
+            "2015-11-12-11-22-05": {
+              "translation_mean_m": 1.5988675803506964,
+              "rotation_mean_deg": 1.9360768021360304,
+              "n": 3266
+            }
+          }
+        },
+        "random": {
+          "translation_mean_m": 1.9386841259926617,
+          "translation_median_m": 1.7042133153990366,
+          "rotation_mean_deg": 2.1104690665310826,
+          "rotation_median_deg": 1.963476458924398,
+          "dispersion_mean": 1.4261098239974896e-07,
+          "dispersion_median": 1.2193912474350772e-07,
+          "n_windows": 40728,
+          "n_trajectories": 14,
+          "clusters": {
+            "2014-11-21-16-07-03": {
+              "translation_mean_m": 2.2753306376579503,
+              "rotation_mean_deg": 2.3881921984475163,
+              "n": 1934
+            },
+            "2014-11-28-12-07-13": {
+              "translation_mean_m": 2.4113864806626917,
+              "rotation_mean_deg": 2.069555383944499,
+              "n": 2801
+            },
+            "2014-12-02-15-30-08": {
+              "translation_mean_m": 2.019883341013996,
+              "rotation_mean_deg": 2.284342523306459,
+              "n": 2739
+            },
+            "2015-02-10-11-58-05": {
+              "translation_mean_m": 1.752907756998058,
+              "rotation_mean_deg": 2.128987675200447,
+              "n": 4657
+            },
+            "2015-02-17-14-42-12": {
+              "translation_mean_m": 1.7011206776593584,
+              "rotation_mean_deg": 1.983951353862873,
+              "n": 4222
+            },
+            "2015-03-03-11-31-36": {
+              "translation_mean_m": 1.737885571421993,
+              "rotation_mean_deg": 2.132005256668757,
+              "n": 4176
+            },
+            "2015-03-17-11-08-44": {
+              "translation_mean_m": 1.476753489240032,
+              "rotation_mean_deg": 2.0631289137765094,
+              "n": 2465
+            },
+            "2015-05-19-14-06-38": {
+              "translation_mean_m": 1.5370169781557583,
+              "rotation_mean_deg": 1.885149679885176,
+              "n": 2374
+            },
+            "2015-05-29-09-36-29": {
+              "translation_mean_m": 2.147762629835097,
+              "rotation_mean_deg": 2.5216794502533753,
+              "n": 3532
+            },
+            "2015-07-10-10-01-59": {
+              "translation_mean_m": 3.0729563166798437,
+              "rotation_mean_deg": 2.2916445227194373,
+              "n": 2686
+            },
+            "2015-07-24-14-36-47": {
+              "translation_mean_m": 5.099881593753944,
+              "rotation_mean_deg": 2.3212712983781607,
+              "n": 296
+            },
+            "2015-08-14-14-54-57": {
+              "translation_mean_m": 1.626444365646797,
+              "rotation_mean_deg": 1.9033712407016408,
+              "n": 2587
+            },
+            "2015-08-17-13-30-19": {
+              "translation_mean_m": 1.8712457959199034,
+              "rotation_mean_deg": 1.8480981641500396,
+              "n": 2993
+            },
+            "2015-11-12-11-22-05": {
+              "translation_mean_m": 1.5988675535772612,
+              "rotation_mean_deg": 1.936076799971601,
+              "n": 3266
+            }
+          }
+        }
+      },
+      "translation_deltas": {
+        "right": {
+          "trajectory_equal_weight_mean_m": 2.9293829251209047e-08,
+          "ci95_m": [
+            -5.2892891673682135e-09,
+            6.028525694399902e-08
+          ]
+        },
+        "balanced": {
+          "trajectory_equal_weight_mean_m": 5.2452252351033376e-08,
+          "ci95_m": [
+            -2.0462664972782057e-08,
+            1.2476854508923298e-07
+          ]
+        },
+        "random": {
+          "trajectory_equal_weight_mean_m": 3.460333359533203e-08,
+          "ci95_m": [
+            -2.5962131143729216e-08,
+            9.314195000315842e-08
+          ]
+        }
+      },
+      "left_vs_raw": {
+        "trajectory_equal_weight_mean_m": -48.945773626458205,
+        "ci95_m": [
+          -52.65456408687911,
+          -45.33917837813905
+        ]
+      },
+      "moving_paths": {
+        "left": {
+          "n_windows": 32630,
+          "n_trajectories": 14,
+          "translation_mean_m": 1.8854040788242072,
+          "translation_median_m": 1.489982905718698,
+          "rotation_mean_deg": 2.0509366851835327,
+          "rotation_median_deg": 1.7443092073608497,
+          "dispersion_mean": 0.0,
+          "dispersion_median": 0.0,
+          "clusters": {
+            "2014-11-21-16-07-03": {
+              "translation_mean_m": 2.33613520315131,
+              "rotation_mean_deg": 2.4087639758550687,
+              "n": 1238
+            },
+            "2014-11-28-12-07-13": {
+              "translation_mean_m": 2.448866014830868,
+              "rotation_mean_deg": 2.032532507616519,
+              "n": 2308
+            },
+            "2014-12-02-15-30-08": {
+              "translation_mean_m": 1.9823533065085883,
+              "rotation_mean_deg": 2.238457340454428,
+              "n": 2042
+            },
+            "2015-02-10-11-58-05": {
+              "translation_mean_m": 1.6111240093158337,
+              "rotation_mean_deg": 2.065331370937969,
+              "n": 3492
+            },
+            "2015-02-17-14-42-12": {
+              "translation_mean_m": 1.5701084939178216,
+              "rotation_mean_deg": 1.8805368302197834,
+              "n": 3284
+            },
+            "2015-03-03-11-31-36": {
+              "translation_mean_m": 1.6126483678818004,
+              "rotation_mean_deg": 2.072343941335688,
+              "n": 3279
+            },
+            "2015-03-17-11-08-44": {
+              "translation_mean_m": 1.404564902820155,
+              "rotation_mean_deg": 1.9663414660749452,
+              "n": 2215
+            },
+            "2015-05-19-14-06-38": {
+              "translation_mean_m": 1.4701841732012335,
+              "rotation_mean_deg": 1.8358397341969552,
+              "n": 2119
+            },
+            "2015-05-29-09-36-29": {
+              "translation_mean_m": 2.1588379719512027,
+              "rotation_mean_deg": 2.601503601446657,
+              "n": 2624
+            },
+            "2015-07-10-10-01-59": {
+              "translation_mean_m": 3.2926593553506986,
+              "rotation_mean_deg": 2.281052827524117,
+              "n": 2154
+            },
+            "2015-07-24-14-36-47": {
+              "translation_mean_m": 5.521917274478102,
+              "rotation_mean_deg": 2.3308830487087695,
+              "n": 258
+            },
+            "2015-08-14-14-54-57": {
+              "translation_mean_m": 1.5788510442424706,
+              "rotation_mean_deg": 1.8587838095499059,
+              "n": 2338
+            },
+            "2015-08-17-13-30-19": {
+              "translation_mean_m": 1.8350246318598553,
+              "rotation_mean_deg": 1.7577581876100865,
+              "n": 2567
+            },
+            "2015-11-12-11-22-05": {
+              "translation_mean_m": 1.4927614021928541,
+              "rotation_mean_deg": 1.8621938833165161,
+              "n": 2712
+            }
+          }
+        },
+        "right": {
+          "n_windows": 32630,
+          "n_trajectories": 14,
+          "translation_mean_m": 1.8854040943350432,
+          "translation_median_m": 1.4899821661430246,
+          "rotation_mean_deg": 2.0509366923236545,
+          "rotation_median_deg": 1.7443092202132537,
+          "dispersion_mean": 1.6250415118469125e-07,
+          "dispersion_median": 1.3398991991917082e-07,
+          "clusters": {
+            "2014-11-21-16-07-03": {
+              "translation_mean_m": 2.3361352429593287,
+              "rotation_mean_deg": 2.408764040024768,
+              "n": 1238
+            },
+            "2014-11-28-12-07-13": {
+              "translation_mean_m": 2.448865936917689,
+              "rotation_mean_deg": 2.0325324839754084,
+              "n": 2308
+            },
+            "2014-12-02-15-30-08": {
+              "translation_mean_m": 1.9823532847831054,
+              "rotation_mean_deg": 2.2384574859692705,
+              "n": 2042
+            },
+            "2015-02-10-11-58-05": {
+              "translation_mean_m": 1.6111241213238359,
+              "rotation_mean_deg": 2.065331407315833,
+              "n": 3492
+            },
+            "2015-02-17-14-42-12": {
+              "translation_mean_m": 1.5701085792387846,
+              "rotation_mean_deg": 1.8805368338558603,
+              "n": 3284
+            },
+            "2015-03-03-11-31-36": {
+              "translation_mean_m": 1.6126483341490008,
+              "rotation_mean_deg": 2.072343891757014,
+              "n": 3279
+            },
+            "2015-03-17-11-08-44": {
+              "translation_mean_m": 1.4045649955196857,
+              "rotation_mean_deg": 1.9663414796408691,
+              "n": 2215
+            },
+            "2015-05-19-14-06-38": {
+              "translation_mean_m": 1.4701840321674104,
+              "rotation_mean_deg": 1.8358397539423053,
+              "n": 2119
+            },
+            "2015-05-29-09-36-29": {
+              "translation_mean_m": 2.1588379429280415,
+              "rotation_mean_deg": 2.6015034870129004,
+              "n": 2624
+            },
+            "2015-07-10-10-01-59": {
+              "translation_mean_m": 3.292659405589702,
+              "rotation_mean_deg": 2.2810528834927353,
+              "n": 2154
+            },
+            "2015-07-24-14-36-47": {
+              "translation_mean_m": 5.52191732603692,
+              "rotation_mean_deg": 2.3308829507965614,
+              "n": 258
+            },
+            "2015-08-14-14-54-57": {
+              "translation_mean_m": 1.5788509752777589,
+              "rotation_mean_deg": 1.8587838552198999,
+              "n": 2338
+            },
+            "2015-08-17-13-30-19": {
+              "translation_mean_m": 1.8350247019583361,
+              "rotation_mean_deg": 1.757758222945234,
+              "n": 2567
+            },
+            "2015-11-12-11-22-05": {
+              "translation_mean_m": 1.4927614574158896,
+              "rotation_mean_deg": 1.8621938354429834,
+              "n": 2712
+            }
+          }
+        },
+        "balanced": {
+          "n_windows": 32630,
+          "n_trajectories": 14,
+          "translation_mean_m": 1.8854041350664024,
+          "translation_median_m": 1.4899826876367306,
+          "rotation_mean_deg": 2.050936662617269,
+          "rotation_median_deg": 1.7443106265939798,
+          "dispersion_mean": 1.39324244219707e-07,
+          "dispersion_median": 1.1544756857481903e-07,
+          "clusters": {
+            "2014-11-21-16-07-03": {
+              "translation_mean_m": 2.3361348435503344,
+              "rotation_mean_deg": 2.408763979087219,
+              "n": 1238
+            },
+            "2014-11-28-12-07-13": {
+              "translation_mean_m": 2.4488659094101957,
+              "rotation_mean_deg": 2.0325324964269527,
+              "n": 2308
+            },
+            "2014-12-02-15-30-08": {
+              "translation_mean_m": 1.982353169536397,
+              "rotation_mean_deg": 2.2384574345489647,
+              "n": 2042
+            },
+            "2015-02-10-11-58-05": {
+              "translation_mean_m": 1.6111239338141568,
+              "rotation_mean_deg": 2.0653313119446404,
+              "n": 3492
+            },
+            "2015-02-17-14-42-12": {
+              "translation_mean_m": 1.570108425658149,
+              "rotation_mean_deg": 1.8805367945297478,
+              "n": 3284
+            },
+            "2015-03-03-11-31-36": {
+              "translation_mean_m": 1.6126483800934435,
+              "rotation_mean_deg": 2.072343897122941,
+              "n": 3279
+            },
+            "2015-03-17-11-08-44": {
+              "translation_mean_m": 1.4045651899640799,
+              "rotation_mean_deg": 1.9663414881153745,
+              "n": 2215
+            },
+            "2015-05-19-14-06-38": {
+              "translation_mean_m": 1.470184286942178,
+              "rotation_mean_deg": 1.8358397167536216,
+              "n": 2119
+            },
+            "2015-05-29-09-36-29": {
+              "translation_mean_m": 2.1588381549004785,
+              "rotation_mean_deg": 2.6015035055732256,
+              "n": 2624
+            },
+            "2015-07-10-10-01-59": {
+              "translation_mean_m": 3.2926594711245922,
+              "rotation_mean_deg": 2.281052803647257,
+              "n": 2154
+            },
+            "2015-07-24-14-36-47": {
+              "translation_mean_m": 5.52191717020178,
+              "rotation_mean_deg": 2.330882857335669,
+              "n": 258
+            },
+            "2015-08-14-14-54-57": {
+              "translation_mean_m": 1.5788513417630854,
+              "rotation_mean_deg": 1.8587838559313223,
+              "n": 2338
+            },
+            "2015-08-17-13-30-19": {
+              "translation_mean_m": 1.8350247633624734,
+              "rotation_mean_deg": 1.7577581907127182,
+              "n": 2567
+            },
+            "2015-11-12-11-22-05": {
+              "translation_mean_m": 1.4927616375939439,
+              "rotation_mean_deg": 1.8621938042773707,
+              "n": 2712
+            }
+          }
+        },
+        "random": {
+          "translation_mean_m": 1.8854041279590223,
+          "translation_median_m": 1.4899834783302355,
+          "rotation_mean_deg": 2.050936659337033,
+          "rotation_median_deg": 1.7443099870600616,
+          "dispersion_mean": 1.4085375115918591e-07,
+          "dispersion_median": 1.1597939232094073e-07,
+          "n_windows": 32630,
+          "n_trajectories": 14,
+          "clusters": {
+            "2014-11-21-16-07-03": {
+              "translation_mean_m": 2.336134878003545,
+              "rotation_mean_deg": 2.4087639298281545,
+              "n": 1238
+            },
+            "2014-11-28-12-07-13": {
+              "translation_mean_m": 2.448865933392314,
+              "rotation_mean_deg": 2.0325324850078945,
+              "n": 2308
+            },
+            "2014-12-02-15-30-08": {
+              "translation_mean_m": 1.9823532255676066,
+              "rotation_mean_deg": 2.238457426632192,
+              "n": 2042
+            },
+            "2015-02-10-11-58-05": {
+              "translation_mean_m": 1.611123939578828,
+              "rotation_mean_deg": 2.065331320334593,
+              "n": 3492
+            },
+            "2015-02-17-14-42-12": {
+              "translation_mean_m": 1.5701084488180586,
+              "rotation_mean_deg": 1.8805368064643337,
+              "n": 3284
+            },
+            "2015-03-03-11-31-36": {
+              "translation_mean_m": 1.6126483912093623,
+              "rotation_mean_deg": 2.0723438940150496,
+              "n": 3279
+            },
+            "2015-03-17-11-08-44": {
+              "translation_mean_m": 1.4045651039449334,
+              "rotation_mean_deg": 1.966341483740102,
+              "n": 2215
+            },
+            "2015-05-19-14-06-38": {
+              "translation_mean_m": 1.4701842482482452,
+              "rotation_mean_deg": 1.8358397194471472,
+              "n": 2119
+            },
+            "2015-05-29-09-36-29": {
+              "translation_mean_m": 2.158838101011172,
+              "rotation_mean_deg": 2.6015035168792977,
+              "n": 2624
+            },
+            "2015-07-10-10-01-59": {
+              "translation_mean_m": 3.2926594978130708,
+              "rotation_mean_deg": 2.281052777285052,
+              "n": 2154
+            },
+            "2015-07-24-14-36-47": {
+              "translation_mean_m": 5.521917326612595,
+              "rotation_mean_deg": 2.3308829562437854,
+              "n": 258
+            },
+            "2015-08-14-14-54-57": {
+              "translation_mean_m": 1.578851266051655,
+              "rotation_mean_deg": 1.858783834292217,
+              "n": 2338
+            },
+            "2015-08-17-13-30-19": {
+              "translation_mean_m": 1.8350247417313021,
+              "rotation_mean_deg": 1.7577581778490672,
+              "n": 2567
+            },
+            "2015-11-12-11-22-05": {
+              "translation_mean_m": 1.4927616271441457,
+              "rotation_mean_deg": 1.8621938143678407,
+              "n": 2712
+            }
+          }
+        }
+      },
+      "moving_translation_deltas": {
+        "right": {
+          "trajectory_equal_weight_mean_m": 1.3183049636061078e-08,
+          "ci95_m": [
+            -2.5835369880735013e-08,
+            4.9847573376940855e-08
+          ]
+        },
+        "balanced": {
+          "trajectory_equal_weight_mean_m": 3.7586606700073285e-08,
+          "ci95_m": [
+            -6.225586243231123e-08,
+            1.2796440231689826e-07
+          ]
+        },
+        "random": {
+          "trajectory_equal_weight_mean_m": 4.1244574295567256e-08,
+          "ci95_m": [
+            -3.946743211929211e-08,
+            1.1269327762075675e-07
+          ]
+        }
+      },
+      "moving_left_vs_raw": {
+        "trajectory_equal_weight_mean_m": -60.64398770318361,
+        "ci95_m": [
+          -63.28212368135947,
+          -58.594095788328794
+        ]
+      },
+      "exact_audit": {
+        "maxima": {
+          "right": {
+            "translation_m": 1.1371632419681633e-13,
+            "rotation_rad": 1.7814588152999488e-15
+          },
+          "balanced": {
+            "translation_m": 8.55618280290767e-14,
+            "rotation_rad": 1.3380375466713835e-15
+          },
+          "random": {
+            "translation_m": 1.1374255206135992e-13,
+            "rotation_rad": 1.8908708695354332e-15
+          }
+        },
+        "tolerance": 1e-09,
+        "worst_si": 1.1374255206135992e-13,
+        "passes": true
+      }
+    },
+    "32": {
+      "paths": {
+        "left": {
+          "n_windows": 36120,
+          "n_trajectories": 14,
+          "translation_mean_m": 3.890561144748458,
+          "translation_median_m": 3.3123069623526793,
+          "rotation_mean_deg": 3.658449317956809,
+          "rotation_median_deg": 3.3942513991170706,
+          "dispersion_mean": 0.0,
+          "dispersion_median": 0.0,
+          "clusters": {
+            "2014-11-21-16-07-03": {
+              "translation_mean_m": 4.526415174501902,
+              "rotation_mean_deg": 4.474514131192528,
+              "n": 1758
+            },
+            "2014-11-28-12-07-13": {
+              "translation_mean_m": 3.9716031234606817,
+              "rotation_mean_deg": 3.512661961760535,
+              "n": 2193
+            },
+            "2014-12-02-15-30-08": {
+              "translation_mean_m": 4.129653045751013,
+              "rotation_mean_deg": 4.109116268848085,
+              "n": 2339
+            },
+            "2015-02-10-11-58-05": {
+              "translation_mean_m": 3.5632410998776547,
+              "rotation_mean_deg": 3.7705325115834727,
+              "n": 4641
+            },
+            "2015-02-17-14-42-12": {
+              "translation_mean_m": 3.325148904871281,
+              "rotation_mean_deg": 3.4336981626303595,
+              "n": 4206
+            },
+            "2015-03-03-11-31-36": {
+              "translation_mean_m": 3.5587708906836517,
+              "rotation_mean_deg": 3.724726208748687,
+              "n": 4160
+            },
+            "2015-03-17-11-08-44": {
+              "translation_mean_m": 2.9348499733087086,
+              "rotation_mean_deg": 3.323460651075705,
+              "n": 2033
+            },
+            "2015-05-19-14-06-38": {
+              "translation_mean_m": 3.287515565340595,
+              "rotation_mean_deg": 3.157137062521489,
+              "n": 1782
+            },
+            "2015-05-29-09-36-29": {
+              "translation_mean_m": 5.009085828375116,
+              "rotation_mean_deg": 4.51505834757569,
+              "n": 3036
+            },
+            "2015-07-10-10-01-59": {
+              "translation_mean_m": 6.179513403184527,
+              "rotation_mean_deg": 3.9824020978665104,
+              "n": 2062
+            },
+            "2015-07-24-14-36-47": {
+              "translation_mean_m": 11.094182427052615,
+              "rotation_mean_deg": 3.847115045016407,
+              "n": 232
+            },
+            "2015-08-14-14-54-57": {
+              "translation_mean_m": 3.3745378671337307,
+              "rotation_mean_deg": 3.1418698703300185,
+              "n": 1979
+            },
+            "2015-08-17-13-30-19": {
+              "translation_mean_m": 3.7086593579521008,
+              "rotation_mean_deg": 3.1070444814815676,
+              "n": 2977
+            },
+            "2015-11-12-11-22-05": {
+              "translation_mean_m": 3.2351938970867375,
+              "rotation_mean_deg": 3.256597868119744,
+              "n": 2722
+            }
+          }
+        },
+        "right": {
+          "n_windows": 36120,
+          "n_trajectories": 14,
+          "translation_mean_m": 3.8905611023978843,
+          "translation_median_m": 3.31230900152915,
+          "rotation_mean_deg": 3.6584492913977797,
+          "rotation_median_deg": 3.394250561453238,
+          "dispersion_mean": 2.5511454256676946e-07,
+          "dispersion_median": 2.2391784078072483e-07,
+          "clusters": {
+            "2014-11-21-16-07-03": {
+              "translation_mean_m": 4.526415048448571,
+              "rotation_mean_deg": 4.474514163948091,
+              "n": 1758
+            },
+            "2014-11-28-12-07-13": {
+              "translation_mean_m": 3.97160300641261,
+              "rotation_mean_deg": 3.5126617250959318,
+              "n": 2193
+            },
+            "2014-12-02-15-30-08": {
+              "translation_mean_m": 4.129653127934065,
+              "rotation_mean_deg": 4.1091160745791555,
+              "n": 2339
+            },
+            "2015-02-10-11-58-05": {
+              "translation_mean_m": 3.563241295148603,
+              "rotation_mean_deg": 3.770532529151559,
+              "n": 4641
+            },
+            "2015-02-17-14-42-12": {
+              "translation_mean_m": 3.3251494388614664,
+              "rotation_mean_deg": 3.4336982472223223,
+              "n": 4206
+            },
+            "2015-03-03-11-31-36": {
+              "translation_mean_m": 3.5587707332494434,
+              "rotation_mean_deg": 3.7247261786415096,
+              "n": 4160
+            },
+            "2015-03-17-11-08-44": {
+              "translation_mean_m": 2.934849817614954,
+              "rotation_mean_deg": 3.323460512719518,
+              "n": 2033
+            },
+            "2015-05-19-14-06-38": {
+              "translation_mean_m": 3.2875147678031693,
+              "rotation_mean_deg": 3.1571369029027263,
+              "n": 1782
+            },
+            "2015-05-29-09-36-29": {
+              "translation_mean_m": 5.009086011945594,
+              "rotation_mean_deg": 4.5150584323905765,
+              "n": 3036
+            },
+            "2015-07-10-10-01-59": {
+              "translation_mean_m": 6.179513413350742,
+              "rotation_mean_deg": 3.982402226236575,
+              "n": 2062
+            },
+            "2015-07-24-14-36-47": {
+              "translation_mean_m": 11.094182851057306,
+              "rotation_mean_deg": 3.8471142529955347,
+              "n": 232
+            },
+            "2015-08-14-14-54-57": {
+              "translation_mean_m": 3.3745373414409614,
+              "rotation_mean_deg": 3.141870005001193,
+              "n": 1979
+            },
+            "2015-08-17-13-30-19": {
+              "translation_mean_m": 3.7086589157446634,
+              "rotation_mean_deg": 3.107044402765515,
+              "n": 2977
+            },
+            "2015-11-12-11-22-05": {
+              "translation_mean_m": 3.2351937784068223,
+              "rotation_mean_deg": 3.256597809161867,
+              "n": 2722
+            }
+          }
+        },
+        "balanced": {
+          "n_windows": 36120,
+          "n_trajectories": 14,
+          "translation_mean_m": 3.890561179848204,
+          "translation_median_m": 3.312305572507432,
+          "rotation_mean_deg": 3.6584492350441424,
+          "rotation_median_deg": 3.394251091716553,
+          "dispersion_mean": 2.1946790955282418e-07,
+          "dispersion_median": 1.9272773302699038e-07,
+          "clusters": {
+            "2014-11-21-16-07-03": {
+              "translation_mean_m": 4.5264143484686254,
+              "rotation_mean_deg": 4.474514159606318,
+              "n": 1758
+            },
+            "2014-11-28-12-07-13": {
+              "translation_mean_m": 3.971602486715214,
+              "rotation_mean_deg": 3.5126617511300897,
+              "n": 2193
+            },
+            "2014-12-02-15-30-08": {
+              "translation_mean_m": 4.12965271277538,
+              "rotation_mean_deg": 4.109116322995791,
+              "n": 2339
+            },
+            "2015-02-10-11-58-05": {
+              "translation_mean_m": 3.563240861328264,
+              "rotation_mean_deg": 3.7705323316212667,
+              "n": 4641
+            },
+            "2015-02-17-14-42-12": {
+              "translation_mean_m": 3.325148483736914,
+              "rotation_mean_deg": 3.433698139916792,
+              "n": 4206
+            },
+            "2015-03-03-11-31-36": {
+              "translation_mean_m": 3.5587708386896666,
+              "rotation_mean_deg": 3.724726014104569,
+              "n": 4160
+            },
+            "2015-03-17-11-08-44": {
+              "translation_mean_m": 2.934850155274656,
+              "rotation_mean_deg": 3.323460670421237,
+              "n": 2033
+            },
+            "2015-05-19-14-06-38": {
+              "translation_mean_m": 3.287516070240226,
+              "rotation_mean_deg": 3.1571371234169607,
+              "n": 1782
+            },
+            "2015-05-29-09-36-29": {
+              "translation_mean_m": 5.009086215123485,
+              "rotation_mean_deg": 4.5150583302108585,
+              "n": 3036
+            },
+            "2015-07-10-10-01-59": {
+              "translation_mean_m": 6.179513798156518,
+              "rotation_mean_deg": 3.982402153331715,
+              "n": 2062
+            },
+            "2015-07-24-14-36-47": {
+              "translation_mean_m": 11.09418463247503,
+              "rotation_mean_deg": 3.8471137875744548,
+              "n": 232
+            },
+            "2015-08-14-14-54-57": {
+              "translation_mean_m": 3.374538790652206,
+              "rotation_mean_deg": 3.141869744451138,
+              "n": 1979
+            },
+            "2015-08-17-13-30-19": {
+              "translation_mean_m": 3.708659484099271,
+              "rotation_mean_deg": 3.1070444713402385,
+              "n": 2977
+            },
+            "2015-11-12-11-22-05": {
+              "translation_mean_m": 3.2351946380002534,
+              "rotation_mean_deg": 3.256597644937619,
+              "n": 2722
+            }
+          }
+        },
+        "random": {
+          "translation_mean_m": 3.8905611695187403,
+          "translation_median_m": 3.3123066974172315,
+          "rotation_mean_deg": 3.6584492189354183,
+          "rotation_median_deg": 3.3942508760343575,
+          "dispersion_mean": 2.2071749830499167e-07,
+          "dispersion_median": 1.9422125166171028e-07,
+          "n_windows": 36120,
+          "n_trajectories": 14,
+          "clusters": {
+            "2014-11-21-16-07-03": {
+              "translation_mean_m": 4.5264143315486685,
+              "rotation_mean_deg": 4.474514055384423,
+              "n": 1758
+            },
+            "2014-11-28-12-07-13": {
+              "translation_mean_m": 3.9716025230386176,
+              "rotation_mean_deg": 3.512661729497683,
+              "n": 2193
+            },
+            "2014-12-02-15-30-08": {
+              "translation_mean_m": 4.129652768659589,
+              "rotation_mean_deg": 4.109116216852805,
+              "n": 2339
+            },
+            "2015-02-10-11-58-05": {
+              "translation_mean_m": 3.5632408555807062,
+              "rotation_mean_deg": 3.7705323882991064,
+              "n": 4641
+            },
+            "2015-02-17-14-42-12": {
+              "translation_mean_m": 3.325148500765204,
+              "rotation_mean_deg": 3.433698120606483,
+              "n": 4206
+            },
+            "2015-03-03-11-31-36": {
+              "translation_mean_m": 3.5587708622272736,
+              "rotation_mean_deg": 3.7247260186376643,
+              "n": 4160
+            },
+            "2015-03-17-11-08-44": {
+              "translation_mean_m": 2.934850035287691,
+              "rotation_mean_deg": 3.323460581752106,
+              "n": 2033
+            },
+            "2015-05-19-14-06-38": {
+              "translation_mean_m": 3.2875161098026644,
+              "rotation_mean_deg": 3.1571370620802783,
+              "n": 1782
+            },
+            "2015-05-29-09-36-29": {
+              "translation_mean_m": 5.0090861598572465,
+              "rotation_mean_deg": 4.515058396192762,
+              "n": 3036
+            },
+            "2015-07-10-10-01-59": {
+              "translation_mean_m": 6.179513823877118,
+              "rotation_mean_deg": 3.9824020467974224,
+              "n": 2062
+            },
+            "2015-07-24-14-36-47": {
+              "translation_mean_m": 11.094185483334218,
+              "rotation_mean_deg": 3.847114053848957,
+              "n": 232
+            },
+            "2015-08-14-14-54-57": {
+              "translation_mean_m": 3.3745386294613318,
+              "rotation_mean_deg": 3.141869735333339,
+              "n": 1979
+            },
+            "2015-08-17-13-30-19": {
+              "translation_mean_m": 3.7086594372410757,
+              "rotation_mean_deg": 3.107044412770684,
+              "n": 2977
+            },
+            "2015-11-12-11-22-05": {
+              "translation_mean_m": 3.235194583882541,
+              "rotation_mean_deg": 3.2565976948832076,
+              "n": 2722
+            }
+          }
+        }
+      },
+      "translation_deltas": {
+        "right": {
+          "trajectory_equal_weight_mean_m": -7.222581025320299e-08,
+          "ci95_m": [
+            -2.5508832662438484e-07,
+            1.0796229285411503e-07
+          ]
+        },
+        "balanced": {
+          "trajectory_equal_weight_mean_m": 2.112253854364659e-07,
+          "ci95_m": [
+            -1.4576195753338412e-07,
+            6.325184915699302e-07
+          ]
+        },
+        "random": {
+          "trajectory_equal_weight_mean_m": 2.532845450518652e-07,
+          "ci95_m": [
+            -1.5875911058084644e-07,
+            7.833147953019622e-07
+          ]
+        }
+      },
+      "left_vs_raw": {
+        "trajectory_equal_weight_mean_m": -97.88970996793776,
+        "ci95_m": [
+          -107.63287965895796,
+          -89.48247718297465
+        ]
+      },
+      "moving_paths": {
+        "left": {
+          "n_windows": 31190,
+          "n_trajectories": 14,
+          "translation_mean_m": 3.8277129373935366,
+          "translation_median_m": 3.0133293953037583,
+          "rotation_mean_deg": 3.4976103847044744,
+          "rotation_median_deg": 3.182938601036814,
+          "dispersion_mean": 0.0,
+          "dispersion_median": 0.0,
+          "clusters": {
+            "2014-11-21-16-07-03": {
+              "translation_mean_m": 4.603977620086824,
+              "rotation_mean_deg": 4.394487974849693,
+              "n": 1303
+            },
+            "2014-11-28-12-07-13": {
+              "translation_mean_m": 3.908357739088746,
+              "rotation_mean_deg": 3.3549834196824238,
+              "n": 1904
+            },
+            "2014-12-02-15-30-08": {
+              "translation_mean_m": 4.0923015396670275,
+              "rotation_mean_deg": 3.9152225161968617,
+              "n": 1895
+            },
+            "2015-02-10-11-58-05": {
+              "translation_mean_m": 3.39409448905099,
+              "rotation_mean_deg": 3.5673959311448615,
+              "n": 3774
+            },
+            "2015-02-17-14-42-12": {
+              "translation_mean_m": 3.1598185404575547,
+              "rotation_mean_deg": 3.2252279370521286,
+              "n": 3581
+            },
+            "2015-03-03-11-31-36": {
+              "translation_mean_m": 3.4159676946286788,
+              "rotation_mean_deg": 3.553023890702974,
+              "n": 3528
+            },
+            "2015-03-17-11-08-44": {
+              "translation_mean_m": 2.8871131412937667,
+              "rotation_mean_deg": 3.276492240630992,
+              "n": 1958
+            },
+            "2015-05-19-14-06-38": {
+              "translation_mean_m": 3.2287742822974135,
+              "rotation_mean_deg": 3.064157749310982,
+              "n": 1680
+            },
+            "2015-05-29-09-36-29": {
+              "translation_mean_m": 5.174535290149289,
+              "rotation_mean_deg": 4.488393161640978,
+              "n": 2499
+            },
+            "2015-07-10-10-01-59": {
+              "translation_mean_m": 6.422290458009454,
+              "rotation_mean_deg": 3.8979640133514706,
+              "n": 1826
+            },
+            "2015-07-24-14-36-47": {
+              "translation_mean_m": 11.214600168197572,
+              "rotation_mean_deg": 3.847363702989334,
+              "n": 228
+            },
+            "2015-08-14-14-54-57": {
+              "translation_mean_m": 3.3269375849607794,
+              "rotation_mean_deg": 3.0598069723871055,
+              "n": 1880
+            },
+            "2015-08-17-13-30-19": {
+              "translation_mean_m": 3.664704845018126,
+              "rotation_mean_deg": 2.9603820904453926,
+              "n": 2719
+            },
+            "2015-11-12-11-22-05": {
+              "translation_mean_m": 3.1069664350847104,
+              "rotation_mean_deg": 3.077848709607318,
+              "n": 2415
+            }
+          }
+        },
+        "right": {
+          "n_windows": 31190,
+          "n_trajectories": 14,
+          "translation_mean_m": 3.827712859396401,
+          "translation_median_m": 3.0133234163691074,
+          "rotation_mean_deg": 3.497610360244967,
+          "rotation_median_deg": 3.1829359067327117,
+          "dispersion_mean": 2.538312764884728e-07,
+          "dispersion_median": 2.2023329993510374e-07,
+          "clusters": {
+            "2014-11-21-16-07-03": {
+              "translation_mean_m": 4.603977347465607,
+              "rotation_mean_deg": 4.394487998493502,
+              "n": 1303
+            },
+            "2014-11-28-12-07-13": {
+              "translation_mean_m": 3.9083575819737995,
+              "rotation_mean_deg": 3.3549831468551163,
+              "n": 1904
+            },
+            "2014-12-02-15-30-08": {
+              "translation_mean_m": 4.092301617800476,
+              "rotation_mean_deg": 3.9152222839853428,
+              "n": 1895
+            },
+            "2015-02-10-11-58-05": {
+              "translation_mean_m": 3.3940947038522347,
+              "rotation_mean_deg": 3.567395974080723,
+              "n": 3774
+            },
+            "2015-02-17-14-42-12": {
+              "translation_mean_m": 3.159819112152107,
+              "rotation_mean_deg": 3.225228030398185,
+              "n": 3581
+            },
+            "2015-03-03-11-31-36": {
+              "translation_mean_m": 3.4159674847143218,
+              "rotation_mean_deg": 3.5530238742441225,
+              "n": 3528
+            },
+            "2015-03-17-11-08-44": {
+              "translation_mean_m": 2.887112970701982,
+              "rotation_mean_deg": 3.2764920980742427,
+              "n": 1958
+            },
+            "2015-05-19-14-06-38": {
+              "translation_mean_m": 3.228773421740776,
+              "rotation_mean_deg": 3.064157581936046,
+              "n": 1680
+            },
+            "2015-05-29-09-36-29": {
+              "translation_mean_m": 5.174535464925392,
+              "rotation_mean_deg": 4.488393266077521,
+              "n": 2499
+            },
+            "2015-07-10-10-01-59": {
+              "translation_mean_m": 6.422290444556028,
+              "rotation_mean_deg": 3.897964186357902,
+              "n": 1826
+            },
+            "2015-07-24-14-36-47": {
+              "translation_mean_m": 11.214600594089617,
+              "rotation_mean_deg": 3.8473629225817816,
+              "n": 228
+            },
+            "2015-08-14-14-54-57": {
+              "translation_mean_m": 3.3269370240167206,
+              "rotation_mean_deg": 3.0598071123683264,
+              "n": 1880
+            },
+            "2015-08-17-13-30-19": {
+              "translation_mean_m": 3.664704347992353,
+              "rotation_mean_deg": 2.9603820031669787,
+              "n": 2719
+            },
+            "2015-11-12-11-22-05": {
+              "translation_mean_m": 3.1069662829925355,
+              "rotation_mean_deg": 3.077848652901873,
+              "n": 2415
+            }
+          }
+        },
+        "balanced": {
+          "n_windows": 31190,
+          "n_trajectories": 14,
+          "translation_mean_m": 3.827712975031846,
+          "translation_median_m": 3.0133246936945,
+          "rotation_mean_deg": 3.497610290257096,
+          "rotation_median_deg": 3.18293987817714,
+          "dispersion_mean": 2.1705790502713789e-07,
+          "dispersion_median": 1.8972934518644714e-07,
+          "clusters": {
+            "2014-11-21-16-07-03": {
+              "translation_mean_m": 4.6039764732534465,
+              "rotation_mean_deg": 4.394487929551078,
+              "n": 1303
+            },
+            "2014-11-28-12-07-13": {
+              "translation_mean_m": 3.9083570164776584,
+              "rotation_mean_deg": 3.3549831946288435,
+              "n": 1904
+            },
+            "2014-12-02-15-30-08": {
+              "translation_mean_m": 4.092301095154828,
+              "rotation_mean_deg": 3.9152225518896246,
+              "n": 1895
+            },
+            "2015-02-10-11-58-05": {
+              "translation_mean_m": 3.394094205154398,
+              "rotation_mean_deg": 3.567395718984116,
+              "n": 3774
+            },
+            "2015-02-17-14-42-12": {
+              "translation_mean_m": 3.159818045940715,
+              "rotation_mean_deg": 3.225227922566292,
+              "n": 3581
+            },
+            "2015-03-03-11-31-36": {
+              "translation_mean_m": 3.41596762064782,
+              "rotation_mean_deg": 3.5530236842121288,
+              "n": 3528
+            },
+            "2015-03-17-11-08-44": {
+              "translation_mean_m": 2.887113332147613,
+              "rotation_mean_deg": 3.2764922668940333,
+              "n": 1958
+            },
+            "2015-05-19-14-06-38": {
+              "translation_mean_m": 3.2287748147241513,
+              "rotation_mean_deg": 3.0641578094643696,
+              "n": 1680
+            },
+            "2015-05-29-09-36-29": {
+              "translation_mean_m": 5.174535746248843,
+              "rotation_mean_deg": 4.488393146227501,
+              "n": 2499
+            },
+            "2015-07-10-10-01-59": {
+              "translation_mean_m": 6.422290916803979,
+              "rotation_mean_deg": 3.897964099157735,
+              "n": 1826
+            },
+            "2015-07-24-14-36-47": {
+              "translation_mean_m": 11.214602415552765,
+              "rotation_mean_deg": 3.8473624580598855,
+              "n": 228
+            },
+            "2015-08-14-14-54-57": {
+              "translation_mean_m": 3.3269385593749092,
+              "rotation_mean_deg": 3.059806835472964,
+              "n": 1880
+            },
+            "2015-08-17-13-30-19": {
+              "translation_mean_m": 3.6647049931565414,
+              "rotation_mean_deg": 2.960382083435667,
+              "n": 2719
+            },
+            "2015-11-12-11-22-05": {
+              "translation_mean_m": 3.1069672619814708,
+              "rotation_mean_deg": 3.0778484383029676,
+              "n": 2415
+            }
+          }
+        },
+        "random": {
+          "translation_mean_m": 3.827712991112442,
+          "translation_median_m": 3.013324788989891,
+          "rotation_mean_deg": 3.4976102826582345,
+          "rotation_median_deg": 3.1829377079767545,
+          "dispersion_mean": 2.1954120829768238e-07,
+          "dispersion_median": 1.9161310729948285e-07,
+          "n_windows": 31190,
+          "n_trajectories": 14,
+          "clusters": {
+            "2014-11-21-16-07-03": {
+              "translation_mean_m": 4.60397650664608,
+              "rotation_mean_deg": 4.394487814701115,
+              "n": 1303
+            },
+            "2014-11-28-12-07-13": {
+              "translation_mean_m": 3.908357079527394,
+              "rotation_mean_deg": 3.3549831812667863,
+              "n": 1904
+            },
+            "2014-12-02-15-30-08": {
+              "translation_mean_m": 4.092301211568923,
+              "rotation_mean_deg": 3.915222444985807,
+              "n": 1895
+            },
+            "2015-02-10-11-58-05": {
+              "translation_mean_m": 3.394094238127386,
+              "rotation_mean_deg": 3.5673957996699674,
+              "n": 3774
+            },
+            "2015-02-17-14-42-12": {
+              "translation_mean_m": 3.1598181089667947,
+              "rotation_mean_deg": 3.225227919174395,
+              "n": 3581
+            },
+            "2015-03-03-11-31-36": {
+              "translation_mean_m": 3.415967672580935,
+              "rotation_mean_deg": 3.5530236927076158,
+              "n": 3528
+            },
+            "2015-03-17-11-08-44": {
+              "translation_mean_m": 2.8871132140313707,
+              "rotation_mean_deg": 3.2764921755615717,
+              "n": 1958
+            },
+            "2015-05-19-14-06-38": {
+              "translation_mean_m": 3.228774871994906,
+              "rotation_mean_deg": 3.064157752075402,
+              "n": 1680
+            },
+            "2015-05-29-09-36-29": {
+              "translation_mean_m": 5.174535712558802,
+              "rotation_mean_deg": 4.488393240010872,
+              "n": 2499
+            },
+            "2015-07-10-10-01-59": {
+              "translation_mean_m": 6.42229096764105,
+              "rotation_mean_deg": 3.897963984483792,
+              "n": 1826
+            },
+            "2015-07-24-14-36-47": {
+              "translation_mean_m": 11.214603281021958,
+              "rotation_mean_deg": 3.847362714055766,
+              "n": 228
+            },
+            "2015-08-14-14-54-57": {
+              "translation_mean_m": 3.326938397232867,
+              "rotation_mean_deg": 3.059806828108207,
+              "n": 1880
+            },
+            "2015-08-17-13-30-19": {
+              "translation_mean_m": 3.664704959169106,
+              "rotation_mean_deg": 2.960382029848295,
+              "n": 2719
+            },
+            "2015-11-12-11-22-05": {
+              "translation_mean_m": 3.1069672248662936,
+              "rotation_mean_deg": 3.077848508607796,
+              "n": 2415
+            }
+          }
+        }
+      },
+      "moving_translation_deltas": {
+        "right": {
+          "trajectory_equal_weight_mean_m": -1.020726415771175e-07,
+          "ci95_m": [
+            -3.0040479165486084e-07,
+            8.95724408668728e-08
+          ]
+        },
+        "balanced": {
+          "trajectory_equal_weight_mean_m": 1.906163003947573e-07,
+          "ci95_m": [
+            -2.1490522846437772e-07,
+            6.256865110782732e-07
+          ]
+        },
+        "random": {
+          "trajectory_equal_weight_mean_m": 2.584244953585113e-07,
+          "ci95_m": [
+            -1.922484088843847e-07,
+            8.26651753233725e-07
+          ]
+        }
+      },
+      "moving_left_vs_raw": {
+        "trajectory_equal_weight_mean_m": -111.44549260525909,
+        "ci95_m": [
+          -118.18229903785794,
+          -105.64539590941995
+        ]
+      },
+      "exact_audit": {
+        "maxima": {
+          "right": {
+            "translation_m": 2.771205628214763e-13,
+            "rotation_rad": 2.7815965032387228e-15
+          },
+          "balanced": {
+            "translation_m": 2.5782428934925536e-13,
+            "rotation_rad": 2.1100285307759658e-15
+          },
+          "random": {
+            "translation_m": 2.8621954385644534e-13,
+            "rotation_rad": 2.554125693045872e-15
+          }
+        },
+        "tolerance": 1e-09,
+        "worst_si": 2.8621954385644534e-13,
+        "passes": true
+      }
+    }
+  },
+  "fingerprint": {
+    "implementation_sha256": "08bd0819b18284e74ec4d43b68ba4b528d06823795d1fd3055c17f1fc412d488",
+    "manifest_sha256": "bc10bee25b3b94c29b4f3d673503ce4b2a9b223ef452362066994e752240cacf"
+  },
+  "checkpoint_sha256": "d1d03d593afe5fc7d611143ad115761932dd95b5e627803b3ec82efb0009807c"
+}

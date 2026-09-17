@@ -1,0 +1,153 @@
+{
+  "study": "ETH3D frozen architecture compute profile v1",
+  "data_boundary": "recorded checksum-verified ETH3D operands only",
+  "selection_status": "post-freeze descriptive diagnostic",
+  "fold": 0,
+  "seed": 0,
+  "length": 32,
+  "reproduction_max": {
+    "contextual_ga": 0.0,
+    "calibrated_direct_gru": 4.277698195664925e-09
+  },
+  "environment": {
+    "python": "3.14.7",
+    "platform": "macOS-26.6.1-arm64-arm-64bit-Mach-O",
+    "processor": "arm",
+    "torch": "2.12.0",
+    "numpy": "2.4.6",
+    "torch_threads": 1,
+    "device": "cpu"
+  },
+  "parameter_counts": {
+    "shared_leaf_calibrator": 280,
+    "contextual_ga_primary": 10689,
+    "calibrated_direct_gru_primary": 10846
+  },
+  "recorded_training_time": {
+    "contextual_ga_primary": {
+      "n": 25,
+      "median_seconds": 99.04872170800809,
+      "q1_seconds": 98.63126924994867,
+      "q3_seconds": 100.67090933397412
+    },
+    "calibrated_direct_gru_primary": {
+      "n": 25,
+      "median_seconds": 79.31731300003594,
+      "q1_seconds": 69.83932612498756,
+      "q3_seconds": 82.292523250042
+    },
+    "shared_leaf_calibrator": {
+      "n": 25,
+      "median_seconds": 18.141941291978583,
+      "q1_seconds": 17.600597041018773,
+      "q3_seconds": 18.36800012504682
+    }
+  },
+  "inference": {
+    "1": {
+      "actual_batch_size": 1,
+      "contextual_ga": {
+        "median_ms": 2.4561255,
+        "q1_ms": 2.432542,
+        "q3_ms": 2.5098647499999998,
+        "examples_per_second": 407.14531891794616,
+        "warmup_calls": 20,
+        "timed_calls": 100
+      },
+      "calibrated_direct_gru": {
+        "median_ms": 0.24122949999999999,
+        "q1_ms": 0.23800025,
+        "q3_ms": 0.24434375,
+        "examples_per_second": 4145.429974360516,
+        "warmup_calls": 20,
+        "timed_calls": 100
+      },
+      "exact_motor_left": {
+        "median_ms": 1.126896,
+        "q1_ms": 1.1165725000000002,
+        "q3_ms": 1.1458645,
+        "examples_per_second": 887.3933353210945,
+        "warmup_calls": 20,
+        "timed_calls": 100
+      },
+      "exact_motor_balanced": {
+        "median_ms": 1.1271875,
+        "q1_ms": 1.11790625,
+        "q3_ms": 1.1379475000000001,
+        "examples_per_second": 887.163848073191,
+        "warmup_calls": 20,
+        "timed_calls": 100
+      }
+    },
+    "32": {
+      "actual_batch_size": 32,
+      "contextual_ga": {
+        "median_ms": 3.068792,
+        "q1_ms": 3.0334585,
+        "q3_ms": 3.11869825,
+        "examples_per_second": 10427.555859113292,
+        "warmup_calls": 20,
+        "timed_calls": 100
+      },
+      "calibrated_direct_gru": {
+        "median_ms": 0.7285415,
+        "q1_ms": 0.71147925,
+        "q3_ms": 0.7384475,
+        "examples_per_second": 43923.37293071157,
+        "warmup_calls": 20,
+        "timed_calls": 100
+      },
+      "exact_motor_left": {
+        "median_ms": 1.1726665,
+        "q1_ms": 1.16405175,
+        "q3_ms": 1.19279175,
+        "examples_per_second": 27288.235828345056,
+        "warmup_calls": 20,
+        "timed_calls": 100
+      },
+      "exact_motor_balanced": {
+        "median_ms": 1.1734375,
+        "q1_ms": 1.15855175,
+        "q3_ms": 1.18718725,
+        "examples_per_second": 27270.306258322238,
+        "warmup_calls": 20,
+        "timed_calls": 100
+      }
+    },
+    "256": {
+      "actual_batch_size": 256,
+      "contextual_ga": {
+        "median_ms": 6.718833500000001,
+        "q1_ms": 6.6303025,
+        "q3_ms": 6.8530524999999995,
+        "examples_per_second": 38101.85205512236,
+        "warmup_calls": 20,
+        "timed_calls": 100
+      },
+      "calibrated_direct_gru": {
+        "median_ms": 3.733917,
+        "q1_ms": 3.662427,
+        "q3_ms": 3.86087475,
+        "examples_per_second": 68560.70983902428,
+        "warmup_calls": 20,
+        "timed_calls": 100
+      },
+      "exact_motor_left": {
+        "median_ms": 1.4875835,
+        "q1_ms": 1.477396,
+        "q3_ms": 1.50726,
+        "examples_per_second": 172091.1800917394,
+        "warmup_calls": 20,
+        "timed_calls": 100
+      },
+      "exact_motor_balanced": {
+        "median_ms": 1.4536665,
+        "q1_ms": 1.4361350000000002,
+        "q3_ms": 1.4766145,
+        "examples_per_second": 176106.417806285,
+        "warmup_calls": 20,
+        "timed_calls": 100
+      }
+    }
+  }
+}

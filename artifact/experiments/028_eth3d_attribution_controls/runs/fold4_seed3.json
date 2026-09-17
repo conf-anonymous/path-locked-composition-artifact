@@ -1,0 +1,327 @@
+{
+  "fold": 4,
+  "seed": 3,
+  "calibrator_reproduction_max": 0.0,
+  "calibrator_training": {
+    "seconds": 14.067746166954748,
+    "final_loss": 0.5015819576382637
+  },
+  "arms": {
+    "constant": {
+      "n_windows": 3117,
+      "clusters": {
+        "cables_1": {
+          "family": "cables",
+          "n": 403,
+          "translation_mean_m": 0.2910433677240772,
+          "rotation_mean_deg": 36.06730437993391
+        },
+        "cables_2": {
+          "family": "cables",
+          "n": 4,
+          "translation_mean_m": 1.3143887948413804,
+          "rotation_mean_deg": 53.75473611798594
+        },
+        "cables_3": {
+          "family": "cables",
+          "n": 22,
+          "translation_mean_m": 0.6952329969634415,
+          "rotation_mean_deg": 28.453110328969668
+        },
+        "camera_shake_1": {
+          "family": "camera_shake",
+          "n": 85,
+          "translation_mean_m": 1.0511213588758517,
+          "rotation_mean_deg": 150.84254771939015
+        },
+        "camera_shake_2": {
+          "family": "camera_shake",
+          "n": 289,
+          "translation_mean_m": 1.6504226223666434,
+          "rotation_mean_deg": 140.9693788996655
+        },
+        "camera_shake_3": {
+          "family": "camera_shake",
+          "n": 51,
+          "translation_mean_m": 1.3333962168142288,
+          "rotation_mean_deg": 125.09291276530777
+        },
+        "large_loop_1": {
+          "family": "large_loop",
+          "n": 200,
+          "translation_mean_m": 0.5015081820725267,
+          "rotation_mean_deg": 27.746685020705126
+        },
+        "reflective_1": {
+          "family": "reflective",
+          "n": 1448,
+          "translation_mean_m": 0.3244259674611406,
+          "rotation_mean_deg": 30.91630251890681
+        },
+        "table_3": {
+          "family": "table",
+          "n": 157,
+          "translation_mean_m": 0.15925203457081172,
+          "rotation_mean_deg": 10.938583057340326
+        },
+        "table_4": {
+          "family": "table",
+          "n": 107,
+          "translation_mean_m": 0.17877281502936065,
+          "rotation_mean_deg": 8.325318565457591
+        },
+        "table_7": {
+          "family": "table",
+          "n": 351,
+          "translation_mean_m": 0.18084978597608867,
+          "rotation_mean_deg": 13.69611708823996
+        }
+      },
+      "minimum_real_norm_before_projection": 0.9078823328018188,
+      "training_seconds": 4.31822687498061,
+      "parameters": 1
+    },
+    "contextual": {
+      "n_windows": 3117,
+      "clusters": {
+        "cables_1": {
+          "family": "cables",
+          "n": 403,
+          "translation_mean_m": 0.13048844067472104,
+          "rotation_mean_deg": 23.77751829685394
+        },
+        "cables_2": {
+          "family": "cables",
+          "n": 4,
+          "translation_mean_m": 1.502482703643663,
+          "rotation_mean_deg": 56.73824155705951
+        },
+        "cables_3": {
+          "family": "cables",
+          "n": 22,
+          "translation_mean_m": 0.8168844358354375,
+          "rotation_mean_deg": 26.160886281734648
+        },
+        "camera_shake_1": {
+          "family": "camera_shake",
+          "n": 85,
+          "translation_mean_m": 0.6323482522050086,
+          "rotation_mean_deg": 150.95346258654743
+        },
+        "camera_shake_2": {
+          "family": "camera_shake",
+          "n": 289,
+          "translation_mean_m": 0.6195876085419018,
+          "rotation_mean_deg": 141.8412986152274
+        },
+        "camera_shake_3": {
+          "family": "camera_shake",
+          "n": 51,
+          "translation_mean_m": 0.6854830536496497,
+          "rotation_mean_deg": 125.50225126246607
+        },
+        "large_loop_1": {
+          "family": "large_loop",
+          "n": 200,
+          "translation_mean_m": 0.7517088697601031,
+          "rotation_mean_deg": 31.63096927340721
+        },
+        "reflective_1": {
+          "family": "reflective",
+          "n": 1448,
+          "translation_mean_m": 0.27302449926012645,
+          "rotation_mean_deg": 27.618596713238208
+        },
+        "table_3": {
+          "family": "table",
+          "n": 157,
+          "translation_mean_m": 0.08614423765931781,
+          "rotation_mean_deg": 3.406439768460444
+        },
+        "table_4": {
+          "family": "table",
+          "n": 107,
+          "translation_mean_m": 0.027374810381553708,
+          "rotation_mean_deg": 1.1352445166571485
+        },
+        "table_7": {
+          "family": "table",
+          "n": 351,
+          "translation_mean_m": 0.0674686692022956,
+          "rotation_mean_deg": 4.65453460500304
+        }
+      },
+      "minimum_real_norm_before_projection": 0.6280268430709839,
+      "training_seconds": 52.52072379202582,
+      "parameters": 10689,
+      "numerical_audit": {
+        "path_discrepancy": {
+          "right": {
+            "translation_m": 1.5925340495971257e-14,
+            "rotation_rad": 2.6883177111928376e-15
+          },
+          "balanced": {
+            "translation_m": 6.50495956605843e-14,
+            "rotation_rad": 2.154233226462605e-15
+          },
+          "chunks_5_11_16": {
+            "translation_m": 7.53644380168212e-15,
+            "rotation_rad": 1.9021385298516603e-15
+          }
+        },
+        "minimum_float64_real_norm": 0.6280267669412052,
+        "cached_recorded_calibration_update_max_coordinate_delta": 1.0302869668521453e-13,
+        "scope": "products regrouped; identical full-sequence GRU retained"
+      }
+    },
+    "feature_direct": {
+      "n_windows": 3117,
+      "clusters": {
+        "cables_1": {
+          "family": "cables",
+          "n": 403,
+          "translation_mean_m": 0.15627248401516772,
+          "rotation_mean_deg": 23.009855941920907
+        },
+        "cables_2": {
+          "family": "cables",
+          "n": 4,
+          "translation_mean_m": 1.5594596366232174,
+          "rotation_mean_deg": 77.9278124897469
+        },
+        "cables_3": {
+          "family": "cables",
+          "n": 22,
+          "translation_mean_m": 1.0049280836386207,
+          "rotation_mean_deg": 38.17300572835904
+        },
+        "camera_shake_1": {
+          "family": "camera_shake",
+          "n": 85,
+          "translation_mean_m": 0.6706544256766572,
+          "rotation_mean_deg": 50.413855290312206
+        },
+        "camera_shake_2": {
+          "family": "camera_shake",
+          "n": 289,
+          "translation_mean_m": 0.7941192119960622,
+          "rotation_mean_deg": 57.097703864654605
+        },
+        "camera_shake_3": {
+          "family": "camera_shake",
+          "n": 51,
+          "translation_mean_m": 0.8436344457037165,
+          "rotation_mean_deg": 48.59935304337839
+        },
+        "large_loop_1": {
+          "family": "large_loop",
+          "n": 200,
+          "translation_mean_m": 0.554871935296618,
+          "rotation_mean_deg": 26.09231669075185
+        },
+        "reflective_1": {
+          "family": "reflective",
+          "n": 1448,
+          "translation_mean_m": 0.36054010997328095,
+          "rotation_mean_deg": 27.97988093316197
+        },
+        "table_3": {
+          "family": "table",
+          "n": 157,
+          "translation_mean_m": 0.1361728443464666,
+          "rotation_mean_deg": 5.397093729587017
+        },
+        "table_4": {
+          "family": "table",
+          "n": 107,
+          "translation_mean_m": 0.17688206755621255,
+          "rotation_mean_deg": 5.260421238302406
+        },
+        "table_7": {
+          "family": "table",
+          "n": 351,
+          "translation_mean_m": 0.14091702169924375,
+          "rotation_mean_deg": 7.474539715057185
+        }
+      },
+      "minimum_real_norm_before_projection": 0.08309482038021088,
+      "training_seconds": 53.1281132500153,
+      "parameters": 10920
+    },
+    "feature_residual": {
+      "n_windows": 3117,
+      "clusters": {
+        "cables_1": {
+          "family": "cables",
+          "n": 403,
+          "translation_mean_m": 0.16725813317777732,
+          "rotation_mean_deg": 26.579419544781445
+        },
+        "cables_2": {
+          "family": "cables",
+          "n": 4,
+          "translation_mean_m": 1.1503526020516228,
+          "rotation_mean_deg": 85.81552989087147
+        },
+        "cables_3": {
+          "family": "cables",
+          "n": 22,
+          "translation_mean_m": 1.173247685464673,
+          "rotation_mean_deg": 51.832591524861535
+        },
+        "camera_shake_1": {
+          "family": "camera_shake",
+          "n": 85,
+          "translation_mean_m": 0.6768011587024415,
+          "rotation_mean_deg": 39.152143579501484
+        },
+        "camera_shake_2": {
+          "family": "camera_shake",
+          "n": 289,
+          "translation_mean_m": 0.7817133596890758,
+          "rotation_mean_deg": 43.49833475826158
+        },
+        "camera_shake_3": {
+          "family": "camera_shake",
+          "n": 51,
+          "translation_mean_m": 0.7239791244661282,
+          "rotation_mean_deg": 49.383761572648055
+        },
+        "large_loop_1": {
+          "family": "large_loop",
+          "n": 200,
+          "translation_mean_m": 0.6602661945559389,
+          "rotation_mean_deg": 22.726295913961085
+        },
+        "reflective_1": {
+          "family": "reflective",
+          "n": 1448,
+          "translation_mean_m": 0.33369828068021834,
+          "rotation_mean_deg": 28.660215082297675
+        },
+        "table_3": {
+          "family": "table",
+          "n": 157,
+          "translation_mean_m": 0.15283143056926599,
+          "rotation_mean_deg": 5.7277453163443734
+        },
+        "table_4": {
+          "family": "table",
+          "n": 107,
+          "translation_mean_m": 0.13993312835335783,
+          "rotation_mean_deg": 5.096960441861963
+        },
+        "table_7": {
+          "family": "table",
+          "n": 351,
+          "translation_mean_m": 0.12427661679801794,
+          "rotation_mean_deg": 7.87432540991427
+        }
+      },
+      "minimum_real_norm_before_projection": 0.7979770302772522,
+      "training_seconds": 51.77050937502645,
+      "parameters": 10920
+    }
+  },
+  "checkpoint_sha256": "c2c9536a78a76018de8bcd66b8a452a72bd4032626ff29d3f301efb3b66caddc"
+}

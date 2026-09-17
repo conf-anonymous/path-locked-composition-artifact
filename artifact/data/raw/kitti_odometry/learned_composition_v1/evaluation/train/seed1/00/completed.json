@@ -1,0 +1,1025 @@
+{
+  "seed": 1,
+  "sequence": "00",
+  "split": "train",
+  "arms": [
+    "identity",
+    "raw",
+    "calibrated",
+    "constant",
+    "contextual",
+    "feature_direct",
+    "feature_residual",
+    "mergeable"
+  ],
+  "summary": {
+    "distance_100": {
+      "potential": 445,
+      "evaluated": 445,
+      "coverage": 1.0,
+      "arms": {
+        "identity": {
+          "translation_m": 90.11910240573833,
+          "rotation_deg": 56.32204403124935,
+          "translation_percent": 90.11910240573833,
+          "rotation_deg_per_m": 0.5632204403124934
+        },
+        "raw": {
+          "translation_m": 1.3292440031240362,
+          "rotation_deg": 1.8422747701780053,
+          "translation_percent": 1.3292440031240362,
+          "rotation_deg_per_m": 0.01842274770178005
+        },
+        "calibrated": {
+          "translation_m": 3.177264222312022,
+          "rotation_deg": 3.6824052335261115,
+          "translation_percent": 3.177264222312022,
+          "rotation_deg_per_m": 0.036824052335261113
+        },
+        "constant": {
+          "translation_m": 1.3900352562117038,
+          "rotation_deg": 1.6004458833563655,
+          "translation_percent": 1.3900352562117038,
+          "rotation_deg_per_m": 0.016004458833563658
+        },
+        "contextual": {
+          "translation_m": 1.3746852881986353,
+          "rotation_deg": 1.590042293356531,
+          "translation_percent": 1.3746852881986353,
+          "rotation_deg_per_m": 0.01590042293356531
+        },
+        "feature_direct": {
+          "translation_m": 7.267305753484926,
+          "rotation_deg": 5.439070594250483,
+          "translation_percent": 7.267305753484926,
+          "rotation_deg_per_m": 0.05439070594250483
+        },
+        "feature_residual": {
+          "translation_m": 1.0718101678760183,
+          "rotation_deg": 0.8460891975361045,
+          "translation_percent": 1.0718101678760183,
+          "rotation_deg_per_m": 0.008460891975361044
+        },
+        "mergeable": {
+          "translation_m": 1.46739494253167,
+          "rotation_deg": 1.5740155944695504,
+          "translation_percent": 1.46739494253167,
+          "rotation_deg_per_m": 0.015740155944695505
+        }
+      },
+      "edge_count_range": [
+        77,
+        202
+      ],
+      "beyond_training_length_count": 0,
+      "duration_seconds_range": [
+        7.979199999999992,
+        20.941589999999998
+      ]
+    },
+    "distance_200": {
+      "potential": 431,
+      "evaluated": 431,
+      "coverage": 1.0,
+      "arms": {
+        "identity": {
+          "translation_m": 159.03299858511681,
+          "rotation_deg": 74.56735123654644,
+          "translation_percent": 79.51649929255841,
+          "rotation_deg_per_m": 0.37283675618273227
+        },
+        "raw": {
+          "translation_m": 3.6072253858582597,
+          "rotation_deg": 3.1976772603299337,
+          "translation_percent": 1.8036126929291298,
+          "rotation_deg_per_m": 0.015988386301649664
+        },
+        "calibrated": {
+          "translation_m": 9.117370501024409,
+          "rotation_deg": 6.405162886986652,
+          "translation_percent": 4.558685250512204,
+          "rotation_deg_per_m": 0.03202581443493326
+        },
+        "constant": {
+          "translation_m": 3.4959591155756256,
+          "rotation_deg": 2.756293706849622,
+          "translation_percent": 1.7479795577878128,
+          "rotation_deg_per_m": 0.013781468534248107
+        },
+        "contextual": {
+          "translation_m": 3.4640184584566165,
+          "rotation_deg": 2.767601037031827,
+          "translation_percent": 1.7320092292283082,
+          "rotation_deg_per_m": 0.013838005185159135
+        },
+        "feature_direct": {
+          "translation_m": 23.35380738501223,
+          "rotation_deg": 11.306140284897308,
+          "translation_percent": 11.676903692506116,
+          "rotation_deg_per_m": 0.056530701424486546
+        },
+        "feature_residual": {
+          "translation_m": 2.3644209364720736,
+          "rotation_deg": 1.550288769192854,
+          "translation_percent": 1.1822104682360368,
+          "rotation_deg_per_m": 0.0077514438459642685
+        },
+        "mergeable": {
+          "translation_m": 3.3577306696309432,
+          "rotation_deg": 2.7826016798106523,
+          "translation_percent": 1.6788653348154716,
+          "rotation_deg_per_m": 0.013913008399053257
+        }
+      },
+      "edge_count_range": [
+        154,
+        333
+      ],
+      "beyond_training_length_count": 160,
+      "duration_seconds_range": [
+        15.959400000000016,
+        34.522330000000004
+      ]
+    },
+    "distance_300": {
+      "potential": 424,
+      "evaluated": 424,
+      "coverage": 1.0,
+      "arms": {
+        "identity": {
+          "translation_m": 214.74403711452115,
+          "rotation_deg": 89.01923600588492,
+          "translation_percent": 71.58134570484039,
+          "rotation_deg_per_m": 0.29673078668628305
+        },
+        "raw": {
+          "translation_m": 6.843126935906968,
+          "rotation_deg": 4.375573933631218,
+          "translation_percent": 2.281042311968989,
+          "rotation_deg_per_m": 0.014585246445437391
+        },
+        "calibrated": {
+          "translation_m": 16.712628068286985,
+          "rotation_deg": 8.534109515720603,
+          "translation_percent": 5.570876022762327,
+          "rotation_deg_per_m": 0.028447031719068674
+        },
+        "constant": {
+          "translation_m": 6.318961612718571,
+          "rotation_deg": 3.7458187048723834,
+          "translation_percent": 2.1063205375728566,
+          "rotation_deg_per_m": 0.012486062349574613
+        },
+        "contextual": {
+          "translation_m": 6.034460717064523,
+          "rotation_deg": 3.771665143173713,
+          "translation_percent": 2.011486905688174,
+          "rotation_deg_per_m": 0.012572217143912375
+        },
+        "feature_direct": {
+          "translation_m": 42.052374650286986,
+          "rotation_deg": 17.990345244714693,
+          "translation_percent": 14.01745821676233,
+          "rotation_deg_per_m": 0.05996781748238231
+        },
+        "feature_residual": {
+          "translation_m": 4.959273492738702,
+          "rotation_deg": 2.4112948899122135,
+          "translation_percent": 1.6530911642462338,
+          "rotation_deg_per_m": 0.008037649633040711
+        },
+        "mergeable": {
+          "translation_m": 6.274891229182329,
+          "rotation_deg": 3.921330695115595,
+          "translation_percent": 2.091630409727443,
+          "rotation_deg_per_m": 0.013071102317051985
+        }
+      },
+      "edge_count_range": [
+        236,
+        488
+      ],
+      "beyond_training_length_count": 406,
+      "duration_seconds_range": [
+        24.45580000000001,
+        50.59733
+      ]
+    },
+    "distance_400": {
+      "potential": 416,
+      "evaluated": 416,
+      "coverage": 1.0,
+      "arms": {
+        "identity": {
+          "translation_m": 257.35899890229047,
+          "rotation_deg": 102.41858621133306,
+          "translation_percent": 64.33974972557262,
+          "rotation_deg_per_m": 0.2560464655283327
+        },
+        "raw": {
+          "translation_m": 10.983434807672715,
+          "rotation_deg": 5.364832800666519,
+          "translation_percent": 2.745858701918179,
+          "rotation_deg_per_m": 0.013412082001666296
+        },
+        "calibrated": {
+          "translation_m": 25.054278156099663,
+          "rotation_deg": 10.13727797080106,
+          "translation_percent": 6.263569539024915,
+          "rotation_deg_per_m": 0.02534319492700265
+        },
+        "constant": {
+          "translation_m": 9.887309304154432,
+          "rotation_deg": 4.579159568780578,
+          "translation_percent": 2.471827326038608,
+          "rotation_deg_per_m": 0.011447898921951445
+        },
+        "contextual": {
+          "translation_m": 9.202023459347114,
+          "rotation_deg": 4.689177768094295,
+          "translation_percent": 2.3005058648367784,
+          "rotation_deg_per_m": 0.01172294442023574
+        },
+        "feature_direct": {
+          "translation_m": 75.38457502356407,
+          "rotation_deg": 24.880992771207403,
+          "translation_percent": 18.846143755891017,
+          "rotation_deg_per_m": 0.062202481928018506
+        },
+        "feature_residual": {
+          "translation_m": 9.16493868491771,
+          "rotation_deg": 3.5354518110212396,
+          "translation_percent": 2.2912346712294274,
+          "rotation_deg_per_m": 0.008838629527553099
+        },
+        "mergeable": {
+          "translation_m": 10.011371479928531,
+          "rotation_deg": 4.874882564897894,
+          "translation_percent": 2.502842869982133,
+          "rotation_deg_per_m": 0.012187206412244736
+        }
+      },
+      "edge_count_range": [
+        319,
+        612
+      ],
+      "beyond_training_length_count": 416,
+      "duration_seconds_range": [
+        33.05599999999998,
+        63.45015
+      ]
+    },
+    "distance_500": {
+      "potential": 408,
+      "evaluated": 408,
+      "coverage": 1.0,
+      "arms": {
+        "identity": {
+          "translation_m": 283.6756953700141,
+          "rotation_deg": 115.96149284998887,
+          "translation_percent": 56.735139074002824,
+          "rotation_deg_per_m": 0.23192298569997774
+        },
+        "raw": {
+          "translation_m": 16.121303032329735,
+          "rotation_deg": 6.183560454115838,
+          "translation_percent": 3.224260606465947,
+          "rotation_deg_per_m": 0.012367120908231676
+        },
+        "calibrated": {
+          "translation_m": 32.55191059982565,
+          "rotation_deg": 11.180139089710961,
+          "translation_percent": 6.510382119965132,
+          "rotation_deg_per_m": 0.022360278179421926
+        },
+        "constant": {
+          "translation_m": 13.786299211758713,
+          "rotation_deg": 5.2807144281408105,
+          "translation_percent": 2.757259842351742,
+          "rotation_deg_per_m": 0.010561428856281623
+        },
+        "contextual": {
+          "translation_m": 12.705302407412596,
+          "rotation_deg": 5.5332655657839585,
+          "translation_percent": 2.541060481482519,
+          "rotation_deg_per_m": 0.011066531131567917
+        },
+        "feature_direct": {
+          "translation_m": 130.4763337220154,
+          "rotation_deg": 32.52761203100166,
+          "translation_percent": 26.095266744403084,
+          "rotation_deg_per_m": 0.06505522406200331
+        },
+        "feature_residual": {
+          "translation_m": 15.648599419095463,
+          "rotation_deg": 4.989636215007706,
+          "translation_percent": 3.1297198838190927,
+          "rotation_deg_per_m": 0.009979272430015413
+        },
+        "mergeable": {
+          "translation_m": 14.268737391635716,
+          "rotation_deg": 5.589654513904819,
+          "translation_percent": 2.853747478327143,
+          "rotation_deg_per_m": 0.011179309027809638
+        }
+      },
+      "edge_count_range": [
+        433,
+        738
+      ],
+      "beyond_training_length_count": 408,
+      "duration_seconds_range": [
+        44.87560000000002,
+        76.512446
+      ]
+    },
+    "distance_600": {
+      "potential": 399,
+      "evaluated": 399,
+      "coverage": 1.0,
+      "arms": {
+        "identity": {
+          "translation_m": 289.40508472233404,
+          "rotation_deg": 110.41362106474207,
+          "translation_percent": 48.23418078705567,
+          "rotation_deg_per_m": 0.18402270177457014
+        },
+        "raw": {
+          "translation_m": 21.541544451879002,
+          "rotation_deg": 6.779788270595293,
+          "translation_percent": 3.5902574086465,
+          "rotation_deg_per_m": 0.011299647117658821
+        },
+        "calibrated": {
+          "translation_m": 38.369741075890175,
+          "rotation_deg": 11.542110002145543,
+          "translation_percent": 6.394956845981696,
+          "rotation_deg_per_m": 0.019236850003575903
+        },
+        "constant": {
+          "translation_m": 17.535912094854357,
+          "rotation_deg": 5.835350051070553,
+          "translation_percent": 2.9226520158090588,
+          "rotation_deg_per_m": 0.009725583418450923
+        },
+        "contextual": {
+          "translation_m": 16.393272787742482,
+          "rotation_deg": 6.1277857590179,
+          "translation_percent": 2.732212131290414,
+          "rotation_deg_per_m": 0.010212976265029837
+        },
+        "feature_direct": {
+          "translation_m": 186.48028464563606,
+          "rotation_deg": 49.97048478104207,
+          "translation_percent": 31.08004744093935,
+          "rotation_deg_per_m": 0.08328414130173678
+        },
+        "feature_residual": {
+          "translation_m": 26.638258038301696,
+          "rotation_deg": 8.421279911159713,
+          "translation_percent": 4.439709673050284,
+          "rotation_deg_per_m": 0.014035466518599524
+        },
+        "mergeable": {
+          "translation_m": 17.576504135247898,
+          "rotation_deg": 6.296192370697092,
+          "translation_percent": 2.9294173558746497,
+          "rotation_deg_per_m": 0.010493653951161818
+        }
+      },
+      "edge_count_range": [
+        551,
+        865
+      ],
+      "beyond_training_length_count": 399,
+      "duration_seconds_range": [
+        57.098900000000015,
+        89.673033
+      ]
+    },
+    "distance_700": {
+      "potential": 385,
+      "evaluated": 385,
+      "coverage": 1.0,
+      "arms": {
+        "identity": {
+          "translation_m": 283.51823387399617,
+          "rotation_deg": 101.6116892645952,
+          "translation_percent": 40.5026048391423,
+          "rotation_deg_per_m": 0.14515955609227887
+        },
+        "raw": {
+          "translation_m": 26.40088859763241,
+          "rotation_deg": 7.234679001018948,
+          "translation_percent": 3.7715555139474874,
+          "rotation_deg_per_m": 0.010335255715741353
+        },
+        "calibrated": {
+          "translation_m": 41.9279811214979,
+          "rotation_deg": 11.488261435315383,
+          "translation_percent": 5.989711588785414,
+          "rotation_deg_per_m": 0.016411802050450546
+        },
+        "constant": {
+          "translation_m": 21.189248747474352,
+          "rotation_deg": 6.253498375284873,
+          "translation_percent": 3.027035535353479,
+          "rotation_deg_per_m": 0.00893356910754982
+        },
+        "contextual": {
+          "translation_m": 20.781688032061226,
+          "rotation_deg": 6.59928187899721,
+          "translation_percent": 2.9688125760087463,
+          "rotation_deg_per_m": 0.009427545541424585
+        },
+        "feature_direct": {
+          "translation_m": 197.90464519220527,
+          "rotation_deg": 56.457098959283655,
+          "translation_percent": 28.272092170315034,
+          "rotation_deg_per_m": 0.08065299851326238
+        },
+        "feature_residual": {
+          "translation_m": 59.76128361954368,
+          "rotation_deg": 15.487624655494862,
+          "translation_percent": 8.537326231363382,
+          "rotation_deg_per_m": 0.022125178079278374
+        },
+        "mergeable": {
+          "translation_m": 21.63249924668494,
+          "rotation_deg": 6.943612573006976,
+          "translation_percent": 3.090357035240706,
+          "rotation_deg_per_m": 0.00991944653286711
+        }
+      },
+      "edge_count_range": [
+        652,
+        998
+      ],
+      "beyond_training_length_count": 385,
+      "duration_seconds_range": [
+        67.56740000000002,
+        103.46549999999999
+      ]
+    },
+    "distance_800": {
+      "potential": 375,
+      "evaluated": 375,
+      "coverage": 1.0,
+      "arms": {
+        "identity": {
+          "translation_m": 276.3451444206681,
+          "rotation_deg": 106.77319456666507,
+          "translation_percent": 34.54314305258351,
+          "rotation_deg_per_m": 0.13346649320833132
+        },
+        "raw": {
+          "translation_m": 30.04551564404513,
+          "rotation_deg": 7.650181209911982,
+          "translation_percent": 3.7556894555056406,
+          "rotation_deg_per_m": 0.009562726512389976
+        },
+        "calibrated": {
+          "translation_m": 44.453207861455546,
+          "rotation_deg": 11.517246749488326,
+          "translation_percent": 5.556650982681943,
+          "rotation_deg_per_m": 0.014396558436860407
+        },
+        "constant": {
+          "translation_m": 24.12680331556774,
+          "rotation_deg": 6.6774559836454,
+          "translation_percent": 3.0158504144459677,
+          "rotation_deg_per_m": 0.008346819979556752
+        },
+        "contextual": {
+          "translation_m": 23.26635928257547,
+          "rotation_deg": 7.214830958896442,
+          "translation_percent": 2.9082949103219335,
+          "rotation_deg_per_m": 0.009018538698620553
+        },
+        "feature_direct": {
+          "translation_m": 223.84823080587825,
+          "rotation_deg": 67.88414186030842,
+          "translation_percent": 27.98102885073478,
+          "rotation_deg_per_m": 0.08485517732538553
+        },
+        "feature_residual": {
+          "translation_m": 71.23120448788995,
+          "rotation_deg": 19.08095060178416,
+          "translation_percent": 8.903900560986246,
+          "rotation_deg_per_m": 0.023851188252230197
+        },
+        "mergeable": {
+          "translation_m": 26.638581541163337,
+          "rotation_deg": 7.559318662378246,
+          "translation_percent": 3.329822692645417,
+          "rotation_deg_per_m": 0.009449148327972804
+        }
+      },
+      "edge_count_range": [
+        757,
+        1138
+      ],
+      "beyond_training_length_count": 375,
+      "duration_seconds_range": [
+        78.4531,
+        117.97519
+      ]
+    },
+    "fixed_32": {
+      "potential": 451,
+      "evaluated": 451,
+      "coverage": 1.0,
+      "arms": {
+        "identity": {
+          "translation_m": 25.93309342935713,
+          "rotation_deg": 18.8353666722045
+        },
+        "raw": {
+          "translation_m": 0.34929490654079337,
+          "rotation_deg": 0.6482174297582805
+        },
+        "calibrated": {
+          "translation_m": 0.6137799874003276,
+          "rotation_deg": 1.1697403848730001
+        },
+        "constant": {
+          "translation_m": 0.3676041974028732,
+          "rotation_deg": 0.5893636335032786
+        },
+        "contextual": {
+          "translation_m": 0.3775541673509668,
+          "rotation_deg": 0.5817467089854392
+        },
+        "feature_direct": {
+          "translation_m": 0.936175866000112,
+          "rotation_deg": 1.4330598036332063
+        },
+        "feature_residual": {
+          "translation_m": 0.5073980869597039,
+          "rotation_deg": 0.423231536407429
+        },
+        "mergeable": {
+          "translation_m": 0.3885491789825201,
+          "rotation_deg": 0.5847328513322526
+        }
+      },
+      "edge_count_range": [
+        32,
+        32
+      ],
+      "beyond_training_length_count": 0,
+      "duration_seconds_range": [
+        3.308399999999949,
+        3.3260999999999967
+      ]
+    },
+    "fixed_64": {
+      "potential": 448,
+      "evaluated": 448,
+      "coverage": 1.0,
+      "arms": {
+        "identity": {
+          "translation_m": 50.63416494120132,
+          "rotation_deg": 34.32678923258752
+        },
+        "raw": {
+          "translation_m": 0.6515604906695053,
+          "rotation_deg": 1.0933981418699559
+        },
+        "calibrated": {
+          "translation_m": 1.3386284339882875,
+          "rotation_deg": 2.0999811046751438
+        },
+        "constant": {
+          "translation_m": 0.7090166480889694,
+          "rotation_deg": 0.9658855375090957
+        },
+        "contextual": {
+          "translation_m": 0.7083396667985408,
+          "rotation_deg": 0.9511629942081663
+        },
+        "feature_direct": {
+          "translation_m": 2.1990818997557517,
+          "rotation_deg": 2.232390478980927
+        },
+        "feature_residual": {
+          "translation_m": 0.8000314863671759,
+          "rotation_deg": 0.5754648927967694
+        },
+        "mergeable": {
+          "translation_m": 0.76335970633371,
+          "rotation_deg": 0.9490680250022466
+        }
+      },
+      "edge_count_range": [
+        64,
+        64
+      ],
+      "beyond_training_length_count": 0,
+      "duration_seconds_range": [
+        6.624500000000012,
+        6.641300000000001
+      ]
+    },
+    "fixed_128": {
+      "potential": 442,
+      "evaluated": 442,
+      "coverage": 1.0,
+      "arms": {
+        "identity": {
+          "translation_m": 95.05930128964783,
+          "rotation_deg": 59.08895436211386
+        },
+        "raw": {
+          "translation_m": 1.3898067713935776,
+          "rotation_deg": 1.9071632904174634
+        },
+        "calibrated": {
+          "translation_m": 3.5240563616603136,
+          "rotation_deg": 3.822671646956594
+        },
+        "constant": {
+          "translation_m": 1.5039694972690205,
+          "rotation_deg": 1.6664432673452814
+        },
+        "contextual": {
+          "translation_m": 1.4783905437335256,
+          "rotation_deg": 1.653586706528595
+        },
+        "feature_direct": {
+          "translation_m": 7.016490376089205,
+          "rotation_deg": 3.711762099868084
+        },
+        "feature_residual": {
+          "translation_m": 1.1328951588145117,
+          "rotation_deg": 0.8966904850854372
+        },
+        "mergeable": {
+          "translation_m": 1.5762834234356622,
+          "rotation_deg": 1.6301094817064312
+        }
+      },
+      "edge_count_range": [
+        128,
+        128
+      ],
+      "beyond_training_length_count": 0,
+      "duration_seconds_range": [
+        13.25709999999998,
+        13.2787
+      ]
+    },
+    "fixed_256": {
+      "potential": 429,
+      "evaluated": 429,
+      "coverage": 1.0,
+      "arms": {
+        "identity": {
+          "translation_m": 167.93768750952177,
+          "rotation_deg": 77.97895623221989
+        },
+        "raw": {
+          "translation_m": 3.8265921190358534,
+          "rotation_deg": 3.3176398925223336
+        },
+        "calibrated": {
+          "translation_m": 10.33527350210482,
+          "rotation_deg": 6.683277964913415
+        },
+        "constant": {
+          "translation_m": 3.750735371339882,
+          "rotation_deg": 2.865877357015616
+        },
+        "contextual": {
+          "translation_m": 3.6541859145963795,
+          "rotation_deg": 2.871178255981907
+        },
+        "feature_direct": {
+          "translation_m": 24.59207169415726,
+          "rotation_deg": 10.609439138864944
+        },
+        "feature_residual": {
+          "translation_m": 2.539247445928501,
+          "rotation_deg": 1.6058731680896199
+        },
+        "mergeable": {
+          "translation_m": 3.5461103021060048,
+          "rotation_deg": 2.8901887076825994
+        }
+      },
+      "edge_count_range": [
+        256,
+        256
+      ],
+      "beyond_training_length_count": 0,
+      "duration_seconds_range": [
+        26.523599999999988,
+        26.54681
+      ]
+    },
+    "fixed_512": {
+      "potential": 403,
+      "evaluated": 403,
+      "coverage": 1.0,
+      "arms": {
+        "identity": {
+          "translation_m": 259.3485835157601,
+          "rotation_deg": 104.26366136051062
+        },
+        "raw": {
+          "translation_m": 12.343228934327641,
+          "rotation_deg": 5.491824047426628
+        },
+        "calibrated": {
+          "translation_m": 25.90172325299116,
+          "rotation_deg": 10.216798115683446
+        },
+        "constant": {
+          "translation_m": 10.813338673314545,
+          "rotation_deg": 4.672065077855928
+        },
+        "contextual": {
+          "translation_m": 10.323782561427647,
+          "rotation_deg": 4.840585641703677
+        },
+        "feature_direct": {
+          "translation_m": 83.94987785864387,
+          "rotation_deg": 27.286515848077123
+        },
+        "feature_residual": {
+          "translation_m": 10.649645731695209,
+          "rotation_deg": 3.80083497308796
+        },
+        "mergeable": {
+          "translation_m": 11.3752886971719,
+          "rotation_deg": 5.027758496537429
+        }
+      },
+      "edge_count_range": [
+        512,
+        512
+      ],
+      "beyond_training_length_count": 403,
+      "duration_seconds_range": [
+        53.0539,
+        53.08699
+      ]
+    }
+  },
+  "audits": {
+    "32": {
+      "max_translation_m": 3.908632557426272e-14,
+      "max_rotation_rad": 5.1614345519000855e-17,
+      "max_state_coefficient": 1.7763568394002505e-14,
+      "min_preprojection_real_norm": 0.9999895461557047,
+      "max_matrix_coordinate_error": 1.7763568394002505e-14,
+      "passed": true,
+      "schedules": 20,
+      "arms": [
+        "raw",
+        "calibrated",
+        "mergeable"
+      ],
+      "eligible": 4509,
+      "evaluated": 20,
+      "starts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    "64": {
+      "max_translation_m": 7.835028814886506e-14,
+      "max_rotation_rad": 1.3522752750960446e-16,
+      "max_state_coefficient": 5.684341886080802e-14,
+      "min_preprojection_real_norm": 0.9999590453385654,
+      "max_matrix_coordinate_error": 7.815970093361102e-14,
+      "passed": true,
+      "schedules": 20,
+      "arms": [
+        "raw",
+        "calibrated",
+        "mergeable"
+      ],
+      "eligible": 4477,
+      "evaluated": 20,
+      "starts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    "128": {
+      "max_translation_m": 1.7419225893720795e-13,
+      "max_rotation_rad": 3.651087949379283e-15,
+      "max_state_coefficient": 9.237055564881302e-14,
+      "min_preprojection_real_norm": 0.9999253466040711,
+      "max_matrix_coordinate_error": 1.2789769243681803e-13,
+      "passed": true,
+      "schedules": 20,
+      "arms": [
+        "raw",
+        "calibrated",
+        "mergeable"
+      ],
+      "eligible": 4413,
+      "evaluated": 20,
+      "starts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    "256": {
+      "max_translation_m": 4.121760358735053e-13,
+      "max_rotation_rad": 4.910241434354748e-15,
+      "max_state_coefficient": 2.984279490192421e-13,
+      "min_preprojection_real_norm": 0.9998425644641666,
+      "max_matrix_coordinate_error": 2.5579538487363607e-13,
+      "passed": true,
+      "schedules": 20,
+      "arms": [
+        "raw",
+        "calibrated",
+        "mergeable"
+      ],
+      "eligible": 4285,
+      "evaluated": 20,
+      "starts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    "512": {
+      "max_translation_m": 1.076190804822158e-12,
+      "max_rotation_rad": 7.298379150454066e-15,
+      "max_state_coefficient": 5.400124791776761e-13,
+      "min_preprojection_real_norm": 0.9993197218523798,
+      "max_matrix_coordinate_error": 6.821210263296962e-13,
+      "passed": true,
+      "schedules": 20,
+      "arms": [
+        "raw",
+        "calibrated",
+        "mergeable"
+      ],
+      "eligible": 4029,
+      "evaluated": 20,
+      "starts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    }
+  },
+  "minimum_preprojection_real_norm": 0.062047675251960754,
+  "frontend_admitted": true,
+  "technical_pass": true,
+  "fixed_window_coverage": {
+    "32": {
+      "potential_starts": 4509,
+      "valid_starts": 4509,
+      "evaluated": 451
+    },
+    "64": {
+      "potential_starts": 4477,
+      "valid_starts": 4477,
+      "evaluated": 448
+    },
+    "128": {
+      "potential_starts": 4413,
+      "valid_starts": 4413,
+      "evaluated": 442
+    },
+    "256": {
+      "potential_starts": 4285,
+      "valid_starts": 4285,
+      "evaluated": 429
+    },
+    "512": {
+      "potential_starts": 4029,
+      "valid_starts": 4029,
+      "evaluated": 403
+    }
+  },
+  "seconds": 67.6541984169744,
+  "model_seconds": {
+    "identity": 0.059697059099562466,
+    "raw": 24.20357424323447,
+    "calibrated": 48.5317509440938,
+    "constant": 48.550053091254085,
+    "contextual": 53.69280014291871,
+    "feature_direct": 53.607826044550166,
+    "feature_residual": 53.62046663928777,
+    "mergeable": 48.56078513560351
+  },
+  "timing_scope": "CPU serial inference diagnostics including shared product costs; excludes frontend/metric/audit and is not a speedup benchmark",
+  "seal": "3ee4326a9cffbcf4f914d5e7ddd7c894739a2dfdc60256bbbb52c09a50bd640d",
+  "dependencies": {
+    "data/raw/kitti_odometry/learned_composition_v1/evaluation/train/seed1/00/windows.jsonl": "3f35c41400c13a222e6d86b13b725d8155bf7545ce59bfbd0ed8eacf22040b6e",
+    "data/raw/kitti_odometry/learned_composition_v1/implementation_seal.json": "3ee4326a9cffbcf4f914d5e7ddd7c894739a2dfdc60256bbbb52c09a50bd640d",
+    "data/raw/kitti_odometry/learned_composition_v1/fits/seed1/calibrated/completed.json": "81462be75f4fd2b0916f5675cd801be755eefc0091efcc4d013f97bf9f3c541f",
+    "data/raw/kitti_odometry/learned_composition_v1/fits/seed1/calibrated/step5000.pt": "d147fb481b873db132c1662458f479a74e462576f7035ba9a17e83af138d2c08",
+    "data/raw/kitti_odometry/learned_composition_v1/fits/seed1/constant/completed.json": "8844e5da5ef6a0a3c2513a3589beedd5fffd9ac45a425f801b0162330d57cec9",
+    "data/raw/kitti_odometry/learned_composition_v1/fits/seed1/constant/step5000.pt": "76ca0529fed910ef13a89afe468d2b0ef1a55fec342c7621c110431035cabf08",
+    "data/raw/kitti_odometry/learned_composition_v1/fits/seed1/contextual/completed.json": "03bf11aa3348bf6f92347c1beb794bfe92d2556725b13cb1379832ab21574b65",
+    "data/raw/kitti_odometry/learned_composition_v1/fits/seed1/contextual/step5000.pt": "466678d1b4efdae4ace913584cbbdc75de1d3ff9a3320192ddb084a7fb2b9977",
+    "data/raw/kitti_odometry/learned_composition_v1/fits/seed1/feature_direct/completed.json": "ea269de299f06b65500fd81f8e23ccf149dd43f2c8a4a0ac63f704ea92ec009b",
+    "data/raw/kitti_odometry/learned_composition_v1/fits/seed1/feature_direct/step5000.pt": "1fa2aa4673601b57e14811a7c4ee881108ccf6436be5d2aafe838d32518bdf02",
+    "data/raw/kitti_odometry/learned_composition_v1/fits/seed1/feature_residual/completed.json": "c0c53b275dde45a76973dab509ea9a85277134578534c6662908f950762d31d1",
+    "data/raw/kitti_odometry/learned_composition_v1/fits/seed1/feature_residual/step5000.pt": "bbaa9914962a83124e3b2f2bb4241ccd14181ec6906e7a258dcfa89925688044",
+    "data/raw/kitti_odometry/learned_composition_v1/fits/seed1/mergeable/completed.json": "85ef79f1d9bbfcd0570dbfc601bc77848b6dcf71cd94467c1beae7221fdf2e20",
+    "data/raw/kitti_odometry/learned_composition_v1/fits/seed1/mergeable/step5000.pt": "2b5fd5e76dd007dbbac613e1c1390811979135416d1ebc82934a89abd3a171bb",
+    "data/raw/kitti_odometry/libviso2/full_train/00.json": "b4575b9c46907d8582c5a5cf75ba36cb5fda0967e00207b63cb5b94d8b26a66f",
+    "data/raw/kitti_odometry/libviso2/full_train/00.frames.jsonl": "645d42d18c459633979c3555fc690d773e4f3980d3ab6b04cf6259bf4fc72dfe",
+    "data/raw/kitti_odometry/dataset/poses/00.txt": "90791a4113df979b149fa9e1104e960ea59f525a8318a202dbb6aec1a3d88793",
+    "data/raw/kitti_odometry/dataset/sequences/00/times.txt": "99a2899466cdc28dd292b4856d214a8b0aab035b91b02bb6afcb4ff363e7d421",
+    "data/raw/kitti_odometry/dataset/sequences/00/calib.txt": "1bb615b4535ac73053be176ac1650fcfe7678ae8225d8999e5a822aa71655682"
+  }
+}

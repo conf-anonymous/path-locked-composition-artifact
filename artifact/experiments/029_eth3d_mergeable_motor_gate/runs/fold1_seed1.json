@@ -1,0 +1,81 @@
+{
+  "fold": 1,
+  "seed": 1,
+  "source_checkpoint_sha256": "4dd1d3c7a0fb38d0de6cf0835bc6e222da5a154b9bca19e3b88a7bd799730fff",
+  "training_seconds": 6.45148887502728,
+  "parameters": 577,
+  "evaluation": {
+    "n_windows": 1182,
+    "clusters": {
+      "planar_2": {
+        "family": "planar",
+        "n": 199,
+        "translation_mean_m": 0.04539031191931327,
+        "rotation_mean_deg": 4.176250898431111
+      },
+      "planar_3": {
+        "family": "planar",
+        "n": 202,
+        "translation_mean_m": 0.08757329234785495,
+        "rotation_mean_deg": 3.144373000859178
+      },
+      "plant_2": {
+        "family": "plant",
+        "n": 14,
+        "translation_mean_m": 0.2146424398561909,
+        "rotation_mean_deg": 11.795351944954911
+      },
+      "plant_5": {
+        "family": "plant",
+        "n": 31,
+        "translation_mean_m": 0.6409094802844401,
+        "rotation_mean_deg": 30.563350622306494
+      },
+      "plant_dark": {
+        "family": "plant",
+        "n": 239,
+        "translation_mean_m": 0.629297141770955,
+        "rotation_mean_deg": 33.896857200356465
+      },
+      "plant_scene_1": {
+        "family": "plant",
+        "n": 149,
+        "translation_mean_m": 0.22122062850644722,
+        "rotation_mean_deg": 12.061455558729751
+      },
+      "plant_scene_2": {
+        "family": "plant",
+        "n": 151,
+        "translation_mean_m": 0.17592268894113394,
+        "rotation_mean_deg": 9.14010973098385
+      },
+      "plant_scene_3": {
+        "family": "plant",
+        "n": 197,
+        "translation_mean_m": 0.6140077158233359,
+        "rotation_mean_deg": 26.738170223253903
+      }
+    },
+    "minimum_real_norm_before_projection": 0.9633589386940002
+  },
+  "numerical_audit": {
+    "path_discrepancy": {
+      "right": {
+        "translation_m": 2.79326464745136e-15,
+        "rotation_rad": 3.1810988090075966e-15
+      },
+      "balanced": {
+        "translation_m": 3.07226139259787e-15,
+        "rotation_rad": 2.2970575260326524e-15
+      },
+      "chunks_5_11_16": {
+        "translation_m": 3.159750121719031e-15,
+        "rotation_rad": 2.106547624931745e-15
+      }
+    },
+    "minimum_float64_real_norm": 0.9633589934030745,
+    "cached_recorded_calibration_update_max_coordinate_delta": 1.7763568394002505e-14,
+    "scope": "products regrouped; identical full-sequence GRU retained"
+  },
+  "checkpoint_sha256": "9a438506a9da9ec0e922c7893bcac314b764ffa0e715ffeea01e04db61e0acd9"
+}

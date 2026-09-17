@@ -1,0 +1,2803 @@
+{
+  "protocol": "Oxford RobotCar VO-to-RTK v1, frozen 2026-09-03",
+  "source": "https://robotcar-dataset.robots.ox.ac.uk/",
+  "schema_amendment": "AMENDMENT_2026-09-09.md",
+  "acquisition_report_sha256": "032a7d7912a9f6c534f0a8c4c1790b7310ac229e81dd419418f13c8fc13c9f51",
+  "eligible_count": 58,
+  "split_counts": {
+    "train": 35,
+    "dev": 14,
+    "confirm": 9
+  },
+  "exclusions": [
+    {
+      "source_path": "rtk/2014-12-5-15-42-070/rtk.csv",
+      "reason": "malformed_traversal_id"
+    },
+    {
+      "traversal": "2015-03-20-17-20-14",
+      "reason": "missing_vo"
+    },
+    {
+      "traversal": "2015-03-31-08-43-01",
+      "reason": "missing_vo"
+    },
+    {
+      "traversal": "2015-05-01-11-43-22",
+      "reason": "missing_vo"
+    },
+    {
+      "traversal": "2015-06-05-10-09-25",
+      "reason": "missing_vo"
+    },
+    {
+      "traversal": "2015-06-26-08-09-43",
+      "reason": "missing_vo"
+    },
+    {
+      "traversal": "2015-07-17-10-12-27",
+      "reason": "missing_vo"
+    },
+    {
+      "traversal": "2015-08-05-14-07-34",
+      "reason": "missing_vo"
+    },
+    {
+      "traversal": "2015-08-13-10-29-44",
+      "reason": "missing_vo"
+    },
+    {
+      "traversal": "2015-08-17-13-23-50",
+      "reason": "missing_vo"
+    },
+    {
+      "traversal": "2015-08-18-14-07-43",
+      "reason": "missing_vo"
+    },
+    {
+      "traversal": "2015-08-20-11-48-34",
+      "reason": "missing_vo"
+    },
+    {
+      "traversal": "2015-10-30-11-31-23",
+      "reason": "missing_vo"
+    },
+    {
+      "traversal": "2015-11-02-15-17-19",
+      "reason": "missing_vo"
+    }
+  ],
+  "ins_extrinsic": {
+    "path": "extrinsics/ins.txt",
+    "bytes": 44,
+    "sha256": "dcd390b6c7f3635f6300f0080b61cce79705e1a873b9d2ea6f4175ad52de1fe6"
+  },
+  "records": [
+    {
+      "traversal": "2014-11-11-11-06-25",
+      "split": "confirm",
+      "vo": {
+        "path": "vo/2014-11-11-11-06-25/vo.csv",
+        "bytes": 3239781,
+        "sha256": "c04a463ba1ce59e60689a63f5b9fa15abe61a6c7f1aea5e9dbda72e094adcbc8",
+        "header": [
+          "source_timestamp",
+          "destination_timestamp",
+          "x",
+          "y",
+          "z",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 28124,
+        "first_timestamp": 1415704053793638
+      },
+      "rtk": {
+        "path": "rtk/2014-11-11-11-06-25/rtk.csv",
+        "bytes": 3531158,
+        "sha256": "835a12007395ee72cbe3080eee4cdfb50e47c3305c1ae0c886ef1e58ed9d79cb",
+        "header": [
+          "timestamp",
+          "latitude",
+          "longitude",
+          "altitude",
+          "northing",
+          "easting",
+          "down",
+          "utm_zone",
+          "velocity_north",
+          "velocity_east",
+          "velocity_down",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 18761,
+        "first_timestamp": 1415704028184063,
+        "utm_zones": [
+          "30U"
+        ]
+      }
+    },
+    {
+      "traversal": "2014-11-14-16-34-33",
+      "split": "train",
+      "vo": {
+        "path": "vo/2014-11-14-16-34-33/vo.csv",
+        "bytes": 4135024,
+        "sha256": "e6d83d31e3d549aa2090c9058817befac2c0c4b9176b53b90e6d9ece07f07595",
+        "header": [
+          "source_timestamp",
+          "destination_timestamp",
+          "x",
+          "y",
+          "z",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 35937,
+        "first_timestamp": 1415984956666322
+      },
+      "rtk": {
+        "path": "rtk/2014-11-14-16-34-33/rtk.csv",
+        "bytes": 4712590,
+        "sha256": "d0ecea7800bad00f1fef83f0879e0e18d01e9572493966666509ea3b32c2635c",
+        "header": [
+          "timestamp",
+          "latitude",
+          "longitude",
+          "altitude",
+          "northing",
+          "easting",
+          "down",
+          "utm_zone",
+          "velocity_north",
+          "velocity_east",
+          "velocity_down",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 25041,
+        "first_timestamp": 1415984957386488,
+        "utm_zones": [
+          "30U"
+        ]
+      }
+    },
+    {
+      "traversal": "2014-11-18-13-20-12",
+      "split": "train",
+      "vo": {
+        "path": "vo/2014-11-18-13-20-12/vo.csv",
+        "bytes": 4085568,
+        "sha256": "dcfe9c5eefb369326b8cd7c361d0f0b7c1356b9fe7c9409cfd83809b4eac4c85",
+        "header": [
+          "source_timestamp",
+          "destination_timestamp",
+          "x",
+          "y",
+          "z",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 35480,
+        "first_timestamp": 1416316866188398
+      },
+      "rtk": {
+        "path": "rtk/2014-11-18-13-20-12/rtk.csv",
+        "bytes": 3750200,
+        "sha256": "77cf377e440749bff28b53f2c218820357ea640866105c4f476b0e3a31093094",
+        "header": [
+          "timestamp",
+          "latitude",
+          "longitude",
+          "altitude",
+          "northing",
+          "easting",
+          "down",
+          "utm_zone",
+          "velocity_north",
+          "velocity_east",
+          "velocity_down",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 19934,
+        "first_timestamp": 1416316867023806,
+        "utm_zones": [
+          "30U"
+        ]
+      }
+    },
+    {
+      "traversal": "2014-11-21-16-07-03",
+      "split": "dev",
+      "vo": {
+        "path": "vo/2014-11-21-16-07-03/vo.csv",
+        "bytes": 6230301,
+        "sha256": "6bfd05c1e2413e306aa1311fda59845dc70fc47a9a90321ac23cc266d6ed380f",
+        "header": [
+          "source_timestamp",
+          "destination_timestamp",
+          "x",
+          "y",
+          "z",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 54156,
+        "first_timestamp": 1416586024021948
+      },
+      "rtk": {
+        "path": "rtk/2014-11-21-16-07-03/rtk.csv",
+        "bytes": 2245028,
+        "sha256": "872869235946bd92e87f4695be8e8addda0ae8e214c9ec1d2af700c16e3c54d7",
+        "header": [
+          "timestamp",
+          "latitude",
+          "longitude",
+          "altitude",
+          "northing",
+          "easting",
+          "down",
+          "utm_zone",
+          "velocity_north",
+          "velocity_east",
+          "velocity_down",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 11930,
+        "first_timestamp": 1416586024994263,
+        "utm_zones": [
+          "30U"
+        ]
+      }
+    },
+    {
+      "traversal": "2014-11-25-09-18-32",
+      "split": "train",
+      "vo": {
+        "path": "vo/2014-11-25-09-18-32/vo.csv",
+        "bytes": 4143865,
+        "sha256": "667091d7ba20d5cc3eb5ffd4c94bcbdd64b8b9c31b9b06d7abd0464ab5bfee81",
+        "header": [
+          "source_timestamp",
+          "destination_timestamp",
+          "x",
+          "y",
+          "z",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 35992,
+        "first_timestamp": 1416907145655607
+      },
+      "rtk": {
+        "path": "rtk/2014-11-25-09-18-32/rtk.csv",
+        "bytes": 4504016,
+        "sha256": "4653d5719a5f84fd438d9f9f278584b33ac5b6cd87d6ac30938bb573c70fb68e",
+        "header": [
+          "timestamp",
+          "latitude",
+          "longitude",
+          "altitude",
+          "northing",
+          "easting",
+          "down",
+          "utm_zone",
+          "velocity_north",
+          "velocity_east",
+          "velocity_down",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 23921,
+        "first_timestamp": 1416907146414343,
+        "utm_zones": [
+          "30U"
+        ]
+      }
+    },
+    {
+      "traversal": "2014-11-28-12-07-13",
+      "split": "dev",
+      "vo": {
+        "path": "vo/2014-11-28-12-07-13/vo.csv",
+        "bytes": 4070437,
+        "sha256": "fc73161002098bb1c7c1344478dec65ca2db0b64b40795c5659e9e0afd03f864",
+        "header": [
+          "source_timestamp",
+          "destination_timestamp",
+          "x",
+          "y",
+          "z",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 35334,
+        "first_timestamp": 1417176458055923
+      },
+      "rtk": {
+        "path": "rtk/2014-11-28-12-07-13/rtk.csv",
+        "bytes": 4622911,
+        "sha256": "013e1d38baea4e03b6db6649a4eefb9f43f027c2995b70004e2c16a3527ec7a9",
+        "header": [
+          "timestamp",
+          "latitude",
+          "longitude",
+          "altitude",
+          "northing",
+          "easting",
+          "down",
+          "utm_zone",
+          "velocity_north",
+          "velocity_east",
+          "velocity_down",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 24551,
+        "first_timestamp": 1417176458813493,
+        "utm_zones": [
+          "30U"
+        ]
+      }
+    },
+    {
+      "traversal": "2014-12-02-15-30-08",
+      "split": "dev",
+      "vo": {
+        "path": "vo/2014-12-02-15-30-08/vo.csv",
+        "bytes": 4021944,
+        "sha256": "a50736e1d56f65fccbbdecfc5d18aca8580378212b0d309098722f09aa482296",
+        "header": [
+          "source_timestamp",
+          "destination_timestamp",
+          "x",
+          "y",
+          "z",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 34922,
+        "first_timestamp": 1417534257094862
+      },
+      "rtk": {
+        "path": "rtk/2014-12-02-15-30-08/rtk.csv",
+        "bytes": 3605349,
+        "sha256": "fc5cf9046af1fb99557f001ab9593b406d66113d8f9767156dc2030947d308f6",
+        "header": [
+          "timestamp",
+          "latitude",
+          "longitude",
+          "altitude",
+          "northing",
+          "easting",
+          "down",
+          "utm_zone",
+          "velocity_north",
+          "velocity_east",
+          "velocity_down",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 19137,
+        "first_timestamp": 1417534258108439,
+        "utm_zones": [
+          "30U"
+        ]
+      }
+    },
+    {
+      "traversal": "2014-12-05-11-09-10",
+      "split": "train",
+      "vo": {
+        "path": "vo/2014-12-05-11-09-10/vo.csv",
+        "bytes": 3782897,
+        "sha256": "01fa40aab6aa75c0fb75ea5e5950f4927ec7c427c3f675435d75b37174cb2048",
+        "header": [
+          "source_timestamp",
+          "destination_timestamp",
+          "x",
+          "y",
+          "z",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 32848,
+        "first_timestamp": 1417777757734367
+      },
+      "rtk": {
+        "path": "rtk/2014-12-05-11-09-10/rtk.csv",
+        "bytes": 553255,
+        "sha256": "5b8812d6f54b6b7c7ff1b319d18dcf20f1b32f549e957169a0fc0489098379fc",
+        "header": [
+          "timestamp",
+          "latitude",
+          "longitude",
+          "altitude",
+          "northing",
+          "easting",
+          "down",
+          "utm_zone",
+          "velocity_north",
+          "velocity_east",
+          "velocity_down",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 2940,
+        "first_timestamp": 1417777759657122,
+        "utm_zones": [
+          "30U"
+        ]
+      }
+    },
+    {
+      "traversal": "2014-12-09-13-21-02",
+      "split": "train",
+      "vo": {
+        "path": "vo/2014-12-09-13-21-02/vo.csv",
+        "bytes": 3929092,
+        "sha256": "4dcad65da69729f9b39d217ed7fc5af49d2081b7beb6c05f9cbdff641dafb440",
+        "header": [
+          "source_timestamp",
+          "destination_timestamp",
+          "x",
+          "y",
+          "z",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 34122,
+        "first_timestamp": 1418132416799606
+      },
+      "rtk": {
+        "path": "rtk/2014-12-09-13-21-02/rtk.csv",
+        "bytes": 4441872,
+        "sha256": "78c87b678f0b0c794dda8cb29fe6dbb6af93a91495c849c6c8e1536cca0bbe4f",
+        "header": [
+          "timestamp",
+          "latitude",
+          "longitude",
+          "altitude",
+          "northing",
+          "easting",
+          "down",
+          "utm_zone",
+          "velocity_north",
+          "velocity_east",
+          "velocity_down",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 23601,
+        "first_timestamp": 1418132417389511,
+        "utm_zones": [
+          "30U"
+        ]
+      }
+    },
+    {
+      "traversal": "2014-12-12-10-45-15",
+      "split": "train",
+      "vo": {
+        "path": "vo/2014-12-12-10-45-15/vo.csv",
+        "bytes": 3998283,
+        "sha256": "0d263908834989e6ccefadc1450abd589f06e302ade462e61e1613b40bf67853",
+        "header": [
+          "source_timestamp",
+          "destination_timestamp",
+          "x",
+          "y",
+          "z",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 34725,
+        "first_timestamp": 1418381152915431
+      },
+      "rtk": {
+        "path": "rtk/2014-12-12-10-45-15/rtk.csv",
+        "bytes": 4752156,
+        "sha256": "f504f19df4c648aaa7b4aace2a5622be980c41b8bbace44f1d71c48a2712c4a8",
+        "header": [
+          "timestamp",
+          "latitude",
+          "longitude",
+          "altitude",
+          "northing",
+          "easting",
+          "down",
+          "utm_zone",
+          "velocity_north",
+          "velocity_east",
+          "velocity_down",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 25261,
+        "first_timestamp": 1418381154325356,
+        "utm_zones": [
+          "30U"
+        ]
+      }
+    },
+    {
+      "traversal": "2014-12-16-18-44-24",
+      "split": "confirm",
+      "vo": {
+        "path": "vo/2014-12-16-18-44-24/vo.csv",
+        "bytes": 3695323,
+        "sha256": "d38c14d289671cef19303b13a95fc2320c5105b2ab195fcee27d6086ff9043c2",
+        "header": [
+          "source_timestamp",
+          "destination_timestamp",
+          "x",
+          "y",
+          "z",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 32104,
+        "first_timestamp": 1418755480341345
+      },
+      "rtk": {
+        "path": "rtk/2014-12-16-18-44-24/rtk.csv",
+        "bytes": 3829765,
+        "sha256": "1e508eda18951beb8b1781037e70ebacfd9a3e3cdbc21abbd5f0762384c79e6c",
+        "header": [
+          "timestamp",
+          "latitude",
+          "longitude",
+          "altitude",
+          "northing",
+          "easting",
+          "down",
+          "utm_zone",
+          "velocity_north",
+          "velocity_east",
+          "velocity_down",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 20341,
+        "first_timestamp": 1418755481199083,
+        "utm_zones": [
+          "30U"
+        ]
+      }
+    },
+    {
+      "traversal": "2015-02-06-13-57-16",
+      "split": "train",
+      "vo": {
+        "path": "vo/2015-02-06-13-57-16/vo.csv",
+        "bytes": 4103166,
+        "sha256": "9e1bd347580e0bcdb8ec73ebc13a0042581fa2394c389e8830ba999cd628b8c8",
+        "header": [
+          "source_timestamp",
+          "destination_timestamp",
+          "x",
+          "y",
+          "z",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 35628,
+        "first_timestamp": 1423231058969226
+      },
+      "rtk": {
+        "path": "rtk/2015-02-06-13-57-16/rtk.csv",
+        "bytes": 271617,
+        "sha256": "62bd48102b9ce0cc019ae3e16a527f8bba5103de63cb5ea137f89ea57c4e5bc7",
+        "header": [
+          "timestamp",
+          "latitude",
+          "longitude",
+          "altitude",
+          "northing",
+          "easting",
+          "down",
+          "utm_zone",
+          "velocity_north",
+          "velocity_east",
+          "velocity_down",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 1439,
+        "first_timestamp": 1423231060972100,
+        "utm_zones": [
+          "30U"
+        ]
+      }
+    },
+    {
+      "traversal": "2015-02-10-11-58-05",
+      "split": "dev",
+      "vo": {
+        "path": "vo/2015-02-10-11-58-05/vo.csv",
+        "bytes": 4307173,
+        "sha256": "d677f98fa4f89bb4c659f81d2d02f437cb1f730224f1eda19523d41c759fb1f3",
+        "header": [
+          "source_timestamp",
+          "destination_timestamp",
+          "x",
+          "y",
+          "z",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 37408,
+        "first_timestamp": 1423569510074238
+      },
+      "rtk": {
+        "path": "rtk/2015-02-10-11-58-05/rtk.csv",
+        "bytes": 4388671,
+        "sha256": "939141b651f06995572d884c82044360c525eb8354fd201cd7cd76f17ed3849b",
+        "header": [
+          "timestamp",
+          "latitude",
+          "longitude",
+          "altitude",
+          "northing",
+          "easting",
+          "down",
+          "utm_zone",
+          "velocity_north",
+          "velocity_east",
+          "velocity_down",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 23361,
+        "first_timestamp": 1423569511403559,
+        "utm_zones": [
+          "30U"
+        ]
+      }
+    },
+    {
+      "traversal": "2015-02-13-09-16-26",
+      "split": "confirm",
+      "vo": {
+        "path": "vo/2015-02-13-09-16-26/vo.csv",
+        "bytes": 4075010,
+        "sha256": "c31e0732d95a2d03ef71a738cf1a806dec940bd182158b3410b03f68335bbcf5",
+        "header": [
+          "source_timestamp",
+          "destination_timestamp",
+          "x",
+          "y",
+          "z",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 35380,
+        "first_timestamp": 1423818997198842
+      },
+      "rtk": {
+        "path": "rtk/2015-02-13-09-16-26/rtk.csv",
+        "bytes": 4156655,
+        "sha256": "7adccea9f949dd857e5be459c2d3283a972b5bd6f37e736a0762a5d52326bb24",
+        "header": [
+          "timestamp",
+          "latitude",
+          "longitude",
+          "altitude",
+          "northing",
+          "easting",
+          "down",
+          "utm_zone",
+          "velocity_north",
+          "velocity_east",
+          "velocity_down",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 22101,
+        "first_timestamp": 1423818998272003,
+        "utm_zones": [
+          "30U"
+        ]
+      }
+    },
+    {
+      "traversal": "2015-02-17-14-42-12",
+      "split": "dev",
+      "vo": {
+        "path": "vo/2015-02-17-14-42-12/vo.csv",
+        "bytes": 4126769,
+        "sha256": "c672442e3a376dc1f29ac3a562965e3a88250eac144e472c4d9939a33c2ac18e",
+        "header": [
+          "source_timestamp",
+          "destination_timestamp",
+          "x",
+          "y",
+          "z",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 35848,
+        "first_timestamp": 1424184673962977
+      },
+      "rtk": {
+        "path": "rtk/2015-02-17-14-42-12/rtk.csv",
+        "bytes": 3984548,
+        "sha256": "c3c5e6c7e011640223cb111e24b2bb349157dfc2cc0436ecdce7ec728c8d0e07",
+        "header": [
+          "timestamp",
+          "latitude",
+          "longitude",
+          "altitude",
+          "northing",
+          "easting",
+          "down",
+          "utm_zone",
+          "velocity_north",
+          "velocity_east",
+          "velocity_down",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 21191,
+        "first_timestamp": 1424184795203128,
+        "utm_zones": [
+          "30U"
+        ]
+      }
+    },
+    {
+      "traversal": "2015-02-24-12-32-19",
+      "split": "train",
+      "vo": {
+        "path": "vo/2015-02-24-12-32-19/vo.csv",
+        "bytes": 3563338,
+        "sha256": "8b2132c440cc5850a082f440133bc96a62cd88aedc81c85e5d277d63f1d07c64",
+        "header": [
+          "source_timestamp",
+          "destination_timestamp",
+          "x",
+          "y",
+          "z",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 30941,
+        "first_timestamp": 1424781175146607
+      },
+      "rtk": {
+        "path": "rtk/2015-02-24-12-32-19/rtk.csv",
+        "bytes": 3633928,
+        "sha256": "46f833c93e6b770f5647767f94b647e26c8e3993bb862274ffed8cdaa52587b8",
+        "header": [
+          "timestamp",
+          "latitude",
+          "longitude",
+          "altitude",
+          "northing",
+          "easting",
+          "down",
+          "utm_zone",
+          "velocity_north",
+          "velocity_east",
+          "velocity_down",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 19321,
+        "first_timestamp": 1424781176590461,
+        "utm_zones": [
+          "30U"
+        ]
+      }
+    },
+    {
+      "traversal": "2015-03-03-11-31-36",
+      "split": "dev",
+      "vo": {
+        "path": "vo/2015-03-03-11-31-36/vo.csv",
+        "bytes": 3861990,
+        "sha256": "1c5af3a20b22585a3ef902b364e7a1c1c2bdae6276048a86b43443eb9a16af2c",
+        "header": [
+          "source_timestamp",
+          "destination_timestamp",
+          "x",
+          "y",
+          "z",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 33544,
+        "first_timestamp": 1425382322232687
+      },
+      "rtk": {
+        "path": "rtk/2015-03-03-11-31-36/rtk.csv",
+        "bytes": 3940154,
+        "sha256": "0c9809bf3ff532084f38680f204a6f119a1ba2cb24bbe62fecf4e1942ef5fa13",
+        "header": [
+          "timestamp",
+          "latitude",
+          "longitude",
+          "altitude",
+          "northing",
+          "easting",
+          "down",
+          "utm_zone",
+          "velocity_north",
+          "velocity_east",
+          "velocity_down",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 20961,
+        "first_timestamp": 1425382322330119,
+        "utm_zones": [
+          "30U"
+        ]
+      }
+    },
+    {
+      "traversal": "2015-03-13-14-17-00",
+      "split": "train",
+      "vo": {
+        "path": "vo/2015-03-13-14-17-00/vo.csv",
+        "bytes": 4287027,
+        "sha256": "45c960ce2520699d1bfe183a5202f720e1a1882836e16f2c3ce5844a84c047a5",
+        "header": [
+          "source_timestamp",
+          "destination_timestamp",
+          "x",
+          "y",
+          "z",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 37229,
+        "first_timestamp": 1426256273985999
+      },
+      "rtk": {
+        "path": "rtk/2015-03-13-14-17-00/rtk.csv",
+        "bytes": 267735,
+        "sha256": "0ac67afc540eaeb9cc26248b03ab43105565f0da3487934f0d2b30d903045a77",
+        "header": [
+          "timestamp",
+          "latitude",
+          "longitude",
+          "altitude",
+          "northing",
+          "easting",
+          "down",
+          "utm_zone",
+          "velocity_north",
+          "velocity_east",
+          "velocity_down",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 1408,
+        "first_timestamp": 1426256275413471,
+        "utm_zones": [
+          "30U"
+        ]
+      }
+    },
+    {
+      "traversal": "2015-03-17-11-08-44",
+      "split": "dev",
+      "vo": {
+        "path": "vo/2015-03-17-11-08-44/vo.csv",
+        "bytes": 3398920,
+        "sha256": "91befc6fc665c4b00327900f80680d0d7a98d3f6d83261c56a6afdc60d6a957e",
+        "header": [
+          "source_timestamp",
+          "destination_timestamp",
+          "x",
+          "y",
+          "z",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 29510,
+        "first_timestamp": 1426590534419576
+      },
+      "rtk": {
+        "path": "rtk/2015-03-17-11-08-44/rtk.csv",
+        "bytes": 3824055,
+        "sha256": "5df818d3c05fc170966eb7f62b50eecc481e4102b0ffd249061d42b367be50a2",
+        "header": [
+          "timestamp",
+          "latitude",
+          "longitude",
+          "altitude",
+          "northing",
+          "easting",
+          "down",
+          "utm_zone",
+          "velocity_north",
+          "velocity_east",
+          "velocity_down",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 20311,
+        "first_timestamp": 1426590535261834,
+        "utm_zones": [
+          "30U"
+        ]
+      }
+    },
+    {
+      "traversal": "2015-03-24-13-47-33",
+      "split": "train",
+      "vo": {
+        "path": "vo/2015-03-24-13-47-33/vo.csv",
+        "bytes": 3846191,
+        "sha256": "ef5e1a96b82d05a4f9084ecebb8ff257b773fffe7d43555e40a41323f0b65386",
+        "header": [
+          "source_timestamp",
+          "destination_timestamp",
+          "x",
+          "y",
+          "z",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 33395,
+        "first_timestamp": 1427204927967783
+      },
+      "rtk": {
+        "path": "rtk/2015-03-24-13-47-33/rtk.csv",
+        "bytes": 4198890,
+        "sha256": "1e003d4beec6a39b14d792420608a76da9f7e9b2ef0da0bcb20469cbe4b94e00",
+        "header": [
+          "timestamp",
+          "latitude",
+          "longitude",
+          "altitude",
+          "northing",
+          "easting",
+          "down",
+          "utm_zone",
+          "velocity_north",
+          "velocity_east",
+          "velocity_down",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 22321,
+        "first_timestamp": 1427204928278171,
+        "utm_zones": [
+          "30U"
+        ]
+      }
+    },
+    {
+      "traversal": "2015-03-27-16-14-21",
+      "split": "train",
+      "vo": {
+        "path": "vo/2015-03-27-16-14-21/vo.csv",
+        "bytes": 4096137,
+        "sha256": "b180c0a7f5febbbbbd43e5e67f088798d3bcf072960d5792b698575c12e88fa0",
+        "header": [
+          "source_timestamp",
+          "destination_timestamp",
+          "x",
+          "y",
+          "z",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 35574,
+        "first_timestamp": 1427472878081672
+      },
+      "rtk": {
+        "path": "rtk/2015-03-27-16-14-21/rtk.csv",
+        "bytes": 4288706,
+        "sha256": "833c648d671966d4f24a5affc1f7f14825112d081c92e2bf041e808210f20f3c",
+        "header": [
+          "timestamp",
+          "latitude",
+          "longitude",
+          "altitude",
+          "northing",
+          "easting",
+          "down",
+          "utm_zone",
+          "velocity_north",
+          "velocity_east",
+          "velocity_down",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 22809,
+        "first_timestamp": 1427472879164304,
+        "utm_zones": [
+          "30U"
+        ]
+      }
+    },
+    {
+      "traversal": "2015-04-17-09-06-25",
+      "split": "train",
+      "vo": {
+        "path": "vo/2015-04-17-09-06-25/vo.csv",
+        "bytes": 3519728,
+        "sha256": "f02c290909d70c2ca782e1e95eb7eed42bfbcbcc520372e74ac18a8092d664d1",
+        "header": [
+          "source_timestamp",
+          "destination_timestamp",
+          "x",
+          "y",
+          "z",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 30558,
+        "first_timestamp": 1429261596729219
+      },
+      "rtk": {
+        "path": "rtk/2015-04-17-09-06-25/rtk.csv",
+        "bytes": 3625977,
+        "sha256": "7ed8f3d4b8331d307e319a94adf01246bc09348ab6a4b84992b03a9d9616f22e",
+        "header": [
+          "timestamp",
+          "latitude",
+          "longitude",
+          "altitude",
+          "northing",
+          "easting",
+          "down",
+          "utm_zone",
+          "velocity_north",
+          "velocity_east",
+          "velocity_down",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 19293,
+        "first_timestamp": 1429261597385322,
+        "utm_zones": [
+          "30U"
+        ]
+      }
+    },
+    {
+      "traversal": "2015-04-24-08-15-07",
+      "split": "train",
+      "vo": {
+        "path": "vo/2015-04-24-08-15-07/vo.csv",
+        "bytes": 4254692,
+        "sha256": "8bb3a24a9ec795eb709be29403a903247f7d001a6b77870870000174d1190f9f",
+        "header": [
+          "source_timestamp",
+          "destination_timestamp",
+          "x",
+          "y",
+          "z",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 36955,
+        "first_timestamp": 1429863319663237
+      },
+      "rtk": {
+        "path": "rtk/2015-04-24-08-15-07/rtk.csv",
+        "bytes": 4808260,
+        "sha256": "378ccc01e569c30dbeda1b9c108c0dadd763950c1f018aee29e016fbd818f2f6",
+        "header": [
+          "timestamp",
+          "latitude",
+          "longitude",
+          "altitude",
+          "northing",
+          "easting",
+          "down",
+          "utm_zone",
+          "velocity_north",
+          "velocity_east",
+          "velocity_down",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 25581,
+        "first_timestamp": 1429863320921514,
+        "utm_zones": [
+          "30U"
+        ]
+      }
+    },
+    {
+      "traversal": "2015-04-28-15-52-02",
+      "split": "train",
+      "vo": {
+        "path": "vo/2015-04-28-15-52-02/vo.csv",
+        "bytes": 8530853,
+        "sha256": "82454cf9e465c4995c383ca4908a8a48d4b7d74a9126c7627be0dd03b08ea184",
+        "header": [
+          "source_timestamp",
+          "destination_timestamp",
+          "x",
+          "y",
+          "z",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 74136,
+        "first_timestamp": 1430237245182205
+      },
+      "rtk": {
+        "path": "rtk/2015-04-28-15-52-02/rtk.csv",
+        "bytes": 9751799,
+        "sha256": "7cca190a2a9ed2ea1117c8f0a532f3b63e2eb5a061e1a266cb0af302a2e2a8ac",
+        "header": [
+          "timestamp",
+          "latitude",
+          "longitude",
+          "altitude",
+          "northing",
+          "easting",
+          "down",
+          "utm_zone",
+          "velocity_north",
+          "velocity_east",
+          "velocity_down",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 51841,
+        "first_timestamp": 1430237246170265,
+        "utm_zones": [
+          "30U"
+        ]
+      }
+    },
+    {
+      "traversal": "2015-05-19-14-06-38",
+      "split": "dev",
+      "vo": {
+        "path": "vo/2015-05-19-14-06-38/vo.csv",
+        "bytes": 3620148,
+        "sha256": "1e838bbd0017ddb2788b39cd68eb5370ab32ec0a7d5bf38536191c52162d2127",
+        "header": [
+          "source_timestamp",
+          "destination_timestamp",
+          "x",
+          "y",
+          "z",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 31435,
+        "first_timestamp": 1432044414480335
+      },
+      "rtk": {
+        "path": "rtk/2015-05-19-14-06-38/rtk.csv",
+        "bytes": 4151333,
+        "sha256": "370e0e188cdf1b2fd8ede6af3b6aaec4c7a4dd986c2e95057deba7669f14477d",
+        "header": [
+          "timestamp",
+          "latitude",
+          "longitude",
+          "altitude",
+          "northing",
+          "easting",
+          "down",
+          "utm_zone",
+          "velocity_north",
+          "velocity_east",
+          "velocity_down",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 22071,
+        "first_timestamp": 1432044414728147,
+        "utm_zones": [
+          "30U"
+        ]
+      }
+    },
+    {
+      "traversal": "2015-05-29-09-36-29",
+      "split": "dev",
+      "vo": {
+        "path": "vo/2015-05-29-09-36-29/vo.csv",
+        "bytes": 4368477,
+        "sha256": "5c4071ee2c39e3d48e0888e7e3162fe0869e2296c3c872bce123c2e1251000e8",
+        "header": [
+          "source_timestamp",
+          "destination_timestamp",
+          "x",
+          "y",
+          "z",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 37956,
+        "first_timestamp": 1432892225297002
+      },
+      "rtk": {
+        "path": "rtk/2015-05-29-09-36-29/rtk.csv",
+        "bytes": 4741807,
+        "sha256": "643c37241ef29543528533ff13a08ee701efd23c4eba0c9b2c680faebc17ae03",
+        "header": [
+          "timestamp",
+          "latitude",
+          "longitude",
+          "altitude",
+          "northing",
+          "easting",
+          "down",
+          "utm_zone",
+          "velocity_north",
+          "velocity_east",
+          "velocity_down",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 25359,
+        "first_timestamp": 1432892225847456,
+        "utm_zones": [
+          "30U"
+        ]
+      }
+    },
+    {
+      "traversal": "2015-06-09-15-06-29",
+      "split": "confirm",
+      "vo": {
+        "path": "vo/2015-06-09-15-06-29/vo.csv",
+        "bytes": 4203859,
+        "sha256": "ddc6ed253f4730fa02431e2360e2f21a18c189b6be04b71beb881cf645ffe064",
+        "header": [
+          "source_timestamp",
+          "destination_timestamp",
+          "x",
+          "y",
+          "z",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 36516,
+        "first_timestamp": 1433862474170765
+      },
+      "rtk": {
+        "path": "rtk/2015-06-09-15-06-29/rtk.csv",
+        "bytes": 321626,
+        "sha256": "96eee5858b996c51b30b2876bb9f5b1d2ac6b01a3f4afefaf13f5a25a48d6b47",
+        "header": [
+          "timestamp",
+          "latitude",
+          "longitude",
+          "altitude",
+          "northing",
+          "easting",
+          "down",
+          "utm_zone",
+          "velocity_north",
+          "velocity_east",
+          "velocity_down",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 1705,
+        "first_timestamp": 1433862475069312,
+        "utm_zones": [
+          "30U"
+        ]
+      }
+    },
+    {
+      "traversal": "2015-06-12-08-52-55",
+      "split": "train",
+      "vo": {
+        "path": "vo/2015-06-12-08-52-55/vo.csv",
+        "bytes": 3449503,
+        "sha256": "64f3f0edff220e05035e8a05c912ac2f7b56e156ce473ac170a3de40100db101",
+        "header": [
+          "source_timestamp",
+          "destination_timestamp",
+          "x",
+          "y",
+          "z",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 29957,
+        "first_timestamp": 1434099198474818
+      },
+      "rtk": {
+        "path": "rtk/2015-06-12-08-52-55/rtk.csv",
+        "bytes": 3946418,
+        "sha256": "6adc435af057f3de17ed7d1a6866337ffb98aff2a391c6c65376fef75ed4e4a3",
+        "header": [
+          "timestamp",
+          "latitude",
+          "longitude",
+          "altitude",
+          "northing",
+          "easting",
+          "down",
+          "utm_zone",
+          "velocity_north",
+          "velocity_east",
+          "velocity_down",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 20961,
+        "first_timestamp": 1434099198864137,
+        "utm_zones": [
+          "30U"
+        ]
+      }
+    },
+    {
+      "traversal": "2015-06-30-13-31-45",
+      "split": "train",
+      "vo": {
+        "path": "vo/2015-06-30-13-31-45/vo.csv",
+        "bytes": 3821646,
+        "sha256": "af9cfe7e90729aebe3bc5e1c757854d3d6bf8b1cac1e119dbd223e18942061d4",
+        "header": [
+          "source_timestamp",
+          "destination_timestamp",
+          "x",
+          "y",
+          "z",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 33205,
+        "first_timestamp": 1435671132969085
+      },
+      "rtk": {
+        "path": "rtk/2015-06-30-13-31-45/rtk.csv",
+        "bytes": 224435,
+        "sha256": "967004f2782f0b4cfb0db830e9d3ab5643694c58942b3b9963943a7bcfcad591",
+        "header": [
+          "timestamp",
+          "latitude",
+          "longitude",
+          "altitude",
+          "northing",
+          "easting",
+          "down",
+          "utm_zone",
+          "velocity_north",
+          "velocity_east",
+          "velocity_down",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 1189,
+        "first_timestamp": 1435671133540635,
+        "utm_zones": [
+          "30U"
+        ]
+      }
+    },
+    {
+      "traversal": "2015-07-08-13-37-17",
+      "split": "train",
+      "vo": {
+        "path": "vo/2015-07-08-13-37-17/vo.csv",
+        "bytes": 4422959,
+        "sha256": "b2f118561915f0dacd31a6e5fa6bd877589d883277c62c2ef7b4ec2202fc5034",
+        "header": [
+          "source_timestamp",
+          "destination_timestamp",
+          "x",
+          "y",
+          "z",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 38439,
+        "first_timestamp": 1436362668059342
+      },
+      "rtk": {
+        "path": "rtk/2015-07-08-13-37-17/rtk.csv",
+        "bytes": 5109446,
+        "sha256": "1e4b82a6ed427b8218f222f74ac4bf3130bd50e654394bd42e415e625602411e",
+        "header": [
+          "timestamp",
+          "latitude",
+          "longitude",
+          "altitude",
+          "northing",
+          "easting",
+          "down",
+          "utm_zone",
+          "velocity_north",
+          "velocity_east",
+          "velocity_down",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 27171,
+        "first_timestamp": 1436362668579584,
+        "utm_zones": [
+          "30U"
+        ]
+      }
+    },
+    {
+      "traversal": "2015-07-10-10-01-59",
+      "split": "dev",
+      "vo": {
+        "path": "vo/2015-07-10-10-01-59/vo.csv",
+        "bytes": 4088215,
+        "sha256": "d23358e27bb101d5c9a1897c18f8191b873cc300209c56ae840fe93a698c8082",
+        "header": [
+          "source_timestamp",
+          "destination_timestamp",
+          "x",
+          "y",
+          "z",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 35521,
+        "first_timestamp": 1436518920359553
+      },
+      "rtk": {
+        "path": "rtk/2015-07-10-10-01-59/rtk.csv",
+        "bytes": 4822421,
+        "sha256": "604e6378587969257ce6b4cab661555fd056775831ce8be5e5d96e5acd3b716c",
+        "header": [
+          "timestamp",
+          "latitude",
+          "longitude",
+          "altitude",
+          "northing",
+          "easting",
+          "down",
+          "utm_zone",
+          "velocity_north",
+          "velocity_east",
+          "velocity_down",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 25661,
+        "first_timestamp": 1436518923046908,
+        "utm_zones": [
+          "30U"
+        ]
+      }
+    },
+    {
+      "traversal": "2015-07-14-16-17-39",
+      "split": "train",
+      "vo": {
+        "path": "vo/2015-07-14-16-17-39/vo.csv",
+        "bytes": 5759703,
+        "sha256": "7c8b4084000031ca5c3253b9ea833d8e59ad162f37cef48027cb4061df4f5a89",
+        "header": [
+          "source_timestamp",
+          "destination_timestamp",
+          "x",
+          "y",
+          "z",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 50041,
+        "first_timestamp": 1436890673300495
+      },
+      "rtk": {
+        "path": "rtk/2015-07-14-16-17-39/rtk.csv",
+        "bytes": 6364160,
+        "sha256": "f7ad47def93b859bc35dcb9181aebe7d2420f62ddf35d0fe588f833c916a4b19",
+        "header": [
+          "timestamp",
+          "latitude",
+          "longitude",
+          "altitude",
+          "northing",
+          "easting",
+          "down",
+          "utm_zone",
+          "velocity_north",
+          "velocity_east",
+          "velocity_down",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 33901,
+        "first_timestamp": 1436890673666742,
+        "utm_zones": [
+          "30U"
+        ]
+      }
+    },
+    {
+      "traversal": "2015-07-24-14-36-47",
+      "split": "dev",
+      "vo": {
+        "path": "vo/2015-07-24-14-36-47/vo.csv",
+        "bytes": 3043295,
+        "sha256": "798a1d1778affcf7f265d68332143d48acb45524c70073a51235d7083ad4ec2c",
+        "header": [
+          "source_timestamp",
+          "destination_timestamp",
+          "x",
+          "y",
+          "z",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 26449,
+        "first_timestamp": 1437748634600849
+      },
+      "rtk": {
+        "path": "rtk/2015-07-24-14-36-47/rtk.csv",
+        "bytes": 555574,
+        "sha256": "674f18b3dbf6dece754f7da2113183a5ef874294de8273354031b37a094c5768",
+        "header": [
+          "timestamp",
+          "latitude",
+          "longitude",
+          "altitude",
+          "northing",
+          "easting",
+          "down",
+          "utm_zone",
+          "velocity_north",
+          "velocity_east",
+          "velocity_down",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 2959,
+        "first_timestamp": 1437748635869356,
+        "utm_zones": [
+          "30U"
+        ]
+      }
+    },
+    {
+      "traversal": "2015-07-29-13-09-26",
+      "split": "confirm",
+      "vo": {
+        "path": "vo/2015-07-29-13-09-26/vo.csv",
+        "bytes": 3849115,
+        "sha256": "8632a95c5218a15f2f83fcd36cfc92b9ec11d2c36cfd63caf1a1817398336e04",
+        "header": [
+          "source_timestamp",
+          "destination_timestamp",
+          "x",
+          "y",
+          "z",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 33427,
+        "first_timestamp": 1438175394234706
+      },
+      "rtk": {
+        "path": "rtk/2015-07-29-13-09-26/rtk.csv",
+        "bytes": 4114502,
+        "sha256": "242c86fb4f224731fdc7e1b181bc6d82591bb81f2d2b05def3115789cde0c917",
+        "header": [
+          "timestamp",
+          "latitude",
+          "longitude",
+          "altitude",
+          "northing",
+          "easting",
+          "down",
+          "utm_zone",
+          "velocity_north",
+          "velocity_east",
+          "velocity_down",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 21861,
+        "first_timestamp": 1438175394808607,
+        "utm_zones": [
+          "30U"
+        ]
+      }
+    },
+    {
+      "traversal": "2015-08-12-15-04-18",
+      "split": "confirm",
+      "vo": {
+        "path": "vo/2015-08-12-15-04-18/vo.csv",
+        "bytes": 4008609,
+        "sha256": "77234cc7cfeaef1f22299e2f69c8988e26a68f37570a2082749d76e43080ddd7",
+        "header": [
+          "source_timestamp",
+          "destination_timestamp",
+          "x",
+          "y",
+          "z",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 34807,
+        "first_timestamp": 1439388259985169
+      },
+      "rtk": {
+        "path": "rtk/2015-08-12-15-04-18/rtk.csv",
+        "bytes": 4308663,
+        "sha256": "0ed1dcb2984ade4a781e2ac3d75fb3140cf851fa9b112dd1d6d0e53cdb63e082",
+        "header": [
+          "timestamp",
+          "latitude",
+          "longitude",
+          "altitude",
+          "northing",
+          "easting",
+          "down",
+          "utm_zone",
+          "velocity_north",
+          "velocity_east",
+          "velocity_down",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 22911,
+        "first_timestamp": 1439388262802747,
+        "utm_zones": [
+          "30U"
+        ]
+      }
+    },
+    {
+      "traversal": "2015-08-13-16-02-58",
+      "split": "train",
+      "vo": {
+        "path": "vo/2015-08-13-16-02-58/vo.csv",
+        "bytes": 5014561,
+        "sha256": "118420391aa8143f4e27504755edf89975acea468b1cc5983960020d045e51e3",
+        "header": [
+          "source_timestamp",
+          "destination_timestamp",
+          "x",
+          "y",
+          "z",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 43561,
+        "first_timestamp": 1439478178943799
+      },
+      "rtk": {
+        "path": "rtk/2015-08-13-16-02-58/rtk.csv",
+        "bytes": 5581380,
+        "sha256": "692571a20a5269db0d3d1eb9e70e834d01c2eabc6bf579305a6d6904a7a0aad8",
+        "header": [
+          "timestamp",
+          "latitude",
+          "longitude",
+          "altitude",
+          "northing",
+          "easting",
+          "down",
+          "utm_zone",
+          "velocity_north",
+          "velocity_east",
+          "velocity_down",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 29671,
+        "first_timestamp": 1439478181896403,
+        "utm_zones": [
+          "30U"
+        ]
+      }
+    },
+    {
+      "traversal": "2015-08-14-14-54-57",
+      "split": "dev",
+      "vo": {
+        "path": "vo/2015-08-14-14-54-57/vo.csv",
+        "bytes": 4195791,
+        "sha256": "14054cb68db205a3428e706128bec6bf022c8c4c0db516bdea0f04acbd979357",
+        "header": [
+          "source_timestamp",
+          "destination_timestamp",
+          "x",
+          "y",
+          "z",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 36442,
+        "first_timestamp": 1439560498009004
+      },
+      "rtk": {
+        "path": "rtk/2015-08-14-14-54-57/rtk.csv",
+        "bytes": 4574937,
+        "sha256": "60b4d40d6024e10a2af10bf13f76b8790608ec8eef00bc4192795f4baaf0b5ef",
+        "header": [
+          "timestamp",
+          "latitude",
+          "longitude",
+          "altitude",
+          "northing",
+          "easting",
+          "down",
+          "utm_zone",
+          "velocity_north",
+          "velocity_east",
+          "velocity_down",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 24321,
+        "first_timestamp": 1439560501630222,
+        "utm_zones": [
+          "30U"
+        ]
+      }
+    },
+    {
+      "traversal": "2015-08-17-10-26-38",
+      "split": "train",
+      "vo": {
+        "path": "vo/2015-08-17-10-26-38/vo.csv",
+        "bytes": 863157,
+        "sha256": "ecfcb1a179b023899efd1df892cd9d20ab0a46ccbdcb777e7e791d7f728673ef",
+        "header": [
+          "source_timestamp",
+          "destination_timestamp",
+          "x",
+          "y",
+          "z",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 7487,
+        "first_timestamp": 1439803600007294
+      },
+      "rtk": {
+        "path": "rtk/2015-08-17-10-26-38/rtk.csv",
+        "bytes": 880087,
+        "sha256": "b4d2cec64799e240ad82a57a72955de58cd18933396697f45b0b6963205bd85e",
+        "header": [
+          "timestamp",
+          "latitude",
+          "longitude",
+          "altitude",
+          "northing",
+          "easting",
+          "down",
+          "utm_zone",
+          "velocity_north",
+          "velocity_east",
+          "velocity_down",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 4671,
+        "first_timestamp": 1439803602771523,
+        "utm_zones": [
+          "30U"
+        ]
+      }
+    },
+    {
+      "traversal": "2015-08-17-10-42-18",
+      "split": "train",
+      "vo": {
+        "path": "vo/2015-08-17-10-42-18/vo.csv",
+        "bytes": 3454657,
+        "sha256": "c038437fdf259b3530d6671c5811822013bf63990c3bc6e0d6d2cbc8547d2529",
+        "header": [
+          "source_timestamp",
+          "destination_timestamp",
+          "x",
+          "y",
+          "z",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 29991,
+        "first_timestamp": 1439804539761109
+      },
+      "rtk": {
+        "path": "rtk/2015-08-17-10-42-18/rtk.csv",
+        "bytes": 3912298,
+        "sha256": "304b500853e1a7fbbe3ba9c2fa3056fff3a932dc862587559bdbae37818804b0",
+        "header": [
+          "timestamp",
+          "latitude",
+          "longitude",
+          "altitude",
+          "northing",
+          "easting",
+          "down",
+          "utm_zone",
+          "velocity_north",
+          "velocity_east",
+          "velocity_down",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 20801,
+        "first_timestamp": 1439804542922191,
+        "utm_zones": [
+          "30U"
+        ]
+      }
+    },
+    {
+      "traversal": "2015-08-17-13-30-19",
+      "split": "dev",
+      "vo": {
+        "path": "vo/2015-08-17-13-30-19/vo.csv",
+        "bytes": 2653428,
+        "sha256": "7daa8bad5b528924de5fe56dea7655d4c2a45602ee1883ef2c464c1f1a7cec17",
+        "header": [
+          "source_timestamp",
+          "destination_timestamp",
+          "x",
+          "y",
+          "z",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 23041,
+        "first_timestamp": 1439814620068511
+      },
+      "rtk": {
+        "path": "rtk/2015-08-17-13-30-19/rtk.csv",
+        "bytes": 2833169,
+        "sha256": "81036cbfd5077af53fc10aa5543924d2319190dbdb350578f6dbf4db3d6edcde",
+        "header": [
+          "timestamp",
+          "latitude",
+          "longitude",
+          "altitude",
+          "northing",
+          "easting",
+          "down",
+          "utm_zone",
+          "velocity_north",
+          "velocity_east",
+          "velocity_down",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 15051,
+        "first_timestamp": 1439814623379876,
+        "utm_zones": [
+          "30U"
+        ]
+      }
+    },
+    {
+      "traversal": "2015-08-20-12-00-47",
+      "split": "train",
+      "vo": {
+        "path": "vo/2015-08-20-12-00-47/vo.csv",
+        "bytes": 2573212,
+        "sha256": "e74c7701cc64b1a0d25bc28a202b722ae687fab21aacda0f804cb387ecc212cf",
+        "header": [
+          "source_timestamp",
+          "destination_timestamp",
+          "x",
+          "y",
+          "z",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 22350,
+        "first_timestamp": 1440068447820035
+      },
+      "rtk": {
+        "path": "rtk/2015-08-20-12-00-47/rtk.csv",
+        "bytes": 1157939,
+        "sha256": "74cd64876cc91519bfeec7f28917dd24b6c5f0074c927012f70a976737456005",
+        "header": [
+          "timestamp",
+          "latitude",
+          "longitude",
+          "altitude",
+          "northing",
+          "easting",
+          "down",
+          "utm_zone",
+          "velocity_north",
+          "velocity_east",
+          "velocity_down",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 6159,
+        "first_timestamp": 1440067718193439,
+        "utm_zones": [
+          "30U"
+        ]
+      }
+    },
+    {
+      "traversal": "2015-08-21-10-40-24",
+      "split": "train",
+      "vo": {
+        "path": "vo/2015-08-21-10-40-24/vo.csv",
+        "bytes": 3780625,
+        "sha256": "35ea0a6c8568026592e0b5d79196d5fd15f2c026ca98a93eeaf36124447cd408",
+        "header": [
+          "source_timestamp",
+          "destination_timestamp",
+          "x",
+          "y",
+          "z",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 32829,
+        "first_timestamp": 1440150025135003
+      },
+      "rtk": {
+        "path": "rtk/2015-08-21-10-40-24/rtk.csv",
+        "bytes": 4103365,
+        "sha256": "ae50c274a532e79490d14fd2efb1bbc0cb2e785886bec8b07937c35525fea43b",
+        "header": [
+          "timestamp",
+          "latitude",
+          "longitude",
+          "altitude",
+          "northing",
+          "easting",
+          "down",
+          "utm_zone",
+          "velocity_north",
+          "velocity_east",
+          "velocity_down",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 21809,
+        "first_timestamp": 1440150028291884,
+        "utm_zones": [
+          "30U"
+        ]
+      }
+    },
+    {
+      "traversal": "2015-08-21-16-23-57",
+      "split": "train",
+      "vo": {
+        "path": "vo/2015-08-21-16-23-57/vo.csv",
+        "bytes": 3879462,
+        "sha256": "182381b7f20b1b4077c750cd89e753cce811c1b5bd4b8240a7d6fd3ea5e5c085",
+        "header": [
+          "source_timestamp",
+          "destination_timestamp",
+          "x",
+          "y",
+          "z",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 33696,
+        "first_timestamp": 1440170638757451
+      },
+      "rtk": {
+        "path": "rtk/2015-08-21-16-23-57/rtk.csv",
+        "bytes": 494826,
+        "sha256": "24b209ad6c69d2f55f1c5d03af7e3ebfcb63be53027b15b6028ec4fc4af0d087",
+        "header": [
+          "timestamp",
+          "latitude",
+          "longitude",
+          "altitude",
+          "northing",
+          "easting",
+          "down",
+          "utm_zone",
+          "velocity_north",
+          "velocity_east",
+          "velocity_down",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 2628,
+        "first_timestamp": 1440170641540185,
+        "utm_zones": [
+          "30U"
+        ]
+      }
+    },
+    {
+      "traversal": "2015-08-27-10-06-57",
+      "split": "train",
+      "vo": {
+        "path": "vo/2015-08-27-10-06-57/vo.csv",
+        "bytes": 3476074,
+        "sha256": "cde63fb094fc3ea7e07bcf60b545f94580b4e611c0ed6c87b8118819f4fe69af",
+        "header": [
+          "source_timestamp",
+          "destination_timestamp",
+          "x",
+          "y",
+          "z",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 30181,
+        "first_timestamp": 1440666418631069
+      },
+      "rtk": {
+        "path": "rtk/2015-08-27-10-06-57/rtk.csv",
+        "bytes": 1063858,
+        "sha256": "9885ed88c3ba1405256cc294d755f4534cd784956e4c90dc7b7ae02160fbbadf",
+        "header": [
+          "timestamp",
+          "latitude",
+          "longitude",
+          "altitude",
+          "northing",
+          "easting",
+          "down",
+          "utm_zone",
+          "velocity_north",
+          "velocity_east",
+          "velocity_down",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 5660,
+        "first_timestamp": 1440666422939242,
+        "utm_zones": [
+          "30U"
+        ]
+      }
+    },
+    {
+      "traversal": "2015-08-27-16-07-13",
+      "split": "train",
+      "vo": {
+        "path": "vo/2015-08-27-16-07-13/vo.csv",
+        "bytes": 4762864,
+        "sha256": "57b76f95522045732f02cb01cc0e9238b0849313b21ec8b449cc28f3ede746b1",
+        "header": [
+          "source_timestamp",
+          "destination_timestamp",
+          "x",
+          "y",
+          "z",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 41376,
+        "first_timestamp": 1440688033822541
+      },
+      "rtk": {
+        "path": "rtk/2015-08-27-16-07-13/rtk.csv",
+        "bytes": 5188175,
+        "sha256": "db3a0e14d14c40112166aa8d04fe8cc8fe2ed6de69d6004aedabeff7dcab19f9",
+        "header": [
+          "timestamp",
+          "latitude",
+          "longitude",
+          "altitude",
+          "northing",
+          "easting",
+          "down",
+          "utm_zone",
+          "velocity_north",
+          "velocity_east",
+          "velocity_down",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 27600,
+        "first_timestamp": 1440688081842806,
+        "utm_zones": [
+          "30U"
+        ]
+      }
+    },
+    {
+      "traversal": "2015-08-28-09-50-22",
+      "split": "train",
+      "vo": {
+        "path": "vo/2015-08-28-09-50-22/vo.csv",
+        "bytes": 3654491,
+        "sha256": "11c3c1f78f70daa7659a0f86a2dc3c479d2ad66f499ec6c7040b1cc040f7016a",
+        "header": [
+          "source_timestamp",
+          "destination_timestamp",
+          "x",
+          "y",
+          "z",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 31743,
+        "first_timestamp": 1440751823573028
+      },
+      "rtk": {
+        "path": "rtk/2015-08-28-09-50-22/rtk.csv",
+        "bytes": 3952520,
+        "sha256": "bc093ec2b398907dd87360235fa6ae9fd7e363df1773254a98723a7986d8d23c",
+        "header": [
+          "timestamp",
+          "latitude",
+          "longitude",
+          "altitude",
+          "northing",
+          "easting",
+          "down",
+          "utm_zone",
+          "velocity_north",
+          "velocity_east",
+          "velocity_down",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 21031,
+        "first_timestamp": 1440751826193097,
+        "utm_zones": [
+          "30U"
+        ]
+      }
+    },
+    {
+      "traversal": "2015-10-29-10-55-43",
+      "split": "confirm",
+      "vo": {
+        "path": "vo/2015-10-29-10-55-43/vo.csv",
+        "bytes": 4099271,
+        "sha256": "0b0a98f561eaad7b0807a961c234038a21b94db7a4719eae36b42c6e785eba49",
+        "header": [
+          "source_timestamp",
+          "destination_timestamp",
+          "x",
+          "y",
+          "z",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 35607,
+        "first_timestamp": 1446116144318942
+      },
+      "rtk": {
+        "path": "rtk/2015-10-29-10-55-43/rtk.csv",
+        "bytes": 4694403,
+        "sha256": "49e032e0aa1912f08b48ce2fe83b960327d1350cf2be2b33012dc0df48638228",
+        "header": [
+          "timestamp",
+          "latitude",
+          "longitude",
+          "altitude",
+          "northing",
+          "easting",
+          "down",
+          "utm_zone",
+          "velocity_north",
+          "velocity_east",
+          "velocity_down",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 24981,
+        "first_timestamp": 1446116147100898,
+        "utm_zones": [
+          "30U"
+        ]
+      }
+    },
+    {
+      "traversal": "2015-10-29-12-18-17",
+      "split": "confirm",
+      "vo": {
+        "path": "vo/2015-10-29-12-18-17/vo.csv",
+        "bytes": 4324572,
+        "sha256": "01790bb00cf19ac07ed2c5971cd32e0f869cc05bec6a1001adeae0d584984453",
+        "header": [
+          "source_timestamp",
+          "destination_timestamp",
+          "x",
+          "y",
+          "z",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 37551,
+        "first_timestamp": 1446121099442471
+      },
+      "rtk": {
+        "path": "rtk/2015-10-29-12-18-17/rtk.csv",
+        "bytes": 4549527,
+        "sha256": "cdc93883d4c4673162a09abfb9aa96b0df82a9d12f1484b4543bde9c2c62ad46",
+        "header": [
+          "timestamp",
+          "latitude",
+          "longitude",
+          "altitude",
+          "northing",
+          "easting",
+          "down",
+          "utm_zone",
+          "velocity_north",
+          "velocity_east",
+          "velocity_down",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 24221,
+        "first_timestamp": 1446121104290987,
+        "utm_zones": [
+          "30U"
+        ]
+      }
+    },
+    {
+      "traversal": "2015-10-30-11-56-36",
+      "split": "train",
+      "vo": {
+        "path": "vo/2015-10-30-11-56-36/vo.csv",
+        "bytes": 1288772,
+        "sha256": "38954b0b51635d908b7dad8ab605747d24f543bfae7b573d469790e01cef09aa",
+        "header": [
+          "source_timestamp",
+          "destination_timestamp",
+          "x",
+          "y",
+          "z",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 11196,
+        "first_timestamp": 1446206196941317
+      },
+      "rtk": {
+        "path": "rtk/2015-10-30-11-56-36/rtk.csv",
+        "bytes": 1478555,
+        "sha256": "8dfac4af4e05ddb3520539a05775a88854b29c67545fabd3259e1a5dedcd0e3c",
+        "header": [
+          "timestamp",
+          "latitude",
+          "longitude",
+          "altitude",
+          "northing",
+          "easting",
+          "down",
+          "utm_zone",
+          "velocity_north",
+          "velocity_east",
+          "velocity_down",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 7891,
+        "first_timestamp": 1446206199955149,
+        "utm_zones": [
+          "30U"
+        ]
+      }
+    },
+    {
+      "traversal": "2015-10-30-13-52-14",
+      "split": "train",
+      "vo": {
+        "path": "vo/2015-10-30-13-52-14/vo.csv",
+        "bytes": 5547290,
+        "sha256": "285feeef80bce25df8cef806c3cdd70eb6f9e961b2aef327c7d28cb13fb6b227",
+        "header": [
+          "source_timestamp",
+          "destination_timestamp",
+          "x",
+          "y",
+          "z",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 48184,
+        "first_timestamp": 1446213134883525
+      },
+      "rtk": {
+        "path": "rtk/2015-10-30-13-52-14/rtk.csv",
+        "bytes": 6135717,
+        "sha256": "3f491c1891cc8fc67cdc8f120559d8952c2734f2b66b777e31426b9fe2434940",
+        "header": [
+          "timestamp",
+          "latitude",
+          "longitude",
+          "altitude",
+          "northing",
+          "easting",
+          "down",
+          "utm_zone",
+          "velocity_north",
+          "velocity_east",
+          "velocity_down",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 32601,
+        "first_timestamp": 1446213137978754,
+        "utm_zones": [
+          "30U"
+        ]
+      }
+    },
+    {
+      "traversal": "2015-11-02-10-45-59",
+      "split": "train",
+      "vo": {
+        "path": "vo/2015-11-02-10-45-59/vo.csv",
+        "bytes": 5135748,
+        "sha256": "973a402fc7907a17a94bdfc68cdb9bab9b5860aa458b18188d02531a60632a84",
+        "header": [
+          "source_timestamp",
+          "destination_timestamp",
+          "x",
+          "y",
+          "z",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 44608,
+        "first_timestamp": 1446461160133564
+      },
+      "rtk": {
+        "path": "rtk/2015-11-02-10-45-59/rtk.csv",
+        "bytes": 5611129,
+        "sha256": "677599cf30d13c2c1258147584ad6fdc8961c25e6dc5af344b65dc0119247479",
+        "header": [
+          "timestamp",
+          "latitude",
+          "longitude",
+          "altitude",
+          "northing",
+          "easting",
+          "down",
+          "utm_zone",
+          "velocity_north",
+          "velocity_east",
+          "velocity_down",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 29931,
+        "first_timestamp": 1446461162821707,
+        "utm_zones": [
+          "30U"
+        ]
+      }
+    },
+    {
+      "traversal": "2015-11-10-10-32-52",
+      "split": "train",
+      "vo": {
+        "path": "vo/2015-11-10-10-32-52/vo.csv",
+        "bytes": 3379430,
+        "sha256": "114cc7d25b4d47bcfe2df2bc02dd0e102a0cf64660a8304eefc69fab1b286820",
+        "header": [
+          "source_timestamp",
+          "destination_timestamp",
+          "x",
+          "y",
+          "z",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 29345,
+        "first_timestamp": 1447151572944401
+      },
+      "rtk": {
+        "path": "rtk/2015-11-10-10-32-52/rtk.csv",
+        "bytes": 3621312,
+        "sha256": "ed6469662c2a53a26679e956d2a5894a3dee6ec5df8834b250200fcee8d79f59",
+        "header": [
+          "timestamp",
+          "latitude",
+          "longitude",
+          "altitude",
+          "northing",
+          "easting",
+          "down",
+          "utm_zone",
+          "velocity_north",
+          "velocity_east",
+          "velocity_down",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 19271,
+        "first_timestamp": 1447151576398314,
+        "utm_zones": [
+          "30U"
+        ]
+      }
+    },
+    {
+      "traversal": "2015-11-10-11-55-47",
+      "split": "train",
+      "vo": {
+        "path": "vo/2015-11-10-11-55-47/vo.csv",
+        "bytes": 2467626,
+        "sha256": "0cf837a5f6814bc0d0ab2814baddc836462f2fa8b2902fd417a867336878927d",
+        "header": [
+          "source_timestamp",
+          "destination_timestamp",
+          "x",
+          "y",
+          "z",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 21429,
+        "first_timestamp": 1447156548069698
+      },
+      "rtk": {
+        "path": "rtk/2015-11-10-11-55-47/rtk.csv",
+        "bytes": 2635663,
+        "sha256": "c0491dd3163695ccb938974772d45f20419cc1580226a5d4f09cbbfcc1d18d0c",
+        "header": [
+          "timestamp",
+          "latitude",
+          "longitude",
+          "altitude",
+          "northing",
+          "easting",
+          "down",
+          "utm_zone",
+          "velocity_north",
+          "velocity_east",
+          "velocity_down",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 13991,
+        "first_timestamp": 1447156551202961,
+        "utm_zones": [
+          "30U"
+        ]
+      }
+    },
+    {
+      "traversal": "2015-11-10-14-15-57",
+      "split": "train",
+      "vo": {
+        "path": "vo/2015-11-10-14-15-57/vo.csv",
+        "bytes": 3767285,
+        "sha256": "80ce4e2728f2c9ca43fc3a1a2d3b198b0b744c39f01dc94b4fabe77877918347",
+        "header": [
+          "source_timestamp",
+          "destination_timestamp",
+          "x",
+          "y",
+          "z",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 32709,
+        "first_timestamp": 1447164958381824
+      },
+      "rtk": {
+        "path": "rtk/2015-11-10-14-15-57/rtk.csv",
+        "bytes": 4016681,
+        "sha256": "952c6f51612ed2573b78da5a27e5ed0575faf713c9b1d692a306f74fdb5de42d",
+        "header": [
+          "timestamp",
+          "latitude",
+          "longitude",
+          "altitude",
+          "northing",
+          "easting",
+          "down",
+          "utm_zone",
+          "velocity_north",
+          "velocity_east",
+          "velocity_down",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 21351,
+        "first_timestamp": 1447164961003312,
+        "utm_zones": [
+          "30U"
+        ]
+      }
+    },
+    {
+      "traversal": "2015-11-11-10-02-34",
+      "split": "confirm",
+      "vo": {
+        "path": "vo/2015-11-11-10-02-34/vo.csv",
+        "bytes": 4422853,
+        "sha256": "90cf349af50e9b8dcae73bc1fafe712faafb28fcada216923edac302e9088cbf",
+        "header": [
+          "source_timestamp",
+          "destination_timestamp",
+          "x",
+          "y",
+          "z",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 38414,
+        "first_timestamp": 1447236155694788
+      },
+      "rtk": {
+        "path": "rtk/2015-11-11-10-02-34/rtk.csv",
+        "bytes": 4758935,
+        "sha256": "99003f7710538ba381b86cac9589797789624c899347055a24491494d23f6182",
+        "header": [
+          "timestamp",
+          "latitude",
+          "longitude",
+          "altitude",
+          "northing",
+          "easting",
+          "down",
+          "utm_zone",
+          "velocity_north",
+          "velocity_east",
+          "velocity_down",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 25321,
+        "first_timestamp": 1447236159300566,
+        "utm_zones": [
+          "30U"
+        ]
+      }
+    },
+    {
+      "traversal": "2015-11-11-14-13-43",
+      "split": "train",
+      "vo": {
+        "path": "vo/2015-11-11-14-13-43/vo.csv",
+        "bytes": 4351366,
+        "sha256": "5d29d2439f85e04f2210107fe9e6b9274158fc7b7c32878dd2012147f6ab6f73",
+        "header": [
+          "source_timestamp",
+          "destination_timestamp",
+          "x",
+          "y",
+          "z",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 37794,
+        "first_timestamp": 1447251224301018
+      },
+      "rtk": {
+        "path": "rtk/2015-11-11-14-13-43/rtk.csv",
+        "bytes": 4645517,
+        "sha256": "3a323dcb95be1599c9b3ba9c9b0ef9b3abfa6adca9df751dbe263404e61003d0",
+        "header": [
+          "timestamp",
+          "latitude",
+          "longitude",
+          "altitude",
+          "northing",
+          "easting",
+          "down",
+          "utm_zone",
+          "velocity_north",
+          "velocity_east",
+          "velocity_down",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 24721,
+        "first_timestamp": 1447251227990536,
+        "utm_zones": [
+          "30U"
+        ]
+      }
+    },
+    {
+      "traversal": "2015-11-12-11-22-05",
+      "split": "dev",
+      "vo": {
+        "path": "vo/2015-11-12-11-22-05/vo.csv",
+        "bytes": 3825660,
+        "sha256": "4d9d4a9f5680444faff8da2e4680ce1b497dcb7be82edf2edde8a06b90031b7f",
+        "header": [
+          "source_timestamp",
+          "destination_timestamp",
+          "x",
+          "y",
+          "z",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 33218,
+        "first_timestamp": 1447327326008077
+      },
+      "rtk": {
+        "path": "rtk/2015-11-12-11-22-05/rtk.csv",
+        "bytes": 4079715,
+        "sha256": "923d43109ecc72efa50bca0959aadb0a4fc1f51996d7976ea4ffd0ae37e1396b",
+        "header": [
+          "timestamp",
+          "latitude",
+          "longitude",
+          "altitude",
+          "northing",
+          "easting",
+          "down",
+          "utm_zone",
+          "velocity_north",
+          "velocity_east",
+          "velocity_down",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 21701,
+        "first_timestamp": 1447327328691817,
+        "utm_zones": [
+          "30U"
+        ]
+      }
+    },
+    {
+      "traversal": "2015-11-12-13-27-51",
+      "split": "train",
+      "vo": {
+        "path": "vo/2015-11-12-13-27-51/vo.csv",
+        "bytes": 4772222,
+        "sha256": "402491f13036e47cfba06dc645bf91d388d56275fc6602101e70d15496d110b7",
+        "header": [
+          "source_timestamp",
+          "destination_timestamp",
+          "x",
+          "y",
+          "z",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 41461,
+        "first_timestamp": 1447334872066566
+      },
+      "rtk": {
+        "path": "rtk/2015-11-12-13-27-51/rtk.csv",
+        "bytes": 5219817,
+        "sha256": "5c3bb48074bc51ba5d7568a645c314556f111ecad606243ed43b22ce61c7958e",
+        "header": [
+          "timestamp",
+          "latitude",
+          "longitude",
+          "altitude",
+          "northing",
+          "easting",
+          "down",
+          "utm_zone",
+          "velocity_north",
+          "velocity_east",
+          "velocity_down",
+          "roll",
+          "pitch",
+          "yaw"
+        ],
+        "rows": 27771,
+        "first_timestamp": 1447334875697542,
+        "utm_zones": [
+          "30U"
+        ]
+      }
+    }
+  ]
+}

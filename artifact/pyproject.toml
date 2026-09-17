@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "anonymous-path-locking-artifact"
+version = "1.0.0"
+requires-python = ">=3.11"
+dependencies = [
+  "numpy>=1.26",
+  "torch>=2.6",
+]
+
+[project.optional-dependencies]
+eth3d-extraction = [
+  "open3d==0.19.0",
+]
+
+# Standalone scripts; installation supplies dependencies, not a Python package.
+[tool.setuptools]
+packages = []

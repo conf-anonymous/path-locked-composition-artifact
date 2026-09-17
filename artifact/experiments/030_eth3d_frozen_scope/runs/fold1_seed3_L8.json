@@ -1,0 +1,438 @@
+{
+  "fold": 1,
+  "seed": 3,
+  "length": 8,
+  "checkpoint_sha256": "21c3e5a3ca1233f7f2d22f1eb21caa0648c2d0da83891262658dccbb57b123a7",
+  "mergeable_checkpoint_sha256": "089ab055a572a7f6f676ff0429491103cb4b6bed8b826732f5895842bc2c0203",
+  "arms": {
+    "identity": {
+      "n_windows": 1518,
+      "clusters": {
+        "planar_2": {
+          "family": "planar",
+          "n": 223,
+          "translation_mean_m": 0.18849970257570098,
+          "rotation_mean_deg": 7.716630302409737
+        },
+        "planar_3": {
+          "family": "planar",
+          "n": 274,
+          "translation_mean_m": 0.19855199785966926,
+          "rotation_mean_deg": 15.041771782626252
+        },
+        "plant_2": {
+          "family": "plant",
+          "n": 38,
+          "translation_mean_m": 0.19509511112260508,
+          "rotation_mean_deg": 7.170849043931517
+        },
+        "plant_5": {
+          "family": "plant",
+          "n": 55,
+          "translation_mean_m": 0.2571064116285443,
+          "rotation_mean_deg": 15.250861231885944
+        },
+        "plant_dark": {
+          "family": "plant",
+          "n": 311,
+          "translation_mean_m": 0.2487067622804596,
+          "rotation_mean_deg": 14.893970092792753
+        },
+        "plant_scene_1": {
+          "family": "plant",
+          "n": 197,
+          "translation_mean_m": 0.45767511427571794,
+          "rotation_mean_deg": 9.77136234299113
+        },
+        "plant_scene_2": {
+          "family": "plant",
+          "n": 199,
+          "translation_mean_m": 0.3543290854711744,
+          "rotation_mean_deg": 8.62931648241637
+        },
+        "plant_scene_3": {
+          "family": "plant",
+          "n": 221,
+          "translation_mean_m": 0.3867866318643701,
+          "rotation_mean_deg": 9.316207081781732
+        }
+      }
+    },
+    "raw": {
+      "n_windows": 1518,
+      "clusters": {
+        "planar_2": {
+          "family": "planar",
+          "n": 223,
+          "translation_mean_m": 0.010475734501879268,
+          "rotation_mean_deg": 0.40570066992461434
+        },
+        "planar_3": {
+          "family": "planar",
+          "n": 274,
+          "translation_mean_m": 0.014656496420995223,
+          "rotation_mean_deg": 0.3160865286230222
+        },
+        "plant_2": {
+          "family": "plant",
+          "n": 38,
+          "translation_mean_m": 0.06437887275521606,
+          "rotation_mean_deg": 4.901249232504577
+        },
+        "plant_5": {
+          "family": "plant",
+          "n": 55,
+          "translation_mean_m": 0.21708813673350255,
+          "rotation_mean_deg": 22.89096682902652
+        },
+        "plant_dark": {
+          "family": "plant",
+          "n": 311,
+          "translation_mean_m": 0.2441255607065618,
+          "rotation_mean_deg": 13.351948704233358
+        },
+        "plant_scene_1": {
+          "family": "plant",
+          "n": 197,
+          "translation_mean_m": 0.09834625878005043,
+          "rotation_mean_deg": 2.424915832387925
+        },
+        "plant_scene_2": {
+          "family": "plant",
+          "n": 199,
+          "translation_mean_m": 0.7439588232928652,
+          "rotation_mean_deg": 9.511130812676225
+        },
+        "plant_scene_3": {
+          "family": "plant",
+          "n": 221,
+          "translation_mean_m": 0.921665161274485,
+          "rotation_mean_deg": 13.947913255406938
+        }
+      }
+    },
+    "calibrated": {
+      "n_windows": 1518,
+      "clusters": {
+        "planar_2": {
+          "family": "planar",
+          "n": 223,
+          "translation_mean_m": 0.058239605622246046,
+          "rotation_mean_deg": 4.368488808576776
+        },
+        "planar_3": {
+          "family": "planar",
+          "n": 274,
+          "translation_mean_m": 0.04851054214963967,
+          "rotation_mean_deg": 7.9010356931873345
+        },
+        "plant_2": {
+          "family": "plant",
+          "n": 38,
+          "translation_mean_m": 0.08927278265239652,
+          "rotation_mean_deg": 5.206282898459023
+        },
+        "plant_5": {
+          "family": "plant",
+          "n": 55,
+          "translation_mean_m": 0.1662363723336519,
+          "rotation_mean_deg": 19.406703598397844
+        },
+        "plant_dark": {
+          "family": "plant",
+          "n": 311,
+          "translation_mean_m": 0.2388522268031889,
+          "rotation_mean_deg": 13.492806846224907
+        },
+        "plant_scene_1": {
+          "family": "plant",
+          "n": 197,
+          "translation_mean_m": 0.10420234172906842,
+          "rotation_mean_deg": 8.213659097952469
+        },
+        "plant_scene_2": {
+          "family": "plant",
+          "n": 199,
+          "translation_mean_m": 0.09908822961683042,
+          "rotation_mean_deg": 6.273422809351554
+        },
+        "plant_scene_3": {
+          "family": "plant",
+          "n": 221,
+          "translation_mean_m": 0.1644098695995439,
+          "rotation_mean_deg": 8.366581721354757
+        }
+      }
+    },
+    "constant": {
+      "n_windows": 1518,
+      "clusters": {
+        "planar_2": {
+          "family": "planar",
+          "n": 223,
+          "translation_mean_m": 0.05574645266021122,
+          "rotation_mean_deg": 4.164389463174757
+        },
+        "planar_3": {
+          "family": "planar",
+          "n": 274,
+          "translation_mean_m": 0.04680025632780051,
+          "rotation_mean_deg": 7.529242607279512
+        },
+        "plant_2": {
+          "family": "plant",
+          "n": 38,
+          "translation_mean_m": 0.08763378719707408,
+          "rotation_mean_deg": 5.164171996790223
+        },
+        "plant_5": {
+          "family": "plant",
+          "n": 55,
+          "translation_mean_m": 0.16534568799083638,
+          "rotation_mean_deg": 19.537955003134513
+        },
+        "plant_dark": {
+          "family": "plant",
+          "n": 311,
+          "translation_mean_m": 0.23887475395369875,
+          "rotation_mean_deg": 13.46346261367253
+        },
+        "plant_scene_1": {
+          "family": "plant",
+          "n": 197,
+          "translation_mean_m": 0.10273748058207934,
+          "rotation_mean_deg": 7.880379110762822
+        },
+        "plant_scene_2": {
+          "family": "plant",
+          "n": 199,
+          "translation_mean_m": 0.11225492207545303,
+          "rotation_mean_deg": 6.068397529089984
+        },
+        "plant_scene_3": {
+          "family": "plant",
+          "n": 221,
+          "translation_mean_m": 0.17423935073916066,
+          "rotation_mean_deg": 8.35189257445784
+        }
+      },
+      "minimum_real_norm_before_projection": 0.9510529637336731
+    },
+    "contextual": {
+      "n_windows": 1518,
+      "clusters": {
+        "planar_2": {
+          "family": "planar",
+          "n": 223,
+          "translation_mean_m": 0.013116885520360158,
+          "rotation_mean_deg": 0.6019693861038722
+        },
+        "planar_3": {
+          "family": "planar",
+          "n": 274,
+          "translation_mean_m": 0.016980458658727528,
+          "rotation_mean_deg": 0.7864753719432851
+        },
+        "plant_2": {
+          "family": "plant",
+          "n": 38,
+          "translation_mean_m": 0.06572592590975028,
+          "rotation_mean_deg": 4.873481793424304
+        },
+        "plant_5": {
+          "family": "plant",
+          "n": 55,
+          "translation_mean_m": 0.19042302449101967,
+          "rotation_mean_deg": 21.573424118154872
+        },
+        "plant_dark": {
+          "family": "plant",
+          "n": 311,
+          "translation_mean_m": 0.2432957611404831,
+          "rotation_mean_deg": 13.300240257407747
+        },
+        "plant_scene_1": {
+          "family": "plant",
+          "n": 197,
+          "translation_mean_m": 0.0819195153283813,
+          "rotation_mean_deg": 2.910771424382983
+        },
+        "plant_scene_2": {
+          "family": "plant",
+          "n": 199,
+          "translation_mean_m": 0.1734281903231512,
+          "rotation_mean_deg": 3.7778714310587365
+        },
+        "plant_scene_3": {
+          "family": "plant",
+          "n": 221,
+          "translation_mean_m": 0.2621741690889499,
+          "rotation_mean_deg": 8.209190680848877
+        }
+      },
+      "minimum_real_norm_before_projection": 0.7188746929168701
+    },
+    "feature_direct": {
+      "n_windows": 1518,
+      "clusters": {
+        "planar_2": {
+          "family": "planar",
+          "n": 223,
+          "translation_mean_m": 0.23612849298649916,
+          "rotation_mean_deg": 5.628526894755416
+        },
+        "planar_3": {
+          "family": "planar",
+          "n": 274,
+          "translation_mean_m": 0.29256945942383106,
+          "rotation_mean_deg": 9.755780190566021
+        },
+        "plant_2": {
+          "family": "plant",
+          "n": 38,
+          "translation_mean_m": 0.17956671968992258,
+          "rotation_mean_deg": 4.253503672260226
+        },
+        "plant_5": {
+          "family": "plant",
+          "n": 55,
+          "translation_mean_m": 0.3553780077999368,
+          "rotation_mean_deg": 15.20034662078783
+        },
+        "plant_dark": {
+          "family": "plant",
+          "n": 311,
+          "translation_mean_m": 0.3359059158432541,
+          "rotation_mean_deg": 14.604578957728277
+        },
+        "plant_scene_1": {
+          "family": "plant",
+          "n": 197,
+          "translation_mean_m": 0.2816367985327877,
+          "rotation_mean_deg": 6.371831534617406
+        },
+        "plant_scene_2": {
+          "family": "plant",
+          "n": 199,
+          "translation_mean_m": 0.26446323861829957,
+          "rotation_mean_deg": 4.362724299144826
+        },
+        "plant_scene_3": {
+          "family": "plant",
+          "n": 221,
+          "translation_mean_m": 0.29741951214361995,
+          "rotation_mean_deg": 8.17760029949569
+        }
+      },
+      "minimum_real_norm_before_projection": 0.24288974702358246
+    },
+    "feature_residual": {
+      "n_windows": 1518,
+      "clusters": {
+        "planar_2": {
+          "family": "planar",
+          "n": 223,
+          "translation_mean_m": 0.24602708264758652,
+          "rotation_mean_deg": 30.25400835375959
+        },
+        "planar_3": {
+          "family": "planar",
+          "n": 274,
+          "translation_mean_m": 0.2884392674829403,
+          "rotation_mean_deg": 30.738312379918444
+        },
+        "plant_2": {
+          "family": "plant",
+          "n": 38,
+          "translation_mean_m": 0.2484951366855167,
+          "rotation_mean_deg": 30.70752930093732
+        },
+        "plant_5": {
+          "family": "plant",
+          "n": 55,
+          "translation_mean_m": 0.2502915708594694,
+          "rotation_mean_deg": 30.338847690655335
+        },
+        "plant_dark": {
+          "family": "plant",
+          "n": 311,
+          "translation_mean_m": 0.3291003813336892,
+          "rotation_mean_deg": 31.722145855603088
+        },
+        "plant_scene_1": {
+          "family": "plant",
+          "n": 197,
+          "translation_mean_m": 0.31475144445509284,
+          "rotation_mean_deg": 30.073140121035514
+        },
+        "plant_scene_2": {
+          "family": "plant",
+          "n": 199,
+          "translation_mean_m": 0.2589706355280962,
+          "rotation_mean_deg": 27.43296695408439
+        },
+        "plant_scene_3": {
+          "family": "plant",
+          "n": 221,
+          "translation_mean_m": 0.34776669500222873,
+          "rotation_mean_deg": 32.43031367191311
+        }
+      },
+      "minimum_real_norm_before_projection": 0.6929949522018433
+    },
+    "mergeable": {
+      "n_windows": 1518,
+      "clusters": {
+        "planar_2": {
+          "family": "planar",
+          "n": 223,
+          "translation_mean_m": 0.02006275328137895,
+          "rotation_mean_deg": 1.158040245816917
+        },
+        "planar_3": {
+          "family": "planar",
+          "n": 274,
+          "translation_mean_m": 0.022624739852085633,
+          "rotation_mean_deg": 2.246749766399889
+        },
+        "plant_2": {
+          "family": "plant",
+          "n": 38,
+          "translation_mean_m": 0.06887374066267819,
+          "rotation_mean_deg": 4.831284957336959
+        },
+        "plant_5": {
+          "family": "plant",
+          "n": 55,
+          "translation_mean_m": 0.17402043098956826,
+          "rotation_mean_deg": 20.82451793539506
+        },
+        "plant_dark": {
+          "family": "plant",
+          "n": 311,
+          "translation_mean_m": 0.24125826122634283,
+          "rotation_mean_deg": 13.288142437934638
+        },
+        "plant_scene_1": {
+          "family": "plant",
+          "n": 197,
+          "translation_mean_m": 0.08771846050015085,
+          "rotation_mean_deg": 3.6070390606621654
+        },
+        "plant_scene_2": {
+          "family": "plant",
+          "n": 199,
+          "translation_mean_m": 0.07811454419854588,
+          "rotation_mean_deg": 3.661211968136168
+        },
+        "plant_scene_3": {
+          "family": "plant",
+          "n": 221,
+          "translation_mean_m": 0.17110810062997459,
+          "rotation_mean_deg": 7.39094110741801
+        }
+      },
+      "minimum_real_norm_before_projection": 0.9404681921005249
+    }
+  }
+}

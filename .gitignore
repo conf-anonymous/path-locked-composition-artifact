@@ -1,0 +1,15 @@
+# Local execution products; never commit datasets, credentials or environments.
+.env
+.env.*
+.venv/
+.venv-*/
+verification-output/
+__pycache__/
+*.py[cod]
+.DS_Store
+artifact/manuscript/*.aux
+artifact/manuscript/*.log
+artifact/manuscript/*.bbl
+artifact/manuscript/*.blg
+artifact/manuscript/*.out
+artifact/manuscript/*.synctex.gz

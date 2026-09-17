@@ -1,0 +1,99 @@
+{
+  "fold": 3,
+  "seed": 3,
+  "source_checkpoint_sha256": "91290d298aeb33307f1f632817444ffa979e044a4ca7a878515f7ff73e84b206",
+  "training_seconds": 5.580385292007122,
+  "parameters": 577,
+  "evaluation": {
+    "n_windows": 2360,
+    "clusters": {
+      "ceiling_1": {
+        "family": "ceiling",
+        "n": 217,
+        "translation_mean_m": 0.8584375717118475,
+        "rotation_mean_deg": 42.84373953220409
+      },
+      "ceiling_2": {
+        "family": "ceiling",
+        "n": 501,
+        "translation_mean_m": 0.584549166999472,
+        "rotation_mean_deg": 26.67508025018459
+      },
+      "einstein_1": {
+        "family": "einstein",
+        "n": 34,
+        "translation_mean_m": 0.01705324613448452,
+        "rotation_mean_deg": 5.563949113681283
+      },
+      "einstein_2": {
+        "family": "einstein",
+        "n": 187,
+        "translation_mean_m": 0.18938070398579504,
+        "rotation_mean_deg": 12.053451903967307
+      },
+      "einstein_dark": {
+        "family": "einstein",
+        "n": 180,
+        "translation_mean_m": 0.7975533287247009,
+        "rotation_mean_deg": 25.10754179059284
+      },
+      "einstein_flashlight": {
+        "family": "einstein",
+        "n": 460,
+        "translation_mean_m": 0.6410176605271208,
+        "rotation_mean_deg": 32.97095205109126
+      },
+      "einstein_global_light_changes_1": {
+        "family": "einstein",
+        "n": 44,
+        "translation_mean_m": 0.865542899844133,
+        "rotation_mean_deg": 25.690147510439488
+      },
+      "einstein_global_light_changes_2": {
+        "family": "einstein",
+        "n": 72,
+        "translation_mean_m": 0.05623829258787413,
+        "rotation_mean_deg": 3.5973001747508278
+      },
+      "einstein_global_light_changes_3": {
+        "family": "einstein",
+        "n": 633,
+        "translation_mean_m": 0.3455105754385933,
+        "rotation_mean_deg": 17.228848560411432
+      },
+      "vicon_light_1": {
+        "family": "vicon_light",
+        "n": 28,
+        "translation_mean_m": 0.8214836329281692,
+        "rotation_mean_deg": 40.694760049144925
+      },
+      "vicon_light_2": {
+        "family": "vicon_light",
+        "n": 4,
+        "translation_mean_m": 0.10718327007958875,
+        "rotation_mean_deg": 17.254461565933287
+      }
+    },
+    "minimum_real_norm_before_projection": 0.8346365690231323
+  },
+  "numerical_audit": {
+    "path_discrepancy": {
+      "right": {
+        "translation_m": 2.7747927900928952e-14,
+        "rotation_rad": 2.7043426548370067e-15
+      },
+      "balanced": {
+        "translation_m": 3.451191265066082e-15,
+        "rotation_rad": 1.873016211158014e-15
+      },
+      "chunks_5_11_16": {
+        "translation_m": 2.8982988192109123e-15,
+        "rotation_rad": 2.012656798157825e-15
+      }
+    },
+    "minimum_float64_real_norm": 0.8346365123370337,
+    "cached_recorded_calibration_update_max_coordinate_delta": 1.4210854715202004e-13,
+    "scope": "products regrouped; identical full-sequence GRU retained"
+  },
+  "checkpoint_sha256": "fd8b67bd900d0aa4f18154065433184e36a2716d777d5146f49dc34ef306c1bf"
+}

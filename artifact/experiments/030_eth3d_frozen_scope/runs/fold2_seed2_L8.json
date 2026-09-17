@@ -1,0 +1,582 @@
+{
+  "fold": 2,
+  "seed": 2,
+  "length": 8,
+  "checkpoint_sha256": "f238555fc47db507e86e06941731546070ed2d6ee3e5b5f2c4777d9dd037ad6b",
+  "mergeable_checkpoint_sha256": "76ad303f3f4fabf463c0008d9a9e1a01822b962bfeef445dcf62ec132dcd3b29",
+  "arms": {
+    "identity": {
+      "n_windows": 3756,
+      "clusters": {
+        "desk_3": {
+          "family": "desk",
+          "n": 598,
+          "translation_mean_m": 0.2549292136728737,
+          "rotation_mean_deg": 21.67676230962589
+        },
+        "desk_changing_1": {
+          "family": "desk",
+          "n": 967,
+          "translation_mean_m": 0.29361301252324323,
+          "rotation_mean_deg": 13.174289037572297
+        },
+        "motion_1": {
+          "family": "motion",
+          "n": 407,
+          "translation_mean_m": 0.3259927607884454,
+          "rotation_mean_deg": 9.950985255695084
+        },
+        "sofa_1": {
+          "family": "sofa",
+          "n": 224,
+          "translation_mean_m": 0.39844460343974564,
+          "rotation_mean_deg": 11.21497823479697
+        },
+        "sofa_2": {
+          "family": "sofa",
+          "n": 179,
+          "translation_mean_m": 0.38183812887700547,
+          "rotation_mean_deg": 15.111797428161244
+        },
+        "sofa_3": {
+          "family": "sofa",
+          "n": 168,
+          "translation_mean_m": 0.4192543441245763,
+          "rotation_mean_deg": 19.318075408359825
+        },
+        "sofa_4": {
+          "family": "sofa",
+          "n": 215,
+          "translation_mean_m": 0.34666373410405704,
+          "rotation_mean_deg": 22.149422758523748
+        },
+        "sofa_dark_1": {
+          "family": "sofa",
+          "n": 456,
+          "translation_mean_m": 0.4295890790277605,
+          "rotation_mean_deg": 16.7777507720755
+        },
+        "sofa_dark_2": {
+          "family": "sofa",
+          "n": 56,
+          "translation_mean_m": 0.6464838912854189,
+          "rotation_mean_deg": 14.260250873191996
+        },
+        "sofa_dark_3": {
+          "family": "sofa",
+          "n": 373,
+          "translation_mean_m": 0.44576428155322867,
+          "rotation_mean_deg": 20.1481312598708
+        },
+        "sofa_shake": {
+          "family": "sofa",
+          "n": 113,
+          "translation_mean_m": 0.14735290336052323,
+          "rotation_mean_deg": 24.34390778180055
+        }
+      }
+    },
+    "raw": {
+      "n_windows": 3756,
+      "clusters": {
+        "desk_3": {
+          "family": "desk",
+          "n": 598,
+          "translation_mean_m": 0.06871895822638514,
+          "rotation_mean_deg": 7.525783488112936
+        },
+        "desk_changing_1": {
+          "family": "desk",
+          "n": 967,
+          "translation_mean_m": 0.06015082658596769,
+          "rotation_mean_deg": 4.010932426157688
+        },
+        "motion_1": {
+          "family": "motion",
+          "n": 407,
+          "translation_mean_m": 0.31205995232855066,
+          "rotation_mean_deg": 8.066144909344661
+        },
+        "sofa_1": {
+          "family": "sofa",
+          "n": 224,
+          "translation_mean_m": 0.017639115287005173,
+          "rotation_mean_deg": 0.5179597295419541
+        },
+        "sofa_2": {
+          "family": "sofa",
+          "n": 179,
+          "translation_mean_m": 0.024404325211997795,
+          "rotation_mean_deg": 0.8634776860895184
+        },
+        "sofa_3": {
+          "family": "sofa",
+          "n": 168,
+          "translation_mean_m": 0.06331885150817504,
+          "rotation_mean_deg": 1.269894371116553
+        },
+        "sofa_4": {
+          "family": "sofa",
+          "n": 215,
+          "translation_mean_m": 0.10732692187752642,
+          "rotation_mean_deg": 2.4336330643938315
+        },
+        "sofa_dark_1": {
+          "family": "sofa",
+          "n": 456,
+          "translation_mean_m": 0.4012125921541607,
+          "rotation_mean_deg": 14.630497554126206
+        },
+        "sofa_dark_2": {
+          "family": "sofa",
+          "n": 56,
+          "translation_mean_m": 0.38655045903473756,
+          "rotation_mean_deg": 9.199299439045433
+        },
+        "sofa_dark_3": {
+          "family": "sofa",
+          "n": 373,
+          "translation_mean_m": 0.3423753000923829,
+          "rotation_mean_deg": 16.367936957639106
+        },
+        "sofa_shake": {
+          "family": "sofa",
+          "n": 113,
+          "translation_mean_m": 0.01730409267895076,
+          "rotation_mean_deg": 0.4815824660821693
+        }
+      }
+    },
+    "calibrated": {
+      "n_windows": 3756,
+      "clusters": {
+        "desk_3": {
+          "family": "desk",
+          "n": 598,
+          "translation_mean_m": 0.15188258328169482,
+          "rotation_mean_deg": 13.43344212745449
+        },
+        "desk_changing_1": {
+          "family": "desk",
+          "n": 967,
+          "translation_mean_m": 0.10814860106877625,
+          "rotation_mean_deg": 11.166556291327296
+        },
+        "motion_1": {
+          "family": "motion",
+          "n": 407,
+          "translation_mean_m": 0.21436509197125062,
+          "rotation_mean_deg": 10.637338333674245
+        },
+        "sofa_1": {
+          "family": "sofa",
+          "n": 224,
+          "translation_mean_m": 0.09951053491646829,
+          "rotation_mean_deg": 9.22214974808907
+        },
+        "sofa_2": {
+          "family": "sofa",
+          "n": 179,
+          "translation_mean_m": 0.13447845079097406,
+          "rotation_mean_deg": 11.891399433401448
+        },
+        "sofa_3": {
+          "family": "sofa",
+          "n": 168,
+          "translation_mean_m": 0.15440865921628047,
+          "rotation_mean_deg": 12.914255339653886
+        },
+        "sofa_4": {
+          "family": "sofa",
+          "n": 215,
+          "translation_mean_m": 0.14378203201790324,
+          "rotation_mean_deg": 12.650556210800646
+        },
+        "sofa_dark_1": {
+          "family": "sofa",
+          "n": 456,
+          "translation_mean_m": 0.39952793775927353,
+          "rotation_mean_deg": 17.230413393684657
+        },
+        "sofa_dark_2": {
+          "family": "sofa",
+          "n": 56,
+          "translation_mean_m": 0.46178434913519456,
+          "rotation_mean_deg": 15.953486357887979
+        },
+        "sofa_dark_3": {
+          "family": "sofa",
+          "n": 373,
+          "translation_mean_m": 0.3756604943327491,
+          "rotation_mean_deg": 19.23392259245609
+        },
+        "sofa_shake": {
+          "family": "sofa",
+          "n": 113,
+          "translation_mean_m": 0.08172845842053354,
+          "rotation_mean_deg": 12.454146169385503
+        }
+      }
+    },
+    "constant": {
+      "n_windows": 3756,
+      "clusters": {
+        "desk_3": {
+          "family": "desk",
+          "n": 598,
+          "translation_mean_m": 0.14633145472039136,
+          "rotation_mean_deg": 13.047062401126215
+        },
+        "desk_changing_1": {
+          "family": "desk",
+          "n": 967,
+          "translation_mean_m": 0.1042014347033243,
+          "rotation_mean_deg": 10.736694185809379
+        },
+        "motion_1": {
+          "family": "motion",
+          "n": 407,
+          "translation_mean_m": 0.21750618600946844,
+          "rotation_mean_deg": 10.361443599771095
+        },
+        "sofa_1": {
+          "family": "sofa",
+          "n": 224,
+          "translation_mean_m": 0.09510694338290217,
+          "rotation_mean_deg": 8.78850892771044
+        },
+        "sofa_2": {
+          "family": "sofa",
+          "n": 179,
+          "translation_mean_m": 0.1285235932169262,
+          "rotation_mean_deg": 11.342772397503756
+        },
+        "sofa_3": {
+          "family": "sofa",
+          "n": 168,
+          "translation_mean_m": 0.14771549760513766,
+          "rotation_mean_deg": 12.308995736628694
+        },
+        "sofa_4": {
+          "family": "sofa",
+          "n": 215,
+          "translation_mean_m": 0.14029332809272094,
+          "rotation_mean_deg": 12.102261813643105
+        },
+        "sofa_dark_1": {
+          "family": "sofa",
+          "n": 456,
+          "translation_mean_m": 0.3991298913400216,
+          "rotation_mean_deg": 16.994436035614783
+        },
+        "sofa_dark_2": {
+          "family": "sofa",
+          "n": 56,
+          "translation_mean_m": 0.45807147943903487,
+          "rotation_mean_deg": 15.544886498404827
+        },
+        "sofa_dark_3": {
+          "family": "sofa",
+          "n": 373,
+          "translation_mean_m": 0.3733505724640506,
+          "rotation_mean_deg": 18.99467053961117
+        },
+        "sofa_shake": {
+          "family": "sofa",
+          "n": 113,
+          "translation_mean_m": 0.0779436102951839,
+          "rotation_mean_deg": 11.869703543998432
+        }
+      },
+      "minimum_real_norm_before_projection": 0.973671019077301
+    },
+    "contextual": {
+      "n_windows": 3756,
+      "clusters": {
+        "desk_3": {
+          "family": "desk",
+          "n": 598,
+          "translation_mean_m": 0.06583366943804009,
+          "rotation_mean_deg": 7.141537128264421
+        },
+        "desk_changing_1": {
+          "family": "desk",
+          "n": 967,
+          "translation_mean_m": 0.04115087288484956,
+          "rotation_mean_deg": 2.7166083867507553
+        },
+        "motion_1": {
+          "family": "motion",
+          "n": 407,
+          "translation_mean_m": 0.29624247884078564,
+          "rotation_mean_deg": 7.689149296257122
+        },
+        "sofa_1": {
+          "family": "sofa",
+          "n": 224,
+          "translation_mean_m": 0.019232665278532186,
+          "rotation_mean_deg": 0.6989594662494171
+        },
+        "sofa_2": {
+          "family": "sofa",
+          "n": 179,
+          "translation_mean_m": 0.026629871993806273,
+          "rotation_mean_deg": 1.090492117424812
+        },
+        "sofa_3": {
+          "family": "sofa",
+          "n": 168,
+          "translation_mean_m": 0.06195447674641177,
+          "rotation_mean_deg": 1.517525498468852
+        },
+        "sofa_4": {
+          "family": "sofa",
+          "n": 215,
+          "translation_mean_m": 0.10344846046178781,
+          "rotation_mean_deg": 2.395032294282385
+        },
+        "sofa_dark_1": {
+          "family": "sofa",
+          "n": 456,
+          "translation_mean_m": 0.4008527837867806,
+          "rotation_mean_deg": 14.60618205504873
+        },
+        "sofa_dark_2": {
+          "family": "sofa",
+          "n": 56,
+          "translation_mean_m": 0.3892092586904094,
+          "rotation_mean_deg": 9.331389399619107
+        },
+        "sofa_dark_3": {
+          "family": "sofa",
+          "n": 373,
+          "translation_mean_m": 0.342999213986229,
+          "rotation_mean_deg": 16.35749823120728
+        },
+        "sofa_shake": {
+          "family": "sofa",
+          "n": 113,
+          "translation_mean_m": 0.017234423264248795,
+          "rotation_mean_deg": 0.74923390106355
+        }
+      },
+      "minimum_real_norm_before_projection": 0.9532714486122131
+    },
+    "feature_direct": {
+      "n_windows": 3756,
+      "clusters": {
+        "desk_3": {
+          "family": "desk",
+          "n": 598,
+          "translation_mean_m": 0.23035611239129852,
+          "rotation_mean_deg": 16.968721095412633
+        },
+        "desk_changing_1": {
+          "family": "desk",
+          "n": 967,
+          "translation_mean_m": 0.21425873439252613,
+          "rotation_mean_deg": 11.288933014531867
+        },
+        "motion_1": {
+          "family": "motion",
+          "n": 407,
+          "translation_mean_m": 0.2575186491346746,
+          "rotation_mean_deg": 9.369294161264936
+        },
+        "sofa_1": {
+          "family": "sofa",
+          "n": 224,
+          "translation_mean_m": 0.2323204618283532,
+          "rotation_mean_deg": 9.671578860074023
+        },
+        "sofa_2": {
+          "family": "sofa",
+          "n": 179,
+          "translation_mean_m": 0.2768492449686571,
+          "rotation_mean_deg": 9.527756935250071
+        },
+        "sofa_3": {
+          "family": "sofa",
+          "n": 168,
+          "translation_mean_m": 0.24073534221477383,
+          "rotation_mean_deg": 15.224229835485776
+        },
+        "sofa_4": {
+          "family": "sofa",
+          "n": 215,
+          "translation_mean_m": 0.24857042253955625,
+          "rotation_mean_deg": 15.949950016538393
+        },
+        "sofa_dark_1": {
+          "family": "sofa",
+          "n": 456,
+          "translation_mean_m": 0.46617028920779335,
+          "rotation_mean_deg": 18.673567389504104
+        },
+        "sofa_dark_2": {
+          "family": "sofa",
+          "n": 56,
+          "translation_mean_m": 0.5979584551712753,
+          "rotation_mean_deg": 11.654369802059291
+        },
+        "sofa_dark_3": {
+          "family": "sofa",
+          "n": 373,
+          "translation_mean_m": 0.44920671196179235,
+          "rotation_mean_deg": 20.768257767759778
+        },
+        "sofa_shake": {
+          "family": "sofa",
+          "n": 113,
+          "translation_mean_m": 0.18720547139382385,
+          "rotation_mean_deg": 16.724708356462486
+        }
+      },
+      "minimum_real_norm_before_projection": 0.33545389771461487
+    },
+    "feature_residual": {
+      "n_windows": 3756,
+      "clusters": {
+        "desk_3": {
+          "family": "desk",
+          "n": 598,
+          "translation_mean_m": 1.2969677274805447,
+          "rotation_mean_deg": 52.54363541126478
+        },
+        "desk_changing_1": {
+          "family": "desk",
+          "n": 967,
+          "translation_mean_m": 1.2743422286337547,
+          "rotation_mean_deg": 51.37256985511028
+        },
+        "motion_1": {
+          "family": "motion",
+          "n": 407,
+          "translation_mean_m": 1.2293457600107738,
+          "rotation_mean_deg": 48.667180182940356
+        },
+        "sofa_1": {
+          "family": "sofa",
+          "n": 224,
+          "translation_mean_m": 1.2578577996960492,
+          "rotation_mean_deg": 50.64476392048284
+        },
+        "sofa_2": {
+          "family": "sofa",
+          "n": 179,
+          "translation_mean_m": 1.2299437465549836,
+          "rotation_mean_deg": 52.15944441906306
+        },
+        "sofa_3": {
+          "family": "sofa",
+          "n": 168,
+          "translation_mean_m": 1.2574794108386462,
+          "rotation_mean_deg": 49.84225656879144
+        },
+        "sofa_4": {
+          "family": "sofa",
+          "n": 215,
+          "translation_mean_m": 1.217526839921209,
+          "rotation_mean_deg": 50.75343934656623
+        },
+        "sofa_dark_1": {
+          "family": "sofa",
+          "n": 456,
+          "translation_mean_m": 1.1938521957855752,
+          "rotation_mean_deg": 48.58140616785151
+        },
+        "sofa_dark_2": {
+          "family": "sofa",
+          "n": 56,
+          "translation_mean_m": 1.5001733418783603,
+          "rotation_mean_deg": 57.668181802616914
+        },
+        "sofa_dark_3": {
+          "family": "sofa",
+          "n": 373,
+          "translation_mean_m": 1.2524876745163067,
+          "rotation_mean_deg": 51.35639259783472
+        },
+        "sofa_shake": {
+          "family": "sofa",
+          "n": 113,
+          "translation_mean_m": 1.277962116700131,
+          "rotation_mean_deg": 52.71270714384032
+        }
+      },
+      "minimum_real_norm_before_projection": 1.2274961471557617
+    },
+    "mergeable": {
+      "n_windows": 3756,
+      "clusters": {
+        "desk_3": {
+          "family": "desk",
+          "n": 598,
+          "translation_mean_m": 0.08869396059605547,
+          "rotation_mean_deg": 8.616247492099587
+        },
+        "desk_changing_1": {
+          "family": "desk",
+          "n": 967,
+          "translation_mean_m": 0.05477955959359079,
+          "rotation_mean_deg": 4.919135862799227
+        },
+        "motion_1": {
+          "family": "motion",
+          "n": 407,
+          "translation_mean_m": 0.21933873301916165,
+          "rotation_mean_deg": 6.9331257311692145
+        },
+        "sofa_1": {
+          "family": "sofa",
+          "n": 224,
+          "translation_mean_m": 0.04045827018739068,
+          "rotation_mean_deg": 3.278090369684456
+        },
+        "sofa_2": {
+          "family": "sofa",
+          "n": 179,
+          "translation_mean_m": 0.060776301444864164,
+          "rotation_mean_deg": 4.943826782441328
+        },
+        "sofa_3": {
+          "family": "sofa",
+          "n": 168,
+          "translation_mean_m": 0.07678170660479314,
+          "rotation_mean_deg": 5.128896349763666
+        },
+        "sofa_4": {
+          "family": "sofa",
+          "n": 215,
+          "translation_mean_m": 0.10306949519235463,
+          "rotation_mean_deg": 5.697248873451473
+        },
+        "sofa_dark_1": {
+          "family": "sofa",
+          "n": 456,
+          "translation_mean_m": 0.3984724244017872,
+          "rotation_mean_deg": 14.792166108238852
+        },
+        "sofa_dark_2": {
+          "family": "sofa",
+          "n": 56,
+          "translation_mean_m": 0.411574165970917,
+          "rotation_mean_deg": 10.852610779691048
+        },
+        "sofa_dark_3": {
+          "family": "sofa",
+          "n": 373,
+          "translation_mean_m": 0.35076640284874633,
+          "rotation_mean_deg": 16.704046308766028
+        },
+        "sofa_shake": {
+          "family": "sofa",
+          "n": 113,
+          "translation_mean_m": 0.033635235147114355,
+          "rotation_mean_deg": 4.453984203508051
+        }
+      },
+      "minimum_real_norm_before_projection": 0.9570125341415405
+    }
+  }
+}

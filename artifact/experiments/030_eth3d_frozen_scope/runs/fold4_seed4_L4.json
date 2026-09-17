@@ -1,0 +1,582 @@
+{
+  "fold": 4,
+  "seed": 4,
+  "length": 4,
+  "checkpoint_sha256": "12c50df2c79be283939eb195a389df68d92a148b888caf0d2e26d7c5d80f5b21",
+  "mergeable_checkpoint_sha256": "0a5ff658b8fdd1d6abc95e54bce7d47a5bd236e2a49982de19cb1ab7988d716a",
+  "arms": {
+    "identity": {
+      "n_windows": 3985,
+      "clusters": {
+        "cables_1": {
+          "family": "cables",
+          "n": 431,
+          "translation_mean_m": 0.09549303822061989,
+          "rotation_mean_deg": 12.110749582700587
+        },
+        "cables_2": {
+          "family": "cables",
+          "n": 32,
+          "translation_mean_m": 0.32573527655936335,
+          "rotation_mean_deg": 17.870428489657538
+        },
+        "cables_3": {
+          "family": "cables",
+          "n": 78,
+          "translation_mean_m": 0.2749943929448433,
+          "rotation_mean_deg": 14.342554716742198
+        },
+        "camera_shake_1": {
+          "family": "camera_shake",
+          "n": 113,
+          "translation_mean_m": 0.11923607872653864,
+          "rotation_mean_deg": 24.64708234604831
+        },
+        "camera_shake_2": {
+          "family": "camera_shake",
+          "n": 317,
+          "translation_mean_m": 0.09832742803451545,
+          "rotation_mean_deg": 25.92006379597813
+        },
+        "camera_shake_3": {
+          "family": "camera_shake",
+          "n": 79,
+          "translation_mean_m": 0.1135206436874915,
+          "rotation_mean_deg": 30.505313488075323
+        },
+        "large_loop_1": {
+          "family": "large_loop",
+          "n": 256,
+          "translation_mean_m": 0.1853263987238532,
+          "rotation_mean_deg": 5.910717870886662
+        },
+        "reflective_1": {
+          "family": "reflective",
+          "n": 1644,
+          "translation_mean_m": 0.0791260216974943,
+          "rotation_mean_deg": 10.250223265694311
+        },
+        "table_3": {
+          "family": "table",
+          "n": 269,
+          "translation_mean_m": 0.1280992357962302,
+          "rotation_mean_deg": 4.736826889155027
+        },
+        "table_4": {
+          "family": "table",
+          "n": 219,
+          "translation_mean_m": 0.12706776486048096,
+          "rotation_mean_deg": 4.85175851471523
+        },
+        "table_7": {
+          "family": "table",
+          "n": 547,
+          "translation_mean_m": 0.14013896351269675,
+          "rotation_mean_deg": 7.997590234004225
+        }
+      }
+    },
+    "raw": {
+      "n_windows": 3985,
+      "clusters": {
+        "cables_1": {
+          "family": "cables",
+          "n": 431,
+          "translation_mean_m": 0.022956703922432403,
+          "rotation_mean_deg": 3.003639471442202
+        },
+        "cables_2": {
+          "family": "cables",
+          "n": 32,
+          "translation_mean_m": 3.9105929913146507,
+          "rotation_mean_deg": 41.478598041481874
+        },
+        "cables_3": {
+          "family": "cables",
+          "n": 78,
+          "translation_mean_m": 1.961628998775909,
+          "rotation_mean_deg": 69.47432772041272
+        },
+        "camera_shake_1": {
+          "family": "camera_shake",
+          "n": 113,
+          "translation_mean_m": 3.362257288346153,
+          "rotation_mean_deg": 99.28932563716867
+        },
+        "camera_shake_2": {
+          "family": "camera_shake",
+          "n": 317,
+          "translation_mean_m": 5.078644017128201,
+          "rotation_mean_deg": 85.22716475678378
+        },
+        "camera_shake_3": {
+          "family": "camera_shake",
+          "n": 79,
+          "translation_mean_m": 8.489357075677106,
+          "rotation_mean_deg": 79.29873111182799
+        },
+        "large_loop_1": {
+          "family": "large_loop",
+          "n": 256,
+          "translation_mean_m": 0.7180312469749554,
+          "rotation_mean_deg": 13.189971234041337
+        },
+        "reflective_1": {
+          "family": "reflective",
+          "n": 1644,
+          "translation_mean_m": 0.5264126512987997,
+          "rotation_mean_deg": 10.799724237611724
+        },
+        "table_3": {
+          "family": "table",
+          "n": 269,
+          "translation_mean_m": 0.032800202488890116,
+          "rotation_mean_deg": 1.2865233513145784
+        },
+        "table_4": {
+          "family": "table",
+          "n": 219,
+          "translation_mean_m": 0.004049079093414239,
+          "rotation_mean_deg": 0.16569533280474788
+        },
+        "table_7": {
+          "family": "table",
+          "n": 547,
+          "translation_mean_m": 0.023889285260677618,
+          "rotation_mean_deg": 1.266039108992532
+        }
+      }
+    },
+    "calibrated": {
+      "n_windows": 3985,
+      "clusters": {
+        "cables_1": {
+          "family": "cables",
+          "n": 431,
+          "translation_mean_m": 0.047621832738620154,
+          "rotation_mean_deg": 4.9917113196225555
+        },
+        "cables_2": {
+          "family": "cables",
+          "n": 32,
+          "translation_mean_m": 0.2358681395698915,
+          "rotation_mean_deg": 16.884496229105537
+        },
+        "cables_3": {
+          "family": "cables",
+          "n": 78,
+          "translation_mean_m": 0.18049847055972132,
+          "rotation_mean_deg": 12.59845544578631
+        },
+        "camera_shake_1": {
+          "family": "camera_shake",
+          "n": 113,
+          "translation_mean_m": 0.16380537657359495,
+          "rotation_mean_deg": 28.277874750865617
+        },
+        "camera_shake_2": {
+          "family": "camera_shake",
+          "n": 317,
+          "translation_mean_m": 0.15621954093251778,
+          "rotation_mean_deg": 29.220042606197612
+        },
+        "camera_shake_3": {
+          "family": "camera_shake",
+          "n": 79,
+          "translation_mean_m": 0.1606751611238955,
+          "rotation_mean_deg": 28.006832991307093
+        },
+        "large_loop_1": {
+          "family": "large_loop",
+          "n": 256,
+          "translation_mean_m": 0.09202491537701368,
+          "rotation_mean_deg": 7.2546091198764096
+        },
+        "reflective_1": {
+          "family": "reflective",
+          "n": 1644,
+          "translation_mean_m": 0.06963456766627579,
+          "rotation_mean_deg": 6.9174884734961015
+        },
+        "table_3": {
+          "family": "table",
+          "n": 269,
+          "translation_mean_m": 0.04066874552309399,
+          "rotation_mean_deg": 3.6430693169120874
+        },
+        "table_4": {
+          "family": "table",
+          "n": 219,
+          "translation_mean_m": 0.03241274446438707,
+          "rotation_mean_deg": 3.3146004723999725
+        },
+        "table_7": {
+          "family": "table",
+          "n": 547,
+          "translation_mean_m": 0.04492777654029572,
+          "rotation_mean_deg": 3.711056375128195
+        }
+      }
+    },
+    "constant": {
+      "n_windows": 3985,
+      "clusters": {
+        "cables_1": {
+          "family": "cables",
+          "n": 431,
+          "translation_mean_m": 0.046303836342322664,
+          "rotation_mean_deg": 4.883600280393967
+        },
+        "cables_2": {
+          "family": "cables",
+          "n": 32,
+          "translation_mean_m": 0.32488390215261975,
+          "rotation_mean_deg": 16.87355283340657
+        },
+        "cables_3": {
+          "family": "cables",
+          "n": 78,
+          "translation_mean_m": 0.22229787280253568,
+          "rotation_mean_deg": 13.460190075266214
+        },
+        "camera_shake_1": {
+          "family": "camera_shake",
+          "n": 113,
+          "translation_mean_m": 0.2634108514918115,
+          "rotation_mean_deg": 29.09856855994395
+        },
+        "camera_shake_2": {
+          "family": "camera_shake",
+          "n": 317,
+          "translation_mean_m": 0.3377713404106715,
+          "rotation_mean_deg": 29.706699333644362
+        },
+        "camera_shake_3": {
+          "family": "camera_shake",
+          "n": 79,
+          "translation_mean_m": 0.48386564861355563,
+          "rotation_mean_deg": 27.976763596488876
+        },
+        "large_loop_1": {
+          "family": "large_loop",
+          "n": 256,
+          "translation_mean_m": 0.09780561429872833,
+          "rotation_mean_deg": 7.196069034833876
+        },
+        "reflective_1": {
+          "family": "reflective",
+          "n": 1644,
+          "translation_mean_m": 0.08181058764933614,
+          "rotation_mean_deg": 6.915844767771253
+        },
+        "table_3": {
+          "family": "table",
+          "n": 269,
+          "translation_mean_m": 0.040051061272558704,
+          "rotation_mean_deg": 3.502115632196231
+        },
+        "table_4": {
+          "family": "table",
+          "n": 219,
+          "translation_mean_m": 0.030946611401774134,
+          "rotation_mean_deg": 3.15494612800491
+        },
+        "table_7": {
+          "family": "table",
+          "n": 547,
+          "translation_mean_m": 0.04351146320101838,
+          "rotation_mean_deg": 3.5595037855986624
+        }
+      },
+      "minimum_real_norm_before_projection": 0.903969407081604
+    },
+    "contextual": {
+      "n_windows": 3985,
+      "clusters": {
+        "cables_1": {
+          "family": "cables",
+          "n": 431,
+          "translation_mean_m": 0.02398369368742638,
+          "rotation_mean_deg": 3.0892511568353545
+        },
+        "cables_2": {
+          "family": "cables",
+          "n": 32,
+          "translation_mean_m": 0.4670864670229653,
+          "rotation_mean_deg": 23.32630889271899
+        },
+        "cables_3": {
+          "family": "cables",
+          "n": 78,
+          "translation_mean_m": 0.968622565640205,
+          "rotation_mean_deg": 38.59824441820302
+        },
+        "camera_shake_1": {
+          "family": "camera_shake",
+          "n": 113,
+          "translation_mean_m": 0.619580402722313,
+          "rotation_mean_deg": 49.678267567421074
+        },
+        "camera_shake_2": {
+          "family": "camera_shake",
+          "n": 317,
+          "translation_mean_m": 0.9194927826884156,
+          "rotation_mean_deg": 52.05171447653808
+        },
+        "camera_shake_3": {
+          "family": "camera_shake",
+          "n": 79,
+          "translation_mean_m": 0.665932602205402,
+          "rotation_mean_deg": 41.32486275965037
+        },
+        "large_loop_1": {
+          "family": "large_loop",
+          "n": 256,
+          "translation_mean_m": 0.2498530399903312,
+          "rotation_mean_deg": 7.565857006413351
+        },
+        "reflective_1": {
+          "family": "reflective",
+          "n": 1644,
+          "translation_mean_m": 0.11026695960241868,
+          "rotation_mean_deg": 8.02497620942657
+        },
+        "table_3": {
+          "family": "table",
+          "n": 269,
+          "translation_mean_m": 0.026031416421464223,
+          "rotation_mean_deg": 1.109794799480459
+        },
+        "table_4": {
+          "family": "table",
+          "n": 219,
+          "translation_mean_m": 0.005226221350754499,
+          "rotation_mean_deg": 0.3306039022356001
+        },
+        "table_7": {
+          "family": "table",
+          "n": 547,
+          "translation_mean_m": 0.013177586316666037,
+          "rotation_mean_deg": 0.7668254968702963
+        }
+      },
+      "minimum_real_norm_before_projection": 0.31829312443733215
+    },
+    "feature_direct": {
+      "n_windows": 3985,
+      "clusters": {
+        "cables_1": {
+          "family": "cables",
+          "n": 431,
+          "translation_mean_m": 0.23471963128488602,
+          "rotation_mean_deg": 13.398693663255598
+        },
+        "cables_2": {
+          "family": "cables",
+          "n": 32,
+          "translation_mean_m": 0.43628192515834974,
+          "rotation_mean_deg": 19.463482862265465
+        },
+        "cables_3": {
+          "family": "cables",
+          "n": 78,
+          "translation_mean_m": 0.4207076812657103,
+          "rotation_mean_deg": 20.019898494811976
+        },
+        "camera_shake_1": {
+          "family": "camera_shake",
+          "n": 113,
+          "translation_mean_m": 0.45853077912819784,
+          "rotation_mean_deg": 29.3329624551731
+        },
+        "camera_shake_2": {
+          "family": "camera_shake",
+          "n": 317,
+          "translation_mean_m": 0.4338258009152011,
+          "rotation_mean_deg": 32.279362353783355
+        },
+        "camera_shake_3": {
+          "family": "camera_shake",
+          "n": 79,
+          "translation_mean_m": 0.4077557269143571,
+          "rotation_mean_deg": 34.301593764702
+        },
+        "large_loop_1": {
+          "family": "large_loop",
+          "n": 256,
+          "translation_mean_m": 0.20933216687465206,
+          "rotation_mean_deg": 18.041824436678603
+        },
+        "reflective_1": {
+          "family": "reflective",
+          "n": 1644,
+          "translation_mean_m": 0.22873179509655325,
+          "rotation_mean_deg": 16.896492415999916
+        },
+        "table_3": {
+          "family": "table",
+          "n": 269,
+          "translation_mean_m": 0.23166804600853114,
+          "rotation_mean_deg": 16.26915783457925
+        },
+        "table_4": {
+          "family": "table",
+          "n": 219,
+          "translation_mean_m": 0.21660771060100145,
+          "rotation_mean_deg": 16.24239088754357
+        },
+        "table_7": {
+          "family": "table",
+          "n": 547,
+          "translation_mean_m": 0.23499815661873752,
+          "rotation_mean_deg": 15.69591896853132
+        }
+      },
+      "minimum_real_norm_before_projection": 0.20176057517528534
+    },
+    "feature_residual": {
+      "n_windows": 3985,
+      "clusters": {
+        "cables_1": {
+          "family": "cables",
+          "n": 431,
+          "translation_mean_m": 0.26813965516362476,
+          "rotation_mean_deg": 9.909728801038055
+        },
+        "cables_2": {
+          "family": "cables",
+          "n": 32,
+          "translation_mean_m": 0.4801065796208684,
+          "rotation_mean_deg": 22.638945291933943
+        },
+        "cables_3": {
+          "family": "cables",
+          "n": 78,
+          "translation_mean_m": 0.5311588282548247,
+          "rotation_mean_deg": 24.860336495270577
+        },
+        "camera_shake_1": {
+          "family": "camera_shake",
+          "n": 113,
+          "translation_mean_m": 0.9915492695269892,
+          "rotation_mean_deg": 39.53042970801493
+        },
+        "camera_shake_2": {
+          "family": "camera_shake",
+          "n": 317,
+          "translation_mean_m": 0.725808046828051,
+          "rotation_mean_deg": 37.54672775057899
+        },
+        "camera_shake_3": {
+          "family": "camera_shake",
+          "n": 79,
+          "translation_mean_m": 0.7480743122319653,
+          "rotation_mean_deg": 37.28106436895846
+        },
+        "large_loop_1": {
+          "family": "large_loop",
+          "n": 256,
+          "translation_mean_m": 0.3222250669339689,
+          "rotation_mean_deg": 16.62791644090001
+        },
+        "reflective_1": {
+          "family": "reflective",
+          "n": 1644,
+          "translation_mean_m": 0.29867457092518557,
+          "rotation_mean_deg": 15.197688854110499
+        },
+        "table_3": {
+          "family": "table",
+          "n": 269,
+          "translation_mean_m": 0.2325255389832979,
+          "rotation_mean_deg": 10.513924205584823
+        },
+        "table_4": {
+          "family": "table",
+          "n": 219,
+          "translation_mean_m": 0.2246431606719973,
+          "rotation_mean_deg": 9.87438663445659
+        },
+        "table_7": {
+          "family": "table",
+          "n": 547,
+          "translation_mean_m": 0.25485362828431807,
+          "rotation_mean_deg": 9.45071484183115
+        }
+      },
+      "minimum_real_norm_before_projection": 0.42512932419776917
+    },
+    "mergeable": {
+      "n_windows": 3985,
+      "clusters": {
+        "cables_1": {
+          "family": "cables",
+          "n": 431,
+          "translation_mean_m": 0.042841073505971716,
+          "rotation_mean_deg": 4.589662654233086
+        },
+        "cables_2": {
+          "family": "cables",
+          "n": 32,
+          "translation_mean_m": 0.2331176794779353,
+          "rotation_mean_deg": 16.85270372953051
+        },
+        "cables_3": {
+          "family": "cables",
+          "n": 78,
+          "translation_mean_m": 0.23003472668430516,
+          "rotation_mean_deg": 14.733700637787988
+        },
+        "camera_shake_1": {
+          "family": "camera_shake",
+          "n": 113,
+          "translation_mean_m": 0.20254270980574113,
+          "rotation_mean_deg": 30.00515520179911
+        },
+        "camera_shake_2": {
+          "family": "camera_shake",
+          "n": 317,
+          "translation_mean_m": 0.19592940110364818,
+          "rotation_mean_deg": 30.301560703571393
+        },
+        "camera_shake_3": {
+          "family": "camera_shake",
+          "n": 79,
+          "translation_mean_m": 0.20958617135609836,
+          "rotation_mean_deg": 29.026555515624093
+        },
+        "large_loop_1": {
+          "family": "large_loop",
+          "n": 256,
+          "translation_mean_m": 0.10075687428889166,
+          "rotation_mean_deg": 6.890316092917734
+        },
+        "reflective_1": {
+          "family": "reflective",
+          "n": 1644,
+          "translation_mean_m": 0.06831736843486998,
+          "rotation_mean_deg": 6.653809645265121
+        },
+        "table_3": {
+          "family": "table",
+          "n": 269,
+          "translation_mean_m": 0.03633449268652141,
+          "rotation_mean_deg": 3.077392024065782
+        },
+        "table_4": {
+          "family": "table",
+          "n": 219,
+          "translation_mean_m": 0.027127841715553425,
+          "rotation_mean_deg": 2.736162797542675
+        },
+        "table_7": {
+          "family": "table",
+          "n": 547,
+          "translation_mean_m": 0.03799047938829137,
+          "rotation_mean_deg": 3.0841402579589343
+        }
+      },
+      "minimum_real_norm_before_projection": 0.7252277135848999
+    }
+  }
+}

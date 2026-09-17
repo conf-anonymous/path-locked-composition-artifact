@@ -1,0 +1,54 @@
+{
+  "platform": "Darwin arm64",
+  "torch": "2.12.0",
+  "threads": 1,
+  "scope": "fold 0 seed 0 online end-to-end L32 prediction on recorded leaves; no tree parallelization",
+  "models": {
+    "contextual": {
+      "cached_online_max_difference": 0.0,
+      "batches": {
+        "1": {
+          "median_ms": 2.3598125,
+          "q1_ms": 2.3181040287017822,
+          "q3_ms": 2.4060728549957275,
+          "windows_per_second": 423.76248112932706
+        },
+        "32": {
+          "median_ms": 3.0272915,
+          "q1_ms": 2.9856972694396973,
+          "q3_ms": 3.1125309467315674,
+          "windows_per_second": 10570.50502074214
+        },
+        "256": {
+          "median_ms": 6.7280625,
+          "q1_ms": 6.647760391235352,
+          "q3_ms": 6.831489562988281,
+          "windows_per_second": 38049.58708394876
+        }
+      }
+    },
+    "mergeable": {
+      "cached_online_max_difference": 0.0,
+      "batches": {
+        "1": {
+          "median_ms": 2.157896,
+          "q1_ms": 2.134000062942505,
+          "q3_ms": 2.184739351272583,
+          "windows_per_second": 463.41436287939734
+        },
+        "32": {
+          "median_ms": 2.276021,
+          "q1_ms": 2.259530782699585,
+          "q3_ms": 2.2967920303344727,
+          "windows_per_second": 14059.624230180652
+        },
+        "256": {
+          "median_ms": 3.1033540000000004,
+          "q1_ms": 3.069718360900879,
+          "q3_ms": 3.1621451377868652,
+          "windows_per_second": 82491.39479414851
+        }
+      }
+    }
+  }
+}

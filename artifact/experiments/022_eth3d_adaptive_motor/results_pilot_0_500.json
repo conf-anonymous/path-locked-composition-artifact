@@ -1,0 +1,625 @@
+{
+  "study": "ETH3D adaptive motor development v1",
+  "exploratory": true,
+  "confirmation_accessible": false,
+  "config": {
+    "steps": 500,
+    "batch_size": 256,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "hidden_size": 32,
+    "evaluation_batch_size": 1024,
+    "bootstrap_resamples": 10000,
+    "moving_threshold_m": 0.15
+  },
+  "seeds": [
+    0
+  ],
+  "parameter_count": 10598,
+  "translation_scale_m": 0.2721022700983327,
+  "lengths": {
+    "4": {
+      "raw": {
+        "n_windows": 2251,
+        "n_sequences": 11,
+        "translation_mean_m": 0.164219712709443,
+        "translation_median_m": 0.026501745542534205,
+        "rotation_mean_deg": 4.585815303400088,
+        "rotation_median_deg": 0.9610090389009744,
+        "clusters": {
+          "einstein_2": {
+            "translation_mean_m": 0.02156411948894104,
+            "rotation_mean_deg": 0.9351318131655839,
+            "n": 327
+          },
+          "einstein_dark": {
+            "translation_mean_m": 0.16315762019227326,
+            "rotation_mean_deg": 5.2625565607042395,
+            "n": 376
+          },
+          "einstein_global_light_changes_1": {
+            "translation_mean_m": 0.1642078305289914,
+            "rotation_mean_deg": 7.481357399412515,
+            "n": 128
+          },
+          "kidnap_1": {
+            "translation_mean_m": 0.4545773577081772,
+            "rotation_mean_deg": 3.7409027919994555,
+            "n": 194
+          },
+          "mannequin_face_1": {
+            "translation_mean_m": 0.2016273798653149,
+            "rotation_mean_deg": 7.558508897942672,
+            "n": 156
+          },
+          "plant_5": {
+            "translation_mean_m": 0.11824957078033983,
+            "rotation_mean_deg": 13.383653472412233,
+            "n": 59
+          },
+          "plant_dark": {
+            "translation_mean_m": 0.13211294611017213,
+            "rotation_mean_deg": 7.692867410761442,
+            "n": 323
+          },
+          "plant_scene_3": {
+            "translation_mean_m": 0.4613737057426622,
+            "rotation_mean_deg": 7.409296055756267,
+            "n": 225
+          },
+          "sofa_1": {
+            "translation_mean_m": 0.01123935669787058,
+            "rotation_mean_deg": 0.35176328856882666,
+            "n": 236
+          },
+          "sofa_2": {
+            "translation_mean_m": 0.014117514824671258,
+            "rotation_mean_deg": 0.5136474700959102,
+            "n": 195
+          },
+          "vicon_light_2": {
+            "translation_mean_m": 0.054239576514322846,
+            "rotation_mean_deg": 1.5932458596103967,
+            "n": 32
+          }
+        }
+      }
+    },
+    "8": {
+      "raw": {
+        "n_windows": 2123,
+        "n_sequences": 11,
+        "translation_mean_m": 0.3210107621845413,
+        "translation_median_m": 0.05812147535762176,
+        "rotation_mean_deg": 8.080795892251592,
+        "rotation_median_deg": 2.6022127142269373,
+        "clusters": {
+          "einstein_2": {
+            "translation_mean_m": 0.0409249349244045,
+            "rotation_mean_deg": 1.7641790120220375,
+            "n": 307
+          },
+          "einstein_dark": {
+            "translation_mean_m": 0.2976474831412469,
+            "rotation_mean_deg": 8.498466012132162,
+            "n": 348
+          },
+          "einstein_global_light_changes_1": {
+            "translation_mean_m": 0.3093973426504352,
+            "rotation_mean_deg": 14.691288177246495,
+            "n": 116
+          },
+          "kidnap_1": {
+            "translation_mean_m": 0.9381513446772969,
+            "rotation_mean_deg": 7.112426710132785,
+            "n": 182
+          },
+          "mannequin_face_1": {
+            "translation_mean_m": 0.3733480977456633,
+            "rotation_mean_deg": 11.999671435536227,
+            "n": 152
+          },
+          "plant_5": {
+            "translation_mean_m": 0.21708813207254138,
+            "rotation_mean_deg": 22.89096697370282,
+            "n": 55
+          },
+          "plant_dark": {
+            "translation_mean_m": 0.24412556018615125,
+            "rotation_mean_deg": 13.351948617121446,
+            "n": 311
+          },
+          "plant_scene_3": {
+            "translation_mean_m": 0.921665160644426,
+            "rotation_mean_deg": 13.947913283308443,
+            "n": 221
+          },
+          "sofa_1": {
+            "translation_mean_m": 0.017639116495696366,
+            "rotation_mean_deg": 0.5179597109833213,
+            "n": 224
+          },
+          "sofa_2": {
+            "translation_mean_m": 0.024404326114931856,
+            "rotation_mean_deg": 0.8634776413759992,
+            "n": 179
+          },
+          "vicon_light_2": {
+            "translation_mean_m": 0.07527100617378295,
+            "rotation_mean_deg": 2.475924649105265,
+            "n": 28
+          }
+        }
+      }
+    },
+    "16": {
+      "raw": {
+        "n_windows": 1867,
+        "n_sequences": 11,
+        "translation_mean_m": 0.5827258293169004,
+        "translation_median_m": 0.1336354818702951,
+        "rotation_mean_deg": 14.17616526850003,
+        "rotation_median_deg": 6.004515198173757,
+        "clusters": {
+          "einstein_2": {
+            "translation_mean_m": 0.08433477327846223,
+            "rotation_mean_deg": 3.6409503992316434,
+            "n": 267
+          },
+          "einstein_dark": {
+            "translation_mean_m": 0.5328860061748192,
+            "rotation_mean_deg": 14.556465086806147,
+            "n": 292
+          },
+          "einstein_global_light_changes_1": {
+            "translation_mean_m": 0.5806117555567543,
+            "rotation_mean_deg": 30.717872143475976,
+            "n": 92
+          },
+          "kidnap_1": {
+            "translation_mean_m": 1.2514889175789932,
+            "rotation_mean_deg": 9.959233250411872,
+            "n": 158
+          },
+          "mannequin_face_1": {
+            "translation_mean_m": 0.7357979466421323,
+            "rotation_mean_deg": 19.52694814928382,
+            "n": 144
+          },
+          "plant_5": {
+            "translation_mean_m": 0.3981775415294266,
+            "rotation_mean_deg": 35.51492421997948,
+            "n": 47
+          },
+          "plant_dark": {
+            "translation_mean_m": 0.42978926326965305,
+            "rotation_mean_deg": 22.54493317925068,
+            "n": 287
+          },
+          "plant_scene_3": {
+            "translation_mean_m": 1.8649531090579063,
+            "rotation_mean_deg": 25.60524978516907,
+            "n": 213
+          },
+          "sofa_1": {
+            "translation_mean_m": 0.028596436838554302,
+            "rotation_mean_deg": 0.7552993911065825,
+            "n": 200
+          },
+          "sofa_2": {
+            "translation_mean_m": 0.04248890813618407,
+            "rotation_mean_deg": 1.429119693834356,
+            "n": 147
+          },
+          "vicon_light_2": {
+            "translation_mean_m": 0.07292790788748235,
+            "rotation_mean_deg": 3.906971592280988,
+            "n": 20
+          }
+        }
+      }
+    },
+    "32": {
+      "raw": {
+        "n_windows": 1355,
+        "n_sequences": 11,
+        "translation_mean_m": 1.1605166753437783,
+        "translation_median_m": 0.3540555156670481,
+        "rotation_mean_deg": 24.996449760066383,
+        "rotation_median_deg": 16.31485498617043,
+        "clusters": {
+          "einstein_2": {
+            "translation_mean_m": 0.1577926511564016,
+            "rotation_mean_deg": 8.245954089923742,
+            "n": 187
+          },
+          "einstein_dark": {
+            "translation_mean_m": 0.8656489776368149,
+            "rotation_mean_deg": 24.792983712959266,
+            "n": 180
+          },
+          "einstein_global_light_changes_1": {
+            "translation_mean_m": 0.8410660134218617,
+            "rotation_mean_deg": 60.28702063874269,
+            "n": 44
+          },
+          "kidnap_1": {
+            "translation_mean_m": 1.7548550183486928,
+            "rotation_mean_deg": 13.423858506787546,
+            "n": 110
+          },
+          "mannequin_face_1": {
+            "translation_mean_m": 1.574609768704898,
+            "rotation_mean_deg": 36.61202070839847,
+            "n": 128
+          },
+          "plant_5": {
+            "translation_mean_m": 0.6176464602169706,
+            "rotation_mean_deg": 34.288075281600236,
+            "n": 31
+          },
+          "plant_dark": {
+            "translation_mean_m": 0.6313579310454983,
+            "rotation_mean_deg": 34.17850860608158,
+            "n": 239
+          },
+          "plant_scene_3": {
+            "translation_mean_m": 3.926612435763129,
+            "rotation_mean_deg": 47.958781181612565,
+            "n": 197
+          },
+          "sofa_1": {
+            "translation_mean_m": 0.043328163330875406,
+            "rotation_mean_deg": 1.110233130159322,
+            "n": 152
+          },
+          "sofa_2": {
+            "translation_mean_m": 0.0580053400336518,
+            "rotation_mean_deg": 2.036029057231523,
+            "n": 83
+          },
+          "vicon_light_2": {
+            "translation_mean_m": 0.1501216664445534,
+            "rotation_mean_deg": 8.161829080003553,
+            "n": 4
+          }
+        }
+      }
+    }
+  },
+  "models": {
+    "0": {
+      "training": {
+        "training_seconds": 3.7155001669889316,
+        "final_loss": 17.174703741073607
+      },
+      "checkpoint_sha256": "38f769f6b846370bfbf137d54fefdcc510d7c76146ac9461a108ab725ecde8c7",
+      "lengths": {
+        "4": {
+          "adaptive": {
+            "n_windows": 2251,
+            "n_sequences": 11,
+            "translation_mean_m": 0.18052117387940203,
+            "translation_median_m": 0.08097478129985416,
+            "rotation_mean_deg": 6.587738875398124,
+            "rotation_median_deg": 5.218795986448934,
+            "clusters": {
+              "einstein_2": {
+                "translation_mean_m": 0.07355453298991588,
+                "rotation_mean_deg": 5.037234978027698,
+                "n": 327
+              },
+              "einstein_dark": {
+                "translation_mean_m": 0.14034251012229151,
+                "rotation_mean_deg": 6.143374217086537,
+                "n": 376
+              },
+              "einstein_global_light_changes_1": {
+                "translation_mean_m": 0.12931865541519705,
+                "rotation_mean_deg": 7.117825206648295,
+                "n": 128
+              },
+              "kidnap_1": {
+                "translation_mean_m": 0.4873790259646721,
+                "rotation_mean_deg": 7.422231495090422,
+                "n": 194
+              },
+              "mannequin_face_1": {
+                "translation_mean_m": 0.20863533574078352,
+                "rotation_mean_deg": 9.436900583783203,
+                "n": 156
+              },
+              "plant_5": {
+                "translation_mean_m": 0.09772016044646413,
+                "rotation_mean_deg": 10.098076550909349,
+                "n": 59
+              },
+              "plant_dark": {
+                "translation_mean_m": 0.12230792840075516,
+                "rotation_mean_deg": 8.012664811757721,
+                "n": 323
+              },
+              "plant_scene_3": {
+                "translation_mean_m": 0.47178907994734054,
+                "rotation_mean_deg": 6.836838413512269,
+                "n": 225
+              },
+              "sofa_1": {
+                "translation_mean_m": 0.056252919995039986,
+                "rotation_mean_deg": 3.8219850110774303,
+                "n": 236
+              },
+              "sofa_2": {
+                "translation_mean_m": 0.09330810805027585,
+                "rotation_mean_deg": 6.178312713026883,
+                "n": 195
+              },
+              "vicon_light_2": {
+                "translation_mean_m": 0.093323483950809,
+                "rotation_mean_deg": 6.8699781911470685,
+                "n": 32
+              }
+            }
+          },
+          "paired": {
+            "sequence_equal_delta_m": 0.016133160233618916,
+            "ci95_m": [
+              -0.003946425241924051,
+              0.036850086579717584
+            ],
+            "improved_sequences": 4,
+            "total_sequences": 11
+          },
+          "exact_audit": {
+            "worst_si": 1.0986160316453369e-14,
+            "tolerance": 1e-09,
+            "passes": true
+          }
+        },
+        "8": {
+          "adaptive": {
+            "n_windows": 2123,
+            "n_sequences": 11,
+            "translation_mean_m": 0.35488174955623364,
+            "translation_median_m": 0.14645774379389964,
+            "rotation_mean_deg": 11.350011879886358,
+            "rotation_median_deg": 9.18147552276758,
+            "clusters": {
+              "einstein_2": {
+                "translation_mean_m": 0.13435225235642217,
+                "rotation_mean_deg": 9.198682420729858,
+                "n": 307
+              },
+              "einstein_dark": {
+                "translation_mean_m": 0.27345750308285566,
+                "rotation_mean_deg": 9.987190347028086,
+                "n": 348
+              },
+              "einstein_global_light_changes_1": {
+                "translation_mean_m": 0.25096049905128515,
+                "rotation_mean_deg": 12.55600494364291,
+                "n": 116
+              },
+              "kidnap_1": {
+                "translation_mean_m": 1.0042176909849094,
+                "rotation_mean_deg": 12.96021177342834,
+                "n": 182
+              },
+              "mannequin_face_1": {
+                "translation_mean_m": 0.4024621479820714,
+                "rotation_mean_deg": 15.53982236964954,
+                "n": 152
+              },
+              "plant_5": {
+                "translation_mean_m": 0.17726529185306775,
+                "rotation_mean_deg": 16.543463303894672,
+                "n": 55
+              },
+              "plant_dark": {
+                "translation_mean_m": 0.230734730852947,
+                "rotation_mean_deg": 14.20636978634252,
+                "n": 311
+              },
+              "plant_scene_3": {
+                "translation_mean_m": 0.94298510185956,
+                "rotation_mean_deg": 11.871423102094463,
+                "n": 221
+              },
+              "sofa_1": {
+                "translation_mean_m": 0.09937745747291873,
+                "rotation_mean_deg": 6.223192868648452,
+                "n": 224
+              },
+              "sofa_2": {
+                "translation_mean_m": 0.15423533191401748,
+                "rotation_mean_deg": 10.694058601208008,
+                "n": 179
+              },
+              "vicon_light_2": {
+                "translation_mean_m": 0.14910153123072992,
+                "rotation_mean_deg": 12.833631344019112,
+                "n": 28
+              }
+            }
+          },
+          "paired": {
+            "sequence_equal_delta_m": 0.03268063943765528,
+            "ci95_m": [
+              -0.0010836757119183692,
+              0.06646749960871133
+            ],
+            "improved_sequences": 4,
+            "total_sequences": 11
+          },
+          "exact_audit": {
+            "worst_si": 1.865174681370263e-14,
+            "tolerance": 1e-09,
+            "passes": true
+          }
+        },
+        "16": {
+          "adaptive": {
+            "n_windows": 1867,
+            "n_sequences": 11,
+            "translation_mean_m": 0.63401108453827,
+            "translation_median_m": 0.23832367334830898,
+            "rotation_mean_deg": 19.202165294471577,
+            "rotation_median_deg": 15.703501683960802,
+            "clusters": {
+              "einstein_2": {
+                "translation_mean_m": 0.2225821348549211,
+                "rotation_mean_deg": 16.62740364391591,
+                "n": 267
+              },
+              "einstein_dark": {
+                "translation_mean_m": 0.5051526729260544,
+                "rotation_mean_deg": 16.37825095093783,
+                "n": 292
+              },
+              "einstein_global_light_changes_1": {
+                "translation_mean_m": 0.48462740355408995,
+                "rotation_mean_deg": 23.711794015252067,
+                "n": 92
+              },
+              "kidnap_1": {
+                "translation_mean_m": 1.3475028635176096,
+                "rotation_mean_deg": 18.412875514411294,
+                "n": 158
+              },
+              "mannequin_face_1": {
+                "translation_mean_m": 0.7824913810874239,
+                "rotation_mean_deg": 26.373018295785144,
+                "n": 144
+              },
+              "plant_5": {
+                "translation_mean_m": 0.3398983986853308,
+                "rotation_mean_deg": 23.26212752294636,
+                "n": 47
+              },
+              "plant_dark": {
+                "translation_mean_m": 0.4092039231777095,
+                "rotation_mean_deg": 24.600554902439153,
+                "n": 287
+              },
+              "plant_scene_3": {
+                "translation_mean_m": 1.894199128940538,
+                "rotation_mean_deg": 20.937480997685903,
+                "n": 213
+              },
+              "sofa_1": {
+                "translation_mean_m": 0.16489792323050495,
+                "rotation_mean_deg": 10.715294585347197,
+                "n": 200
+              },
+              "sofa_2": {
+                "translation_mean_m": 0.22261716709979,
+                "rotation_mean_deg": 17.45551212299964,
+                "n": 147
+              },
+              "vicon_light_2": {
+                "translation_mean_m": 0.20046392643064487,
+                "rotation_mean_deg": 20.88303183349054,
+                "n": 20
+              }
+            }
+          },
+          "paired": {
+            "sequence_equal_delta_m": 0.05014403250493174,
+            "ci95_m": [
+              0.00013809851788435112,
+              0.10031371724858881
+            ],
+            "improved_sequences": 4,
+            "total_sequences": 11
+          },
+          "exact_audit": {
+            "worst_si": 2.297276530139236e-14,
+            "tolerance": 1e-09,
+            "passes": true
+          }
+        },
+        "32": {
+          "adaptive": {
+            "n_windows": 1355,
+            "n_sequences": 11,
+            "translation_mean_m": 1.2372291416384271,
+            "translation_median_m": 0.3906452165359305,
+            "rotation_mean_deg": 32.406895563428705,
+            "rotation_median_deg": 26.411936416829075,
+            "clusters": {
+              "einstein_2": {
+                "translation_mean_m": 0.3475225283362539,
+                "rotation_mean_deg": 30.01116265785041,
+                "n": 187
+              },
+              "einstein_dark": {
+                "translation_mean_m": 0.8593195021868433,
+                "rotation_mean_deg": 24.89366672404531,
+                "n": 180
+              },
+              "einstein_global_light_changes_1": {
+                "translation_mean_m": 0.8549398074688681,
+                "rotation_mean_deg": 43.70489795901215,
+                "n": 44
+              },
+              "kidnap_1": {
+                "translation_mean_m": 1.8936397027832073,
+                "rotation_mean_deg": 24.392257929537795,
+                "n": 110
+              },
+              "mannequin_face_1": {
+                "translation_mean_m": 1.5725229898743294,
+                "rotation_mean_deg": 49.22849537152806,
+                "n": 128
+              },
+              "plant_5": {
+                "translation_mean_m": 0.6813071108404178,
+                "rotation_mean_deg": 29.84532828215838,
+                "n": 31
+              },
+              "plant_dark": {
+                "translation_mean_m": 0.6074134156502511,
+                "rotation_mean_deg": 37.373256484993306,
+                "n": 239
+              },
+              "plant_scene_3": {
+                "translation_mean_m": 3.938029302494517,
+                "rotation_mean_deg": 38.912120950021844,
+                "n": 197
+              },
+              "sofa_1": {
+                "translation_mean_m": 0.24755711070389905,
+                "rotation_mean_deg": 17.512011731022778,
+                "n": 152
+              },
+              "sofa_2": {
+                "translation_mean_m": 0.3449969041436774,
+                "rotation_mean_deg": 31.263542808659043,
+                "n": 83
+              },
+              "vicon_light_2": {
+                "translation_mean_m": 0.30826973751487485,
+                "rotation_mean_deg": 32.795907762415155,
+                "n": 4
+              }
+            }
+          },
+          "paired": {
+            "sequence_equal_delta_m": 0.09404306235398105,
+            "ci95_m": [
+              0.03697498965746968,
+              0.15563898876344934
+            ],
+            "improved_sequences": 3,
+            "total_sequences": 11
+          },
+          "exact_audit": {
+            "worst_si": 3.467310224881561e-14,
+            "tolerance": 1e-09,
+            "passes": true
+          }
+        }
+      }
+    }
+  }
+}

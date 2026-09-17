@@ -1,0 +1,20 @@
+{
+  "kind": "intermediate_mse",
+  "weight": 10.0,
+  "seed": 1,
+  "training_seconds": 20.438178375014104,
+  "dev": {
+    "n": 87210,
+    "users": 596,
+    "accuracy": {
+      "left": 0.42780644421511294,
+      "right": 0.4137484233459466,
+      "balanced": 0.4184153193441119,
+      "history_right": 0.4214195619768375,
+      "history_balanced": 0.42147689485150786
+    },
+    "primitive_mse": 0.00035425582819749316,
+    "multilevel_mse": 0.00036586798727939525
+  },
+  "checkpoint_sha256": "f863f3ec517785c3e0392abb8133ff19f9970d5963d3d900036da87bb88b4bc7"
+}
